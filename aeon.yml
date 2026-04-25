@@ -86,7 +86,7 @@ skills:
   # --- X / social (5 PM UTC) ---
   fetch-tweets: { enabled: true, schedule: "0 17 * * *" }
   refresh-x: { enabled: true, schedule: "0 17 * * *" }
-  list-digest: { enabled: true, schedule: "0 17 * * *" }
+  list-digest: { enabled: false, schedule: "0 17 * * *" } # disabled — requires var=<X list IDs>; flip to true after setting var
   write-tweet: { enabled: true, schedule: "0 17 * * *" }
   reply-maker: { enabled: true, schedule: "0 17 * * *" }
   remix-tweets: { enabled: true, schedule: "30 17 * * *" } # 10 rephrased versions of random past tweets
@@ -94,7 +94,7 @@ skills:
   agent-buzz: { enabled: true, schedule: "30 17 * * *" } # top AI agent tweets by influence
   farcaster-digest: { enabled: true, schedule: "0 17 * * *" } # trending Farcaster casts
   vibecoding-digest: { enabled: true, schedule: "30 17 * * *" } # r/vibecoding trending posts
-  channel-recap: { enabled: true, schedule: "0 17 * * 0", var: "" } # weekly — recap from Telegram channel (set var to channel username)
+  channel-recap: { enabled: false, schedule: "0 17 * * 0", var: "" } # disabled — requires var=<telegram channel username>; flip to true after setting var
 
   # --- Feed generation (5:30 PM UTC, after content skills) ---
   rss-feed: { enabled: true, schedule: "30 17 * * *" }
