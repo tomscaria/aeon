@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-04-27",
+  "input_fingerprint": "8524f971d17df8965d4d8fbbd5d11fbb252dd05e",
+  "skills_total": 100,
+  "enabled_count": 97,
+  "edges": {
+    "depends_on": 4,
+    "consume": 14,
+    "reactive": 0,
+    "shared_state": 11
+  },
+  "mode": "SKILL_GRAPH_NEW",
+  "verdict": "initial map of 100 skills across 5 categories",
+  "categories": {
+    "research": 17,
+    "dev": 29,
+    "crypto": 17,
+    "social": 7,
+    "productivity": 30
+  },
+  "disabled_skills": ["aixbt-pulse", "create-campaign", "schedule-ads"]
+}
