@@ -1,0 +1,110 @@
+{
+  "2026-04-25.md": {
+    "sha256": "4b1da3fb8ff3475537e8ee3be57fac35782dcda1bf0b8cf289df33570fcf9ef6",
+    "post_path": "docs/_posts/2026-04-25-autonomous-agents-got-an-open-stack-in-a-a8f44d.md",
+    "title": "Autonomous Agents Got an Open Stack in April 2026",
+    "date": "2026-04-25",
+    "category": "article",
+    "excerpt": "Two missing pieces. One month.",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "changelog-2026-03-19.md": {
+    "sha256": "3b98c57701dbcfc84cb6a7327eba8e89c23f4e600057f6160531aff8b0f72138",
+    "post_path": "docs/_posts/2026-03-19-changelog-week-of-2026-03-19.md",
+    "title": "Changelog — Week of 2026-03-19",
+    "date": "2026-03-19",
+    "category": "changelog",
+    "excerpt": "Changelog — Week of 2026-03-19",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "changelog-2026-04-25.md": {
+    "sha256": "81f1a80ef85eda494927b87a260e834ac6316139fac6bf9bf2fa1e84765be00f",
+    "post_path": "docs/_posts/2026-04-25-changelog-848418.md",
+    "title": "Changelog — Week of 2026-04-25",
+    "date": "2026-04-25",
+    "category": "changelog",
+    "excerpt": "Window: 2026-04-18 → 2026-04-25 · Sources: aaronjmars/aeon=ok",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "code-health-2026-04-25.md": {
+    "sha256": "e93ea5a34b1985d80ed3a647ecdf07e978e5c5ac279ac2576b23added827594f",
+    "post_path": "docs/_posts/2026-04-25-code-health-77bbe8.md",
+    "title": "Code Health Report — 2026-04-25",
+    "date": "2026-04-25",
+    "category": "changelog",
+    "excerpt": "Window: weekly. First run for this repo. Watched repos audited: 1.",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "deep-research-2026-04-25.md": {
+    "sha256": "cad3840618b2f024ee74d7ffc3c7b7113f97eb7a69d56e52bd1ed4aad3fac814",
+    "post_path": "docs/_posts/2026-04-25-deep-research-3821d0.md",
+    "title": "Deep Research: Kalshi↔Polymarket BTC Binary Arbitrage — Spreads, Strike Alignment, Time Alignment, Latency, Edge Decay",
+    "date": "2026-04-25",
+    "category": "article",
+    "excerpt": "2026-04-25 — Deep pass — 32 sources (T1: 9, T2: 17, T3: 6) — 4 papers",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "explainer-2026-04-25.md": {
+    "sha256": "55721d532694904e651adb15238419c2f74cdfe0b3ae7d761c10582da8b53f72",
+    "post_path": "docs/_posts/2026-04-25-explainer-63e75a.md",
+    "title": "Settlement-Basis Risk: Why the Same BTC Binary Resolves Differently on Polymarket and Kalshi",
+    "date": "2026-04-25",
+    "category": "article",
+    "excerpt": "Key idea in one sentence: Polymarket settles BTC binaries against a single sub-second cryptographically signed Chainlink read at window close, while Kalshi settles against the arithmetic mean of 60 one-per-second BRTI prints in the final…",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "repo-actions-2026-04-25.md": {
+    "sha256": "0f4ba757ff88d9d147170b1e379ced4dfff955f846483ff59107c68b9a0b69c9",
+    "post_path": "docs/_posts/2026-04-25-repo-actions-4f6496.md",
+    "title": "Repo Actions — aaronjmars/aeon — 2026-04-25",
+    "date": "2026-04-25",
+    "category": "changelog",
+    "excerpt": "Top pick for tomorrow: #1 — Add .github/dependabot.yml covering GitHub Actions, dashboard npm, and mcp-server npm (Security, Small)",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "repo-article-2026-04-25.md": {
+    "sha256": "42c8296dbb81bed8e57ece69b33600ec69740569980fa7997412be3e459f2ed3",
+    "post_path": "docs/_posts/2026-04-25-repo-article-c3d5ab.md",
+    "title": "Aeon Stopped Shipping Single-Instance Features Four Days Ago",
+    "date": "2026-04-25",
+    "category": "article",
+    "excerpt": "aaronjmars/aeon spent April 20 self-evolving 70+ existing skills in one squashed batch. Since April 22, every feature PR — without exception — has shipped a primitive that watches, scores, or onboards the fleet of forks. The…",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "research-brief-prediction-market-calibration-2026-04-25.md": {
+    "sha256": "67c5d0a29afeb82b22661a0a6060cdbcb21507f0aecc1abdc95237b9d671b6f5",
+    "post_path": "docs/_posts/2026-04-25-research-brief-prediction-market-calibra-a559d0.md",
+    "title": "Research Brief Prediction Market Calibration",
+    "date": "2026-04-25",
+    "category": "article",
+    "excerpt": "Polymarket and Kalshi political markets are systematically miscalibrated at long horizons: prices are compressed toward 50%, persistently understating the true probability of favorites. A 2026 decomposition study attributes 87.3% of…",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "skill-evals-2026-04-26.md": {
+    "sha256": "4a09d7d00fca033eb952e610e2526d62b099ba934900a9fb76574d8d6fb0185b",
+    "post_path": "docs/_posts/2026-04-26-skill-evals-e82bc4.md",
+    "title": "Skill Evals — 2026-04-26",
+    "date": "2026-04-26",
+    "category": "article",
+    "excerpt": "Verdict: SKILL_EVALS_REGRESSED",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "vuln-scan-2026-04-25.md": {
+    "sha256": "3be08f790b93a25b0c26f09944927a4388d5e77918b42e473e71043fec2b5a7b",
+    "post_path": "docs/_posts/2026-04-25-vuln-scan-c24aa3.md",
+    "title": "Vuln Scanner — 2026-04-25 (ERROR)",
+    "date": "2026-04-25",
+    "category": "article",
+    "excerpt": "Status: VULN_SCANNER_ERROR — all-scanners-fail. No repository was scanned. No findings published. No PVR opened. No PR opened.",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  },
+  "workflow-security-audit-2026-04-11.md": {
+    "sha256": "02615826f283596d1fd96516952730d4bf15913844a6c77b3ee103261d4c8753",
+    "post_path": "docs/_posts/2026-04-11-workflow-security-audit-e35e23.md",
+    "title": "Workflow Security Audit — 2026-04-11",
+    "date": "2026-04-11",
+    "category": "security",
+    "excerpt": "Repo: aaronjmars/aeon",
+    "processed_at": "2026-04-27T02:25:23.775Z"
+  }
+}
