@@ -1,0 +1,82 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "self-improve"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-desc",
+        "heading-keys",
+        "table-keys",
+        "text-file",
+        "text-issues",
+        "pr-link"
+      ]
+    },
+    "text-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Renamed skill-evals keys in evals.json"
+      }
+    },
+    "heading-keys": {
+      "type": "Heading",
+      "props": {
+        "text": "Keys Renamed",
+        "level": "h4"
+      }
+    },
+    "table-keys": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Original Key",
+          "New Key"
+        ],
+        "rows": [
+          [
+            "hn-digest",
+            "hacker-news-digest"
+          ],
+          [
+            "polymarket",
+            "monitor-polymarket"
+          ]
+        ]
+      }
+    },
+    "text-file": {
+      "type": "Text",
+      "props": {
+        "text": "File: evals.json"
+      }
+    },
+    "text-issues": {
+      "type": "Text",
+      "props": {
+        "text": "Closes: ISS-007 and ISS-009 on next eval"
+      }
+    },
+    "pr-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #5",
+        "href": "https://github.com/tomscaria/aeon/pull/5",
+        "source": "GitHub"
+      }
+    }
+  }
+}
