@@ -1,0 +1,149 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Graph"
+      },
+      "children": [
+        "heading_status",
+        "stack_skills",
+        "separator_1",
+        "heading_edges",
+        "stack_edges",
+        "separator_2",
+        "link_pr"
+      ]
+    },
+    "heading_status": {
+      "type": "Heading",
+      "props": {
+        "text": "Skill Graph initialized",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_total",
+        "stat_categories",
+        "stat_enabled",
+        "stat_disabled"
+      ]
+    },
+    "stat_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total skills",
+        "value": "100"
+      },
+      "children": []
+    },
+    "stat_categories": {
+      "type": "Stat",
+      "props": {
+        "label": "Categories",
+        "value": "5"
+      },
+      "children": []
+    },
+    "stat_enabled": {
+      "type": "Stat",
+      "props": {
+        "label": "Enabled",
+        "value": "97"
+      },
+      "children": []
+    },
+    "stat_disabled": {
+      "type": "Stat",
+      "props": {
+        "label": "Disabled",
+        "value": "3"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_edges": {
+      "type": "Heading",
+      "props": {
+        "text": "Edges",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_edges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_depends_on",
+        "stat_consume",
+        "stat_shared_state",
+        "stat_total_edges"
+      ]
+    },
+    "stat_depends_on": {
+      "type": "Stat",
+      "props": {
+        "label": "depends_on",
+        "value": "4"
+      },
+      "children": []
+    },
+    "stat_consume": {
+      "type": "Stat",
+      "props": {
+        "label": "consume",
+        "value": "14"
+      },
+      "children": []
+    },
+    "stat_shared_state": {
+      "type": "Stat",
+      "props": {
+        "label": "shared-state",
+        "value": "11"
+      },
+      "children": []
+    },
+    "stat_total_edges": {
+      "type": "Stat",
+      "props": {
+        "label": "Total edges",
+        "value": "29"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_pr": {
+      "type": "Link",
+      "props": {
+        "label": "PR #3",
+        "href": "https://github.com/tomscaria/aeon/pull/3"
+      },
+      "children": []
+    }
+  }
+}
