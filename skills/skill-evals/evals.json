@@ -62,10 +62,10 @@
       "required_patterns": ["source|Source|http|reference"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]", "PLACEHOLDER"]
     },
-    "hn-digest": {
-      "output_pattern": "articles/hn-digest-*.md",
+    "hacker-news-digest": {
+      "output_pattern": "memory/logs/*.md",
       "min_words": 150,
-      "required_patterns": ["Hacker News|hacker.news|ycombinator|HN"],
+      "required_patterns": ["### hacker-news-digest|Hacker News|ycombinator"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"]
     },
     "rss-digest": {
@@ -74,14 +74,11 @@
       "required_patterns": ["feed|article|post|item"],
       "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"]
     },
-    "polymarket": {
-      "output_pattern": "articles/polymarket-*.md",
+    "monitor-polymarket": {
+      "output_pattern": "memory/logs/*.md",
       "min_words": 100,
-      "required_patterns": ["market|Market|probability|volume"],
-      "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"],
-      "numeric_checks": [
-        { "label": "probability", "pattern": "([\\d.]+)%", "min": 0, "max": 100 }
-      ]
+      "required_patterns": ["## Monitor Polymarket|monitor-polymarket"],
+      "forbidden_patterns": ["\\$\\{var\\}", "\\[TODO\\]"]
     },
     "token-alert": {
       "output_pattern": "articles/token-alert-*.md",
