@@ -1,0 +1,1 @@
+self-improve: renamed skill-evals keys hn-digest→hacker-news-digest and polymarket→monitor-polymarket in evals.json — closes ISS-007 and ISS-009 on next eval. PR: https://github.com/tomscaria/aeon/pull/5
