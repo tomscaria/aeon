@@ -1,4 +1,4 @@
 # Watched Repos
 - tomscaria/swarm-fund-mvp
-- tomscaria/lorepreseriesa
+- tomscaria/lore-financial-teaser
 - aaronjmars/aeon
