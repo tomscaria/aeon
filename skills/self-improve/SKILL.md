@@ -38,7 +38,10 @@ Read the last 2 days of memory/logs/ for recent errors, failures, and quality is
    
    Understand the current behavior before changing anything.
 
-4. **Implement the fix.** Make minimal, targeted changes:
+4. **Implement the fix.** Make minimal, targeted changes.
+
+   **Cross-project pattern check (before editing):** if the same failure mode has shown up in ≥2 watched repos within the last 7 days of `memory/logs/`, append a dated entry to `memory/cross-project-lessons.md` (format documented at the top of that file) — pattern, suspected cause, and the fix you're about to make (or "proposed — not yet applied" if it's bigger than one run). This makes the lesson visible to other skills.
+
    - If a skill prompt is unclear → rewrite the ambiguous section
    - If a skill is hitting rate limits → add backoff logic or reduce frequency
    - If output quality is low → tighten the prompt, add examples, clarify format

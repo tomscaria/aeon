@@ -1,0 +1,115 @@
+name: Upstream Sync
+run-name: "upstream-sync: ${{ github.event_name }}"
+
+# Weekly merge channel from aaronjmars/aeon into this fork.
+# Opens a PR if upstream/main has commits the fork doesn't.
+# The opened PR then falls into the daily 09:00 UTC pr-review pass — Aeon
+# reviews its own upstream merges before they land.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"  # Monday 06:00 UTC, before the 07:00 morning skill block
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: aeon-upstream-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name "aeonframework"
+          git config user.email "aeonframework@proton.me"
+
+      - name: Add upstream remote and fetch
+        run: |
+          git remote add upstream https://github.com/aaronjmars/aeon.git || \
+            git remote set-url upstream https://github.com/aaronjmars/aeon.git
+          git fetch upstream main
+
+      - name: Detect drift
+        id: drift
+        run: |
+          AHEAD=$(git rev-list --count HEAD..upstream/main)
+          BEHIND=$(git rev-list --count upstream/main..HEAD)
+          UPSTREAM_SHA=$(git rev-parse upstream/main)
+          UPSTREAM_SHORT=$(git rev-parse --short upstream/main)
+          echo "ahead=$AHEAD" >> "$GITHUB_OUTPUT"
+          echo "behind=$BEHIND" >> "$GITHUB_OUTPUT"
+          echo "upstream_sha=$UPSTREAM_SHA" >> "$GITHUB_OUTPUT"
+          echo "upstream_short=$UPSTREAM_SHORT" >> "$GITHUB_OUTPUT"
+          echo "Fork is $AHEAD commits behind, $BEHIND commits ahead of upstream/main ($UPSTREAM_SHORT)."
+
+      - name: Exit if no drift
+        if: steps.drift.outputs.ahead == '0'
+        run: |
+          echo "No upstream drift. Nothing to sync."
+          exit 0
+
+      - name: Skip if sync PR already open for this SHA
+        if: steps.drift.outputs.ahead != '0'
+        id: existing
+        env:
+          GH_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
+          UPSTREAM_SHORT: ${{ steps.drift.outputs.upstream_short }}
+        run: |
+          EXISTING=$(gh pr list --state open --search "in:title chore: sync upstream aeon @ $UPSTREAM_SHORT" --json number --jq 'length')
+          echo "existing=$EXISTING" >> "$GITHUB_OUTPUT"
+          if [ "$EXISTING" != "0" ]; then
+            echo "Sync PR already open for $UPSTREAM_SHORT — skipping."
+          fi
+
+      - name: Create sync branch
+        if: steps.drift.outputs.ahead != '0' && steps.existing.outputs.existing == '0'
+        env:
+          UPSTREAM_SHORT: ${{ steps.drift.outputs.upstream_short }}
+        run: |
+          BRANCH="chore/upstream-sync-$UPSTREAM_SHORT"
+          git checkout -b "$BRANCH"
+          # Merge upstream; on conflict, leave conflict markers and let the PR surface them for human review.
+          if ! git merge --no-ff --no-edit upstream/main; then
+            echo "Merge produced conflicts. Committing as-is so the PR surfaces them."
+            git add -A
+            git commit --no-verify -m "chore: upstream merge with conflicts @ $UPSTREAM_SHORT"
+          fi
+          git push origin "$BRANCH"
+          echo "BRANCH=$BRANCH" >> "$GITHUB_ENV"
+
+      - name: Open sync PR
+        if: steps.drift.outputs.ahead != '0' && steps.existing.outputs.existing == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
+          AHEAD: ${{ steps.drift.outputs.ahead }}
+          BEHIND: ${{ steps.drift.outputs.behind }}
+          UPSTREAM_SHORT: ${{ steps.drift.outputs.upstream_short }}
+          UPSTREAM_SHA: ${{ steps.drift.outputs.upstream_sha }}
+        run: |
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "chore: sync upstream aeon @ $UPSTREAM_SHORT" \
+            --body "$(cat <<EOF
+          Weekly upstream sync from \`aaronjmars/aeon@$UPSTREAM_SHORT\`.
+
+          - Fork was **$AHEAD commits behind**, **$BEHIND commits ahead** before this merge.
+          - If conflicts, they're committed in this branch — review and resolve.
+          - The daily \`pr-review\` pass (09:00 UTC) will leave findings here. Auto-merge stays off until trust is established.
+
+          Upstream SHA: \`$UPSTREAM_SHA\`
+          EOF
+          )"

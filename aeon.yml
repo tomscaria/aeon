@@ -17,7 +17,7 @@ skills:
 
   # --- Mid-morning (9 AM UTC) ---
   issue-triage: { enabled: true, schedule: "0 9 * * *" }
-  pr-review: { enabled: true, schedule: "0 9 * * *", var: "tomscaria/swarm-fund-mvp — review parallel-session PRs against ADRs in DECISIONS.md and the conventions in CLAUDE.md. Block on: untested logic, hardcoded secrets, schema changes without migration, removal of risk gates." }
+  pr-review: { enabled: true, schedule: "0 9 * * *", var: "" } # iterates memory/watched-repos.md; per-repo focus lives in that file's sub-bullets
   auto-merge: { enabled: true, schedule: "0 14 * * *" } # merge green PRs daily at 2 PM UTC; max 3 per run
   github-monitor: { enabled: true, schedule: "0 9 * * *" }
   github-issues: { enabled: true, schedule: "0 9 * * *" }
@@ -141,7 +141,7 @@ skills:
   spawn-instance: { enabled: true, schedule: "workflow_dispatch", var: "" } # on-demand — var: "name: purpose"
   fleet-control: { enabled: true, schedule: "0 9,15 * * *" } # fleet health checks twice daily, dispatch via var
   weekly-review: { enabled: true, schedule: "0 19 * * 1" }
-  weekly-shiplog: { enabled: true, schedule: "0 9 * * 1", var: "tomscaria/swarm-fund-mvp — synthesize last week's commits + DECISIONS.md ADR adds + memory updates into an LP-ready narrative. Lead with shipped milestones, lifecycle progress (Birth/Canary/Apex/Revenant counts), trade tape highlights. Suitable for forwarding to investors and grant committees." } # Monday — narrative of everything shipped last week
+  weekly-shiplog: { enabled: true, schedule: "0 9 * * 1", var: "" } # Monday — narrative of everything shipped last week. var is a THEME filter (not a target); iterates memory/watched-repos.md per-repo using its focus sub-bullets.
   skill-leaderboard: { enabled: true, schedule: "0 17 * * 0", model: "claude-sonnet-4-6" } # Sunday — rank popular skills across forks
   fork-contributor-leaderboard: { enabled: true, schedule: "30 17 * * 0", model: "claude-sonnet-4-6" } # Sunday — rank community contributors across forks and upstream PRs
   fork-skill-digest: { enabled: true, schedule: "30 18 * * 0", model: "claude-sonnet-4-6" } # Sunday — divergence digest: where the configured fleet disagrees with upstream defaults

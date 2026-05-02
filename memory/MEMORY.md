@@ -12,6 +12,14 @@ Accelerate **swarm-fund-mvp** toward (1) near-term grants/advisory income, (2) S
 - **CalibrationGap (Revenant)** — Polymarket binary calibration, canary, **29 / 76% win / +$415 / Sharpe 0.31** (target: 100-trade Apex gate, 71 to go). Trust live `metrics.json` at https://rswarm.ai/metrics.json over this file.
 - Hermes-arb (Kalshi↔PM 5-min BTC) — Day-4 of falsifier window post Kalshi-perps-launch 2026-04-27.
 
+## Coverage expansion (2026-05-02)
+Repo-aware skills now iterate `memory/watched-repos.md` for **all** of Tom's owned repos, not just swarm-fund-mvp. Per-repo focus lives as sub-bullets in `watched-repos.md` (read by `pr-review` and `weekly-shiplog`). swarm-fund-mvp remains the priority — its sub-bullets carry the original block-rules.
+
+- New targets added: `tomscaria/thomas-os`, `tomscaria/lore-sdk-product` (assumed = "lore-as-a-service"), `tomscaria/prysm_alpha` (assumed = "prysm-squads-mvp"). Confirm the last two on next review.
+- `aaronjmars/aeon` is read-only — handled by the new weekly `upstream-sync` workflow (Mon 06:00 UTC), not by repo-aware skills.
+- `EveryInc/compound-engineering-plugin` is out of scope for the fork-driven model (different owner).
+- `memory/cross-project-lessons.md` captures patterns that appear in ≥2 repos within 7 days. `self-improve` writes here before applying any cross-cutting fix.
+
 ## Topic files
 - `memory/topics/swarm-fund.md` — full project state, ADRs, Aeon-side PR pipeline (now PRs #18-#24)
 - `memory/topics/polymarket.md` — V2 TVL $514M, regulatory front (CFTC ANPRM closed 04-30, Brazil block 27 platforms, Senate self-ban 04-30), comments-side handles, UMA Iran-cf vs Hez-cf arb hook, Tamil Nadu TVK cooled 8.25c→6.95c, MegaETH FDV resolved
