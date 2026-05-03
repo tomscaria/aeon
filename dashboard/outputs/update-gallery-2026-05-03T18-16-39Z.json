@@ -1,0 +1,146 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "update-gallery"
+      },
+      "children": [
+        "heading_1",
+        "stack_summary",
+        "text_bootstrap",
+        "separator_1",
+        "heading_categories",
+        "grid_categories",
+        "separator_2",
+        "storylink_pr"
+      ]
+    },
+    "heading_1": {
+      "type": "Heading",
+      "props": {
+        "text": "Gallery updated",
+        "level": "h2"
+      }
+    },
+    "stack_summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_new",
+        "stat_updated"
+      ]
+    },
+    "stat_new": {
+      "type": "Stat",
+      "props": {
+        "label": "New",
+        "value": "82",
+        "delta": "+82",
+        "trend": "up"
+      }
+    },
+    "stat_updated": {
+      "type": "Stat",
+      "props": {
+        "label": "Updated",
+        "value": "1"
+      }
+    },
+    "text_bootstrap": {
+      "type": "Text",
+      "props": {
+        "text": "Bootstrap run, all 83 articles synced to docs/_posts/"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_categories": {
+      "type": "Heading",
+      "props": {
+        "text": "Categories",
+        "level": "h3"
+      }
+    },
+    "grid_categories": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_article",
+        "stat_changelog",
+        "stat_governance",
+        "stat_meta",
+        "stat_security",
+        "stat_crypto"
+      ]
+    },
+    "stat_article": {
+      "type": "Stat",
+      "props": {
+        "label": "article",
+        "value": "50"
+      }
+    },
+    "stat_changelog": {
+      "type": "Stat",
+      "props": {
+        "label": "changelog",
+        "value": "27"
+      }
+    },
+    "stat_governance": {
+      "type": "Stat",
+      "props": {
+        "label": "governance",
+        "value": "3"
+      }
+    },
+    "stat_meta": {
+      "type": "Stat",
+      "props": {
+        "label": "meta",
+        "value": "2"
+      }
+    },
+    "stat_security": {
+      "type": "Stat",
+      "props": {
+        "label": "security",
+        "value": "1"
+      }
+    },
+    "stat_crypto": {
+      "type": "Stat",
+      "props": {
+        "label": "crypto",
+        "value": "1"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "storylink_pr": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #11",
+        "href": "https://github.com/tomscaria/aeon/pull/11",
+        "source": "GitHub"
+      }
+    }
+  }
+}

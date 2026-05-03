@@ -1,1 +1,1 @@
-*Gallery updated* +11 new / ±1 updated · Categories: article x6, changelog x4, security x1 · PR: https://github.com/tomscaria/aeon/pull/2
+Gallery updated: +82 new / ±1 updated. Bootstrap run, all 83 articles synced to docs/_posts/. Categories: article 50, changelog 27, governance 3, meta 2, security 1, crypto 1. PR: https://github.com/tomscaria/aeon/pull/11
