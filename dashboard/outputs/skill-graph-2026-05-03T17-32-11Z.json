@@ -1,0 +1,163 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Graph"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_status",
+        "separator_1",
+        "grid_stats",
+        "separator_2",
+        "stack_new",
+        "separator_3",
+        "link_pr"
+      ]
+    },
+    "text_status": {
+      "type": "Text",
+      "props": {
+        "text": "Skill Graph initialized — 114 skills mapped across 5 categories (96 enabled, 18 utilities)",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "grid_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stat_total",
+        "stat_categories",
+        "stat_enabled",
+        "stat_utilities"
+      ]
+    },
+    "stat_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Skills",
+        "value": "114"
+      }
+    },
+    "stat_categories": {
+      "type": "Stat",
+      "props": {
+        "label": "Categories",
+        "value": "5"
+      }
+    },
+    "stat_enabled": {
+      "type": "Stat",
+      "props": {
+        "label": "Enabled",
+        "value": "96"
+      }
+    },
+    "stat_utilities": {
+      "type": "Stat",
+      "props": {
+        "label": "Utilities",
+        "value": "18"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_new_header",
+        "grid_new_items"
+      ]
+    },
+    "text_new_header": {
+      "type": "Heading",
+      "props": {
+        "text": "22 New Skills Since Prior Graph",
+        "level": "h3"
+      }
+    },
+    "grid_new_items": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "sm"
+      },
+      "children": [
+        "badge_firecrawl",
+        "badge_syndicate",
+        "badge_fork",
+        "badge_more"
+      ]
+    },
+    "badge_firecrawl": {
+      "type": "Badge",
+      "props": {
+        "text": "firecrawl (15)",
+        "variant": "secondary"
+      }
+    },
+    "badge_syndicate": {
+      "type": "Badge",
+      "props": {
+        "text": "syndicate-article",
+        "variant": "secondary"
+      }
+    },
+    "badge_fork": {
+      "type": "Badge",
+      "props": {
+        "text": "fork-skill-digest",
+        "variant": "secondary"
+      }
+    },
+    "badge_more": {
+      "type": "Badge",
+      "props": {
+        "text": "+7 others",
+        "variant": "outline"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_pr": {
+      "type": "Link",
+      "props": {
+        "label": "View PR #10",
+        "href": "https://github.com/tomscaria/aeon/pull/10"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Skill Graph initialized — 114 skills mapped across 5 categories (96 enabled, 18 utilities). 22 new since prior graph (15 firecrawl, syndicate-article, fork-skill-digest, +7). PR: https://github.com/tomscaria/aeon/pull/10
