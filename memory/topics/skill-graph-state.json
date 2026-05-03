@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-05-03",
+  "input_fingerprint": "389eee7639781d94cdddf2cd19bab8765b252f66",
+  "skills_total": 114,
+  "enabled_count": 96,
+  "edges": {
+    "depends_on": 4,
+    "consume": 14,
+    "reactive": 0,
+    "shared_state": 9
+  },
+  "categories": {
+    "research": 17,
+    "dev": 45,
+    "crypto": 17,
+    "social": 9,
+    "productivity": 26
+  },
+  "depends_on_edges": [
+    ["skill-repair", "skill-health"],
+    ["tool-builder", "action-converter"],
+    ["vuln-scanner", "github-trending"],
+    ["external-feature", "repo-scanner"]
+  ],
+  "chains": {
+    "morning-brief": ["paper-pick", "hacker-news-digest", "monitor-polymarket", "monitor-kalshi", "github-monitor", "narrative-tracker"],
+    "evening-rollup": ["push-recap", "monitor-polymarket", "agent-buzz", "code-health"],
+    "weekly-grant-update": ["paper-pick", "repo-pulse", "push-recap", "narrative-tracker"]
+  },
+  "mode": "SKILL_GRAPH_NEW"
+}
