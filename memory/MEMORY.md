@@ -13,6 +13,14 @@ Accelerate **swarm-fund-mvp** toward (1) near-term grants/advisory income, (2) S
 - Hermes-arb (Kalshi↔PM 5-min BTC) — falsifier window day-7 post Kalshi-perps-launch 2026-04-27.
 - **2026-05-03 architecture shift:** ADR-093 + ADR-094 land same week. ADR-093 (`aeon_adapter.py`) makes swarm-fund-mvp poll `tomscaria/aeon` raw `outputs/{skill}/{date}.json`; ADR-094 ships LLM router + `paper_triage` opus-4-7 → sonnet-4-6 + cache + thinking-token clamp. Fleet 74→112 / 30→34 strategies via Latin-Hypercube. **Falsifier:** `tomscaria/aeon` has no `outputs/` directory; if Aeon side doesn't ship the JSON contract by ~2026-05-17 the wire-up is aspirational.
 
+## Coverage expansion (2026-05-02)
+Repo-aware skills now iterate `memory/watched-repos.md` for **all** of Tom's owned repos, not just swarm-fund-mvp. Per-repo focus lives as sub-bullets in `watched-repos.md` (read by `pr-review` and `weekly-shiplog`). swarm-fund-mvp remains the priority — its sub-bullets carry the original block-rules.
+
+- New targets added: `tomscaria/thomas-os`, `tomscaria/lore-sdk-product` (assumed = "lore-as-a-service"), `tomscaria/prysm_alpha` (assumed = "prysm-squads-mvp"). Confirm the last two on next review.
+- `aaronjmars/aeon` is read-only — handled by the new weekly `upstream-sync` workflow (Mon 06:00 UTC), not by repo-aware skills.
+- `EveryInc/compound-engineering-plugin` is out of scope for the fork-driven model (different owner).
+- `memory/cross-project-lessons.md` captures patterns that appear in ≥2 repos within 7 days. `self-improve` writes here before applying any cross-cutting fix.
+
 ## Topic files
 - `memory/topics/swarm-fund.md` — full project state, ADRs (now incl. ADR-093/094), Aeon-side PR pipeline (all 7 merged 05-03; #29 + #30 open)
 - `memory/topics/polymarket.md` — V2 TVL $514M, Senate self-ban, regulatory front, comments-side handles (8 new handles 05-04: orangexyz / 0x7C544D / KairosHunter / arsenelupin / tilda89 / WISEWARRIOR / God404 / audacity.), TN-falsified-99.65%-TVK lesson, Bengal-resolved-99.55%-BJP confirm, crypto comments dead 3 days, Hormuz live-tape
