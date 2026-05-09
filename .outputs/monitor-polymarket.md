@@ -1,33 +1,47 @@
-polymarket monitor — 2026-05-08
+polymarket monitor — 2026-05-09
 
-mexico 2026 world cup (event 30615 / Revenant builder 0xcddc4ba3...8286f)
-YES 1.05% (0.0pp) — stable, $662k 24h vol, $2.4M liq
-5th consecutive flat day. builder-attributed market has no edge signal.
-top comment: "footballs coming home" — rebotsliaf (6 rxn, 05-05)
+ALERTS (>5pp move in 24h):
 
-bitcoin $1m before gta vi (event 23784)
-YES 49.25% (+0.10pp) — stable, $2.7k 24h vol, $127k liq
-RESOLUTION AMBIGUITY CONFIRMED TODAY: Vague-Kangaroo (12:35 UTC) "gta 6 isn't gonna release on July 31" + Stiff-Secretariat explains 50-50 fallback clause. Price at 49.25% = market pricing the split, not a directional BTC bet. NO edge thesis from 05-02 entry-signal is now fully priced in — no edge either way.
-top comment: "how is jesus christ returns at 49%" — Entire-Hole (09:43 UTC today)
+Russia x Ukraine ceasefire Jun 30 (event 160707)
+YES 99.95% (+92.45pp) $3.4M vol24h — SURGING
+open 7.5% → close 99.95% — truce announcement May 8-11 catalyst
 
-republican presidential nominee 2028 (event 31875)
-JD Vance YES 37.55% (was 39.15% on 05-03, -1.6pp 5-day trend)
-Rubio YES 24.25% | Youngkin YES 1.55% (flat, $104k 24h) | Kim Kardashian YES 0.75% (flat, $106k 24h)
-VOLUME SPIKE: Rand Paul YES 0.95% (-1.0pp, $415k vol — ~7x est daily avg). Price fell on heavy volume = NO accumulation on tail candidate.
-biggest mover: Rand Paul — falling on outsized flow. no comment-side narrative catalyst found.
-top comment: "JD Rubio!" — EverSupreme7 (11 rxn, Feb 2026)
+Russia x Ukraine ceasefire May 31
+YES 99.95% $15.8M vol24h — SURGING (highest vol in scan)
+prior reading 6% YES on 05-08 — confirmed full near-100% reprice
 
-democratic presidential nominee 2028 (event 30829)
-Ossoff YES 6.70% | Buttigieg YES 4.75% | Booker YES 2.80% | Whitmer YES 1.25%
-VOLUME SPIKE: Oprah YES 0.75% (+1.0pp from 0.65%, $342k 24h vol). Price rose on large flow — someone is buying YES on a 0.75% tail.
-biggest mover: Oprah — rising on volume. no comment catalyst; "I'm with her" (Giraffeee, May 8) is all the fresh signal.
-top comment: "flow been crazy on this market lately" — Some-Productivity (Feb)
+US x Iran peace deal May 31 (market 1919425)
+YES 24.5% (-10.0pp) $1.0M vol24h — CRASHING
+34.5% open → 24.5% close — Iran rejection accelerating, day 2
 
-presidential election winner 2028 (event 31552)
-Eric Trump YES 0.55% (flat, $173k 24h vol). Most slots still "Person X" placeholders.
-top comment: "I don't know who will win, but I know it won't be JD Vance" — Treeman666 (21 rxn)
-long-running thesis: "Rubio presence increases as the war lasts longer" — briar2682 (10 rxn, Mar 2026)
+US x Iran peace deal Jun 30 (market 1962237)
+YES 44.5% (-8.0pp) $341k vol24h — FALLING
+52.5% open → 44.5% close
 
-alerts >5pp: NONE — all quiet on price moves
-volume spikes >3x: Rand Paul R-nom ($415k on 0.95% YES) | Oprah D-nom ($342k on 0.75% YES)
-narrative shift: BTC/GTA VI 50-50 clause now in live comment discourse (confirmed today)
+US x Iran peace deal May 15 (market 2099029)
+YES 12.35% (-7.95pp) $839k vol24h — CRASHING
+20.3% open → 12.35% close
+
+US x Iran peace deal May 11 (market 2182249)
+YES 3.85% (-5.7pp) $541k vol24h — CRASHING
+9.5% open → 3.85% close
+
+NO ALERTS:
+
+FIFA World Cup — Mexico (event 30615, Revenant first order)
+YES 1.05% (0pp) $66k vol24h — stable
+France 17.05% | Spain 15.45% | England 11.05% | Brazil 8.55%
+
+BTC $1M before GTA VI: slug stale — market not found on current PM
+
+Dem 2028 — Democratic Nominee (event 30829)
+Ossoff 6.65% (-0.3pp) | Beshear 2.75% (+1.0pp) | Talarico 1.85% | Smith 1.05% (0pp) | Whitmer 1.25% (0pp)
+all stable, no alerts
+
+narrative shifts:
+Russia-Ukraine truce (May 8-11) is the session driver — both ceasefire horizons repriced to 99.95%, $19M combined vol24h. Biggest geopolitical reprice in the monitored set.
+Iran: resolution-text ambiguity surfaced in comments — "30-day MOU is a trap for YES holders / market is misreading the legal definition of permanent." ADR-096+ clause-text signal, direct parallel to Iran-airspace resolution divergence arc.
+Dem 2028: Ossoff at 6.65% is highest-priced candidate. Comment "wtf happened" at 10:51 UTC suggests off-platform news flow not yet priced.
+
+biggest mover: Russia x Ukraine ceasefire Jun 30 — 7.5% to 99.95% (+92.45pp)
+top comment (Iran): "Most traders are gambling on headlines, not the contract rules. 30-day MOU is a trap for YES holders." — Lageopoliticadelpensionato, 11:38 UTC

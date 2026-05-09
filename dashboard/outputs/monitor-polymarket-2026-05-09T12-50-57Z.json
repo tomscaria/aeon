@@ -1,0 +1,326 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket Monitor — 2026-05-09"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-alerts",
+        "table-alerts",
+        "sep1",
+        "heading-no-alerts",
+        "content-no-alerts",
+        "sep2",
+        "heading-narrative",
+        "content-narrative",
+        "sep3",
+        "heading-key-metrics",
+        "content-key-metrics"
+      ]
+    },
+    "heading-alerts": {
+      "type": "Heading",
+      "props": {
+        "text": "ALERTS (>5pp move in 24h)",
+        "level": "h2"
+      }
+    },
+    "table-alerts": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "Price",
+          "24h Δ",
+          "Volume",
+          "Status",
+          "Movement",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Russia x Ukraine ceasefire Jun 30 (event 160707)",
+            "YES 99.95%",
+            "+92.45pp",
+            "$3.4M",
+            "SURGING",
+            "7.5% → 99.95%",
+            "truce announcement May 8-11 catalyst"
+          ],
+          [
+            "Russia x Ukraine ceasefire May 31",
+            "YES 99.95%",
+            "",
+            "$15.8M",
+            "SURGING",
+            "",
+            "prior reading 6% YES on 05-08"
+          ],
+          [
+            "US x Iran peace deal May 31 (market 1919425)",
+            "YES 24.5%",
+            "-10.0pp",
+            "$1.0M",
+            "CRASHING",
+            "34.5% → 24.5%",
+            "Iran rejection accelerating, day 2"
+          ],
+          [
+            "US x Iran peace deal Jun 30 (market 1962237)",
+            "YES 44.5%",
+            "-8.0pp",
+            "$341k",
+            "FALLING",
+            "52.5% → 44.5%",
+            ""
+          ],
+          [
+            "US x Iran peace deal May 15 (market 2099029)",
+            "YES 12.35%",
+            "-7.95pp",
+            "$839k",
+            "CRASHING",
+            "20.3% → 12.35%",
+            ""
+          ],
+          [
+            "US x Iran peace deal May 11 (market 2182249)",
+            "YES 3.85%",
+            "-5.7pp",
+            "$541k",
+            "CRASHING",
+            "9.5% → 3.85%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-no-alerts": {
+      "type": "Heading",
+      "props": {
+        "text": "NO ALERTS",
+        "level": "h2"
+      }
+    },
+    "content-no-alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "no-alert-1",
+        "no-alert-2",
+        "no-alert-3"
+      ]
+    },
+    "no-alert-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-fifa",
+        "text-fifa-1",
+        "text-fifa-2",
+        "badge-revenant"
+      ]
+    },
+    "h-fifa": {
+      "type": "Heading",
+      "props": {
+        "text": "FIFA World Cup — Mexico (event 30615)",
+        "level": "h3"
+      }
+    },
+    "text-fifa-1": {
+      "type": "Text",
+      "props": {
+        "text": "YES 1.05% (0pp) $66k vol24h — stable"
+      }
+    },
+    "text-fifa-2": {
+      "type": "Text",
+      "props": {
+        "text": "France 17.05% | Spain 15.45% | England 11.05% | Brazil 8.55%"
+      }
+    },
+    "badge-revenant": {
+      "type": "Badge",
+      "props": {
+        "text": "Revenant first order"
+      }
+    },
+    "no-alert-2": {
+      "type": "Alert",
+      "props": {
+        "title": "BTC $1M before GTA VI",
+        "message": "Slug stale — market not found on current PM",
+        "type": "info"
+      }
+    },
+    "no-alert-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-dem",
+        "text-dem",
+        "badge-dem-stable"
+      ]
+    },
+    "h-dem": {
+      "type": "Heading",
+      "props": {
+        "text": "Dem 2028 — Democratic Nominee (event 30829)",
+        "level": "h3"
+      }
+    },
+    "text-dem": {
+      "type": "Text",
+      "props": {
+        "text": "Ossoff 6.65% (-0.3pp) | Beshear 2.75% (+1.0pp) | Talarico 1.85% | Smith 1.05% (0pp) | Whitmer 1.25% (0pp)"
+      }
+    },
+    "badge-dem-stable": {
+      "type": "Badge",
+      "props": {
+        "text": "All stable, no alerts"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "Narrative Shifts",
+        "level": "h2"
+      }
+    },
+    "content-narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative-1",
+        "narrative-2",
+        "narrative-3"
+      ]
+    },
+    "narrative-1": {
+      "type": "Text",
+      "props": {
+        "text": "Russia-Ukraine truce (May 8-11) is the session driver — both ceasefire horizons repriced to 99.95%, $19M combined vol24h. Biggest geopolitical reprice in the monitored set.",
+        "variant": "body"
+      }
+    },
+    "narrative-2": {
+      "type": "Text",
+      "props": {
+        "text": "Iran: resolution-text ambiguity surfaced in comments — \"30-day MOU is a trap for YES holders / market is misreading the legal definition of permanent.\" ADR-096+ clause-text signal, direct parallel to Iran-airspace resolution divergence arc.",
+        "variant": "body"
+      }
+    },
+    "narrative-3": {
+      "type": "Text",
+      "props": {
+        "text": "Dem 2028: Ossoff at 6.65% is highest-priced candidate. Comment \"wtf happened\" at 10:51 UTC suggests off-platform news flow not yet priced.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-key-metrics": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Metrics",
+        "level": "h2"
+      }
+    },
+    "content-key-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-biggest-mover",
+        "text-top-comment"
+      ]
+    },
+    "stat-biggest-mover": {
+      "type": "Stat",
+      "props": {
+        "label": "Biggest mover",
+        "value": "Russia x Ukraine ceasefire Jun 30",
+        "delta": "+92.45pp",
+        "trend": "up"
+      }
+    },
+    "text-top-comment": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-top-comment",
+        "text-comment-content",
+        "text-comment-author"
+      ]
+    },
+    "h-top-comment": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Comment (Iran)",
+        "level": "h3"
+      }
+    },
+    "text-comment-content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Most traders are gambling on headlines, not the contract rules. 30-day MOU is a trap for YES holders.\"",
+        "variant": "lead"
+      }
+    },
+    "text-comment-author": {
+      "type": "Text",
+      "props": {
+        "text": "— Lageopoliticadelpensionato, 11:38 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
