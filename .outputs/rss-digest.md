@@ -1,9 +1,11 @@
-## Summary
+*RSS Digest — 2026-05-09*
 
-Skill `rss-digest` ran but has no work to do — `memory/feeds.yml` does not exist. Per SKILL.md the skill skips cleanly when no feed config is present. No notification sent (consistent with prior runs 05-04 through 05-07).
+*The Block*
+- [Senate Banking Committee sets Clarity Act vote date](https://www.theblock.co/post/400492/take-two-senate-banking-committee-sets-a-date-to-amend-and-vote-on-sweeping-crypto-legislation) — The sweeping crypto bill gets a markup and vote date; timeline now binding for stablecoin / digital-asset regulatory clarity that gates Kalshi-PM arbitrage infrastructure and grant-application positioning.
+- [SEC weighs onchain market structures rulemaking](https://www.theblock.co/post/400587/sec-weighs-new-rulemaking-for-onchain-market-structures-and-software-applications) — Commission considering formal rulemaking for onchain exchanges and software applications; direct regulatory surface for Polymarket, Kalshi, and any DEX-adjacent prediction market layer.
+- [Hyperliquid Strategies posts $165M net loss; HYPE treasury grows](https://www.theblock.co/post/400512/hyperliquid-strategies-net-loss) — HL's holding entity is fiat-loss-heavy while the HYPE treasury appreciates; structural signal that HL is running an aggressive HYPE-accumulation strategy rather than cash-generating, relevant for Pricecap deployer-side risk modeling.
+- [Kraken parent Payward files for OCC national trust charter](https://www.theblock.co/post/400592/kraken-parent-payward-applies-national-occ-trust-charter-ripple-coinbase) — Third major exchange (after Ripple, Coinbase) seeking a federal banking license; signals an accelerating regulatory legitimacy race with direct infra implications for Kalshi-PM convergence-trade custody rails.
 
-**Files modified:**
-- `memory/logs/2026-05-08.md` — created today's log with `RSS_DIGEST_OK no-feeds-configured` entry.
-
-**Follow-up (operator action, blocked):**
-- Populate `memory/feeds.yml` with RSS/Atom feed URLs to activate this skill. Already tracked under "Operator config sweep (BLOCKED)" in `MEMORY.md`. The skill has now been a no-op for 5 consecutive days — if the operator doesn't intend to use it, consider removing the cron slot from `aeon.yml` to free the schedule.
+*arXiv cs.AI*
+- [AlphaCrafter: Multi-Agent Framework for Cross-Sectional Quant Trading](https://arxiv.org/abs/2605.05580) — Specialized Miner / Screener / Trader agent roles with regime-adaptive factor selection on CSI 300 and S&P 500; regime-adaptive selection overlaps CalibrationGap's lifecycle filter thesis and is a direct PhD cite candidate for agentic finance.
+- [Belief Memory: Agent Memory Under Partial Observability](https://arxiv.org/abs/2605.05583) — Retains probabilistic candidate conclusions via Noisy-OR belief updates rather than committing to single observations; maps cleanly to CalibrationGap's weak-consensus / mid-lifecycle uncertainty handling and is a methodology cite for the Stanford PhD application.
