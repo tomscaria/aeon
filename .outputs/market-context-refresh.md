@@ -1,7 +1,7 @@
-market context — 2026-05-08
+market context — 2026-05-09
 
-take: risk-off (conviction medium)
-BTC $80,040 (-1.3%) / ETH $2,285 (-2.0%) · F&G 38 (Fear, -9 pts)
-breadth ~4/20 · ETH chain TVL $45.1B (-2.1%)
-top narrative: Iran escalation (peak — US strikes, oil >$100)
-hot market: "US x Iran peace by May 15" YES 20.3% ($2.94M)
+take: rotation (conviction medium)
+BTC $80,355 (+0.63%) / ETH $2,313 (+1.40%) · F&G 38 (Fear, unchanged)
+breadth 17/20 · TVL ETH $45.66B (+1.3% vs prior)
+top narrative: privacy coins (ZEC +58.31% 7d, rising) / SOL ecosystem (rising)
+hot market: Russia-Ukraine ceasefire May-31 YES 99.95% ($17.9M vol)
