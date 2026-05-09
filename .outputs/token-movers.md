@@ -1,42 +1,38 @@
-*Token Movers — 2026-05-08*
+*Token Movers — 2026-05-09*
 
-_Risk-off — 31/100 top coins green, median top-50 -1.3%; losers dominate._
+_Broad risk-on — ~85% of top-100 non-stablecoin coins green, median ~+2.5%; sharp reversal from yesterday's risk-off; alt rotation into L2s, DeFi, and AI-adjacent names; losers nearly flat._
 
 *Top Winners (24h)*
-1. BSB (Block Street) — $0.645  +38.4% / 7d +34.8% / 1h -2.4%  •  $33M / #237  [BREAKOUT,PUMP-RISK]
-2. STRK (Starknet) — $0.0554  +28.4% / 7d +41.6% / 1h -0.7%  •  $267M / #143  [TRENDING+UP,BREAKOUT]
-3. CHIP (USD.AI) — $0.0668  +19.5% / 7d +6.6% / 1h -3.3%  •  $206M / #246
-4. JTO (Jito) — $0.553  +15.7% / 7d +55.8% / 1h -1.2%  •  $371M / #167  [BREAKOUT]
-5. LAB (LAB) — $4.090  +10.7% / 7d +488.8% / 1h -6.9%  •  $113M / #154
-6. PENDLE (Pendle) — $2.080  +10.2% / 7d +34.9% / 1h +2.2%  •  $85M / #136
-7. EIGEN (EigenCloud (prev. EigenLayer)) — $0.222  +9.3% / 7d +23.1% / 1h +2.1%  •  $34M / #211
-8. TON (Toncoin) — $2.580  +8.8% / 7d +92.8% / 1h +1.0%  •  $1.26B / #20  [TRENDING+UP,MAJOR]
-9. BILL (Billions Network) — $0.0834  +8.5% / 7d ? / 1h -5.6%  •  $255M / #187  [TRENDING+UP]
-10. B (BUILDon) — $0.373  +8.0% / 7d +69.9% / 1h +2.9%  •  $29M / #130
+1. BILL (Billions Network) — $0.1038  +22.1% / 7d N/A / 1h N/A  •  $480M / #173  [TRENDING+UP]
+2. JUP (Jupiter) — $0.2468  +16.4% / 7d +38.8% / 1h +0.2%  •  $156M / #83  [BREAKOUT]
+3. ICP (Internet Computer) — $3.60  +15.1% / 7d +53.8% / 1h −2.4%  •  $332M / #47  [BREAKOUT]
+4. SIREN — $1.28  +14.1% / 7d +79.5% / 1h +0.5%  •  $50.5M / #77
+5. VVV (Venice Token) — $15.16  +13.3% / 7d +64.3% / 1h −0.2%  •  $54.9M / #87
+6. PROS (Pharos) — $1.027  +11.2% / 7d N/A / 1h N/A  •  $32.4M / #245
+7. RAVE (RaveDAO) — $0.7530  +11.0% / 7d N/A / 1h N/A  •  $26.5M / #200
+8. FIL (Filecoin) — $1.22  +10.9% / 7d +33.8% / 1h −0.4%  •  $433M / #76
+9. CC (Canton) — $0.1598  +10.1% / 7d +6.7% / 1h −0.2%  •  $18.6M / #21
+10. CFG (Centrifuge) — $0.3103  +10.0% / 7d N/A / 1h N/A  •  $73M / #202
 
 *Top Losers (24h)*
-1. H (Humanity) — $0.172  -13.7% / 7d -11.4% / 1h -12.5%  •  $29M / #148
-2. GENIUS (Genius) — $0.543  -7.4% / 7d +4.2% / 1h -0.3%  •  $12M / #199
-3. COMP (Compound) — $21.80  -7.2% / 7d -13.2% / 1h -0.0%  •  $32M / #183
-4. CFG (Centrifuge) — $0.282  -7.2% / 7d +35.5% / 1h +1.1%  •  $29M / #212
-5. PI (Pi Network) — $0.169  -5.9% / 7d -6.3% / 1h -0.8%  •  $23M / #51
-6. DASH (Dash) — $50.22  -5.6% / 7d +40.7% / 1h +0.2%  •  $167M / #90
-7. DCR (Decred) — $19.16  -5.4% / 7d +5.3% / 1h +0.0%  •  $2M / #142
-8. EDGE (edgeX) — $1.280  -5.0% / 7d +5.6% / 1h -0.4%  •  $15M / #114
-9. FARTCOIN (Fartcoin) — $0.244  -4.7% / 7d +20.3% / 1h -0.4%  •  $30M / #174
-10. XMR (Monero) — $397.8  -4.5% / 7d +5.0% / 1h +0.2%  •  $165M / #18  [MAJOR]
+1. BSB (Block Street) — $0.5883  −10.2% / 7d N/A / 1h N/A  •  $64.9M / #253  [CAPITULATION]
+2. UB (Unibase) — $0.1084  −9.2% / 7d N/A / 1h N/A  •  $17M / #164
+3. M (MemeCore) — $3.38  −7.7% / 7d +16.2% / 1h −0.3%  •  $12M / #26
+4. TAG (TAGGER) — $0.001351  −6.7% / 7d N/A / 1h N/A  •  $5.8M / #235
+5. GWEI (ETHGas) — $0.1296  −4.5% / 7d N/A / 1h N/A  •  $5.1M / #165
+6. TON (Toncoin) — $2.52  −1.4% / 7d +89.0% / 1h +1.5%  •  $694M / #20  [TRENDING+DOWN]
 
 *Trending*
-1. Starknet (STRK) — #145, $0.0558, 24h +30.4%
-2. Pharos (PROS) — #258, $0.918, 24h +47.1%  [MICROCAP,PUMP-RISK]
-3. Ondo (ONDO) — #46, $0.396, 24h +7.9%
-4. wojak (WOJAK) — #726, $0.000000, 24h -1.8%  [MICROCAP]
-5. Billions Network (BILL) — #186, $0.0831, 24h +8.6%
-6. Toncoin (TON) — #20, $2.596, 24h +6.9%  [MAJOR]
-7. Pudgy Penguins (PENGU) — #88, $0.0104, 24h -2.8%
+1. AURA (aura) — #657, $0.03701, 24h +302.7%  [PUMP-RISK] [MICROCAP]
+2. PENGU (Pudgy Penguins) — #89, $0.01069, 24h +2.5%
+3. WOJAK (wojak) — #656, $0.00000011, 24h +12.6%  [MICROCAP]
+4. ICP (Internet Computer) — #47, $3.60, 24h +16.3%  [BREAKOUT] [TRENDING+UP]
+5. SOL (Solana) — #7, $93.58, 24h +5.7%  [MAJOR]
+6. TON (Toncoin) — #20, $2.52, 24h −1.4%  [TRENDING+DOWN]
+7. SUI (Sui) — #28, $1.06, 24h +7.9%
 
 *Notable*
-• BSB: #237 rank up 38.4% — PUMP-RISK, low-cap tier
-• STRK: trending and +28.4% on $267M vol — corroborated signal
-• JTO: 24h +15.7% on top of 7d +55.8% — sustained breakout
-• TON: trending and +8.8% on $1.26B vol — corroborated signal
+• ICP: trending #4 + 2-week breakout (+15.1% / 7d +53.8%) on $332M vol — sustained move, not a spike  [TRENDING+UP] [BREAKOUT]
+• BILL: trending #9 + 22.1% on $480M vol — BILL contract previously flagged in 4444-BSC wash-print actor context; verify volume authenticity before treating as directional signal  [TRENDING+UP]
+• AURA: trending #1 at rank 657, $36M mcap, +302.7% — [PUMP-RISK]; noise, not signal
+• BSB: −10.2% on $64.9M vol vs sub-$100M mcap — [CAPITULATION]; watch for continuation
