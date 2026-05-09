@@ -1,46 +1,59 @@
-*Daily Routine — 2026-05-08*
+*Daily Routine — 2026-05-09*
 
-_Risk-off rotation — 31/100 top coins green, BTC $80,857 −1.9% / ETH $2,330 −3.3% lead the unwind while RWA / Solana-DeFi names rotate in._
+_Risk-on rotation: 14/17 major alts green; ZEC and SOL lead breakouts; TON enters 3rd post-peak fade day._
 
-*Top 10 Winners (24h)*
-1. SIREN: $0.98 +28.2% [BREAKOUT]
-2. JTO: $0.51 +28.1% [BREAKOUT]
-3. CFG: $0.29 +18.1% [BREAKOUT]
-4. VVV: $12.81 +13.4%
-5. GENIUS: $0.59 +9.6%
-6. ICP: $3.11 +9.6%
-7. APEPE: $0.000001 +9.5%
-8. WLFI: $0.073 +9.0%
-9. ULTIMA: $3013 +8.9%
-10. ONDO: $0.35 +8.8%
+*Top Winners (24h)*
+1. ZEC — $608 +6.6% / 7d +60.8% / 1h -1.3% • $1.02B / #15 [BREAKOUT][TRENDING+UP]
+2. SOL — $93.68 +6.1% / 7d +11.8% / 1h +0.2% • $4.15B / #7 [MAJOR][TRENDING+UP]
+3. LINK — $10.47 +5.9% / 7d +15.1% • $616M / #19 [MAJOR]
+4. ADA — $0.276 +5.1% / 7d +11.3% • $414M / #14 [MAJOR]
+5. XMR — $413.6 +4.4% / 7d +6.6% • $134M / #18 [MAJOR]
+6. DOGE — $0.1105 +3.8% • $1.12B / #10 [MAJOR]
+7. XRP — $1.42 +2.9% • $1.57B / #4 [MAJOR]
+8. BNB — $650 +2.1% / 7d +5.6% • $914M / #5 [MAJOR]
+9. HYPE — $43.83 +2.2% / 7d +5.8% • $226M / #12
+10. ONDO — $0.436 +18.1% [TRENDING+UP] (trending endpoint, #45)
 
-*Top 10 Losers (24h)*
-1. SKYAI: $0.63 −21.9%
-2. ASTEROID: $0.000363 −15.8%
-3. B (BUILDon): $0.35 −13.6%
-4. LUNC: $0.000095 −9.9%
-5. CVX: $1.75 −7.0%
-6. BEAT: $0.51 −6.9%
-7. AERO: $0.45 −6.2%
-8. MORPHO: $2.14 −5.9%
-9. ZEN: $7.27 −5.7%
-10. PENGU: $0.0105 −5.2% [TRENDING+DOWN]
+*Top Losers (24h)*
+1. TON — $2.54 -7.3% / 7d +91.3% • $840M / #20 [MAJOR] — day-3 post-peak fade
+(Partial dataset: only major loser >2% in top-20 by mcap)
+
+*Trending*
+1. ONDO — #45, $0.436, +18.1% [TRENDING+UP]
+2. SUI — #27, $1.07, +10.8% [TRENDING+UP]
+3. WOJAK — #630, $0.000000119, +16.1% [PUMP-RISK][MICROCAP]
+4. PENGU — #89, $0.01070, +4.1%
+5. VVV — #87, $15.35, +14.0%
+6. ZEC — #15, $609, +6.9% [BREAKOUT][TRENDING+UP]
+7. SOL — #7, $93.69, +6.2% [MAJOR][TRENDING+UP]
+
+*Notable*
+• ZEC [BREAKOUT][TRENDING+UP]: 7d +60.8% on $1.02B vol — reverses 2-day trending fade from memory
+• WOJAK [PUMP-RISK]: rank 630, +16% — manipulation signal, disclose
+• ONDO: +18.1% trending — RWA/institutional DeFi momentum
 
 *Tweet Roundup*
-*Crypto/PM:* Aave LLC files emergency motion to vacate Arbitrum DAO restraining notice; 1inch LP Trusted Volumes exploited for $5.87M (5th DeFi exploit this month); Citrea launches CTR governance token (10B fixed supply, 60% community).
-*AI:* Anthropic ships 10 preconfigured finance-agent templates (investment banking, asset mgmt, insurance); Ramp card data shows first-time business AI buyers picking Anthropic 3× the rate of OpenAI.
-*Dev:* OpenClaw breakout open-source project (always-on personal agents); Bun 3× Node.js going mainstream; Docker now at 92% IT-pro adoption (largest single-year jump).
+*Crypto/PM:* Lagarde flagged $310B stablecoin market as systemic stability risk. Polymarket daily fees rose sharply after March 30 fee-model expansion. Prediction-market aggregators emerging as dominant interface layer for multi-billion weekly volume.
+*AI:* Anthropic planning $50B raise at ~$900B valuation; Google pledging $40B into Anthropic. Frontier models (Claude Opus 4.6, Gemini 3.1 Pro) now exceed 50% on Humanity's Last Exam. Agentic AI showing the biggest benchmark gains of any AI category.
+*Dev:* OpenClaw breakout open-source agent project. OpenAI Codex Chrome extension ships browser-session agents across live tabs. Ollama normalizing local LLM inference; Continue bringing open-source AI coding to any editor.
 
-*Paper of the Day (PhD-prep slot)*
-"Prediction Arena: Benchmarking AI Models on Real-World Prediction Markets" — 6 frontier × $10k real × 57 days × Kalshi+PM. grok-4-20 hit 71.4% PM settlement-win — direct head-to-head for CalibrationGap 76%/29. https://arxiv.org/abs/2604.07355
+*Paper of the Day*
+"ForesightFlow" — Nechepurenko (May 1, 2026) — closes the 8-paper run: ILS framework for detecting informed trading on decentralized PMs; exponential hazard baseline for deadline-resolved markets; data + code released.
+[Read](https://arxiv.org/abs/2605.00493) | [PDF](https://arxiv.org/pdf/2605.00493)
 
 *GitHub Issues*
-No new issues (12th clean day on tomscaria scope).
+No new issues (13th clean day on tomscaria scope)
 
 *HN Digest*
-1. Chrome silently installs 4GB Gemini Nano with no opt-in (1668pts) — https://news.ycombinator.com/item?id=48019219
-2. Anthropic + SpaceX compute deal + higher Claude limits (451pts) — https://news.ycombinator.com/item?id=48037986
-3. Cloudflare agents create accounts, buy domains, deploy (634pts) — https://news.ycombinator.com/item?id=48031684
-4. Vibe coding vs agentic engineering — Willison (561pts) — https://news.ycombinator.com/item?id=48037128
-5. DNSSEC outage on .de (737pts) — DENIC signature failure — https://news.ycombinator.com/item?id=48027897
+_Security day — reCAPTCHA break, kernel LPE, and AI-vulnerability threads dominate; Mojo 1.0 adds infra weight._
+1. [Google broke reCAPTCHA for de-googled Android](https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users) (941pts, 314c) — Google Play Services dependency breaks privacy-focused users.
+   [Discuss](https://news.ycombinator.com/item?id=48067119)
+2. [AI is breaking two vulnerability cultures](https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures) (316pts, 130c) — AI eroding both quiet-disclosure and public-disclosure security norms simultaneously.
+   [Discuss](https://news.ycombinator.com/item?id=48066524)
+3. [Mojo 1.0 Beta](https://mojolang.org/) (338pts, 218c) — production milestone for the Python-superset systems language.
+   [Discuss](https://news.ycombinator.com/item?id=48057901)
+4. [io_uring ZCRX freelist LPE](https://ze3tar.github.io/post-zcrx.html) (178pts, 105c) — kernel exploit via zero-copy receive freelist; u32 input yields root.
+   [Discuss](https://news.ycombinator.com/item?id=48067734)
+5. [ChatGPT 5.5 Pro experience](https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/) (218pts, 104c) — mathematician's field notes on frontier model reasoning.
+   [Discuss](https://news.ycombinator.com/item?id=48071262)
 
