@@ -1,13 +1,17 @@
 {
   "skill": "goal-tracker",
-  "last_analyzed": "2026-05-01T18:18:09Z",
+  "last_analyzed": "2026-05-09T18:12:03Z",
   "quality_score": 4,
-  "assessment": "Substantive goal tracking with clear blocker identification (PAT bottleneck surfaced, 3 blockers detailed); flat progress and undescribed follow-up actions prevent excellence.",
+  "assessment": "Substantive status report with clear categorization (NEEDS ATTENTION/BLOCKED/ON TRACK), specific metrics (16 goals, 1 downgrade, 2 improving), concrete deadlines, and actionable next steps; properly sourced from logs and snapshots",
   "flags": [],
   "avg_score": 4,
   "history": [
     {
       "date": "2026-05-01",
+      "score": 4
+    },
+    {
+      "date": "2026-05-09",
       "score": 4
     }
   ]

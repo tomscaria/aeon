@@ -1,0 +1,365 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Goal Tracker — 2026-05-09"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "na-section",
+        "sep2",
+        "blocked-section",
+        "sep3",
+        "ot-section",
+        "sep4",
+        "done-section",
+        "sep5",
+        "sources"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "16 active goals — 0 at risk, 1 needs attention, 12 on track, 3 blocked, 4 done (overall → slightly degrading: one ON TRACK → NEEDS ATTENTION)"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "na-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "na-heading",
+        "na-item1"
+      ]
+    },
+    "na-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NEEDS ATTENTION",
+        "level": "h3"
+      }
+    },
+    "na-item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "na-title",
+        "na-status",
+        "na-action"
+      ]
+    },
+    "na-title": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-fund-mvp 72h merge-cadence test",
+        "variant": "lead"
+      }
+    },
+    "na-status": {
+      "type": "Text",
+      "props": {
+        "text": "Deadline today 2026-05-09, no confirmation in logs (was ON TRACK ↓)"
+      }
+    },
+    "na-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Verify tomscaria/swarm-fund-mvp for new ADR opened today vs PRs #30/#31 stalled",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "blocked-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "blocked-heading",
+        "b-item1",
+        "b-item2",
+        "b-item3"
+      ]
+    },
+    "blocked-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BLOCKED (all operator-side)",
+        "level": "h3"
+      }
+    },
+    "b-item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "b1-title",
+        "b1-status",
+        "b1-action"
+      ]
+    },
+    "b1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Fix chain-runner.yml dispatch_skill()",
+        "variant": "lead"
+      }
+    },
+    "b1-status": {
+      "type": "Text",
+      "props": {
+        "text": "Day 13 idle. BLOCKED: operator-side workflow patch. Gates ISS-013 decay."
+      }
+    },
+    "b1-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Add echo before each gh workflow run in chain-runner.yml to fix dispatch_skill()",
+        "variant": "muted"
+      }
+    },
+    "b-item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "b2-title",
+        "b2-status",
+        "b2-action"
+      ]
+    },
+    "b2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Add Trusted Authors to memory/watched-repos.md",
+        "variant": "lead"
+      }
+    },
+    "b2-status": {
+      "type": "Text",
+      "props": {
+        "text": "BLOCKED: operator memory edit. Blocks auto-merge for repo-owner PRs."
+      }
+    },
+    "b2-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Add aaronjmars to Trusted Authors section in memory/watched-repos.md",
+        "variant": "muted"
+      }
+    },
+    "b-item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "b3-title",
+        "b3-status",
+        "b3-action"
+      ]
+    },
+    "b3-title": {
+      "type": "Text",
+      "props": {
+        "text": "Operator config sweep",
+        "variant": "lead"
+      }
+    },
+    "b3-status": {
+      "type": "Text",
+      "props": {
+        "text": "BLOCKED: on-chain-watches.yml empty, list-digest/refresh-x var unconfigured, skills.lock missing."
+      }
+    },
+    "b3-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Populate memory/on-chain-watches.yml with 1 wallet address to close NO_CONFIG loop",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "ot-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ot-heading",
+        "ot1",
+        "ot2",
+        "ot3",
+        "ot4",
+        "ot5",
+        "ot6",
+        "ot7",
+        "ot8",
+        "ot9",
+        "ot10",
+        "ot11",
+        "ot12"
+      ]
+    },
+    "ot-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ON TRACK",
+        "level": "h3"
+      }
+    },
+    "ot1": {
+      "type": "Text",
+      "props": {
+        "text": "Open ADR-096 resolution-text-ingest — 1d idle, active evidence; ForesightFlow closes 3-paper Nechepurenko arc. Iran-airspace + Hantavirus anchors ready. No ADR slot opened in ~14d."
+      }
+    },
+    "ot2": {
+      "type": "Text",
+      "props": {
+        "text": "Cost-discipline downgrade pass — in OPS ALERTS daily; Aeon-side ~$2,696/mo vs $40/wk target (>15x over). swarm-fund-mvp LLM $1.30/7d (under budget)."
+      }
+    },
+    "ot3": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-runners DEEP-LIQ floor patch — 8 runs of evidence (Bear slot-5 h1 -10.7% today = 8th). Ready for self-improve."
+      }
+    },
+    "ot4": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-fund-mvp tick-broker falsifier — 9 days to 2026-05-17. No outputs/{skill}/{date}.json contract shipped yet."
+      }
+    },
+    "ot5": {
+      "type": "Text",
+      "props": {
+        "text": "Pre-Apex push: monitor-polymarket + polymarket-comments — both ran today. Revenant 29/100 trades (29%). Russia-Ukraine +92.45pp → 99.95% YES (UMA dispute live). Iran peace cluster -5 to -10pp. Powell→Warsh Senate floor vote May 11."
+      }
+    },
+    "ot6": {
+      "type": "Text",
+      "props": {
+        "text": "Hermes-arb gate adjustment: bump min-gap to 7.5-8pp — KXBTC B80250 resolved correctly. No convergence signal on KXBTC-26MAY1517 yet."
+      }
+    },
+    "ot7": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-fund-mvp OLLAMA_FULL=1 rollout falsifier — 12 days to 2026-05-21. No env file confirmation yet."
+      }
+    },
+    "ot8": {
+      "type": "Text",
+      "props": {
+        "text": "Skill-evals key fixes (PR #5) — open 12 days (since 04-27), hn-digest / polymarket key rename not merged."
+      }
+    },
+    "ot9": {
+      "type": "Text",
+      "props": {
+        "text": "Code-health Day-7 carry — Pyth/Birdeye feed IDs (pyth_ws.py:36, birdeye_rest.py:36-37) still unverified."
+      }
+    },
+    "ot10": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-018/019 prompt-bug fixes — flagged in heartbeat today; surface to self-improve."
+      }
+    },
+    "ot11": {
+      "type": "Text",
+      "props": {
+        "text": "paper-pick daily + PhD reading list — ForesightFlow (2605.00493) picked today, closes 3-paper ILS arc. Next PhD slot: Heterogeneous Scientific Foundation Model (2604.27351). (improving)"
+      }
+    },
+    "ot12": {
+      "type": "Text",
+      "props": {
+        "text": "Cite stack for grant/Stanford — 8-paper q-fin.TR bench now fully citable. ForesightFlow closes Nechepurenko ILS arc. (improving)"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "done-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "done-heading",
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ]
+    },
+    "done-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DONE",
+        "level": "h3"
+      }
+    },
+    "d1": {
+      "type": "Text",
+      "props": {
+        "text": "PR #156 reply-maker XAI prefetch — merged 2026-05-08T01:18Z"
+      }
+    },
+    "d2": {
+      "type": "Text",
+      "props": {
+        "text": "5 ACT NOW Vercel-FAILURE PRs on swarm-fund-mvp — completed 2026-05-03"
+      }
+    },
+    "d3": {
+      "type": "Text",
+      "props": {
+        "text": "Land code-health fix dashboard secrets-route — PR #150 + PR #158"
+      }
+    },
+    "d4": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-004 / ISS-006 — resolved 2026-05-03"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: logs=ok, git=ok, gh_pr=ok, gh_issue=ok(empty), cron-state=ok, revenant-snapshot=stale(empty), agents-summary=ok(canary=9/shadow=158), costs-summary=ok, last-sync=ok(fresh 07:16Z)",
+        "variant": "caption"
+      }
+    }
+  }
+}

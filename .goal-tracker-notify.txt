@@ -35,4 +35,3 @@ DONE
 • ISS-004 / ISS-006 — resolved 2026-05-03
 
 Sources: logs=ok, git=ok, gh_pr=ok, gh_issue=ok(empty), cron-state=ok, revenant-snapshot=stale(empty), agents-summary=ok(canary=9/shadow=158), costs-summary=ok, last-sync=ok(fresh 07:16Z)
-
