@@ -1,23 +1,21 @@
-*Top Tweets — prediction markets (2026-05-08)*
-_Kalshi closed $1B Series F at $22B today (Coatue + Sequoia + a16z; institutional volume +800% in 6mo). Polymarket's reply is operational not financial — 4 fresh market launches in 48h. Fundraising gap widens, headline cycle still Polymarket's._
+*Top Tweets — prediction markets (2026-05-09)*
+_XAI_API_KEY not available; results via WebSearch — quality lower than usual. Iran peace-deal odds peaked at 77% May 7 then reversed sharply — headline vs clause-text divergence playing out live._
 
-*Polymarket headline market launches*
-1. x.com/Polymarket — NEW POLYMARKET: "Hantavirus pandemic this year?" — fastest-launched market in today's set; cleanest empirical-anchor launch since the Iran-airspace ladder.
+*Geopolitical calibration*
+1. x.com/Polymarket — Iran permanent peace deal odds soar to record highs: 77% this year. Context: odds reversed after May 9 US Hormuz strike on Iranian vessel — peak marked the clause-text-vs-headline gap in real time.
 Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/Polymarket/status/2052053405221224574)
+[View tweet](https://x.com/Polymarket/status/2052006183699906593)
 
-2. x.com/Polymarket — JUST IN: Democrats & Republicans dead even on Senate at midterms — first 50/50 print since the contract opened.
+2. x.com/WarMonitor3 — Amplifies the 73% Iran peace read: "apparent positive signs today." Posted at the zenith just before the reversal. Captures commentator framing ahead of the collapse.
 Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/Polymarket/status/2051307670531887111)
+[View tweet](https://x.com/WarMonitor3/status/2052123598026940472)
 
-3. x.com/Polymarket — JUST IN: Hormuz traffic returns to normal by end of next month — 52% chance — sister-market to today's article-of-the-day Iran-airspace ladder; Kalshi side prices Aug 44% / Sep 54% / Oct 62%.
+*Industry structure*
+3. x.com/WuBlockchain — Kalshi closes $1B at $22B valuation (Coatue-led). Annualized volume $178B, tripling in 6 months; five-month doubling. Venue duopoly reinforced.
 Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/Polymarket/status/2050969768857841788)
+[View tweet](https://x.com/WuBlockchain/status/2052381168918823082)
 
-*Sports vertical*
-4. x.com/PolymarketBlitz — "2027 Super Bowl Odds… What stands out?" — NFL-vertical 2027 cycle launches early while NBA/NFL hold out from Kalshi/Polymarket integrity deals.
+4. x.com/CryptoTimes_io — Hyperliquid HIP-4 as direct Polymarket challenger: zero fees, cross-margin prediction markets inside perps account. 14% of top PM traders already on Hyperliquid ($1.43B in PM vol).
 Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/PolymarketBlitz/status/2051377810296754602)
-
-_Source path: WebSearch (XAI_API_KEY env-block on manual run; .xai-cache/ absent — 10th run-day on path C). Engagement counts unavailable; ranked by signal/recency/source authority._
+[View tweet](https://x.com/CryptoTimes_io/status/2050536911274746272)
 

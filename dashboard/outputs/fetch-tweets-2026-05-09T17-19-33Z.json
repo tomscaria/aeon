@@ -1,0 +1,190 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — prediction markets (2026-05-09)"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "note",
+        "sep0",
+        "geo-stack",
+        "industry-stack"
+      ]
+    },
+    "note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "XAI_API_KEY not available; results via WebSearch — quality lower than usual. Iran peace-deal odds peaked at 77% May 7 then reversed sharply — headline vs clause-text divergence playing out live."
+      }
+    },
+    "sep0": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "geo-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-geo",
+        "tweet1-group",
+        "tweet2-group"
+      ]
+    },
+    "heading-geo": {
+      "type": "Heading",
+      "props": {
+        "text": "Geopolitical calibration",
+        "level": "h2"
+      }
+    },
+    "tweet1-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet1",
+        "link1"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Polymarket",
+        "handle": "Polymarket",
+        "text": "Iran permanent peace deal odds soar to record highs: 77% this year. Context: odds reversed after May 9 US Hormuz strike on Iranian vessel — peak marked the clause-text-vs-headline gap in real time."
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Polymarket/status/2052006183699906593"
+      }
+    },
+    "tweet2-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet2",
+        "link2"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "WarMonitor3",
+        "handle": "WarMonitor3",
+        "text": "Amplifies the 73% Iran peace read: 'apparent positive signs today.' Posted at the zenith just before the reversal. Captures commentator framing ahead of the collapse."
+      }
+    },
+    "link2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/WarMonitor3/status/2052123598026940472"
+      }
+    },
+    "industry-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep1",
+        "heading-industry",
+        "tweet3-group",
+        "tweet4-group"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-industry": {
+      "type": "Heading",
+      "props": {
+        "text": "Industry structure",
+        "level": "h2"
+      }
+    },
+    "tweet3-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet3",
+        "link3"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "WuBlockchain",
+        "handle": "WuBlockchain",
+        "text": "Kalshi closes $1B at $22B valuation (Coatue-led). Annualized volume $178B, tripling in 6 months; five-month doubling. Venue duopoly reinforced."
+      }
+    },
+    "link3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/WuBlockchain/status/2052381168918823082"
+      }
+    },
+    "tweet4-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet4",
+        "link4"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "CryptoTimes_io",
+        "handle": "CryptoTimes_io",
+        "text": "Hyperliquid HIP-4 as direct Polymarket challenger: zero fees, cross-margin prediction markets inside perps account. 14% of top PM traders already on Hyperliquid ($1.43B in PM vol)."
+      }
+    },
+    "link4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/CryptoTimes_io/status/2050536911274746272"
+      }
+    }
+  }
+}
