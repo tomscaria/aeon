@@ -1,6 +1,6 @@
 {
   "heartbeat": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_failed": "2026-05-06T15:33:00Z",
     "total_runs": 54,
     "total_successes": 38,
@@ -9,7 +9,7 @@
     "success_rate": 0.7,
     "last_error": "_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inpu",
     "last_success": "2026-05-08T20:19:39Z",
-    "last_dispatch": "2026-05-08T20:14:11Z"
+    "last_dispatch": "2026-05-09T08:14:17Z"
   },
   "token-alert": {
     "last_dispatch": "2026-05-08T13:00:53Z",
@@ -192,14 +192,14 @@
     "last_error": "_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inpu"
   },
   "daily-routine": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-05-08T07:19:53Z",
     "total_runs": 11,
     "total_successes": 11,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1,
-    "last_dispatch": "2026-05-08T07:13:10Z"
+    "last_dispatch": "2026-05-09T08:14:17Z"
   },
   "deep-research": {
     "last_status": "success",
@@ -671,13 +671,13 @@
     "success_rate": 1
   },
   "chain:morning-brief": {
-    "last_dispatch": "2026-05-08T07:13:10Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-05-09T08:14:17Z",
+    "last_status": "dispatched",
     "last_failed": "2026-05-08T07:14:30Z"
   },
   "rss-digest": {
-    "last_dispatch": "2026-05-08T07:13:10Z",
-    "last_status": "success",
+    "last_dispatch": "2026-05-09T08:14:17Z",
+    "last_status": "dispatched",
     "last_success": "2026-05-08T07:14:13Z",
     "total_runs": 10,
     "total_successes": 10,
@@ -686,8 +686,8 @@
     "success_rate": 1
   },
   "paper-digest": {
-    "last_dispatch": "2026-05-08T07:13:10Z",
-    "last_status": "success",
+    "last_dispatch": "2026-05-09T08:14:17Z",
+    "last_status": "dispatched",
     "last_success": "2026-05-08T07:31:55Z",
     "total_runs": 10,
     "total_successes": 10,
@@ -696,8 +696,8 @@
     "success_rate": 1
   },
   "reddit-digest": {
-    "last_dispatch": "2026-05-08T07:13:10Z",
-    "last_status": "success",
+    "last_dispatch": "2026-05-09T08:14:17Z",
+    "last_status": "dispatched",
     "last_success": "2026-05-08T07:16:22Z",
     "total_runs": 10,
     "total_successes": 10,
@@ -706,8 +706,8 @@
     "success_rate": 1
   },
   "telegram-digest": {
-    "last_dispatch": "2026-05-08T08:50:25Z",
-    "last_status": "success",
+    "last_dispatch": "2026-05-09T08:14:17Z",
+    "last_status": "dispatched",
     "last_success": "2026-05-08T08:51:50Z",
     "total_runs": 8,
     "total_successes": 8,
