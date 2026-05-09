@@ -1,0 +1,471 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-05-09"
+      },
+      "children": [
+        "alert-degraded",
+        "sep1",
+        "degraded-section",
+        "sep2",
+        "fleet-delta",
+        "sep3",
+        "warning-section",
+        "sep4",
+        "no-data-section",
+        "sep5",
+        "healthy-section",
+        "sep6",
+        "issues-summary"
+      ]
+    },
+    "alert-degraded": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "DEGRADED(22)",
+        "message": "Systemic: ISS-013 zero-token burst tail 22 skills; chain-runner day 13"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "degraded-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "degraded-heading",
+        "degraded-desc",
+        "degraded-table",
+        "degraded-more"
+      ]
+    },
+    "degraded-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DEGRADED (22)",
+        "level": "h2"
+      }
+    },
+    "degraded-desc": {
+      "type": "Text",
+      "props": {
+        "text": "all ISS-013/ISS-020 burst tail, cf=0, all currently succeeding",
+        "variant": "muted"
+      }
+    },
+    "degraded-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Success Rate",
+          "Last OK"
+        ],
+        "rows": [
+          [
+            "workflow-security-audit",
+            "0.15",
+            "2026-05-03"
+          ],
+          [
+            "channel-recap",
+            "0.15",
+            "2026-05-03"
+          ],
+          [
+            "narrative-tracker",
+            "0.32",
+            "2026-05-07"
+          ],
+          [
+            "token-report",
+            "0.35",
+            "today"
+          ],
+          [
+            "token-movers",
+            "0.39",
+            "today"
+          ]
+        ]
+      }
+    },
+    "degraded-more": {
+      "type": "Text",
+      "props": {
+        "text": "+17 more — see memory/issues/INDEX.md",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "fleet-delta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fleet-heading",
+        "fleet-text"
+      ]
+    },
+    "fleet-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fleet Delta",
+        "level": "h3"
+      }
+    },
+    "fleet-text": {
+      "type": "Text",
+      "props": {
+        "text": "31 skills disabled (aeon.yml cost cuts). Enabled: 22D / 5W / 11H / 14ND."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "warning-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "warning-heading",
+        "warning-table"
+      ]
+    },
+    "warning-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "WARNING (5)",
+        "level": "h2"
+      }
+    },
+    "warning-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Success Rate"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "0.71"
+          ],
+          [
+            "agent-buzz",
+            "0.64"
+          ],
+          [
+            "goal-tracker",
+            "0.63"
+          ],
+          [
+            "paper-pick",
+            "0.61"
+          ],
+          [
+            "write-tweet",
+            "0.60"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "no-data-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "no-data-heading",
+        "no-data-desc",
+        "no-data-grid"
+      ]
+    },
+    "no-data-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NO DATA (14)",
+        "level": "h2"
+      }
+    },
+    "no-data-desc": {
+      "type": "Text",
+      "props": {
+        "text": "on-demand/reactive skills — DISPATCH-SKILL if expected",
+        "variant": "muted"
+      }
+    },
+    "no-data-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "sm"
+      },
+      "children": [
+        "nd1",
+        "nd2",
+        "nd3",
+        "nd4",
+        "nd5",
+        "nd6",
+        "nd7",
+        "nd8",
+        "nd9",
+        "nd10",
+        "nd11",
+        "nd12",
+        "nd13",
+        "nd14"
+      ]
+    },
+    "nd1": {
+      "type": "Badge",
+      "props": {
+        "text": "distribute-tokens",
+        "variant": "outline"
+      }
+    },
+    "nd2": {
+      "type": "Badge",
+      "props": {
+        "text": "last30",
+        "variant": "outline"
+      }
+    },
+    "nd3": {
+      "type": "Badge",
+      "props": {
+        "text": "config-audit",
+        "variant": "outline"
+      }
+    },
+    "nd4": {
+      "type": "Badge",
+      "props": {
+        "text": "deploy-prototype",
+        "variant": "outline"
+      }
+    },
+    "nd5": {
+      "type": "Badge",
+      "props": {
+        "text": "autoresearch",
+        "variant": "outline"
+      }
+    },
+    "nd6": {
+      "type": "Badge",
+      "props": {
+        "text": "create-skill",
+        "variant": "outline"
+      }
+    },
+    "nd7": {
+      "type": "Badge",
+      "props": {
+        "text": "monetize-revenant",
+        "variant": "outline"
+      }
+    },
+    "nd8": {
+      "type": "Badge",
+      "props": {
+        "text": "tool-builder",
+        "variant": "outline"
+      }
+    },
+    "nd9": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-repair",
+        "variant": "outline"
+      }
+    },
+    "nd10": {
+      "type": "Badge",
+      "props": {
+        "text": "spawn-instance",
+        "variant": "outline"
+      }
+    },
+    "nd11": {
+      "type": "Badge",
+      "props": {
+        "text": "task-planner",
+        "variant": "outline"
+      }
+    },
+    "nd12": {
+      "type": "Badge",
+      "props": {
+        "text": "auto-workflow",
+        "variant": "outline"
+      }
+    },
+    "nd13": {
+      "type": "Badge",
+      "props": {
+        "text": "onboard",
+        "variant": "outline"
+      }
+    },
+    "nd14": {
+      "type": "Badge",
+      "props": {
+        "text": "session-learner",
+        "variant": "outline"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "healthy-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "healthy-heading",
+        "healthy-grid"
+      ]
+    },
+    "healthy-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HEALTHY (11)",
+        "level": "h2"
+      }
+    },
+    "healthy-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "sm"
+      },
+      "children": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "h7",
+        "h8",
+        "h9",
+        "h10",
+        "h11"
+      ]
+    },
+    "h1": {
+      "type": "Badge",
+      "props": {
+        "text": "daily-routine",
+        "variant": "default"
+      }
+    },
+    "h2": {
+      "type": "Badge",
+      "props": {
+        "text": "rss-digest",
+        "variant": "default"
+      }
+    },
+    "h3": {
+      "type": "Badge",
+      "props": {
+        "text": "paper-digest",
+        "variant": "default"
+      }
+    },
+    "h4": {
+      "type": "Badge",
+      "props": {
+        "text": "reddit-digest",
+        "variant": "default"
+      }
+    },
+    "h5": {
+      "type": "Badge",
+      "props": {
+        "text": "telegram-digest",
+        "variant": "default"
+      }
+    },
+    "h6": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "default"
+      }
+    },
+    "h7": {
+      "type": "Badge",
+      "props": {
+        "text": "hacker-news-digest",
+        "variant": "default"
+      }
+    },
+    "h8": {
+      "type": "Badge",
+      "props": {
+        "text": "evening-recap",
+        "variant": "default"
+      }
+    },
+    "h9": {
+      "type": "Badge",
+      "props": {
+        "text": "vuln-scanner",
+        "variant": "default"
+      }
+    },
+    "h10": {
+      "type": "Badge",
+      "props": {
+        "text": "cost-report",
+        "variant": "default"
+      }
+    },
+    "h11": {
+      "type": "Badge",
+      "props": {
+        "text": "deep-research",
+        "variant": "default"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "issues-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Open issues: 14 · Resolved this run: 3 (ISS-001 vuln-scanner, ISS-008 rss-digest, ISS-014 reply-maker/PR#156)"
+      }
+    }
+  }
+}
