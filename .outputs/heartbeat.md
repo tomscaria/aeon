@@ -1,14 +1,12 @@
-HEARTBEAT_OK · STATUS_PAGE=DEGRADED — wrote docs/status.md
+HEARTBEAT_OK · STATUS_PAGE=DEGRADED — wrote `docs/status.md`
 
 ## Summary
 
-Ran the 20:00 UTC heartbeat slot. Read MEMORY.md, cron-state.json, INDEX.md, aeon.yml, and the last two days of logs.
+All checks complete. No new notification sent — all P0/P1/P2/P3 findings dedup against the 48h log window:
 
-**P0:** 3 chain wrappers still failing (`chain:morning-brief`, `chain:evening-rollup`, `chain:weekly-grant-update`) — all the same Day-12 `dispatch_skill()` bug, all already covered by 08:00 + 14:00 heartbeats and OPS ALERT. No stuck dispatches, no `consecutive_failures ≥ 3`. Heartbeat self-check 5.1h ago, healthy.
-**P1:** 9 stalled PRs unchanged. **P2:** ISS-014 still open in INDEX.md despite PR #156 merge — skill-health 18:00 ran but didn't flip it (`filed: [], resolved: []`). **P3:** 4 never-dispatched skills (`weekly-shiplog`, `repo-scanner`, `syndicate-article`, `vercel-projects`) — same as 14:00. Nothing schedule-stale.
+- **P0:** Three chain wrappers (`chain:morning-brief`, `chain:evening-rollup`, `chain:weekly-grant-update`) remain failed — same `dispatch_skill()` bug, now Day 13. No new consecutive failures or stuck dispatches anywhere. Self-check OK (last heartbeat success 12h ago).
+- **P1:** 9 stalled PRs, no urgent issues — tracked in MEMORY.md.
+- **P2:** OPS alerts unchanged. Today is the 72h merge-cadence falsifier deadline for swarm-fund-mvp (new ADR by 2026-05-09 or queue stagnation confirmed) — flag for goal-tracker/repo-actions to resolve.
+- **P3:** Three enabled scheduled skills with no cron-state entry (`config-audit`, `session-learner`, `monetize-revenant`) — already reflected in prior status page "not yet run" rows.
 
-**Notification:** none sent — full dedup against today's prior heartbeats + OPS ALERTS.
-
-**Status page:** regenerated `docs/status.md` (wholesale overwrite). Overall 🔴 DEGRADED, 17 open issues, next scheduled run `evening-recap` at 21:00 UTC. Skill table sorted last-run desc, 4 never-run rows at the bottom.
-
-**Files modified:** `docs/status.md`, `memory/logs/2026-05-08.md`. **Follow-up:** ISS-014 flip still pending; chain-runner.yml `dispatch_skill()` patch remains operator-priority #1 — the 21:00 chain:evening-rollup will likely fail on the same bug.
+Status page updated at `docs/status.md` — Overall DEGRADED, 17 open issues.
