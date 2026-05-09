@@ -1,0 +1,550 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reply Maker — 2026-05-09"
+      },
+      "children": [
+        "alert_degraded",
+        "sep1",
+        "tweet_1",
+        "sep2",
+        "tweet_2",
+        "sep3",
+        "tweet_3",
+        "sep4",
+        "tweet_4",
+        "sep5",
+        "tweet_5",
+        "sep6",
+        "source_status"
+      ]
+    },
+    "alert_degraded": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "REPLY_MAKER_DEGRADED",
+        "message": "XAI auth-gated, timestamps estimated"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "tweet_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t1_num",
+        "t1_link",
+        "t1_author",
+        "t1_quote_label",
+        "t1_quote",
+        "t1_why_label",
+        "t1_why",
+        "t1_resp_a_label",
+        "t1_resp_a",
+        "t1_resp_b_label",
+        "t1_resp_b"
+      ]
+    },
+    "t1_num": {
+      "type": "Heading",
+      "props": {
+        "text": "1.",
+        "level": "h3"
+      }
+    },
+    "t1_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/ycombinator/status/2052440828333986267",
+        "href": "https://x.com/ycombinator/status/2052440828333986267"
+      }
+    },
+    "t1_author": {
+      "type": "Text",
+      "props": {
+        "text": "@ycombinator, ~2d ago",
+        "variant": "caption"
+      }
+    },
+    "t1_quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Quote:",
+        "variant": "lead"
+      }
+    },
+    "t1_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi represents over 90% of US prediction market volume... annualized trading volume hitting $178B— more than tripling over 6 months"
+      }
+    },
+    "t1_why_label": {
+      "type": "Text",
+      "props": {
+        "text": "Why:",
+        "variant": "lead"
+      }
+    },
+    "t1_why": {
+      "type": "Text",
+      "props": {
+        "text": "\"90% of US\" excludes offshore Polymarket ($514M TVL) and Drift; global race unsettled"
+      }
+    },
+    "t1_resp_a_label": {
+      "type": "Text",
+      "props": {
+        "text": "Response A:",
+        "variant": "lead"
+      }
+    },
+    "t1_resp_a": {
+      "type": "Text",
+      "props": {
+        "text": "Denominator matters. The 90% US figure excludes Polymarket ($514M+ TVL, offshore) and Drift PM. Global picture is a two-venue race, not Kalshi dominance. Both platforms grew the category to get here."
+      }
+    },
+    "t1_resp_b_label": {
+      "type": "Text",
+      "props": {
+        "text": "Response B:",
+        "variant": "lead"
+      }
+    },
+    "t1_resp_b": {
+      "type": "Text",
+      "props": {
+        "text": "$22B on $178B annualized volume is ~8x rev multiple at 0.5% clip. Polymarket's offshore status means the global race isn't settled. The valuation is a bet on US regulatory moat, not volume moat."
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "tweet_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t2_num",
+        "t2_link",
+        "t2_author",
+        "t2_quote_label",
+        "t2_quote",
+        "t2_why_label",
+        "t2_why",
+        "t2_resp_a_label",
+        "t2_resp_a_inline",
+        "t2_resp_b_label",
+        "t2_resp_b"
+      ]
+    },
+    "t2_num": {
+      "type": "Heading",
+      "props": {
+        "text": "2.",
+        "level": "h3"
+      }
+    },
+    "t2_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/Polymarket/status/2047437923348357146",
+        "href": "https://x.com/Polymarket/status/2047437923348357146"
+      }
+    },
+    "t2_author": {
+      "type": "Text",
+      "props": {
+        "text": "@Polymarket, ~2-3wk ago",
+        "variant": "caption"
+      }
+    },
+    "t2_quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Quote:",
+        "variant": "lead"
+      }
+    },
+    "t2_quote": {
+      "type": "Text",
+      "props": {
+        "text": "We referred the matter to the DOJ & cooperated with their investigation. Insider trading has no place on Polymarket."
+      }
+    },
+    "t2_why_label": {
+      "type": "Text",
+      "props": {
+        "text": "Why:",
+        "variant": "lead"
+      }
+    },
+    "t2_why": {
+      "type": "Text",
+      "props": {
+        "text": "ILS papers document 24 PM insider cases, all deadline-resolved; resolution-text asymmetry is the harder unfixed problem"
+      }
+    },
+    "t2_resp_a_label": {
+      "type": "Text",
+      "props": {
+        "text": "Response A:",
+        "variant": "lead"
+      }
+    },
+    "t2_resp_a_inline": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t2_resp_a_text1",
+        "t2_resp_a_arxiv",
+        "t2_resp_a_text2"
+      ]
+    },
+    "t2_resp_a_text1": {
+      "type": "Text",
+      "props": {
+        "text": "DOJ referral on the Maduro case was clean. But ForesightFlow (Nechepurenko,"
+      }
+    },
+    "t2_resp_a_arxiv": {
+      "type": "Link",
+      "props": {
+        "label": "arXiv:2605.00493",
+        "href": "https://arxiv.org/abs/2605.00493"
+      }
+    },
+    "t2_resp_a_text2": {
+      "type": "Text",
+      "props": {
+        "text": ") documents 24 Polymarket insider cases — none event-resolved, all deadline-resolved. The harder problem isn't classified leaks. It's resolution-clause asymmetry."
+      }
+    },
+    "t2_resp_b_label": {
+      "type": "Text",
+      "props": {
+        "text": "Response B:",
+        "variant": "lead"
+      }
+    },
+    "t2_resp_b": {
+      "type": "Text",
+      "props": {
+        "text": "Banning Van Dyke isn't the same as solving information leakage. ILS shows the biggest asymmetry is resolution-text clause interpretation — same contract read differently by informed vs uninformed traders. DOJ cooperation is floor, not ceiling."
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "tweet_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t3_num",
+        "t3_link",
+        "t3_author",
+        "t3_quote_label",
+        "t3_quote",
+        "t3_why_label",
+        "t3_why",
+        "t3_resp_a_label",
+        "t3_resp_a",
+        "t3_resp_b_label",
+        "t3_resp_b"
+      ]
+    },
+    "t3_num": {
+      "type": "Heading",
+      "props": {
+        "text": "3.",
+        "level": "h3"
+      }
+    },
+    "t3_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/murtuza_merc/status/2033207262882202015",
+        "href": "https://x.com/murtuza_merc/status/2033207262882202015"
+      }
+    },
+    "t3_author": {
+      "type": "Text",
+      "props": {
+        "text": "@murtuza_merc, ~2d ago",
+        "variant": "caption"
+      }
+    },
+    "t3_quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Quote:",
+        "variant": "lead"
+      }
+    },
+    "t3_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket going from a $1.4M fine to a $9B valuation is the defining story of the 2026 information economy... primary risk input for institutional decision-making"
+      }
+    },
+    "t3_why_label": {
+      "type": "Text",
+      "props": {
+        "text": "Why:",
+        "variant": "lead"
+      }
+    },
+    "t3_why": {
+      "type": "Text",
+      "props": {
+        "text": "\"primary risk input\" claim vs live calibration failures on resolution-clause-sensitive markets today"
+      }
+    },
+    "t3_resp_a_label": {
+      "type": "Text",
+      "props": {
+        "text": "Response A:",
+        "variant": "lead"
+      }
+    },
+    "t3_resp_a": {
+      "type": "Text",
+      "props": {
+        "text": "Trajectory is right. But \"primary risk input\" requires calibration you can trust. Iran-airspace closed at 2% YES despite confirmed US strikes — market read the resolution clause, not the headline."
+      }
+    },
+    "t3_resp_b_label": {
+      "type": "Text",
+      "props": {
+        "text": "Response B:",
+        "variant": "lead"
+      }
+    },
+    "t3_resp_b": {
+      "type": "Text",
+      "props": {
+        "text": "Russia-Ukraine ceasefire at 99.95% YES has a live UMA dispute right now — market may be pricing a humanitarian truce the clause doesn't count. PM as \"primary risk input\" requires reading the contract, not just the price."
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "tweet_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t4_num",
+        "t4_link",
+        "t4_author",
+        "t4_quote_label",
+        "t4_quote",
+        "t4_why_label",
+        "t4_why",
+        "t4_resp_a_label",
+        "t4_resp_a",
+        "t4_resp_b_label",
+        "t4_resp_b"
+      ]
+    },
+    "t4_num": {
+      "type": "Heading",
+      "props": {
+        "text": "4.",
+        "level": "h3"
+      }
+    },
+    "t4_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/tszzl/status/1996702058544877608",
+        "href": "https://x.com/tszzl/status/1996702058544877608"
+      }
+    },
+    "t4_author": {
+      "type": "Text",
+      "props": {
+        "text": "@tszzl, est. old",
+        "variant": "caption"
+      }
+    },
+    "t4_quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Quote:",
+        "variant": "lead"
+      }
+    },
+    "t4_quote": {
+      "type": "Text",
+      "props": {
+        "text": "people will have Polymarket badges and not even understand the point of a prediction market. \"insider trading\" shut up!!!"
+      }
+    },
+    "t4_why_label": {
+      "type": "Text",
+      "props": {
+        "text": "Why:",
+        "variant": "lead"
+      }
+    },
+    "t4_why": {
+      "type": "Text",
+      "props": {
+        "text": "equities law mismatch is real, but PM-specific information asymmetry is documented"
+      }
+    },
+    "t4_resp_a_label": {
+      "type": "Text",
+      "props": {
+        "text": "Response A:",
+        "variant": "lead"
+      }
+    },
+    "t4_resp_a": {
+      "type": "Text",
+      "props": {
+        "text": "Calibration is the point. Nechepurenko's ILS papers document 24 insider cases on Polymarket, all deadline-resolved. The real issue isn't SEC-style insider trading — it's resolution-text asymmetry, PM-specific and harder to legislate."
+      }
+    },
+    "t4_resp_b_label": {
+      "type": "Text",
+      "props": {
+        "text": "Response B:",
+        "variant": "lead"
+      }
+    },
+    "t4_resp_b": {
+      "type": "Text",
+      "props": {
+        "text": "Partly right. \"Insider trading\" imports equities framing where it doesn't fit. But leakage is real: Van Dyke/Maduro is textbook. The fix is resolution-text ingest into the agent stack, not legislation."
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "tweet_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t5_num",
+        "t5_link",
+        "t5_author",
+        "t5_quote_label",
+        "t5_quote",
+        "t5_why_label",
+        "t5_why",
+        "t5_resp_a_label",
+        "t5_resp_a",
+        "t5_resp_b_label",
+        "t5_resp_b"
+      ]
+    },
+    "t5_num": {
+      "type": "Heading",
+      "props": {
+        "text": "5.",
+        "level": "h3"
+      }
+    },
+    "t5_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/mansourtarek_/status/2024226885182361858",
+        "href": "https://x.com/mansourtarek_/status/2024226885182361858"
+      }
+    },
+    "t5_author": {
+      "type": "Text",
+      "props": {
+        "text": "@mansourtarek_, est. old",
+        "variant": "caption"
+      }
+    },
+    "t5_quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Quote:",
+        "variant": "lead"
+      }
+    },
+    "t5_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Our results suggest that Kalshi markets provide a high-frequency, continuously updated, distributionally rich benchmark that is valuable to both researchers and policymakers.\""
+      }
+    },
+    "t5_why_label": {
+      "type": "Text",
+      "props": {
+        "text": "Why:",
+        "variant": "lead"
+      }
+    },
+    "t5_why": {
+      "type": "Text",
+      "props": {
+        "text": "\"distributionally rich benchmark\" breaks on thin books and resolution-clause-sensitive markets"
+      }
+    },
+    "t5_resp_a_label": {
+      "type": "Text",
+      "props": {
+        "text": "Response A:",
+        "variant": "lead"
+      }
+    },
+    "t5_resp_a": {
+      "type": "Text",
+      "props": {
+        "text": "Fed's point holds on liquid markets. KXBTC-26MAY0817 modal bucket called correctly. KXFED-27APR has non-monotonic artifacts (T4.25>T4.00 at 3pp loose spread) and ~$60/market/day vol. \"Distributionally rich\" breaks on thin books."
+      }
+    },
+    "t5_resp_b_label": {
+      "type": "Text",
+      "props": {
+        "text": "Response B:",
+        "variant": "lead"
+      }
+    },
+    "t5_resp_b": {
+      "type": "Text",
+      "props": {
+        "text": "\"Benchmark\" assumes resolution clause and priced event match. Russia-Ukraine at 99.95% YES with a live UMA dispute — market may be pricing a truce the resolution text explicitly excludes. That's a calibration failure, not a benchmark."
+      }
+    },
+    "sep6": {
+      "type": "Separator"
+    },
+    "source_status": {
+      "type": "Text",
+      "props": {
+        "text": "source-status: xai=fail, memory=1, websearch=ok (URLs, timestamps estimated)",
+        "variant": "caption"
+      }
+    }
+  }
+}
