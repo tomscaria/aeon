@@ -1,0 +1,292 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Write Tweet"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-intro",
+        "sep-intro",
+        "section-oneliner",
+        "sep-1",
+        "section-twopunch",
+        "sep-2",
+        "section-paragraph",
+        "sep-3",
+        "section-longtweet",
+        "sep-4",
+        "section-threadopener",
+        "sep-5",
+        "section-recommendation"
+      ]
+    },
+    "text-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Russia-Ukraine ceasefire 7.5% to 99.95% on a clause-excluded humanitarian pause",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-intro": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-oneliner": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-oneliner",
+        "text-1a",
+        "text-1b"
+      ]
+    },
+    "heading-oneliner": {
+      "type": "Heading",
+      "props": {
+        "text": "One-liner",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-1a": {
+      "type": "Text",
+      "props": {
+        "text": "1a. Russia-Ukraine ceasefire 99.95% YES on a Red-Square-only humanitarian pause. UMA disputed."
+      },
+      "children": []
+    },
+    "text-1b": {
+      "type": "Text",
+      "props": {
+        "text": "1b. Russia-Ukraine ceasefire: 7.5% to 99.95% YES in 24h. Clause excludes humanitarian pauses."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-twopunch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-twopunch",
+        "text-2a",
+        "text-2b"
+      ]
+    },
+    "heading-twopunch": {
+      "type": "Heading",
+      "props": {
+        "text": "Two-punch",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-2a": {
+      "type": "Text",
+      "props": {
+        "text": "2a. Ceasefire 99.95% YES on a three-day truce. Zelensky said \"humanitarian purposes, limited to the Red Square.\" That is the exact language the resolution clause excludes."
+      },
+      "children": []
+    },
+    "text-2b": {
+      "type": "Text",
+      "props": {
+        "text": "2b. $17.9M of volume just decided a humanitarian pause limited to one Moscow square is a ceasefire. UMA disagrees."
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-paragraph": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-paragraph",
+        "text-3a",
+        "text-3b"
+      ]
+    },
+    "heading-paragraph": {
+      "type": "Heading",
+      "props": {
+        "text": "Paragraph",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-3a": {
+      "type": "Text",
+      "props": {
+        "text": "3a. Two markets, one news event. Russia-Ukraine ceasefire-by-May-31 went to 99.95% YES on a three-day humanitarian pause. The clause requires permanent, full-scope. The pause was Red Square only. UMA disputed. The book read the headline; the contract reads the clause."
+      },
+      "children": []
+    },
+    "text-3b": {
+      "type": "Text",
+      "props": {
+        "text": "3b. 24 hours ago Russia-Ukraine May-31 ceasefire was 7.5% YES. VE-Day three-day truce announced. Now 99.95%. The truce is humanitarian, limited to Red Square. That phrase is excluded by the clause. $17.9M vol; UMA disputed. Calibration gap, live."
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-longtweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-longtweet",
+        "text-4a",
+        "text-4b"
+      ]
+    },
+    "heading-longtweet": {
+      "type": "Heading",
+      "props": {
+        "text": "Long tweet",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-4a": {
+      "type": "Text",
+      "props": {
+        "text": "4a. Russia-Ukraine ceasefire-by-May-31 went 7.5% to 99.95% YES in 24 hours on a three-day VE-Day truce. Zelensky's own statement: \"humanitarian purposes, limited only to the Red Square.\" That is the exact framing the resolution clause excludes. April 2025 has near-identical precedent that resolved NO. UMA dispute is live. June-30 carries the same clause at 99.95%, same exposure unpriced. The book is reading the headline; the contract reads the clause."
+      },
+      "children": []
+    },
+    "text-4b": {
+      "type": "Text",
+      "props": {
+        "text": "4b. The ceasefire trade is not \"will fighting stop.\" It is \"does this exact text describe a permanent, full-scope cessation.\" Russia-Ukraine May-31 just repriced 7.5% to 99.95% YES on a humanitarian pause limited to Red Square. The clause excludes that. UMA disputed. June-30 carries identical clause at 99.95%, same exposure unpriced. The trade is not the ceasefire. It is the divergence between headline-readers and clause-readers."
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-threadopener": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-threadopener",
+        "text-5a",
+        "text-5b"
+      ]
+    },
+    "heading-threadopener": {
+      "type": "Heading",
+      "props": {
+        "text": "Thread opener",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-5a": {
+      "type": "Text",
+      "props": {
+        "text": "5a. What does it cost when $17.9M of volume reads the headline and not the clause? Russia-Ukraine ceasefire-by-May-31 went 7.5% to 99.95% YES on a three-day humanitarian pause Zelensky said was limited to Red Square. That language is excluded."
+      },
+      "children": []
+    },
+    "text-5b": {
+      "type": "Text",
+      "props": {
+        "text": "5b. 7.5% to 99.95%. That is Russia-Ukraine ceasefire-by-May-31 in 24 hours. $17.9M of volume on a humanitarian pause limited to a single Moscow square. The clause excludes that. UMA already disputed. Thread on what the spread between headline and contract looks like:"
+      },
+      "children": []
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-recommendation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-rec",
+        "badge-rec",
+        "text-rec"
+      ]
+    },
+    "heading-rec": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommendation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge-rec": {
+      "type": "Badge",
+      "props": {
+        "text": "Best",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-rec": {
+      "type": "Text",
+      "props": {
+        "text": "4a — full story (move, quote, clause, precedent, unpriced June-30 sister, calibration-gap thesis) in one tweet."
+      },
+      "children": []
+    }
+  }
+}

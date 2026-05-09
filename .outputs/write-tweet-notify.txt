@@ -1,23 +1,23 @@
-tweet drafts: Polymarket V2 cutover — the order-book wipe is the smallest change
+tweet drafts: Russia-Ukraine ceasefire 7.5% to 99.95% on a clause-excluded humanitarian pause
 
 — one-liner —
-1a. Polymarket rebuilt the exchange today. Order-book wipe is the least interesting change.
-1b. Everyone read the order-book wipe. The actual change is builder codes going on-chain.
+1a. Russia-Ukraine ceasefire 99.95% YES on a Red-Square-only humanitarian pause. UMA disputed.
+1b. Russia-Ukraine ceasefire: 7.5% to 99.95% YES in 24h. Clause excludes humanitarian pauses.
 
 — two-punch —
-2a. Polymarket V2 went live at 11 UTC. USDC.e → pUSD, builder codes on-chain, EIP-1271 signers, two audits. The order-book wipe is the part everyone is upset about.
-2b. Polymarket nuked every resting order today. They also moved builder fees on-chain and swapped the collateral asset. Guess which one made the headline.
+2a. Ceasefire 99.95% YES on a three-day truce. Zelensky said "humanitarian purposes, limited to the Red Square." That is the exact language the resolution clause excludes.
+2b. $17.9M of volume just decided a humanitarian pause limited to one Moscow square is a ceasefire. UMA disagrees.
 
 — paragraph —
-3a. The Polymarket V2 cutover is the first prediction-market exchange to go hard-fork. Wiped orderbook, USDC.e → native pUSD, builder codes baked into every order, EIP-1271 for smart-contract signers. Two audits. ~1h offline. The wipe is the distraction.
-3b. Reading the V2 cutover as "they cleared my limit orders" misses the architecture. Builder fees moved from a script you trust to a field on the order. Off-chain bookkeeping became contract guarantee. Wipe is the noise. Builder code field is the signal.
+3a. Two markets, one news event. Russia-Ukraine ceasefire-by-May-31 went to 99.95% YES on a three-day humanitarian pause. The clause requires permanent, full-scope. The pause was Red Square only. UMA disputed. The book read the headline; the contract reads the clause.
+3b. 24 hours ago Russia-Ukraine May-31 ceasefire was 7.5% YES. VE-Day three-day truce announced. Now 99.95%. The truce is humanitarian, limited to Red Square. That phrase is excluded by the clause. $17.9M vol; UMA disputed. Calibration gap, live.
 
 — long tweet —
-4a. Polymarket cutover at 11 UTC today. The Help Center calls it V2. Six things changed: (1) USDC.e → pUSD, 1:1 backed (2) builder codes baked into the order struct, on-chain (3) EIP-1271 unlocks smart-contract signers (4) match-time fees instead of post-fill (5) Cantina + Quantstamp audits (6) V1 SDK is forward-incompatible. The "all open orders cleared" headline is item zero. The first five are why every market-maker on PM is rewriting their stack this week, including ours.
-4b. 11 UTC: Polymarket replaced its exchange. USDC.e is gone. pUSD is the new collateral. Builder codes — the affiliate-fee field — moved from off-chain bookkeeping to a struct on every order. EIP-1271 means a smart contract can sign for you. Match-time fees, Cantina + Quantstamp audited. The "they wiped my limit orders" headline is the smallest part of the migration. The biggest: builder codes are a contract guarantee now, not a trust-the-team promise. Builders just got pricing power. Agents got first-class signers. Revenant resting book is zero whether or not we flattened first.
+4a. Russia-Ukraine ceasefire-by-May-31 went 7.5% to 99.95% YES in 24 hours on a three-day VE-Day truce. Zelensky's own statement: "humanitarian purposes, limited only to the Red Square." That is the exact framing the resolution clause excludes. April 2025 has near-identical precedent that resolved NO. UMA dispute is live. June-30 carries the same clause at 99.95%, same exposure unpriced. The book is reading the headline; the contract reads the clause.
+4b. The ceasefire trade is not "will fighting stop." It is "does this exact text describe a permanent, full-scope cessation." Russia-Ukraine May-31 just repriced 7.5% to 99.95% YES on a humanitarian pause limited to Red Square. The clause excludes that. UMA disputed. June-30 carries identical clause at 99.95%, same exposure unpriced. The trade is not the ceasefire. It is the divergence between headline-readers and clause-readers.
 
 — thread opener —
-5a. The Polymarket V2 cutover is being read as "they wiped the orderbook." That's the smallest of six changes. The biggest one is the change every protocol-touching builder now has to plan for.
-5b. 11 UTC: Polymarket replaced its exchange stack. ~1h offline. Open orders zeroed. New collateral (pUSD), on-chain builder codes, EIP-1271 signers, two audits. The migration is six items deep. Only the wipe made the headline.
+5a. What does it cost when $17.9M of volume reads the headline and not the clause? Russia-Ukraine ceasefire-by-May-31 went 7.5% to 99.95% YES on a three-day humanitarian pause Zelensky said was limited to Red Square. That language is excluded.
+5b. 7.5% to 99.95%. That is Russia-Ukraine ceasefire-by-May-31 in 24 hours. $17.9M of volume on a humanitarian pause limited to a single Moscow square. The clause excludes that. UMA already disputed. Thread on what the spread between headline and contract looks like:
 
-best: 4b — operator narrative ties the architectural change to a specific live-capital footprint (Revenant); highest grant-narrative reuse value
+best: 4a — full story (move, quote, clause, precedent, unpriced June-30 sister, calibration-gap thesis) in one tweet.
