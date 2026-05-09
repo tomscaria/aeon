@@ -1,0 +1,305 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Evening Recap — 2026-05-09"
+      },
+      "children": [
+        "tldr",
+        "sep1",
+        "scan_section",
+        "sep2",
+        "signals_section",
+        "sep3",
+        "revenant_section",
+        "sep4",
+        "top3_section",
+        "sep5",
+        "failures_section",
+        "sep6",
+        "routine_section"
+      ]
+    },
+    "tldr": {
+      "type": "Text",
+      "props": {
+        "text": "Heavy scan day, 3 signals fired — Revenant context stale, chain-runner dark Day 13",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "scan_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "scan_heading",
+        "scan_text"
+      ]
+    },
+    "scan_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Scan Counts",
+        "level": "h3"
+      }
+    },
+    "scan_text": {
+      "type": "Text",
+      "props": {
+        "text": "PM 12 markets / Kalshi 3 events / Runners ~45 pools (155 pre-gate)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "signals_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "signals_heading",
+        "signal1",
+        "signal2",
+        "signal3"
+      ]
+    },
+    "signals_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Signals Fired",
+        "level": "h3"
+      }
+    },
+    "signal1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "signal1_badge",
+        "signal1_text"
+      ]
+    },
+    "signal1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ALERT",
+        "variant": "destructive"
+      }
+    },
+    "signal1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Russia-Ukraine Jun-30 +92.45pp to 99.95%"
+      }
+    },
+    "signal2": {
+      "type": "Text",
+      "props": {
+        "text": "Iran peace -8-10pp"
+      }
+    },
+    "signal3": {
+      "type": "Text",
+      "props": {
+        "text": "ICP HIGH pick / Hantavirus NO at 8.45% YES"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "revenant_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "revenant_heading",
+        "revenant_context",
+        "revenant_standing"
+      ]
+    },
+    "revenant_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Revenant",
+        "level": "h3"
+      }
+    },
+    "revenant_context": {
+      "type": "Text",
+      "props": {
+        "text": "revenant_agents=[] in context (synced 07:16 UTC). No new orders in recent-trades.json. NAV delta: unavailable."
+      }
+    },
+    "revenant_standing": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_trades",
+        "stat_wr",
+        "stat_pnl",
+        "stat_sharpe"
+      ]
+    },
+    "stat_trades": {
+      "type": "Stat",
+      "props": {
+        "label": "Trades",
+        "value": "29"
+      }
+    },
+    "stat_wr": {
+      "type": "Stat",
+      "props": {
+        "label": "Win Rate",
+        "value": "76%"
+      }
+    },
+    "stat_pnl": {
+      "type": "Stat",
+      "props": {
+        "label": "P&L",
+        "value": "+$415"
+      }
+    },
+    "stat_sharpe": {
+      "type": "Stat",
+      "props": {
+        "label": "Sharpe",
+        "value": "0.31"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "top3_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top3_heading",
+        "top3_item1",
+        "top3_item2",
+        "top3_item3"
+      ]
+    },
+    "top3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top 3",
+        "level": "h3"
+      }
+    },
+    "top3_item1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ForesightFlow (2605.00493): ILS framework; closes Nechepurenko 3-paper arc; ADR-096+ foundational cite",
+        "href": "https://arxiv.org/abs/2605.00493",
+        "source": "arxiv"
+      }
+    },
+    "top3_item2": {
+      "type": "Text",
+      "props": {
+        "text": "Russia-Ukraine UMA dispute: Zelensky \"humanitarian, limited to Red Square\" = clause-excluded language. June-30 at 99.95% is unpriced sister."
+      }
+    },
+    "top3_item3": {
+      "type": "Text",
+      "props": {
+        "text": "Iran Hormuz: US strike live + \"30-day MOU is a trap for YES holders\" -- resolution-text signal fires again."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "failures_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "failures_heading",
+        "failure_alert1",
+        "failure_alert2"
+      ]
+    },
+    "failures_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Failures",
+        "level": "h3"
+      }
+    },
+    "failure_alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "chain-runner Day 13",
+        "message": "morning-brief / evening-rollup / weekly-grant-update all failed",
+        "type": "error"
+      }
+    },
+    "failure_alert2": {
+      "type": "Alert",
+      "props": {
+        "title": "reddit-digest",
+        "message": "15th consecutive REDDIT_DIGEST_ERROR (ISS-002/012 open)",
+        "type": "error"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "routine_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "routine_heading",
+        "routine_alert"
+      ]
+    },
+    "routine_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Routine Runs",
+        "level": "h3"
+      }
+    },
+    "routine_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Collapsed Runs",
+        "message": "+8 routine runs collapsed · sources: log=ok cron-state=ok",
+        "type": "warning"
+      }
+    }
+  }
+}

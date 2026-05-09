@@ -142,3 +142,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-09,reply-maker,claude-sonnet-4-6,30,34245,2153298,93487
 2026-05-09,skill-health,claude-sonnet-4-6,59,27043,1302916,99249
 2026-05-09,heartbeat,claude-sonnet-4-6,13,21332,839974,85253
+2026-05-09,evening-recap,claude-sonnet-4-6,15,9561,765470,58449
