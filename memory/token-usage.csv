@@ -137,4 +137,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-08,evening-recap,claude-sonnet-4-6,13,8052,700695,66600
 2026-05-09,daily-routine,claude-sonnet-4-6,27,24963,1615261,78490
 2026-05-09,token-pick,claude-sonnet-4-6,1112,20068,1030714,101897
-2026-05-09,polymarket-comments,claude-sonnet-4-6,18,15190,778812,64060
+2026-05-09,monitor-kalshi,claude-sonnet-4-6,1292,24459,1117897,69809

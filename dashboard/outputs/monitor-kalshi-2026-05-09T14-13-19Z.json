@@ -1,0 +1,378 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Kalshi Monitor — 2026-05-09"
+      },
+      "children": [
+        "verdict-section",
+        "sep1",
+        "dec26-section",
+        "sep2",
+        "apr27-section",
+        "sep3",
+        "btc-section",
+        "sep4",
+        "alerts-section",
+        "sep5",
+        "trending-section",
+        "sep6",
+        "sources-section"
+      ]
+    },
+    "verdict-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict-heading",
+        "verdict-text"
+      ]
+    },
+    "verdict-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Verdict",
+        "level": "h2"
+      }
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "KXFED-27APR repriced +6–18pp across the 3.00–4.25 band on ultra-thin volume; all suppressed by $1k vol gate — pattern consistent with Warsh-hawkish slower-cut trajectory, low conviction."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "dec26-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dec26-heading",
+        "dec26-suppressed",
+        "dec26-t350-stat",
+        "dec26-inversion"
+      ]
+    },
+    "dec26-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fed funds Dec 2026 (KXFED-26DEC) — Economics",
+        "level": "h2"
+      }
+    },
+    "dec26-suppressed": {
+      "type": "Text",
+      "props": {
+        "text": "All markets suppressed (vol_24h_usd < $100)."
+      }
+    },
+    "dec26-t350-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "T3.50 anomaly self-corrected (spread=9pp thin)",
+        "value": "53%",
+        "delta": "−13pp",
+        "trend": "down"
+      }
+    },
+    "dec26-inversion": {
+      "type": "Text",
+      "props": {
+        "text": "T3.25/T3.50 inversion from 05-08 resolved; ordering now monotonic."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "apr27-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "apr27-heading",
+        "apr27-suppressed",
+        "apr27-label",
+        "apr27-stats-stack",
+        "apr27-mover"
+      ]
+    },
+    "apr27-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fed funds Apr 2027 (KXFED-27APR) — Economics",
+        "level": "h2"
+      }
+    },
+    "apr27-suppressed": {
+      "type": "Text",
+      "props": {
+        "text": "All markets suppressed (vol_24h_usd < $70)."
+      }
+    },
+    "apr27-label": {
+      "type": "Text",
+      "props": {
+        "text": "Broad tail repricing:",
+        "variant": "lead"
+      }
+    },
+    "apr27-stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "apr27-t300",
+        "apr27-t350",
+        "apr27-t375",
+        "apr27-t400",
+        "apr27-t425"
+      ]
+    },
+    "apr27-t300": {
+      "type": "Stat",
+      "props": {
+        "label": "T3.00 (spread=1pp tight — most reliable signal today)",
+        "value": "53%",
+        "delta": "+7pp",
+        "trend": "up"
+      }
+    },
+    "apr27-t350": {
+      "type": "Stat",
+      "props": {
+        "label": "T3.50 (spread=3pp loose)",
+        "value": "46%",
+        "delta": "+7pp",
+        "trend": "up"
+      }
+    },
+    "apr27-t375": {
+      "type": "Stat",
+      "props": {
+        "label": "T3.75",
+        "value": "42%",
+        "delta": "+7pp",
+        "trend": "up"
+      }
+    },
+    "apr27-t400": {
+      "type": "Stat",
+      "props": {
+        "label": "T4.00",
+        "value": "39%",
+        "delta": "+6pp",
+        "trend": "up"
+      }
+    },
+    "apr27-t425": {
+      "type": "Stat",
+      "props": {
+        "label": "T4.25 (spread=3pp loose — non-monotonic vs T4.00=39%; thin-book artifact)",
+        "value": "42%",
+        "delta": "+18pp",
+        "trend": "up"
+      }
+    },
+    "apr27-mover": {
+      "type": "Text",
+      "props": {
+        "text": "Mover: T3.00 tight-spread at 53% is durable read on Apr 2027 policy floor. T4.25 +18pp is suspect — ordering anomaly flags one participant repricing."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "btc-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc-heading",
+        "btc-resolved",
+        "btc-active-label",
+        "btc-active-stats",
+        "btc-watchlist"
+      ]
+    },
+    "btc-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Bitcoin weekly range (KXBTC) — Crypto",
+        "level": "h2"
+      }
+    },
+    "btc-resolved": {
+      "type": "Text",
+      "props": {
+        "text": "KXBTC-26MAY0817 RESOLVED: B80250 won (BTC $80k–$80.5k at 5pm EDT May 8). Modal bucket correct."
+      }
+    },
+    "btc-active-label": {
+      "type": "Text",
+      "props": {
+        "text": "KXBTC-26MAY1517 active (resolves May 15):",
+        "variant": "lead"
+      }
+    },
+    "btc-active-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc-b80250",
+        "btc-b81250"
+      ]
+    },
+    "btc-b80250": {
+      "type": "Stat",
+      "props": {
+        "label": "B80250",
+        "value": "8%"
+      }
+    },
+    "btc-b81250": {
+      "type": "Stat",
+      "props": {
+        "label": "B81250",
+        "value": "8%"
+      }
+    },
+    "btc-watchlist": {
+      "type": "Text",
+      "props": {
+        "text": "Thin, early-week pricing. Watchlist needs KXBTC-26MAY0817 → KXBTC-26MAY1517."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alerts-section": {
+      "type": "Alert",
+      "props": {
+        "title": "ALERTS (>5pp on non-thin book)",
+        "message": "None — all moves thin book or sub-$100 daily vol.",
+        "type": "info"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-elon",
+        "trending-pope"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending (not tracked)",
+        "level": "h3"
+      }
+    },
+    "trending-elon": {
+      "type": "Text",
+      "props": {
+        "text": "KXELONMARS-99 ($369 24h vol) — long-horizon novelty, not actionable"
+      }
+    },
+    "trending-pope": {
+      "type": "Text",
+      "props": {
+        "text": "KXNEWPOPE-70 ($100 24h vol) — conclave active; consider for political-prediction lens"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources-heading",
+        "sources-badges",
+        "sources-status"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      }
+    },
+    "sources-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-events",
+        "badge-candlesticks",
+        "badge-orderbook"
+      ]
+    },
+    "badge-events": {
+      "type": "Badge",
+      "props": {
+        "text": "events=ok",
+        "variant": "default"
+      }
+    },
+    "badge-candlesticks": {
+      "type": "Badge",
+      "props": {
+        "text": "candlesticks=degraded (known empty-array issue)",
+        "variant": "warning"
+      }
+    },
+    "badge-orderbook": {
+      "type": "Badge",
+      "props": {
+        "text": "orderbook=ok (T3.00 1pp tight · T3.50 9pp thin · T4.25 3pp loose)",
+        "variant": "default"
+      }
+    },
+    "sources-status": {
+      "type": "Alert",
+      "props": {
+        "message": "MONITOR_KALSHI_DEGRADED",
+        "type": "warning"
+      }
+    }
+  }
+}
