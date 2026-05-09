@@ -1,7 +1,15 @@
+`LIST_DIGEST_NO_CONFIG` — `var:` is not set in `aeon.yml` for `list-digest`, and no `.xai-cache/` prefetch exists. Logged to `memory/logs/2026-05-09.md`, no notification sent.
+
+To activate this skill, the operator needs to add numeric X list IDs to `aeon.yml`:
+```yaml
+list-digest: { enabled: true, schedule: "0 17 * * *", var: "LIST_ID1,LIST_ID2" }
+```
+This is flagged in MEMORY.md under the operator config sweep (blocked).
+
 ## Summary
 
-Ran `skills/list-digest/SKILL.md` for 2026-05-08. Skill exited at step 1 with `LIST_DIGEST_NO_CONFIG` because `aeon.yml:89` (`list-digest: { enabled: true, schedule: "0 17 * * *" }`) has no `var:` value, and the skill's step 1 mandates log-only / no-notify when `${var}` is empty. No fetch attempt, no API call, no notification.
-
-**Files modified:** `memory/logs/2026-05-08.md` (appended `## list-digest` entry + summary).
-
-**Follow-up:** operator action — set `list-digest.var: "<comma-separated X list IDs>"` in `aeon.yml`. This is one of four skills already flagged under MEMORY.md "Operator config sweep (BLOCKED)" (alongside `digest`, `refresh-x`, `remix-tweets`); no new memory write needed. Surface to next `self-improve` cycle.
+- Executed `skills/list-digest/SKILL.md` for 2026-05-09
+- `var` field is missing from `list-digest` config in `aeon.yml` — no X list IDs configured
+- No `.xai-cache/` prefetch data available either
+- Exit mode: `LIST_DIGEST_NO_CONFIG` — logged to `memory/logs/2026-05-09.md`, no notification sent per skill spec
+- No follow-up action needed from Aeon; unblocked only by operator adding `var: "<list IDs>"` to `aeon.yml`
