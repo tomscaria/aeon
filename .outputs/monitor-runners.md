@@ -1,24 +1,24 @@
-*runners — 2026-05-08* — verdict: SPECULATIVE
+*runners — 2026-05-09* — verdict: SPECULATIVE
 
-1. [BREAKOUT] HANTA (base) +861% 24h
-vol $5.7m | liq $124k | fdv $235k (no mcap) | h1 +48% | buys:sells 7528:5550
-— 21h base meme up 9.6x; h1 still firmly green +48% but h6 -7.8% printed = late-markup wick phase. Sister token same name on Solana ($34.9m vol, +111%, $331k liq, different base contract) = cross-chain HANTA actor cluster — slot-1 score lives on the base wick, not the more-developed Sol footprint.
+1. [BREAKOUT] UAP (solana) +2225% 24h
+vol $8.4m | liq $106k | fdv $1.1m | h1 +25% | buys:sells 54k:39k
+— 24h-old pumpswap launch with h1 still green; UAP/government-disclosure meme thesis. 11k unique buyers but $106k liq is one large exit from reversal — watch h1 for fade onset.
 
-2. [BREAKOUT] BILL (bsc) +5751% 24h
-vol $55.6m | liq $147k | fdv $118k (no mcap) | h1 +2.5% | buys:sells 1446:1020
-— vanity-4444 BSC USDT wash-print actor reactivated AGAIN, brand-name "BILL" reused from 05-04 slot 3. New token `bsc_0xb4d783...4444`, 4.1h pool, 377x vol/liq, ~$22.5k avg-tx — same fingerprint as 04-29/04-30/05-01/05-04(BILL)/05-05(冲鸭)/05-06(币安好友)/05-07(冲鸭). Actor cycle now ~6 of last 10 days. Score-as-noise. Original BILL contract `bsc_0xdf24f8c2…` sits DEEP-LIQ tier 3rd day at +8%/$86m vol/$1.9m liq.
+2. [BREAKOUT] ROAF (solana) +566% 24h
+vol $53.3m | liq $350k | fdv $247k | h1 -0.3% | buys:sells 39k:37.5k
+— 152x vol/liq ratio, near-perfect 1:1 buys/sells, zero h1 momentum. High wash-print probability; score inflated by vol metric alone. Do not read $53m as organic demand.
 
-3. [CONTINUATION] Aliens (solana) +425% 24h
-vol $3.1m | liq $326k | fdv $4.4m (no mcap) | h1 +160% | buys:sells 9118:7483
-— 82-day-old Solana pool exploding for the first time. h1 +160% live momentum on $326k liq is the strongest tape signal in today's slate and the only non-BREAKOUT slot. Old-pool revival ≠ pump.fun launch noise; copycat "Aliens" pool deployed today already surfacing ($0 liq) confirms the brand-name is being chased. $4.4m FDV is largest in top 5.
+3. [CONTINUATION] Norovirus (solana) +5796% 24h
+vol $911k | liq $30k | fdv $110k | h1 +21% | buys:sells 8.7k:5.9k
+— 170-day-old pool reactivated by Hantavirus/disease-meme narrative (05-08 Polymarket Hantavirus 9.65% YES, $2.12M). h1 +21% with buy skew = active inflow at snapshot. $30k liq = high collapse risk. CalibrationGap-adjacent: watch whether PM Hantavirus market absorbs the narrative or amplifies this.
 
-4. [BREAKOUT] wonderland (base) +2362% 24h
-vol $1.7m | liq $200k | fdv $496k (no mcap) | h1 -9.5% | buys:sells 4821:6565
-— 14h base meme; sells > buys (1.36:1) + h1 -9.5% = markdown onset. Sister pool at slot 5 (different contract). **THIRD wonderland token** on Base same day (`0x42a4c1…`, +38796% h24, $9.3m vol) tripped the >10000% rug-like gate — actor distribution pattern at 3x the 05-06 MIRROR scale.
+4. [BREAKOUT] GAYTES (solana) +550% 24h
+vol $3.15m | liq $61k | fdv $379k | h1 -4.3% | buys:sells 35k:24.5k
+— 05-08 launch cohort (same day as UAP), h1 already red at -4.3%. Political meme. 34k buy participation confirms breadth but fade likely within 6-12h without narrative refresh.
 
-5. [BREAKOUT] wonderland (base) +1564% 24h
-vol $7.0m | liq $130k | fdv $307k (no mcap) | h1 -53% | buys:sells 10087:6965
-— second wonderland pool same day, contract `0xce11d2…` vs slot 4's `0x60190ca…`. h1 -53% = aggressive selloff into closure. Two surviving + one gated wonderland tokens = 3-pool actor distribution.
+5. [BREAKOUT] Bear (solana) +1577% 24h
+vol $4.19m | liq $75k | fdv $600k | h1 -10.7% | buys:sells 30k:24k
+— Bear ticker coasting risk-off tape (BTC -1.3% 05-08). 19h old, h1 -10.7% = late-stage fade in progress. 30k buyers shows breadth but arc likely printing top.
 
-sources: gt-global=ok | gt-{solana,eth,base,bsc,arbitrum} trend+vol=ok | gt-new=ok
-vibe: 4 BREAKOUT + 1 CONTINUATION — Aliens breaks the 2-day all-BREAKOUT streak (first non-BREAKOUT slot since 05-05). BSC vanity-4444 actor on day ~6-of-10, base wonderland actor cluster mirrors 05-06 MIRROR at 3x scale. sato graduating to DEEP-LIQ on third revival ($10.9m vol/+70%/$1.7m liq) is the cleanest sub-top signal. Retail casino with one signal worth watching (Aliens).
+sources: gt-global=ok gt-solana=ok gt-eth=ok gt-base=ok gt-bsc=ok gt-arb=ok gt-new=ok
+vibe: fifth straight SPECULATIVE session. Solana pump.fun retail casino the only tape with velocity; all DEEP-LIQ names (aura $18.9m vol, BILL $43.9m vol, VVV $5.9m vol) below top-5 threshold. Risk-off macro not suppressing meme activity — redirecting it to Solana.
