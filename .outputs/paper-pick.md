@@ -1,5 +1,5 @@
-*Paper Pick — 2026-05-08 (PhD-prep slot)*
+*Paper Pick — 2026-05-09*
 
-"AEL: Agent Evolving Learning for Open-Ended Environments" — Xu / Han / Guo / Mei / Zhu / Zhang / Metaxas (Apr 23 2026, cs.CL/AI/CE)
-Two-timescale self-improving agent — Thompson-sampling bandit picks the memory-retrieval policy each episode, LLM reflection diagnoses failure patterns and injects causal insights into the decision prompt — clears Sharpe 2.13±0.47 on 10 tickers × 208 episodes × 5 seeds, beating 5 published self-improving baselines with the lowest LLM variance. Direct shape-match for CalibrationGap's reflection-log loop and the Stanford Darwinian / FinCon-verbal-reinforcement axis.
-[Read](https://arxiv.org/abs/2604.21725) | [PDF](https://arxiv.org/pdf/2604.21725)
+"ForesightFlow: An Information Leakage Score Framework for Prediction Markets" — Maksym Nechepurenko · ↑0
+Foundational ILS-framework paper of the 8-paper Nechepurenko q-fin.TR run; closes the queue with the methodology-formalization layer that anchors ADR-096+ resolution-text-ingest (24-insider-case inventory, 0.444-magnitude article-vs-automated-proxy ILS sign-reversal, Murphy-decomposition link to Coordination Layer).
+[Read](https://arxiv.org/abs/2605.00493) | [PDF](https://arxiv.org/pdf/2605.00493)
