@@ -1,1 +1,1 @@
-Reddit digest: all 10 sources errored — Reddit 403 (anti-bot) + WebFetch host-block on reddit.com (14 consecutive days). Land scripts/prefetch-reddit.sh or pause cron — pure pager fatigue.
+Reddit digest: all 10 sources errored — www.reddit.com blocked in sandbox, .reddit-cache/ absent. ISS-002/ISS-012 open. Ship scripts/prefetch-reddit.sh to fix. (15th+ consecutive failure — strong recommendation: pause cron until prefetch lands)
