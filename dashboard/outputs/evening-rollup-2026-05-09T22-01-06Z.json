@@ -1,0 +1,535 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Evening Recap — 2026-05-09",
+        "description": "Russia-Ukraine repriced 92pp to 99.95% with UMA dispute live; 3 ISS resolved; Nechepurenko arc sealed — chain-runner Day 13 blocks the rollup chain itself."
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "headlines_section",
+        "sep1",
+        "notable_section",
+        "sep2",
+        "decisions_section",
+        "sep3",
+        "blockers_section",
+        "footer_text"
+      ]
+    },
+    "headlines_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "headlines_heading",
+        "skill_health",
+        "vuln_scanner",
+        "monitor_polymarket",
+        "write_tweet",
+        "paper_pick"
+      ]
+    },
+    "headlines_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Headlines",
+        "level": "h2"
+      }
+    },
+    "skill_health": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sh_title",
+        "sh_badges",
+        "sh_link"
+      ]
+    },
+    "sh_title": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health",
+        "variant": "lead"
+      }
+    },
+    "sh_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sh_badge_resolved",
+        "sh_badge_open"
+      ]
+    },
+    "sh_badge_resolved": {
+      "type": "Badge",
+      "props": {
+        "text": "3 resolved (ISS-001/008/014)"
+      }
+    },
+    "sh_badge_open": {
+      "type": "Badge",
+      "props": {
+        "text": "14 open"
+      }
+    },
+    "sh_link": {
+      "type": "Link",
+      "props": {
+        "label": "View all issues",
+        "href": "memory/issues/INDEX.md"
+      }
+    },
+    "vuln_scanner": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vuln-scanner",
+        "href": "articles/vuln-scan-2026-05-09.md",
+        "source": "SSRF in docusealco/docuseal v2.5.2 (CWE-918), disclosure filed"
+      }
+    },
+    "monitor_polymarket": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mp_title",
+        "mp_stat",
+        "mp_note"
+      ]
+    },
+    "mp_title": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-polymarket",
+        "variant": "lead"
+      }
+    },
+    "mp_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Russia-Ukraine",
+        "value": "99.95%",
+        "delta": "+92.45pp (from 7.5%)",
+        "trend": "up"
+      }
+    },
+    "mp_note": {
+      "type": "Text",
+      "props": {
+        "text": "UMA dispute live; June-30 sister unpriced",
+        "variant": "caption"
+      }
+    },
+    "write_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "write-tweet",
+        "href": ".outputs/write-tweet.md",
+        "source": "clause-text thread on Russia-Ukraine truce shipped"
+      }
+    },
+    "paper_pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "paper-pick",
+        "href": "https://arxiv.org/abs/2605.00493",
+        "source": "ForesightFlow (2605.00493) closes Nechepurenko ILS arc"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "notable_content"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "mcr",
+        "dr",
+        "mr",
+        "gt"
+      ]
+    },
+    "mcr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mcr_title",
+        "mcr_context",
+        "mcr_stats"
+      ]
+    },
+    "mcr_title": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "lead"
+      }
+    },
+    "mcr_context": {
+      "type": "Text",
+      "props": {
+        "text": "risk-off → rotation",
+        "variant": "caption"
+      }
+    },
+    "mcr_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "btc_stat",
+        "fg_stat",
+        "breadth_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$80,355"
+      }
+    },
+    "fg_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G Index",
+        "value": "38"
+      }
+    },
+    "breadth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "17/20 green"
+      }
+    },
+    "dr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dr_title",
+        "dr_stats"
+      ]
+    },
+    "dr_title": {
+      "type": "Text",
+      "props": {
+        "text": "daily-routine",
+        "variant": "lead"
+      }
+    },
+    "dr_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dr_zec",
+        "dr_ondo",
+        "dr_sol",
+        "dr_ton"
+      ]
+    },
+    "dr_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC [BREAKOUT]",
+        "value": "60.8%",
+        "delta": "7d",
+        "trend": "up"
+      }
+    },
+    "dr_ondo": {
+      "type": "Stat",
+      "props": {
+        "label": "ONDO",
+        "value": "18.1%",
+        "delta": "7d",
+        "trend": "up"
+      }
+    },
+    "dr_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "6.1%",
+        "delta": "7d",
+        "trend": "up"
+      }
+    },
+    "dr_ton": {
+      "type": "Stat",
+      "props": {
+        "label": "TON",
+        "value": "7.3%",
+        "delta": "7d fade",
+        "trend": "down"
+      }
+    },
+    "mr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mr_title",
+        "mr_content"
+      ]
+    },
+    "mr_title": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-runners",
+        "variant": "lead"
+      }
+    },
+    "mr_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mr_spec",
+        "mr_aura",
+        "mr_bill"
+      ]
+    },
+    "mr_spec": {
+      "type": "Text",
+      "props": {
+        "text": "SPECULATIVE ×5"
+      }
+    },
+    "mr_aura": {
+      "type": "Text",
+      "props": {
+        "text": "aura DEEP-LIQ score 69.5 (largest SOL)"
+      }
+    },
+    "mr_bill": {
+      "type": "Text",
+      "props": {
+        "text": "BILL sub-top day 4"
+      }
+    },
+    "gt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "gt_title",
+        "gt_content"
+      ]
+    },
+    "gt_title": {
+      "type": "Text",
+      "props": {
+        "text": "goal-tracker",
+        "variant": "lead"
+      }
+    },
+    "gt_content": {
+      "type": "Text",
+      "props": {
+        "text": "72h merge-cadence falsifier deadline today, no ADR confirmed"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decisions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decisions_heading",
+        "decisions_list"
+      ]
+    },
+    "decisions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decisions for Tomorrow",
+        "level": "h2"
+      }
+    },
+    "decisions_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dec1",
+        "dec2",
+        "dec3",
+        "dec4"
+      ]
+    },
+    "dec1": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-fund-mvp 72h falsifier: no new ADR in log — confirm stagnation or await late-day push?"
+      }
+    },
+    "dec2": {
+      "type": "Text",
+      "props": {
+        "text": "Russia-Ukraine UMA: \"humanitarian, Red Square\" matches clause-excluded language + April 2025 NO-precedent"
+      }
+    },
+    "dec3": {
+      "type": "Text",
+      "props": {
+        "text": "config-audit fires Sunday 16:00 UTC (first-ever run) — verify triggered"
+      }
+    },
+    "dec4": {
+      "type": "Text",
+      "props": {
+        "text": "Powell→Warsh Senate vote ~May 11: watch KXFED T3.00 (53%, 1pp spread)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "blockers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "blockers_heading",
+        "blockers_list"
+      ]
+    },
+    "blockers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Blockers",
+        "level": "h2"
+      }
+    },
+    "blockers_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "block1",
+        "block2",
+        "block3",
+        "block4"
+      ]
+    },
+    "block1": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "chain-runner Day 13",
+        "message": "dispatch_skill() (operator-side BLOCKED)"
+      }
+    },
+    "block2": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "reddit-digest Day 15",
+        "message": "Reddit 403 (ISS-002/012; prefetch unshipped)"
+      }
+    },
+    "block3": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "agent-buzz",
+        "message": "chain failed, no standalone dispatch"
+      }
+    },
+    "block4": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "tweet-roundup",
+        "message": "TWEET_ROUNDUP_EMPTY (XAI prefetch absent)"
+      }
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "+8 collapsed · sources: log=ok cron-state=ok",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Evening Recap — 2026-05-09",
+        "description": "Russia-Ukraine repriced 92pp to 99.95%; 3 ISS closed; Nechepurenko arc sealed — chain-runner Day 13 blocks the rollup chain itself"
+      },
+      "children": [
+        "tldr-text",
+        "sep-1",
+        "headlines-heading",
+        "headlines-stack",
+        "sep-2",
+        "notable-heading",
+        "notable-stack",
+        "sep-3",
+        "decisions-heading",
+        "decisions-stack",
+        "sep-4",
+        "blockers-heading",
+        "blockers-stack",
+        "sep-5",
+        "sources-text"
+      ]
+    },
+    "tldr-text": {
+      "type": "Text",
+      "props": {
+        "text": "TL;DR: Russia-Ukraine repriced 92pp to 99.95% with UMA dispute live; 3 ISS resolved; Nechepurenko arc sealed — chain-runner Day 13 blocks the rollup chain itself.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "headlines-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Headlines",
+        "level": "h2"
+      }
+    },
+    "headlines-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "headline-1",
+        "headline-2",
+        "headline-3",
+        "headline-4",
+        "headline-5"
+      ]
+    },
+    "headline-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "skill-health — ISS-001/008/014 resolved; 14 open remain",
+        "href": "memory/issues/INDEX.md",
+        "source": "Issues"
+      }
+    },
+    "headline-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vuln-scanner — SSRF in docusealco/docuseal v2.5.2 (CWE-918), disclosure filed",
+        "href": "articles/vuln-scan-2026-05-09.md",
+        "source": "Security"
+      }
+    },
+    "headline-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "monitor-polymarket — Russia-Ukraine +92.45pp (7.5%→99.95%); UMA dispute live; June-30 sister unpriced",
+        "href": "memory/topics/polymarket.md",
+        "source": "Polymarket"
+      }
+    },
+    "headline-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "write-tweet — clause-text thread on Russia-Ukraine truce shipped",
+        "href": ".outputs/write-tweet.md",
+        "source": "X"
+      }
+    },
+    "headline-5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "paper-pick — ForesightFlow (2605.00493) closes Nechepurenko ILS arc",
+        "href": "https://arxiv.org/abs/2605.00493",
+        "source": "arXiv"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh — risk-off→rotation; BTC $80,355, F&G 38 (Fear, day 2), breadth 17/20 green",
+        "variant": "body"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "daily-routine — ZEC [BREAKOUT][TRENDING+UP] 7d +60.8%; ONDO +18.1%; SOL +6.1%; TON -7.3% day-3 fade",
+        "variant": "body"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-runners — SPECULATIVE ×5; aura DEEP-LIQ score 69.5 largest SOL; ROAF wash-print flagged; BILL sub-top day 4",
+        "variant": "body"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "goal-tracker — 72h merge-cadence falsifier deadline today, no ADR confirmed in log",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "decisions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decisions for Tomorrow",
+        "level": "h2"
+      }
+    },
+    "decisions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decision-1",
+        "decision-2",
+        "decision-3",
+        "decision-4"
+      ]
+    },
+    "decision-1": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-fund-mvp 72h falsifier: no new ADR in today's log — confirm queue stagnation or await late-day push?",
+        "variant": "body"
+      }
+    },
+    "decision-2": {
+      "type": "Text",
+      "props": {
+        "text": "Russia-Ukraine UMA May-31: \"humanitarian, Red Square\" matches clause-excluded language + April 2025 NO-precedent — monitor resolution",
+        "variant": "body"
+      }
+    },
+    "decision-3": {
+      "type": "Text",
+      "props": {
+        "text": "config-audit fires Sunday 16:00 UTC (first-ever run) — verify cron-tick triggered",
+        "variant": "body"
+      }
+    },
+    "decision-4": {
+      "type": "Text",
+      "props": {
+        "text": "Powell→Warsh Senate floor vote ~May 11: watch KXFED T3.00 (53%, 1pp spread) for repricing signal",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "blockers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Blockers",
+        "level": "h2"
+      }
+    },
+    "blockers-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "blocker-1",
+        "blocker-2",
+        "blocker-3",
+        "blocker-4"
+      ]
+    },
+    "blocker-1": {
+      "type": "Alert",
+      "props": {
+        "message": "chain-runner Day 13 — dispatch_skill() blocks morning-brief + evening-rollup (operator-side BLOCKED)",
+        "type": "warning"
+      }
+    },
+    "blocker-2": {
+      "type": "Alert",
+      "props": {
+        "message": "reddit-digest Day 15 — Reddit 403 (ISS-002/012; prefetch-reddit.sh unshipped)",
+        "type": "warning"
+      }
+    },
+    "blocker-3": {
+      "type": "Alert",
+      "props": {
+        "message": "agent-buzz — chain failed, no standalone dispatch; no log entry today",
+        "type": "warning"
+      }
+    },
+    "blocker-4": {
+      "type": "Alert",
+      "props": {
+        "message": "tweet-roundup — TWEET_ROUNDUP_EMPTY (XAI prefetch absent, indexing lag)",
+        "type": "warning"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "+8 routine runs collapsed · sources: log=ok cron-state=ok",
+        "variant": "caption"
+      }
+    }
+  }
+}
