@@ -1,0 +1,436 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi Overview — 2026-05-09"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "status_badge",
+        "sep1",
+        "tvl_section",
+        "sep2",
+        "chains_section",
+        "sep3",
+        "movers_section",
+        "sep4",
+        "fees_section",
+        "sep5",
+        "dex_section",
+        "sep6",
+        "stables_section",
+        "sep7",
+        "real_yield_section",
+        "sep8",
+        "incentive_section",
+        "sep9",
+        "sources_text"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Sideways: TVL +0.5%, DEX vol flat, stables −0.7%",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tvl_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tvl_heading",
+        "tvl_stat"
+      ]
+    },
+    "tvl_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TVL",
+        "level": "h2"
+      }
+    },
+    "tvl_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$85.46B",
+        "delta": "+0.48% 24h / +1.29% 7d",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chains_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chains_heading",
+        "chains_table"
+      ]
+    },
+    "chains_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Chains",
+        "level": "h2"
+      }
+    },
+    "chains_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Chain",
+          "TVL",
+          "24h Change"
+        ],
+        "rows": [
+          [
+            "Ethereum",
+            "$45.46B",
+            "—"
+          ],
+          [
+            "Solana",
+            "$5.79B",
+            "+3.8%"
+          ],
+          [
+            "BSC",
+            "$5.61B",
+            "+1.6%"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "movers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "movers_heading",
+        "opentrade_text",
+        "signal_text",
+        "spark_text"
+      ]
+    },
+    "movers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Movers",
+        "level": "h2"
+      }
+    },
+    "opentrade_text": {
+      "type": "Text",
+      "props": {
+        "text": "↑ OpenTrade +2584% ($0.15B) — likely new-listing artifact; change_7d null, no obvious catalyst"
+      }
+    },
+    "signal_text": {
+      "type": "Text",
+      "props": {
+        "text": "No chain cleared |5%| on $500M+ TVL. No protocol DOWN cleared −10% on $100M+.",
+        "variant": "muted"
+      }
+    },
+    "spark_text": {
+      "type": "Text",
+      "props": {
+        "text": "Spark Savings: −7.9% 1d / −13.9% 7d ($1.91B) — day 2 of decline, decelerating from −26.9%."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "fees_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fees_heading",
+        "fees_table",
+        "aave_alert"
+      ]
+    },
+    "fees_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fees Leaders (24h)",
+        "level": "h2"
+      }
+    },
+    "fees_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Fees (24h)",
+          "vs 7d avg"
+        ],
+        "rows": [
+          [
+            "Tether",
+            "$16.50M",
+            "flat"
+          ],
+          [
+            "Circle USDC",
+            "$6.72M",
+            "+2%"
+          ],
+          [
+            "Canton",
+            "$2.12M",
+            "flat"
+          ]
+        ]
+      }
+    },
+    "aave_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Aave V3 — Fees Beating TVL",
+        "message": "Fees +85% 7/7d / TVL +2.6% 7d — spike-week residual; daily fees normalizing at $1.3M",
+        "type": "info"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "dex_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dex_heading",
+        "dex_stat",
+        "dex_table"
+      ]
+    },
+    "dex_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DEX Volume (24h)",
+        "level": "h2"
+      }
+    },
+    "dex_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$7.28B",
+        "delta": "−0.6%",
+        "trend": "down"
+      }
+    },
+    "dex_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "DEX",
+          "Volume (24h)",
+          "Change"
+        ],
+        "rows": [
+          [
+            "Uniswap V4",
+            "$1.11B",
+            "+32.7%"
+          ],
+          [
+            "Uniswap V3",
+            "$0.49B",
+            "−13.6%"
+          ],
+          [
+            "PancakeSwap",
+            "$0.47B",
+            "−14.2%"
+          ]
+        ]
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stables_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stables_heading",
+        "stables_stat",
+        "stables_detail"
+      ]
+    },
+    "stables_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Stables",
+        "level": "h2"
+      }
+    },
+    "stables_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$320.01B",
+        "delta": "−0.68%",
+        "trend": "down"
+      }
+    },
+    "stables_detail": {
+      "type": "Text",
+      "props": {
+        "text": "USDS −10.1% ($7.87B, day 2 of Spark/USDS redemption cluster); USDC −1.8% ($78.0B)"
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {}
+    },
+    "real_yield_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "real_yield_heading",
+        "real_yield_table"
+      ]
+    },
+    "real_yield_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Real Yield (≥$10M TVL)",
+        "level": "h2"
+      }
+    },
+    "real_yield_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset (Protocol)",
+          "APY",
+          "TVL",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "APT (amnis-finance, Aptos)",
+            "39.2%",
+            "$23M",
+            "5th day #1; APT-price exposure"
+          ],
+          [
+            "SUSDAT (saturn, Ethereum)",
+            "18.5%",
+            "$71M",
+            "new entry, replaced APYUSD pendle"
+          ],
+          [
+            "MUBOND (mu-digital, Ethereum)",
+            "18.3%",
+            "$11M",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep8": {
+      "type": "Separator",
+      "props": {}
+    },
+    "incentive_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "incentive_heading",
+        "incentive_table"
+      ]
+    },
+    "incentive_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Incentive Yield (≥$25M TVL)",
+        "level": "h2"
+      }
+    },
+    "incentive_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset (Protocol)",
+          "APY",
+          "TVL",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "USDC-AERO (aerodrome-v1, Base)",
+            "24.9%",
+            "$28M",
+            "4th day #1"
+          ],
+          [
+            "SDCRV (stake-dao, Ethereum)",
+            "17.3%",
+            "$30M",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep9": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: llama_tvl=ok llama_dex=ok llama_fees=ok llama_stables=ok llama_yields=ok",
+        "variant": "caption"
+      }
+    }
+  }
+}
