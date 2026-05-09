@@ -1,6 +1,6 @@
 {
   "heartbeat": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_failed": "2026-05-06T15:33:00Z",
     "total_runs": 55,
     "total_successes": 39,
@@ -9,7 +9,7 @@
     "success_rate": 0.71,
     "last_error": "_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inpu",
     "last_success": "2026-05-09T08:21:56Z",
-    "last_dispatch": "2026-05-09T08:14:17Z"
+    "last_dispatch": "2026-05-09T14:05:26Z"
   },
   "token-alert": {
     "last_dispatch": "2026-05-09T12:39:22Z",
@@ -96,8 +96,8 @@
     "last_error": "24f4f95\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "monitor-kalshi": {
-    "last_dispatch": "2026-05-08T13:00:53Z",
-    "last_status": "success",
+    "last_dispatch": "2026-05-09T14:05:26Z",
+    "last_status": "dispatched",
     "last_success": "2026-05-08T13:11:30Z",
     "total_runs": 30,
     "total_successes": 13,
@@ -144,8 +144,8 @@
     "last_error": "d9e0a6a\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "market-context-refresh": {
-    "last_dispatch": "2026-05-08T13:00:53Z",
-    "last_status": "success",
+    "last_dispatch": "2026-05-09T14:05:26Z",
+    "last_status": "dispatched",
     "last_success": "2026-05-08T13:12:39Z",
     "total_runs": 29,
     "total_successes": 13,
@@ -156,8 +156,8 @@
     "last_error": "0e981d7\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "polymarket-comments": {
-    "last_dispatch": "2026-05-08T13:00:53Z",
-    "last_status": "success",
+    "last_dispatch": "2026-05-09T14:05:26Z",
+    "last_status": "dispatched",
     "last_success": "2026-05-08T13:14:16Z",
     "total_runs": 28,
     "total_successes": 13,
