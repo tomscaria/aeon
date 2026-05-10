@@ -1,18 +1,20 @@
-*Evening Recap — 2026-05-09*
-_TL;DR: heavy scan day, 3 signals fired — Revenant context stale, chain-runner dark Day 13_
+*Evening Recap — 2026-05-10* (stale data)
+_TL;DR: 2 PRs filed, SCI paper picked completing 4-paper Nechepurenko stack; Revenant snapshot stale 36h, no live NAV delta_
 
-*Scan counts:* PM 12 markets / Kalshi 3 events / Runners ~45 pools (155 pre-gate)
-*Signals fired:* Russia-Ukraine Jun-30 +92.45pp to 99.95% (alert) · Iran peace -8-10pp · ICP HIGH pick / Hantavirus NO at 8.45% YES
-*Revenant:* revenant_agents=[] in context (synced 07:16 UTC). Standing from memory: 29 trades / 76% WR / +$415 / Sharpe 0.31. No new orders in recent-trades.json. NAV delta: unavailable.
+*Trading loop* (stale, synced 05-09T07:16):
+- Scans: 8,431 PM market scans + 1,578 HL queries (period total)
+- Signals fired: 0 — Iran MOU May-31 +7pp but UMA clause excludes; Kalshi T3.50 -9pp spread 23pp; no CalibrationGap entry
+- Revenant orders: none today (last trade 2026-04-27; snapshot empty)
+- NAV delta: unavailable — baseline +$415 / 29 trades / 76% WR / Sharpe 0.31
 
-*Top 3:*
-- ForesightFlow (2605.00493): ILS framework; closes Nechepurenko 3-paper arc; ADR-096+ foundational cite - https://arxiv.org/abs/2605.00493
-- Russia-Ukraine UMA dispute: Zelensky "humanitarian, limited to Red Square" = clause-excluded language. June-30 at 99.95% is unpriced sister.
-- Iran Hormuz: US strike live + "30-day MOU is a trap for YES holders" -- resolution-text signal fires again.
+*Top 3 today:*
+1. SCI arXiv:2604.27041 — per-tick credibility diagnostic, ADR seed sci-entry-gate · https://arxiv.org/abs/2604.27041
+2. PR #12 config-audit — 31 auto-fixes, grade B (89/100) · https://github.com/tomscaria/aeon/pull/12
+3. PM-comments: Iran non-nuclear MOU submitted live — May-31 +7pp, clause-excluded; direct ADR-096+ anchor
 
-*Failures:*
-- chain-runner Day 13: morning-brief / evening-rollup / weekly-grant-update all failed
-- reddit-digest 15th consecutive REDDIT_DIGEST_ERROR (ISS-002/012 open)
+*Failures:* chain:morning-brief day 14; reddit-digest fail #16 (ISS-002/012); workflow-security-audit stuck cron-state (ISS-020)
 
-_+8 routine runs collapsed · sources: log=ok cron-state=ok_
+*Decisions:* merge PR #12; pause reddit-digest cron; refresh revenant-snapshot
+
+_+15 routine runs collapsed · sources: log=ok cron-state=ok_
 
