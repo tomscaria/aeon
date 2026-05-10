@@ -1,29 +1,28 @@
-*Evening Recap — 2026-05-09*
-_TL;DR: Russia-Ukraine repriced 92pp to 99.95% with UMA dispute live; 3 ISS resolved; Nechepurenko arc sealed — chain-runner Day 13 blocks the rollup chain itself._
+*Evening Recap — 2026-05-10*
+_TL;DR: moderate ship day — PR #12 opened (config-audit, 31 auto-fixes), SCI seeds new CalibrationGap ADR, chain completed with narrative trifecta + 10 tweet drafts_
 
 *Headlines:*
-- skill-health — ISS-001/008/014 resolved; 14 open · memory/issues/INDEX.md
-- vuln-scanner — SSRF in docusealco/docuseal v2.5.2 (CWE-918), disclosure filed · articles/vuln-scan-2026-05-09.md
-- monitor-polymarket — Russia-Ukraine +92.45pp (7.5%→99.95%); UMA dispute live; June-30 sister unpriced
-- write-tweet — clause-text thread on Russia-Ukraine truce shipped · .outputs/write-tweet.md
-- paper-pick — ForesightFlow (2605.00493) closes Nechepurenko ILS arc · https://arxiv.org/abs/2605.00493
+- config-audit — grade B (89/100), 31 skill files auto-fixed, PR #12 opened · https://github.com/tomscaria/aeon/pull/12
+- workflow-security-audit — 1 critical finding, local auto-fix, PR #4 comment · https://github.com/tomscaria/aeon/pull/4
+- paper-pick — Signal Credibility Index (2604.27041); seeds CalibrationGap per-tick entry-gate ADR
+- narrative-tracker (chain) — Agentic Payments Trifecta NEW; Russia-Ukraine RESOLVED; Iran-airspace DEAD
+- polymarket-comments — Iran peace +7pp on clause-failing MOU; Hantavirus fading (Andes-only holding)
 
 *Notable:*
-- market-context-refresh — risk-off→rotation; BTC $80,355, F&G 38, breadth 17/20 green
-- daily-routine — ZEC [BREAKOUT] 7d +60.8%; ONDO +18.1%; SOL +6.1%; TON -7.3% fade
-- monitor-runners — SPECULATIVE ×5; aura DEEP-LIQ score 69.5 largest SOL; BILL sub-top day 4
-- goal-tracker — 72h merge-cadence falsifier deadline today, no ADR confirmed
+- monitor-runners — GAYTES ★ 2nd consecutive top-5; DEEP-LIQ floor patch still unimplemented (8+ runs)
+- goal-tracker — tick-broker falsifier 7d (05-17); OLLAMA_FULL=1 11d (05-21); queue-stagnation confirmed
+- heartbeat ×3 — DEGRADED status page written each cycle; nothing new to escalate
+- token-pick — SUI / Hormuz-NO edge (market 21.5% vs fair ~12%)
+- agent-buzz — WebSearch fallback, 6th consecutive XAI fail; clusters surfaced, no tweet IDs
 
 *Decisions for tomorrow:*
-- swarm-fund-mvp 72h falsifier: no new ADR in log — confirm stagnation or await late-day push?
-- Russia-Ukraine UMA: "humanitarian, Red Square" matches clause-excluded language + April 2025 NO-precedent
-- config-audit fires Sunday 16:00 UTC (first-ever run) — verify triggered
-- Powell→Warsh Senate vote ~May 11: watch KXFED T3.00 (53%, 1pp spread)
+- Merge PR #12 (config-audit) — opened today, first cleanly-mergeable PR in 3 days
+- chain-runner patch (Day 14 DEGRADED) — add echo per dispatched skill before each gh workflow run
+- Tick-broker falsifier — 7d to 2026-05-17; ship outputs/{skill}/{date}.json
+- GAYTES 3-day rule — flag in MEMORY.md if top-5 again on 05-11
 
 *Blockers:*
-- chain-runner Day 13 — dispatch_skill() (operator-side BLOCKED)
-- reddit-digest Day 15 — Reddit 403 (ISS-002/012; prefetch unshipped)
-- agent-buzz — chain failed, no standalone dispatch
-- tweet-roundup — TWEET_ROUNDUP_EMPTY (XAI prefetch absent)
+- chain:morning-brief + evening-rollup — dispatch_skill() DEGRADED day 14 · ISS-013 class
+- reddit-digest — 16th consecutive error (ISS-002/012); recommend pausing cron
 
-_+8 collapsed · sources: log=ok cron-state=ok_
+_+9 no-config/empty runs collapsed · sources: log=ok cron-state=ok_

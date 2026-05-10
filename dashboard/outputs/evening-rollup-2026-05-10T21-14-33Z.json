@@ -1,0 +1,626 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Evening Recap — 2026-05-10"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "text_tldr",
+        "sep_1",
+        "heading_headlines",
+        "stack_headlines",
+        "sep_2",
+        "heading_notable",
+        "stack_notable",
+        "sep_3",
+        "heading_decisions",
+        "stack_decisions",
+        "sep_4",
+        "heading_blockers",
+        "stack_blockers",
+        "sep_5",
+        "text_footer"
+      ]
+    },
+    "text_tldr": {
+      "type": "Text",
+      "props": {
+        "text": "moderate ship day — PR #12 opened (config-audit, 31 auto-fixes), SCI seeds new CalibrationGap ADR, chain completed with narrative trifecta + 10 tweet drafts",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_headlines": {
+      "type": "Heading",
+      "props": {
+        "text": "Headlines",
+        "level": "h2"
+      }
+    },
+    "stack_headlines": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5"
+      ]
+    },
+    "h1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h1_link",
+        "h1_desc"
+      ]
+    },
+    "h1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "config-audit",
+        "href": "https://github.com/tomscaria/aeon/pull/12",
+        "source": "PR #12"
+      }
+    },
+    "h1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "grade B (89/100), 31 skill files auto-fixed",
+        "variant": "body"
+      }
+    },
+    "h2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h2_link",
+        "h2_desc"
+      ]
+    },
+    "h2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "workflow-security-audit",
+        "href": "https://github.com/tomscaria/aeon/pull/4",
+        "source": "PR #4"
+      }
+    },
+    "h2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "1 critical finding, local auto-fix",
+        "variant": "body"
+      }
+    },
+    "h3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h3_link",
+        "h3_desc"
+      ]
+    },
+    "h3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Signal Credibility Index",
+        "href": "https://arxiv.org/abs/2604.27041",
+        "source": "paper-pick"
+      }
+    },
+    "h3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "seeds CalibrationGap per-tick entry-gate ADR",
+        "variant": "body"
+      }
+    },
+    "h4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h4_title",
+        "h4_badges"
+      ]
+    },
+    "h4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "narrative-tracker",
+        "level": "h4"
+      }
+    },
+    "h4_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "h4_badge1",
+        "h4_badge2",
+        "h4_badge3"
+      ]
+    },
+    "h4_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "Agentic Payments Trifecta (NEW)",
+        "variant": "default"
+      }
+    },
+    "h4_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Russia-Ukraine (RESOLVED)",
+        "variant": "secondary"
+      }
+    },
+    "h4_badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "Iran-airspace (DEAD)",
+        "variant": "outline"
+      }
+    },
+    "h5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h5_title",
+        "h5_items"
+      ]
+    },
+    "h5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "polymarket-comments",
+        "level": "h4"
+      }
+    },
+    "h5_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h5_item1",
+        "h5_item2"
+      ]
+    },
+    "h5_item1": {
+      "type": "Text",
+      "props": {
+        "text": "Iran peace +7pp on clause-failing MOU",
+        "variant": "body"
+      }
+    },
+    "h5_item2": {
+      "type": "Text",
+      "props": {
+        "text": "Hantavirus fading (Andes-only holding)",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "n1",
+        "n2",
+        "n3",
+        "n4",
+        "n5"
+      ]
+    },
+    "n1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n1_title",
+        "n1_badges",
+        "n1_desc"
+      ]
+    },
+    "n1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "monitor-runners",
+        "level": "h4"
+      }
+    },
+    "n1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "n1_badge1",
+        "n1_badge2"
+      ]
+    },
+    "n1_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "GAYTES ★",
+        "variant": "default"
+      }
+    },
+    "n1_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "2nd consecutive top-5",
+        "variant": "secondary"
+      }
+    },
+    "n1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "DEEP-LIQ floor patch still unimplemented (8+ runs)",
+        "variant": "body"
+      }
+    },
+    "n2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n2_title",
+        "n2_items"
+      ]
+    },
+    "n2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "goal-tracker",
+        "level": "h4"
+      }
+    },
+    "n2_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n2_item1",
+        "n2_item2",
+        "n2_item3"
+      ]
+    },
+    "n2_item1": {
+      "type": "Text",
+      "props": {
+        "text": "tick-broker falsifier 7d (05-17)",
+        "variant": "body"
+      }
+    },
+    "n2_item2": {
+      "type": "Text",
+      "props": {
+        "text": "OLLAMA_FULL=1 11d (05-21)",
+        "variant": "body"
+      }
+    },
+    "n2_item3": {
+      "type": "Text",
+      "props": {
+        "text": "queue-stagnation confirmed",
+        "variant": "body"
+      }
+    },
+    "n3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n3_title",
+        "n3_badge",
+        "n3_desc"
+      ]
+    },
+    "n3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "heartbeat ×3",
+        "level": "h4"
+      }
+    },
+    "n3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEGRADED",
+        "variant": "destructive"
+      }
+    },
+    "n3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "status page written each cycle; nothing new to escalate",
+        "variant": "body"
+      }
+    },
+    "n4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n4_title",
+        "n4_desc"
+      ]
+    },
+    "n4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "token-pick",
+        "level": "h4"
+      }
+    },
+    "n4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "SUI / Hormuz-NO edge (market 21.5% vs fair ~12%)",
+        "variant": "body"
+      }
+    },
+    "n5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n5_title",
+        "n5_desc"
+      ]
+    },
+    "n5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "agent-buzz",
+        "level": "h4"
+      }
+    },
+    "n5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "WebSearch fallback, 6th consecutive XAI fail; clusters surfaced, no tweet IDs",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_decisions": {
+      "type": "Heading",
+      "props": {
+        "text": "Decisions for Tomorrow",
+        "level": "h2"
+      }
+    },
+    "stack_decisions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ]
+    },
+    "d1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d1_link",
+        "d1_desc"
+      ]
+    },
+    "d1_link": {
+      "type": "Link",
+      "props": {
+        "label": "Merge PR #12 (config-audit)",
+        "href": "https://github.com/tomscaria/aeon/pull/12"
+      }
+    },
+    "d1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "opened today, first cleanly-mergeable PR in 3 days",
+        "variant": "body"
+      }
+    },
+    "d2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d2_title",
+        "d2_desc"
+      ]
+    },
+    "d2_title": {
+      "type": "Text",
+      "props": {
+        "text": "chain-runner patch (Day 14 DEGRADED)",
+        "variant": "body"
+      }
+    },
+    "d2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "add echo per dispatched skill before each gh workflow run",
+        "variant": "body"
+      }
+    },
+    "d3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d3_title",
+        "d3_desc"
+      ]
+    },
+    "d3_title": {
+      "type": "Text",
+      "props": {
+        "text": "Tick-broker falsifier",
+        "variant": "body"
+      }
+    },
+    "d3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "7d to 2026-05-17; ship outputs/{skill}/{date}.json",
+        "variant": "body"
+      }
+    },
+    "d4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d4_title",
+        "d4_desc"
+      ]
+    },
+    "d4_title": {
+      "type": "Text",
+      "props": {
+        "text": "GAYTES 3-day rule",
+        "variant": "body"
+      }
+    },
+    "d4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "flag in MEMORY.md if top-5 again on 05-11",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_blockers": {
+      "type": "Heading",
+      "props": {
+        "text": "Blockers",
+        "level": "h2"
+      }
+    },
+    "stack_blockers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "blocker1",
+        "blocker2"
+      ]
+    },
+    "blocker1": {
+      "type": "Alert",
+      "props": {
+        "title": "chain:morning-brief + evening-rollup",
+        "message": "dispatch_skill() DEGRADED day 14 · ISS-013 class",
+        "type": "error"
+      }
+    },
+    "blocker2": {
+      "type": "Alert",
+      "props": {
+        "title": "reddit-digest",
+        "message": "16th consecutive error (ISS-002/012); recommend pausing cron",
+        "type": "warning"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_footer": {
+      "type": "Text",
+      "props": {
+        "text": "+9 no-config/empty runs collapsed · sources: log=ok cron-state=ok",
+        "variant": "caption"
+      }
+    }
+  }
+}
