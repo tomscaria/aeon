@@ -1,0 +1,186 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — Polymarket (2026-05-10)"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "section1_heading",
+        "tweet1_stack",
+        "sep2",
+        "section2_heading",
+        "tweet2_stack",
+        "tweet3_stack",
+        "tweet4_stack",
+        "tweet5_stack"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Two live clause-text blow-ups dominate — Hantavirus spawned 4+ new Polymarket markets in 48h while Russia-Ukraine ceasefire resolved YES on a 3-day parade truce, triggering $14.5M in refund disputes."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Russia-Ukraine — ceasefire clause dispute",
+        "level": "h2"
+      }
+    },
+    "tweet1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet1",
+        "tweet1_link"
+      ]
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ukraine_map",
+        "handle": "@ukraine_map",
+        "text": "$14.5M ceasefire market resolved YES on 3-day parade truce; traders demanding refunds. Textbook resolution-clause mismatch: market was priced as a full war-end event, resolved on a temporary military pause. Direct ADR-096+ evidence."
+      }
+    },
+    "tweet1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/ukraine_map/status/2053212103826116986"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hantavirus — escalation arc + resolution clause risk",
+        "level": "h2"
+      }
+    },
+    "tweet2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet2",
+        "tweet2_link"
+      ]
+    },
+    "tweet2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Polymarket",
+        "handle": "@Polymarket",
+        "text": "New market opened today: 'Confirmed hantavirus case in US by May 15?' Escalation arc from Argentina-Cape Verde cruise ship to US entry created a fresh resolution-clause-sensitive market with a hard deadline."
+      }
+    },
+    "tweet2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Polymarket/status/2053373723697348623"
+      }
+    },
+    "tweet3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet3",
+        "tweet3_link"
+      ]
+    },
+    "tweet3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Polymarket",
+        "handle": "@Polymarket",
+        "text": "CDC notified NJ of two possibly-exposed residents. The concrete US-entry signal driving the new market; hantavirus moved from international cruise context to domestic surveillance."
+      }
+    },
+    "tweet3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Polymarket/status/2052808550821277922"
+      }
+    },
+    "tweet4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet4",
+        "tweet4_link"
+      ]
+    },
+    "tweet4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Polymarket",
+        "handle": "@Polymarket",
+        "text": "WHO DG invokes hantavirus to argue against US WHO withdrawal. Political framing shifts the resolution context: if the US exits WHO, who confirms the pandemic threshold?"
+      }
+    },
+    "tweet4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Polymarket/status/2052394475582803988"
+      }
+    },
+    "tweet5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet5",
+        "tweet5_link"
+      ]
+    },
+    "tweet5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "dr_bandak",
+        "handle": "@dr_bandak",
+        "text": "Epidemiologist challenges the pandemic odds: Andes variant is close-contact only, not airborne — the defining transmission parameter for pandemic potential. Directly challenges the 'pandemic' resolution clause on the YES side."
+      }
+    },
+    "tweet5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/dr_bandak/status/2052089862640312547"
+      }
+    }
+  }
+}
