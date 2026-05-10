@@ -1,1 +1,1 @@
-Reddit digest: all 10 sources errored — www.reddit.com blocked in sandbox, .reddit-cache/ absent. ISS-002/ISS-012 open. Ship scripts/prefetch-reddit.sh to fix. (15th+ consecutive failure — strong recommendation: pause cron until prefetch lands)
+Reddit digest: all 10 sources errored — GitHub Actions egress blocked by Reddit; WebFetch also blocked. ISS-002/ISS-012 open. Land scripts/prefetch-reddit.sh to fix. (16th+ consecutive failure — recommend pausing cron until prefetch ships)
