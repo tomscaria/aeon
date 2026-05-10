@@ -1,11 +1,13 @@
-TOKEN_ALERT_OK. No alerts triggered.
+TOKEN_ALERT_OK.
 
-**Current prices (2026-05-09, CoinGecko):**
+## Summary
 
-| Token | Price | 24h Change | 24h Volume |
-|-------|-------|------------|------------|
-| BTC | $80,334 | +0.14% | $26.00B |
-| ETH | $2,314.90 | +1.05% | $14.47B |
-| SOL | $93.37 | +5.38% | $4.05B |
+Ran `token-alert` for 2026-05-10. Fetched CoinGecko spot prices for BTC, ETH, SOL:
 
-All three are well under the 10% alert threshold. Volume is not spiking above 3x vs prior-day baselines. SOL is the most active (+5.38%) consistent with the risk-on rotation flagged in today's earlier daily-routine run (ZEC, ONDO, SOL all in green). No notification sent. Prices logged to `memory/logs/2026-05-09.md`.
+| Token | Price | 24h Change | Volume |
+|-------|-------|------------|--------|
+| BTC | $80,873 | +0.67% | $17.70B |
+| ETH | $2,322.76 | +0.34% | $9.97B |
+| SOL | $93.33 | -0.04% | $2.35B |
+
+All under the 10% alert threshold. No volume spikes (volumes are flat-to-down vs yesterday's levels, not 3x). No notification sent. Prices logged to `memory/logs/2026-05-10.md`.
