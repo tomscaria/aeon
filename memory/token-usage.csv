@@ -148,4 +148,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-10,token-movers,claude-sonnet-4-6,674,36812,1729292,153160
 2026-05-10,polymarket-comments,claude-sonnet-4-6,2763,21447,1792264,90636
 2026-05-10,config-audit,claude-sonnet-4-6,47,57996,4666711,183203
-2026-05-10,channel-recap,claude-sonnet-4-6,17,2370,463807,26802
+2026-05-10,tweet-roundup,claude-sonnet-4-6,3132,11271,565560,62016

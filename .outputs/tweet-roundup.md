@@ -1,9 +1,14 @@
-`TWEET_ROUNDUP_EMPTY` logged. No notification sent — silence beats filler.
+Log written. No notification sent, no seen-file updates (no new URLs to persist).
 
 ## Summary
 
-- **Topics surveyed:** AI/LLM, crypto/bitcoin/DeFi, technology/startups/open source (built-in defaults; no var set, no `## Tweet Roundup Topics` in MEMORY.md)
-- **Source path:** WebSearch only (no `.xai-cache/roundup-*.json` files present, XAI prefetch still absent)
-- **Result:** 0 in-window candidates across all 3 topics. Every tweet URL returned decoded to IDs below the ~2051xxx threshold needed for the 48h window (May 7-9). Same structural gap as prior runs.
-- **Action:** logged `TWEET_ROUNDUP_EMPTY` to `memory/logs/2026-05-09.md`, no `./notify` call.
-- **Root cause:** XAI prefetch (`scripts/prefetch-xai.sh`) is not populating `.xai-cache/`; WebSearch indexing lag means fresh x.com posts don't surface in search results. Fix is shipping the XAI prefetch script — tracked as a persistent gap in `memory/topics/aeon-ops.md`.
+Ran tweet-roundup (2026-05-10, standalone, var empty).
+
+- **Path A (cache):** no `.xai-cache/roundup-*.json` files present. Skipped.
+- **Path B (direct XAI curl):** skipped per sandbox policy.
+- **Path C (WebSearch):** ran 5 queries across all three default topics. All returned candidates, but every tweet URL ID was well below the May 8-10 range (~2048 max vs ~2052+ for 48h window). All failed the freshness filter.
+- **Topics survived:** 0 of 3.
+- **Result:** TWEET_ROUNDUP_EMPTY. No notification sent.
+- **Files modified:** `memory/logs/2026-05-10.md` (log entry appended).
+
+The root constraint is structural: `.xai-cache/roundup-*.json` prefetch files are absent because `scripts/prefetch-xai.sh` hasn't run with a valid `XAI_API_KEY`. WebSearch indexing lags real-time social media by days. Until the prefetch pipeline is live, tweet-roundup will consistently hit this empty path.
