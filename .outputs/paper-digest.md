@@ -1,8 +1,8 @@
-Paper Digest — 2026-05-09
-12th-consecutive thin HF daily browse. 2 agentic-method results — no new Polymarket/DePM paper.
+*Paper Digest — 2026-05-10*
+13th consecutive thin HF daily browse; 1 prediction-market microstructure diagnostic, 1 multi-agent quant framework, 1 perpetual-DEX MM result adjacent to Hermes-arb; no new ILS or LLM-forecasting paper this cycle.
 
-1. "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction" — Li, Zhang, Choi, Zou, Han, Lin et al. (↑57) — DCI lets agents grep raw corpora instead of top-k vectors; outperforms sparse+dense+reranking on BRIGHT+BEIR. Maps to ADR-096+ resolution-text-ingest gap: the Iran-airspace clause diverges 48pp from its title precisely because embedding search sees them as surface-similar.
+1. "The Signal Credibility Index for Prediction Markets" — Nechepurenko (↑0) — four-part microstructure diagnostic (logit persistence + Cobb-Douglas flow concentration + real-time spec + Monte Carlo stress tests); measures coordination credibility, not pure information quality; two documented failure modes (whale repricing underdetected, multi-wallet coordination overdetected)
+2. "AlphaCrafter" — Yuan et al. (↑0) — three-agent quant pipeline (Miner LLM-factor discovery + Screener regime-adaptive assembly + Trader risk-constrained execution); lowest cross-trial variance on CSI 300/S&P 500; regime-switching Screener is the quant-scanner upgrade architecture for post-Apex CalibrationGap
+3. "Funding-Aware Optimal Market Making for Perpetual DEXs" — Le (↑0) — HJB market making with inventory-funding coupling; outperforms Avellaneda-Stoikov on ETH/BTC Hyperliquid data; heavy-tailed SOL funding breaks Gaussian OU baseline — directly maps to Hermes-arb exit-timing sensitivity
 
-2. "StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction" — Xue, Zhou, Torr, Ouyang et al. (↑15) — Hierarchical GRPO samples a strategy latent at init, conditions all actions on it; 93.1% ALFWorld / 84.2% WebShop / 63.5% SciWorld. Architectural fork vs AEL (2604.21725): AEL learns which retrieval policy per episode; StraTA compresses trajectory intent into a latent. 100-trade Apex gate disambiguates the two on a Polymarket target.
-
-Full: articles/paper-digest-2026-05-09.md
+Full: articles/paper-digest-2026-05-10.md
