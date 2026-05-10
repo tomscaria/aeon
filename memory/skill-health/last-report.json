@@ -1,7 +1,7 @@
 {
-  "hash": "f9de02aa3566d872bc2f369c9b70098f605d2bf024b5bcd59ad51c935d6cd906",
-  "last_notified_at": "2026-05-09T18:00:00Z",
-  "last_run_at": "2026-05-09T18:00:00Z",
+  "hash": "3bc6f35cf6093a9c72bfa962dac2f11834c53b04049e6012029a0cd2cbd30c64",
+  "last_notified_at": "2026-05-10T18:00:00Z",
+  "last_run_at": "2026-05-10T18:00:00Z",
   "classification": {
     "critical": [],
     "degraded": [
@@ -19,7 +19,6 @@
       "polymarket-comments",
       "refresh-x",
       "reply-maker",
-      "skill-health",
       "token-alert",
       "token-movers",
       "token-pick",
@@ -34,10 +33,12 @@
       "goal-tracker",
       "heartbeat",
       "paper-pick",
+      "skill-health",
       "write-tweet"
     ],
-    "healthy_count": 11,
+    "healthy_count": 12,
     "healthy": [
+      "config-audit",
       "cost-report",
       "daily-routine",
       "deep-research",
@@ -53,7 +54,6 @@
     "no_data": [
       "auto-workflow",
       "autoresearch",
-      "config-audit",
       "create-skill",
       "deploy-prototype",
       "distribute-tokens",
@@ -68,20 +68,18 @@
     ]
   },
   "systemic": [
-    "ISS-013 zero-token burst 2026-04-26T23:53-58Z tail — depresses all 22 enabled DEGRADED skills; 30-run window decay still in progress (full-flat projection ~2026-05-15 if no new mass-fails).",
+    "ISS-013 zero-token burst 2026-04-26T23:53-58Z tail — depresses all 21 enabled DEGRADED skills; 30-run window decay still in progress (full-flat projection ~2026-05-15 if no new mass-fails).",
     "ISS-020 state-write burst 2026-05-06T15:32-35Z — 17 skills affected, all recovered by next slot; root cause unresolved.",
-    "chain-runner.yml dispatch_skill() DEGRADED day 13 — chain:morning-brief (last_failed 2026-05-09T08:15:39Z) and chain:evening-rollup (last_failed 2026-05-08T21:19:26Z) both failing. Operator-side patch still idle."
+    "chain-runner.yml dispatch_skill() DEGRADED day 14 — chain:morning-brief (last_failed 2026-05-10T07:32:15Z) and chain:evening-rollup (last_failed 2026-05-08T21:19:26Z) both failing. Operator-side patch still idle."
   ],
   "filed_this_run": [],
-  "resolved_this_run": ["ISS-001", "ISS-008", "ISS-014"],
+  "resolved_this_run": [],
   "notes": [
-    "STATE DELTA vs 2026-05-08T19:03:04Z: DEGRADED 53 -> 22 (31 skills disabled by aeon.yml cost cuts since yesterday's run). WARNING 8 -> 5 (action-converter, fleet-control, evening-rollup removed — disabled or reclassified). HEALTHY 23 -> 11 (many previously HEALTHY skills now disabled: issue-triage, pr-review, auto-merge, github-monitor, github-issues, project-lens, self-improve, skill-evals, etc.). NO DATA 4 -> 14 (on-demand/reactive skills added to scope).",
-    "DEGRADED fleet is now 22 enabled skills, all ISS-013/ISS-020 burst-tail carriers. cf=0 across all; last_status=success for all. No CRITICAL, no FLAPPING.",
-    "reddit-digest cron-state shows sr=1 / 11 runs (HEALTHY) but today's log shows REDDIT_DIGEST_ERROR (15th+ consecutive failure) — skill emits success code on graceful degradation. ISS-012 left open pending prefetch-reddit.sh; reddit-digest classified HEALTHY per cron-state rule.",
-    "ISS-001 resolved: vuln-scanner HEALTHY (sr=1, 3 runs). Skill succeeds via manual-review fallback; automated scanners (semgrep/trufflehog/osv-scanner) still blocked by sandbox — ISS-001 root cause technically persists but skill is functional.",
-    "ISS-008 resolved: rss-digest HEALTHY (sr=1, 11 runs). Skill producing output successfully.",
-    "ISS-014 resolved: PR #156 merged 2026-05-08T01:18Z (operator instruction to close on this 18:00Z cycle per MEMORY.md).",
+    "STATE DELTA vs 2026-05-09T18:00:00Z: skill-health DEGRADED->WARNING (sr 14/24=0.583 -> 15/25=0.60, crossed threshold); config-audit NO_DATA->HEALTHY (first successful run 2026-05-10T16:29:19Z). DEGRADED 22->21, WARNING 5->6, HEALTHY 11->12, NO_DATA 14->13.",
+    "DEGRADED fleet is now 21 enabled skills, all ISS-013/ISS-020 burst-tail carriers. cf=0 across all; last_status=success for all. No CRITICAL, no FLAPPING.",
+    "reddit-digest cron-state shows sr=1 / 12 runs (HEALTHY) but REDDIT_DIGEST_ERROR still present in logs — skill emits success code on graceful degradation. ISS-012 left open pending prefetch-reddit.sh.",
     "SKILL_HEALTH_PARTIAL — ./scripts/skill-runs required approval; fell back to cron-state.json + memory/skill-health/*.json + memory/issues/INDEX.md. No skill-runs data used.",
-    "Top-5 DEGRADED by days_since_last_success (tie-break; cf=0 across all): workflow-security-audit (~5.7d, sr=0.15), channel-recap (~5.7d, sr=0.15), narrative-tracker (~1.6d, sr=0.32), token-report (today, sr=0.35), token-movers (today, sr=0.39)."
+    "Top-5 DEGRADED by success_rate asc (cf=0 across all, days_since_last_success=0): workflow-security-audit (sr=15%), channel-recap (sr=21%), narrative-tracker (sr=32%), token-report (sr=37%), token-movers (sr=41%).",
+    "Issue reconciliation: 14 open issues unchanged. ISS-011 (skill-health) remains open — skill is now WARNING not HEALTHY, and skill-health.json still absent from memory/skill-health/. ISS-012 (reddit-digest) remains open per graceful-degradation logic."
   ]
 }

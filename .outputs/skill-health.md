@@ -1,20 +1,22 @@
-Skill Health — 2026-05-09
-HEALTH: DEGRADED(22)  [systemic: ISS-013 zero-token burst tail 22 skills; chain-runner day 13]
+*Skill Health — 2026-05-10*
+HEALTH: DEGRADED(21)
 
-DEGRADED (22) — all ISS-013/ISS-020 burst tail, cf=0, all currently succeeding
-- workflow-security-audit — sr=0.15, last ok 2026-05-03 — INVESTIGATE → ISS-013
-- channel-recap — sr=0.15, last ok 2026-05-03 — INVESTIGATE → ISS-013
-- narrative-tracker — sr=0.32, last ok 2026-05-07 — INVESTIGATE → ISS-013
-- token-report — sr=0.35, last ok today — INVESTIGATE → ISS-013
-- token-movers — sr=0.39, last ok today — INVESTIGATE → ISS-013
-+17 more — see memory/issues/INDEX.md
+SYSTEMIC:
+- ISS-013 zero-token burst 2026-04-26 — 21 enabled DEGRADED skills; 30-run window decay ~2026-05-15
+- ISS-020 state-write burst 2026-05-06 — all recovered; root cause unresolved
+- chain-runner dispatch_skill() DEGRADED day 14 — chain:morning-brief failed 07:32Z; chain:evening-rollup last failed 2026-05-08
 
-Fleet delta vs yesterday: 31 skills disabled (aeon.yml cost cuts). Enabled: 22D / 5W / 11H / 14ND.
+DEGRADED (21):
+- workflow-security-audit — sr=15% — INVESTIGATE
+- channel-recap — sr=21% — INVESTIGATE
+- narrative-tracker — sr=32% — INVESTIGATE
+- token-report — sr=37% — INVESTIGATE
+- token-movers — sr=41% — INVESTIGATE
++16 more — see memory/issues/INDEX.md
 
-WARNING (5): heartbeat (0.71), agent-buzz (0.64), goal-tracker (0.63), paper-pick (0.61), write-tweet (0.60)
+WARNING (6): agent-buzz (64%), goal-tracker (64%), heartbeat (73%), paper-pick (62%), skill-health (60%), write-tweet (62%)
+HEALTHY: 12
+NO DATA (13): auto-workflow, autoresearch, create-skill, deploy-prototype, distribute-tokens, last30, monetize-revenant, onboard, session-learner, skill-repair, spawn-instance, task-planner, tool-builder — DISPATCH-SKILL
 
-NO DATA (14): on-demand/reactive skills (distribute-tokens, last30, config-audit, deploy-prototype, autoresearch, create-skill, monetize-revenant, tool-builder, skill-repair, spawn-instance, task-planner, auto-workflow, onboard, session-learner) — DISPATCH-SKILL if expected
-
-HEALTHY (11): daily-routine, rss-digest, paper-digest, reddit-digest, telegram-digest, morning-brief, hacker-news-digest, evening-recap, vuln-scanner, cost-report, deep-research
-
-Open issues: 14 · Resolved this run: 3 (ISS-001 vuln-scanner, ISS-008 rss-digest, ISS-014 reply-maker/PR#156)
+State delta vs 2026-05-09: skill-health DEGRADED->WARNING (sr 14/24->15/25); config-audit NO_DATA->HEALTHY (first run 16:29Z)
+Open issues: 14 · Resolved this run: 0 · Filed this run: 0
