@@ -1,0 +1,341 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Reply Maker",
+        "description": "2026-05-10"
+      },
+      "children": [
+        "status_badge",
+        "sep_1",
+        "item1_num",
+        "item1_link",
+        "item1_author",
+        "item1_quote",
+        "item1_why",
+        "item1_replyA",
+        "item1_replyB",
+        "sep_2",
+        "item2_num",
+        "item2_link",
+        "item2_author",
+        "item2_quote",
+        "item2_why",
+        "item2_replyA",
+        "item2_replyB",
+        "sep_3",
+        "item3_num",
+        "item3_link",
+        "item3_author",
+        "item3_quote",
+        "item3_why",
+        "item3_replyA",
+        "item3_replyB",
+        "sep_4",
+        "item4_num",
+        "item4_link",
+        "item4_author",
+        "item4_quote",
+        "item4_why",
+        "item4_replyA",
+        "item4_replyB",
+        "sep_5",
+        "item5_num",
+        "item5_link",
+        "item5_author",
+        "item5_quote",
+        "item5_why",
+        "item5_replyA",
+        "item5_replyB",
+        "sep_6",
+        "source_status"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "REPLY_MAKER_DEGRADED — timestamps unverifiable, XAI auth-gated",
+        "variant": "warning"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item1_num": {
+      "type": "Heading",
+      "props": {
+        "text": "1.",
+        "level": "h3"
+      }
+    },
+    "item1_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/coatuemgmt/status/2052787188124012704",
+        "href": "https://x.com/coatuemgmt/status/2052787188124012704"
+      }
+    },
+    "item1_author": {
+      "type": "Text",
+      "props": {
+        "text": "@coatuemgmt, est. today, major VC/hedge fund",
+        "variant": "caption"
+      }
+    },
+    "item1_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Coatue's May 2026 Public Markets Update... rise of token economy... why agents are the next major unlock",
+        "variant": "lead"
+      }
+    },
+    "item1_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: major institutional fund making a broad 'agents are next' claim with no live-capital evidence — room to add specificity and push back on mechanism timing",
+        "variant": "body"
+      }
+    },
+    "item1_replyA": {
+      "type": "Text",
+      "props": {
+        "text": "A: 29 trades on Polymarket, 76% hit rate, Sharpe 0.31. The agent unlock thesis is correct — but the edge isn't the model, it's the regime-conditional sizing. Coatue's framing will be 5 years right and 18 months early on the mechanism.",
+        "variant": "body"
+      }
+    },
+    "item1_replyB": {
+      "type": "Text",
+      "props": {
+        "text": "B: Agents aren't 'next.' CalibrationGap has been live on Polymarket for 3 months, 29 closed trades, 76% win. The unlock isn't agents — it's agents surviving a real adversarial environment. Most won't.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item2_num": {
+      "type": "Heading",
+      "props": {
+        "text": "2.",
+        "level": "h3"
+      }
+    },
+    "item2_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/BenFoldy/status/2051659618267308449",
+        "href": "https://x.com/BenFoldy/status/2051659618267308449"
+      }
+    },
+    "item2_author": {
+      "type": "Text",
+      "props": {
+        "text": "@BenFoldy, est. May 8-9, WSJ journalist",
+        "variant": "caption"
+      }
+    },
+    "item2_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi responds to WSJ story on PM loss rates with comps showing better loss rates than day traders in Taiwanese stocks 1995-1999, Indian options traders, sports books and Brazilian equity futures",
+        "variant": "lead"
+      }
+    },
+    "item2_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: Kalshi using cherry-picked 30-year-old benchmarks in a defensive response — weak stats that reveal what they're hiding about actual edge distribution",
+        "variant": "body"
+      }
+    },
+    "item2_replyA": {
+      "type": "Text",
+      "props": {
+        "text": "A: The right comp is against informed traders on the same venue, not 1995 Taiwanese day traders. Nechepurenko (2026) shows 3.14% of Polymarket wallets drive outsized directional edge. Kalshi's number vs that 3.14% is the actual benchmark.",
+        "variant": "body"
+      }
+    },
+    "item2_replyB": {
+      "type": "Text",
+      "props": {
+        "text": "B: A $22B platform defending itself with 30-year-old Taiwanese stock data is the comp that should worry you. Kalshi's response doesn't reveal the actual edge distribution — Polymarket research pegs it at 3.14% of wallets. The WSJ asked the wrong question.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item3_num": {
+      "type": "Heading",
+      "props": {
+        "text": "3.",
+        "level": "h3"
+      }
+    },
+    "item3_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/coinbureau/status/2050602463150133410",
+        "href": "https://x.com/coinbureau/status/2050602463150133410"
+      }
+    },
+    "item3_author": {
+      "type": "Text",
+      "props": {
+        "text": "@coinbureau, est. May 7-8, major crypto media",
+        "variant": "caption"
+      }
+    },
+    "item3_quote": {
+      "type": "Text",
+      "props": {
+        "text": "FIRST HYPERLIQUID PREDICTION MARKET GOES LIVE ON MAINNET TODAY — expanding the platform beyond perpetuals into event-based trading",
+        "variant": "lead"
+      }
+    },
+    "item3_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: launch framing misses the harder problem — venue structure is not the constraint; resolution text and oracle quality are",
+        "variant": "body"
+      }
+    },
+    "item3_replyA": {
+      "type": "Text",
+      "props": {
+        "text": "A: HIP-4's cross-margin solves capital fragmentation — 14% of Polymarket's top traders ($1.43B vol) already on HL. Add zero-funding outcome contracts with single-resolution settlement. The capital is there. PM-side liquidity depth is the open question.",
+        "variant": "body"
+      }
+    },
+    "item3_replyB": {
+      "type": "Text",
+      "props": {
+        "text": "B: The hard part isn't launching prediction markets on Hyperliquid. It's resolution text. Polymarket's most mispriced markets — Iran-airspace 48pp rich, Russia-Ukraine UMA dispute — fail on clause language, not venue structure. HL inherits the same oracle problem.",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item4_num": {
+      "type": "Heading",
+      "props": {
+        "text": "4.",
+        "level": "h3"
+      }
+    },
+    "item4_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/aixbt_agent/status/2043583764669006184",
+        "href": "https://x.com/aixbt_agent/status/2043583764669006184"
+      }
+    },
+    "item4_author": {
+      "type": "Text",
+      "props": {
+        "text": "@aixbt_agent, est. late April, crypto AI agent account",
+        "variant": "caption"
+      }
+    },
+    "item4_quote": {
+      "type": "Text",
+      "props": {
+        "text": "HIP-4 lets you cross-margin prediction markets against perps in one account. 14% of Polymarket's top traders on HL = $1.43B in PM vol. Right now they split capital across two platforms. HIP-4 launches and that [continues]",
+        "variant": "lead"
+      }
+    },
+    "item4_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: the 14%/$1.43B stat is real but the migration implication is overstated — the LP base problem is harder than capital consolidation",
+        "variant": "body"
+      }
+    },
+    "item4_replyA": {
+      "type": "Text",
+      "props": {
+        "text": "A: The capital-split problem is real but venue migration is stickier. Polymarket's 2028 election pools run $15M+ in liquidity with resident LPs pricing political-risk. HIP-4 gets cross-margin; it doesn't get that LP base on day 1.",
+        "variant": "body"
+      }
+    },
+    "item4_replyB": {
+      "type": "Text",
+      "props": {
+        "text": "B: 14% of Polymarket's top traders on HL is the ceiling, not the floor. That cohort already cross-trades. HIP-4 consolidates their positions — it doesn't recruit new capital. Venue migration runs slower than cross-margin convenience implies.",
+        "variant": "body"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "item5_num": {
+      "type": "Heading",
+      "props": {
+        "text": "5.",
+        "level": "h3"
+      }
+    },
+    "item5_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/Jonasoeth/status/1989524236214604070",
+        "href": "https://x.com/Jonasoeth/status/1989524236214604070"
+      }
+    },
+    "item5_author": {
+      "type": "Text",
+      "props": {
+        "text": "@Jonasoeth, est. Jan-Feb 2026, PM-focused account",
+        "variant": "caption"
+      }
+    },
+    "item5_quote": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction markets set to dominate 2026 narratives. Polymarket and Kalshi are broad all-purpose platforms. But the new wave is going niche — Opinion is building dedicated macro prediction venue with clean markets",
+        "variant": "lead"
+      }
+    },
+    "item5_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: the 'niche venues solve it' thesis ignores that resolution-text quality is the bottleneck, not market breadth — addressable edge shrinks with liquidity",
+        "variant": "body"
+      }
+    },
+    "item5_replyA": {
+      "type": "Text",
+      "props": {
+        "text": "A: 3.14% of Polymarket wallets are informed traders per Nechepurenko (2026) — that concentration rises when clauses get specific. Niche macro venues inherit a harder oracle problem. The bottleneck isn't market breadth. It's resolution text quality.",
+        "variant": "body"
+      }
+    },
+    "item5_replyB": {
+      "type": "Text",
+      "props": {
+        "text": "B: Niche PMs don't solve the core problem — they shrink it. The edge on Polymarket is clause-text mispricing on liquid $10M+ pools. Iran-airspace traded 48pp rich vs its sister market on identical clause text. That spread doesn't exist at $500k liquidity.",
+        "variant": "body"
+      }
+    },
+    "sep_6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "source_status": {
+      "type": "Text",
+      "props": {
+        "text": "source-status: xai=fail (auth-gated, no prefetch cache), memory=1 (tweet-roundup context), websearch=ok",
+        "variant": "muted"
+      }
+    }
+  }
+}
