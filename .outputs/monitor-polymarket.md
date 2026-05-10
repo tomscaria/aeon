@@ -1,47 +1,31 @@
-polymarket monitor — 2026-05-09
+polymarket monitor — 2026-05-10
 
-ALERTS (>5pp move in 24h):
+republican presidential nominee 2028 ($1.74M vol24h / $28.1M liq)
+vance 37.05% (-0.10pp) | rubio 25.55% (+1.20pp) | youngkin 1.45% (0pp) | trump 1.75% | gabbard 1.05%
+biggest mover: rubio — rising 24.35% → 25.55%
+youngkin $84k vol24h (highest of tail candidates, 24% of $347k liq pool — elevated turnover)
+top comment: 'Marco Rubio for the win! He is the most well spoken politician I have seen in a while...' (2026-05-09, anon)
 
-Russia x Ukraine ceasefire Jun 30 (event 160707)
-YES 99.95% (+92.45pp) $3.4M vol24h — SURGING
-open 7.5% → close 99.95% — truce announcement May 8-11 catalyst
+democratic presidential nominee 2028 ($1.63M vol24h / $58.6M liq)
+ossoff 6.45% (-0.20pp) | whitmer 1.25% | smith 1.05% | oprah 0.75%
+biggest mover: ossoff — falling 6.65% → 6.45%
+top comment: 'AOC chance should be nonexistent after the interview today' (2026-05-08, anon)
+secondary: 'kamala again :)' (2026-05-09) — wishful, no position signal
 
-Russia x Ukraine ceasefire May 31
-YES 99.95% $15.8M vol24h — SURGING (highest vol in scan)
-prior reading 6% YES on 05-08 — confirmed full near-100% reprice
+presidential election winner 2028 ($1.01M vol24h / $29.2M liq)
+eric trump 0.55% (0pp) — all other slots placeholder (zero vol)
+top comment: 'rubio and jd can beat anyone' (2026-05-08)
 
-US x Iran peace deal May 31 (market 1919425)
-YES 24.5% (-10.0pp) $1.0M vol24h — CRASHING
-34.5% open → 24.5% close — Iran rejection accelerating, day 2
+revenant first order — mexico fifa world cup 2026
+slug will-mexico-win-the-2026-fifa-world-cup-529 returned empty from API (2nd+ consecutive day). prior reading 05-08/09: 1.05% YES flat / $662k vol / $2.4M liq. market dark — slug likely stale or market moved to closed.
 
-US x Iran peace deal Jun 30 (market 1962237)
-YES 44.5% (-8.0pp) $341k vol24h — FALLING
-52.5% open → 44.5% close
+btc $1m before gta vi
+slug will-bitcoin-hit-1m-before-gta-vi-872 confirmed stale (3rd+ consecutive not-found). no live data. recommend removing from watchlist.
 
-US x Iran peace deal May 15 (market 2099029)
-YES 12.35% (-7.95pp) $839k vol24h — CRASHING
-20.3% open → 12.35% close
+russia-ukraine / iran (yesterday's data — API geopolitical search non-functional today)
+russia-ukraine ceasefire may-31: ~99.95% YES, UMA dispute live. Zelensky 'humanitarian / Red Square' language = clause-excluded. if UMA rules NO: $17.9M vol market fully reprices.
+iran peace cluster: may-15 12.35% / may-31 24.5% / jun-30 44.5% — all fading. 05-09 us strike on iranian vessel in Hormuz live.
 
-US x Iran peace deal May 11 (market 2182249)
-YES 3.85% (-5.7pp) $541k vol24h — CRASHING
-9.5% open → 3.85% close
+alerts: no markets >5pp. biggest mover: rubio +1.20pp (below threshold).
 
-NO ALERTS:
-
-FIFA World Cup — Mexico (event 30615, Revenant first order)
-YES 1.05% (0pp) $66k vol24h — stable
-France 17.05% | Spain 15.45% | England 11.05% | Brazil 8.55%
-
-BTC $1M before GTA VI: slug stale — market not found on current PM
-
-Dem 2028 — Democratic Nominee (event 30829)
-Ossoff 6.65% (-0.3pp) | Beshear 2.75% (+1.0pp) | Talarico 1.85% | Smith 1.05% (0pp) | Whitmer 1.25% (0pp)
-all stable, no alerts
-
-narrative shifts:
-Russia-Ukraine truce (May 8-11) is the session driver — both ceasefire horizons repriced to 99.95%, $19M combined vol24h. Biggest geopolitical reprice in the monitored set.
-Iran: resolution-text ambiguity surfaced in comments — "30-day MOU is a trap for YES holders / market is misreading the legal definition of permanent." ADR-096+ clause-text signal, direct parallel to Iran-airspace resolution divergence arc.
-Dem 2028: Ossoff at 6.65% is highest-priced candidate. Comment "wtf happened" at 10:51 UTC suggests off-platform news flow not yet priced.
-
-biggest mover: Russia x Ukraine ceasefire Jun 30 — 7.5% to 99.95% (+92.45pp)
-top comment (Iran): "Most traders are gambling on headlines, not the contract rules. 30-day MOU is a trap for YES holders." — Lageopoliticadelpensionato, 11:38 UTC
+narrative: rubio creeping up while vance fades. 7-day vance arc: 39.15% → 37.55% → 37.05% (-2.10pp). warsh senate floor vote week of may 11 — rubio endorsed warsh as SecState; watch for rubio vol spike on vote day. youngkin elevated turnover with no news catalyst = possible quiet accumulation.
