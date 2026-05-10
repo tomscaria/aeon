@@ -1,31 +1,34 @@
-polymarket comments — 2026-05-09
-var: politics + crypto (crypto dead; politics substitution)
+polymarket comments — 2026-05-10
 
-1. "Russia x Ukraine ceasefire by May 31?" — YES 99.95% ($17.9M vol) [UMA DISPUTED]
-- Porx (31 rxn): "In a completely similar situation in April 2025, Polymarket said it wasn't enough, and I lost money."
-- o-x (31 rxn): "I lost my life savings because of this inconsistent treatment...humanitarian pause"
-- Chief-Cry (14:02 UTC): "Would like to point out in Zelensky's statement. It is for humanitarian purposes and is limited only to the Red Square."
-Signal: Clause excludes humanitarian pauses + requires general pause in conflict. Zelensky's own statement uses the excluded language. UMA dispute live. April 2025 precedent: identical structure resolved NO. Market at 99.95% = zero clause-text discount priced in. CalibrationGap: blind spot.
+var: politics + crypto · narrative-shift signals · info-asymmetry alpha
 
-2. "US x Iran permanent peace deal by May 31?" — YES 24.5% ($993K vol)
-- abdoohl (23 rxn, recurrent): "WHY SHOULD WE BE TREATED LIKE CHILDREN GIVE US MF STRIKE MARKETS!!!"
-- morenaji (May 9): "Trump's 14 demands? He wants zero enrichment, total dismantling of the missile program, and permanent..."
-- 💰💰 (May 9): "Iranian port official says 6 people injured, 6 missing after a U.S. strike targeted an Iranian ship in the strait"
-Signal: Live US strike on Iranian vessel in Strait of Hormuz today. 14 demands include zero enrichment + full missile dismantlement — Iran's stated red lines. MOU-vs-permanent clause gap intact. NO thesis intact.
+1. "US x Iran permanent peace deal by May 15?" — YES 14.4% ($1.19m v24h)
+LIVE: Iran submitted formal proposal today ~12:42 UTC (IRNA). Proposal "focused on ending the war" but explicitly excludes nuclear issue. May-31 horizon repriced +7pp (24.5%->31.5%) on the news.
+- ignorant-case (05-10, fresh): UMA clause requires "Permanent Peace on lasting basis." Nuclear-exempt security arrangement doesn't clear the bar. "Core conflicts remain unresolved."
+- ill-ultimatum (05-10): "Iran's proposal doesn't address nuclear issue, US won't accept without it" — the precise asymmetry.
+- morenaji (05-07, 9 reactions, citation): Former DefSec Esper/Yahoo Finance — "real deal months away, no unconditional surrender." Called Yes buyers "exit liquidity for whales."
+- grimy-formicarium (04-27, 8 reactions): "I'm from Iran but in Romania — Iran never wants a deal from USA." Persian-national perspective, persistent holder.
+CalibrationGap: May-15 YES 14.4% vs May-11 YES 3.95% = 10.45pp timing premium for 4-5 days of negotiation on a non-nuclear proposal. Nuclear exclusion is the clause-text trap.
 
-3. "US x Iran permanent peace deal by May 15?" — YES 12.45% ($858K vol)
-- compute (May 9): "Trump says he's 'still waiting' for Iran's response to the latest U.S. proposal"
-- ilovethisgameman (May 9): "Yeah not even sure if the MOU is agreed on ATP."
-Signal: 6 days to resolution. Trump waiting. Active strikes. 12.45% likely generous given evidence floor.
+2. "Russia x Ukraine ceasefire by May 31?" — YES 99.95% ($15.8m v24h) [UMA DISPUTE LIVE]
+[05-09 data — API returned empty for fresh comments today]
+- chief-cry (05-09, top take): "Zelensky's statement: for humanitarian purposes and limited only to the Red Square." Resolution clause excludes humanitarian/limited-scope pauses.
+- porx / o-x (31 reactions each): April 2025 precedent — identical structure, ruled NO.
+CalibrationGap: June-30 horizon at identical 99.95% carries same clause, unpriced twin. Biggest P&L asymmetry on platform. UMA window open.
 
-4. "Hantavirus pandemic in 2026?" — YES 8.35% ($1.16M vol)
-- amghost (12:53 UTC, 2 rxn): "Two new cases in Spain...distance between them exceeds 1,000 kilometers."
-- WeatherBot2 (May 9): "Hantavirus is a trap. Crypto is a trap."
-- zubyoha.eth (May 9): "This is getting real each day, crazy shit."
-Signal: Spain cluster with 1,000+ km separation is new. Andes virus is close-contact only — geographic spread without airborne mechanism doesn't shift resolution odds. WHO low-risk stance stands. Fair YES ~3% per prior token-pick analysis.
+3. "Hantavirus pandemic in 2026?" — YES 6.65% ($1.07m v24h)
+Repriced 9.65%->6.65% (-3pp) today despite two new Spain cases 1,000+ km apart.
+- giving-forte (05-09, 10 reactions): "This whole ship infection narrative is too cinematic to not be planned. WHO will likely declare pandemic in <10 days." Conspiracy-frame long — also most analytically grounded NO voice on Andes-virus close-contact mechanism. Self-contradictory actor.
+- measly-homogenate (05-09, 8 reactions): "Ya'll realize the World Cup is perfect for this to spread?" North America venue = only credible YES catalyst.
+- imaginary-confusion (05-08, 10 reactions): "What if somebody sick bets YES and purposefully spreads this disease?" — moral hazard flag.
+CalibrationGap: -3pp despite Spain geographic spread = market tracking mechanism correctly. WHO "low risk" holds.
 
-5. "Russia x Ukraine ceasefire by June 30?" — YES 99.95% ($3.7M vol)
-- Kuomintang (May 9): "refund us"
-- Usable-Porcelain (May 9): "when can i bet on ceasefire again, poly?"
-- LWHikarikOld (May 9 RU): "You have to be able to admit defeat"
-Signal: Identical clause to May 31. If UMA rules May 31 truce a humanitarian pause (excluded), June 30 carries same exposure. No cross-horizon clause-text discount priced in.
+4. "Who will be confirmed as Fed Chair?" — Warsh ~99.85% ($562k v24h)
+Senate floor vote expected this week (May 11).
+- grand-gum (05-08): "cloture is our last line of defence" — 60-vote procedural threshold. Only structural risk to Warsh not in price.
+- silver-violin (05-09): "This market has not adjusted to the latest data" — posted near floor-vote news.
+CalibrationGap: Warsh at ~100% prices zero cloture risk. June 17-18 FOMC is the post-confirmation falsifier.
+
+5. "Will Bitcoin hit $150k by June 30?" — YES 1.35% ($5.82m v24h)
+Crypto comments dead 7th+ consecutive day. Birthday-bot cluster confirmed: alice2002 posted identical "it's my bday anyone?" on 04-21, 04-27, 05-01, 05-04. Cambodia phone scam (+855) in thread. aniket04 (8 reactions) flagging spam directly.
+No signal. Crypto vertical substituted with full politics load per MEMORY.md precedent.
