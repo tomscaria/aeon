@@ -1,0 +1,525 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "runners — 2026-05-10"
+      },
+      "children": [
+        "verdict-section",
+        "sep-1",
+        "tokens-section",
+        "sep-2",
+        "sources-section",
+        "sep-3",
+        "vibe-section"
+      ]
+    },
+    "verdict-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict-label",
+        "verdict-badge"
+      ]
+    },
+    "verdict-label": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict:",
+        "variant": "body"
+      }
+    },
+    "verdict-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MIXED",
+        "variant": "secondary"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tokens-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-1",
+        "sep-1-2",
+        "token-2",
+        "sep-2-3",
+        "token-3",
+        "sep-3-4",
+        "token-4",
+        "sep-4-5",
+        "token-5"
+      ]
+    },
+    "token-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-header",
+        "t1-metrics",
+        "t1-commentary"
+      ]
+    },
+    "t1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t1-num",
+        "t1-class",
+        "t1-token-name",
+        "t1-chain",
+        "t1-change"
+      ]
+    },
+    "t1-num": {
+      "type": "Text",
+      "props": {
+        "text": "1.",
+        "variant": "body"
+      }
+    },
+    "t1-class": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "destructive"
+      }
+    },
+    "t1-token-name": {
+      "type": "Heading",
+      "props": {
+        "text": "AGI",
+        "level": "h4"
+      }
+    },
+    "t1-chain": {
+      "type": "Text",
+      "props": {
+        "text": "(solana)",
+        "variant": "caption"
+      }
+    },
+    "t1-change": {
+      "type": "Text",
+      "props": {
+        "text": "+1328% 24h",
+        "variant": "lead"
+      }
+    },
+    "t1-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "vol $8.7m | liq $73k | fdv $530k (no mcap) | h1 -13% | buys:sells 45k:38k",
+        "variant": "caption"
+      }
+    },
+    "t1-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "17h pump on $73k liq, 119x vol/liq ratio; h1 already negative, momentum has crested; one large exit collapses the floor.",
+        "variant": "body"
+      }
+    },
+    "sep-1-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "token-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-header",
+        "t2-metrics",
+        "t2-commentary"
+      ]
+    },
+    "t2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t2-num",
+        "t2-class",
+        "t2-token-name",
+        "t2-chain",
+        "t2-change"
+      ]
+    },
+    "t2-num": {
+      "type": "Text",
+      "props": {
+        "text": "2.",
+        "variant": "body"
+      }
+    },
+    "t2-class": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "destructive"
+      }
+    },
+    "t2-token-name": {
+      "type": "Heading",
+      "props": {
+        "text": "CONSENSUS-1",
+        "level": "h4"
+      }
+    },
+    "t2-chain": {
+      "type": "Text",
+      "props": {
+        "text": "(solana)",
+        "variant": "caption"
+      }
+    },
+    "t2-change": {
+      "type": "Text",
+      "props": {
+        "text": "+761% 24h",
+        "variant": "lead"
+      }
+    },
+    "t2-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "vol $2.2m | liq $49k | fdv $288k (no mcap) | h1 +2.9% | buys:sells 20k:15k",
+        "variant": "caption"
+      }
+    },
+    "t2-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "consensus-week meme, 14h old; h1 still positive distinguishes it from AGI; 1.33:1 buyer ratio looks organic but $49k liq means a single whale exits and it's gone.",
+        "variant": "body"
+      }
+    },
+    "sep-2-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "token-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-header",
+        "t3-metrics",
+        "t3-commentary"
+      ]
+    },
+    "t3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t3-num",
+        "t3-class",
+        "t3-token-name",
+        "t3-chain",
+        "t3-change"
+      ]
+    },
+    "t3-num": {
+      "type": "Text",
+      "props": {
+        "text": "3.",
+        "variant": "body"
+      }
+    },
+    "t3-class": {
+      "type": "Badge",
+      "props": {
+        "text": "CONTINUATION",
+        "variant": "default"
+      }
+    },
+    "t3-token-name": {
+      "type": "Heading",
+      "props": {
+        "text": "SWEAT",
+        "level": "h4"
+      }
+    },
+    "t3-chain": {
+      "type": "Text",
+      "props": {
+        "text": "(eth)",
+        "variant": "caption"
+      }
+    },
+    "t3-change": {
+      "type": "Text",
+      "props": {
+        "text": "+353% 24h",
+        "variant": "lead"
+      }
+    },
+    "t3-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "vol $1.8m | liq $553k | fdv $4.1m | mcap $19.5m | h1 +4.1% | buys:sells 1032:919",
+        "variant": "caption"
+      }
+    },
+    "t3-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "earn-to-move token launched 2022, cleanest CONTINUATION in the set; h1 +4.1% and $553k liq give actual room for position; no obvious narrative catalyst — watch for external press confirming the move.",
+        "variant": "body"
+      }
+    },
+    "sep-3-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "token-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-header",
+        "t4-metrics",
+        "t4-commentary"
+      ]
+    },
+    "t4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t4-num",
+        "t4-class",
+        "t4-token-name",
+        "t4-chain",
+        "t4-change"
+      ]
+    },
+    "t4-num": {
+      "type": "Text",
+      "props": {
+        "text": "4.",
+        "variant": "body"
+      }
+    },
+    "t4-class": {
+      "type": "Badge",
+      "props": {
+        "text": "REVERSAL",
+        "variant": "outline"
+      }
+    },
+    "t4-token-name": {
+      "type": "Heading",
+      "props": {
+        "text": "HANTA pool-2",
+        "level": "h4"
+      }
+    },
+    "t4-chain": {
+      "type": "Text",
+      "props": {
+        "text": "(solana)",
+        "variant": "caption"
+      }
+    },
+    "t4-change": {
+      "type": "Text",
+      "props": {
+        "text": "+280% 24h",
+        "variant": "lead"
+      }
+    },
+    "t4-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "vol $2.4m | liq $100k | fdv $1.2m (no mcap) | h1 -5.8% | buys:sells 33k:28k",
+        "variant": "caption"
+      }
+    },
+    "t4-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "distinct pool from the main HANTA token (which is -8% and gated); disease-meme narrative tied to PM Hantavirus event 448037 (9.65% YES, $2.12M); h1 -5.8% confirms REVERSAL — fading into the day. CalibrationGap-adjacent: Andes close-contact clause vs airborne sentiment is the watch here.",
+        "variant": "body"
+      }
+    },
+    "sep-4-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "token-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-header",
+        "t5-metrics",
+        "t5-commentary"
+      ]
+    },
+    "t5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t5-num",
+        "t5-class",
+        "t5-token-name",
+        "t5-chain",
+        "t5-change",
+        "t5-repeat"
+      ]
+    },
+    "t5-num": {
+      "type": "Text",
+      "props": {
+        "text": "5.",
+        "variant": "body"
+      }
+    },
+    "t5-class": {
+      "type": "Badge",
+      "props": {
+        "text": "CONTINUATION",
+        "variant": "default"
+      }
+    },
+    "t5-token-name": {
+      "type": "Heading",
+      "props": {
+        "text": "GAYTES",
+        "level": "h4"
+      }
+    },
+    "t5-chain": {
+      "type": "Text",
+      "props": {
+        "text": "(solana)",
+        "variant": "caption"
+      }
+    },
+    "t5-change": {
+      "type": "Text",
+      "props": {
+        "text": "+194% 24h",
+        "variant": "lead"
+      }
+    },
+    "t5-repeat": {
+      "type": "Badge",
+      "props": {
+        "text": "repeat",
+        "variant": "secondary"
+      }
+    },
+    "t5-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "vol $2.6m | liq $109k | fdv $1.1m | h1 +105% | buys:sells 19k:15k",
+        "variant": "caption"
+      }
+    },
+    "t5-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "2nd consecutive top-5 day (05-09 slot 4 at +550%); h1 +105% is sharpest short-term momentum in the dataset today; ~49h from 05-08 launch cohort, just past the BREAKOUT window into CONTINUATION; $109k liq = one large exit from floor break.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-heading",
+        "sources-text"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "gt-global=ok | gt-solana=ok | gt-eth=ok | gt-base=ok | gt-bsc=ok | gt-arb=fail(429) | gt-new=ok",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "vibe-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vibe-heading",
+        "vibe-text"
+      ]
+    },
+    "vibe-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Vibe",
+        "level": "h4"
+      }
+    },
+    "vibe-text": {
+      "type": "Text",
+      "props": {
+        "text": "MIXED tape — two thin-liq Solana breakouts score highest on raw math; SWEAT on ETH is the only CONTINUATION with real liq depth; BSC DEEP-LIQ bench (BILL, INX, OPG) all passing the gate on $1-2m liq but posting <12% 24h moves only.",
+        "variant": "body"
+      }
+    }
+  }
+}

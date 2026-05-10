@@ -1,24 +1,24 @@
-*runners — 2026-05-09* — verdict: SPECULATIVE
+*runners — 2026-05-10* — verdict: MIXED
 
-1. [BREAKOUT] UAP (solana) +2225% 24h
-vol $8.4m | liq $106k | fdv $1.1m | h1 +25% | buys:sells 54k:39k
-— 24h-old pumpswap launch with h1 still green; UAP/government-disclosure meme thesis. 11k unique buyers but $106k liq is one large exit from reversal — watch h1 for fade onset.
+1. [BREAKOUT] AGI (solana) +1328% 24h
+vol $8.7m | liq $73k | fdv $530k (no mcap) | h1 -13% | buys:sells 45k:38k
+— 17h pump on $73k liq, 119x vol/liq ratio; h1 already negative, momentum has crested; one large exit collapses the floor.
 
-2. [BREAKOUT] ROAF (solana) +566% 24h
-vol $53.3m | liq $350k | fdv $247k | h1 -0.3% | buys:sells 39k:37.5k
-— 152x vol/liq ratio, near-perfect 1:1 buys/sells, zero h1 momentum. High wash-print probability; score inflated by vol metric alone. Do not read $53m as organic demand.
+2. [BREAKOUT] CONSENSUS-1 (solana) +761% 24h
+vol $2.2m | liq $49k | fdv $288k (no mcap) | h1 +2.9% | buys:sells 20k:15k
+— consensus-week meme, 14h old; h1 still positive distinguishes it from AGI; 1.33:1 buyer ratio looks organic but $49k liq means a single whale exits and it's gone.
 
-3. [CONTINUATION] Norovirus (solana) +5796% 24h
-vol $911k | liq $30k | fdv $110k | h1 +21% | buys:sells 8.7k:5.9k
-— 170-day-old pool reactivated by Hantavirus/disease-meme narrative (05-08 Polymarket Hantavirus 9.65% YES, $2.12M). h1 +21% with buy skew = active inflow at snapshot. $30k liq = high collapse risk. CalibrationGap-adjacent: watch whether PM Hantavirus market absorbs the narrative or amplifies this.
+3. [CONTINUATION] SWEAT (eth) +353% 24h
+vol $1.8m | liq $553k | fdv $4.1m | mcap $19.5m | h1 +4.1% | buys:sells 1032:919
+— earn-to-move token launched 2022, cleanest CONTINUATION in the set; h1 +4.1% and $553k liq give actual room for position; no obvious narrative catalyst — watch for external press confirming the move.
 
-4. [BREAKOUT] GAYTES (solana) +550% 24h
-vol $3.15m | liq $61k | fdv $379k | h1 -4.3% | buys:sells 35k:24.5k
-— 05-08 launch cohort (same day as UAP), h1 already red at -4.3%. Political meme. 34k buy participation confirms breadth but fade likely within 6-12h without narrative refresh.
+4. [REVERSAL] HANTA pool-2 (solana) +280% 24h
+vol $2.4m | liq $100k | fdv $1.2m (no mcap) | h1 -5.8% | buys:sells 33k:28k
+— distinct pool from the main HANTA token (which is -8% and gated); disease-meme narrative tied to PM Hantavirus event 448037 (9.65% YES, $2.12M); h1 -5.8% confirms REVERSAL — fading into the day. CalibrationGap-adjacent: Andes close-contact clause vs airborne sentiment is the watch here.
 
-5. [BREAKOUT] Bear (solana) +1577% 24h
-vol $4.19m | liq $75k | fdv $600k | h1 -10.7% | buys:sells 30k:24k
-— Bear ticker coasting risk-off tape (BTC -1.3% 05-08). 19h old, h1 -10.7% = late-stage fade in progress. 30k buyers shows breadth but arc likely printing top.
+5. [CONTINUATION] GAYTES (solana) +194% 24h ★ repeat
+vol $2.6m | liq $109k | fdv $1.1m | h1 +105% | buys:sells 19k:15k
+— 2nd consecutive top-5 day (05-09 slot 4 at +550%); h1 +105% is sharpest short-term momentum in the dataset today; ~49h from 05-08 launch cohort, just past the BREAKOUT window into CONTINUATION; $109k liq = one large exit from floor break.
 
-sources: gt-global=ok gt-solana=ok gt-eth=ok gt-base=ok gt-bsc=ok gt-arb=ok gt-new=ok
-vibe: fifth straight SPECULATIVE session. Solana pump.fun retail casino the only tape with velocity; all DEEP-LIQ names (aura $18.9m vol, BILL $43.9m vol, VVV $5.9m vol) below top-5 threshold. Risk-off macro not suppressing meme activity — redirecting it to Solana.
+sources: gt-global=ok gt-solana=ok gt-eth=ok gt-base=ok gt-bsc=ok gt-arb=fail(429) gt-new=ok
+vibe: MIXED tape — two thin-liq Solana breakouts score highest on raw math; SWEAT on ETH is the only CONTINUATION with real liq depth; BSC DEEP-LIQ bench (BILL, INX, OPG) all passing the gate on $1-2m liq but posting <12% 24h moves only.

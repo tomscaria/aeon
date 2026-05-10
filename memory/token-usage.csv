@@ -145,4 +145,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-09,evening-rollup,claude-sonnet-4-6,21,16707,1171973,66248
 2026-05-10,daily-routine,claude-sonnet-4-6,653,26066,907928,80018
 2026-05-10,heartbeat,claude-sonnet-4-6,12,27245,795535,98612
-2026-05-10,token-pick,claude-sonnet-4-6,4158,18300,906963,68524
+2026-05-10,monitor-runners,claude-sonnet-4-6,19409,32561,574554,202069
