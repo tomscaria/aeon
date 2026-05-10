@@ -1,7 +1,7 @@
-market context — 2026-05-09
+market context — 2026-05-10
 
-take: rotation (conviction medium)
-BTC $80,355 (+0.63%) / ETH $2,313 (+1.40%) · F&G 38 (Fear, unchanged)
-breadth 17/20 · TVL ETH $45.66B (+1.3% vs prior)
-top narrative: privacy coins (ZEC +58.31% 7d, rising) / SOL ecosystem (rising)
-hot market: Russia-Ukraine ceasefire May-31 YES 99.95% ($17.9M vol)
+take: chop (conviction medium)
+BTC $80,936 (+0.71%) / ETH $2,329 (+0.70%) · F&G 47 (Neutral, +9pts from Fear)
+breadth 13/20 · DEX vol $5.17B (-29% vs yesterday)
+top narrative: privacy coins / ZEC (rising, +50.68% 7d)
+hot market: "US-Iran peace by May 15" YES 14.35% · Hantavirus 6.65% (fading)

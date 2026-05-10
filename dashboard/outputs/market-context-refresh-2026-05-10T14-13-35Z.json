@@ -1,0 +1,254 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-05-10"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_take",
+        "sep1",
+        "section_prices_fg",
+        "sep2",
+        "section_breadth_dex",
+        "sep3",
+        "section_narrative",
+        "sep4",
+        "section_markets"
+      ]
+    },
+    "section_take": {
+      "type": "Text",
+      "props": {
+        "text": "take: chop (conviction medium)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_prices_fg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices_grid",
+        "fg_stack"
+      ]
+    },
+    "prices_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$80,936",
+        "delta": "+0.71%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,329",
+        "delta": "+0.70%",
+        "trend": "up"
+      }
+    },
+    "fg_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_fg",
+        "badge_neutral"
+      ]
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "47",
+        "delta": "+9pts from Fear"
+      }
+    },
+    "badge_neutral": {
+      "type": "Badge",
+      "props": {
+        "text": "Neutral",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_breadth_dex": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_breadth",
+        "stat_dex"
+      ]
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "13/20"
+      }
+    },
+    "stat_dex": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$5.17B",
+        "delta": "-29%",
+        "trend": "down"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_narrative",
+        "stat_zec"
+      ]
+    },
+    "text_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "top narrative: privacy coins / ZEC (rising)",
+        "variant": "body"
+      }
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC 7d",
+        "value": "+50.68%",
+        "trend": "up"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_markets_header",
+        "market_iran",
+        "market_hantavirus"
+      ]
+    },
+    "text_markets_header": {
+      "type": "Text",
+      "props": {
+        "text": "hot market",
+        "variant": "lead"
+      }
+    },
+    "market_iran": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_iran",
+        "progress_iran"
+      ]
+    },
+    "text_iran": {
+      "type": "Text",
+      "props": {
+        "text": "US-Iran peace by May 15 (YES)",
+        "variant": "body"
+      }
+    },
+    "progress_iran": {
+      "type": "Progress",
+      "props": {
+        "value": 14.35,
+        "max": 100,
+        "label": "14.35%"
+      }
+    },
+    "market_hantavirus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_hantavirus",
+        "progress_hantavirus"
+      ]
+    },
+    "text_hantavirus": {
+      "type": "Text",
+      "props": {
+        "text": "Hantavirus (fading)",
+        "variant": "body"
+      }
+    },
+    "progress_hantavirus": {
+      "type": "Progress",
+      "props": {
+        "value": 6.65,
+        "max": 100,
+        "label": "6.65%"
+      }
+    }
+  }
+}
