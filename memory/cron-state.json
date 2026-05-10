@@ -638,8 +638,8 @@
     "last_failed": "2026-05-08T21:19:26Z"
   },
   "evening-rollup": {
-    "last_dispatch": "2026-05-09T21:55:45Z",
-    "last_status": "success",
+    "last_dispatch": "2026-05-10T21:05:30Z",
+    "last_status": "dispatched",
     "last_success": "2026-05-09T22:02:07Z",
     "total_runs": 19,
     "total_successes": 15,
@@ -651,8 +651,8 @@
     "last_quality_score": 4
   },
   "evening-recap": {
-    "last_dispatch": "2026-05-09T21:55:45Z",
-    "last_status": "success",
+    "last_dispatch": "2026-05-10T21:05:30Z",
+    "last_status": "dispatched",
     "last_success": "2026-05-09T21:59:48Z",
     "total_runs": 14,
     "total_successes": 14,
