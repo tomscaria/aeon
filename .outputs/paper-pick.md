@@ -1,5 +1,5 @@
-*Paper Pick — 2026-05-09*
+*Paper Pick — 2026-05-10*
 
-"ForesightFlow: An Information Leakage Score Framework for Prediction Markets" — Maksym Nechepurenko · ↑0
-Foundational ILS-framework paper of the 8-paper Nechepurenko q-fin.TR run; closes the queue with the methodology-formalization layer that anchors ADR-096+ resolution-text-ingest (24-insider-case inventory, 0.444-magnitude article-vs-automated-proxy ILS sign-reversal, Murphy-decomposition link to Coordination Layer).
-[Read](https://arxiv.org/abs/2605.00493) | [PDF](https://arxiv.org/pdf/2605.00493)
+"The Signal Credibility Index for Prediction Markets: A Microstructure-Grounded Diagnostic with Weighted and Time-Varying Extensions" — Maksym Nechepurenko · econ.GN, 19pp
+Diagnostic that separates durable Bayesian-driven price moves from transient liquidity pressure, position-adjustment noise, and coordinated multi-wallet manipulation — direct upgrade map for CalibrationGap entry-decision logic and the price-move-credibility complement to the (now-fully-picked) 3-paper Nechepurenko ILS arc.
+[Read](https://arxiv.org/abs/2604.27041) | [PDF](https://arxiv.org/pdf/2604.27041)
