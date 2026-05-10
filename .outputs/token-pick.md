@@ -1,17 +1,17 @@
-*Daily Pick — 2026-05-09*
+*Daily Pick — 2026-05-10*
 
-*Token: ICP*  [HIGH]  signal 10/10
-Price: $3.59 (+14.74% 24h / +53.51% 7d) | mcap $1.98B | vol $332M (vol/mcap 0.167)
-Score breakdown: [trending+2, both>5%+2, vol/mcap>=0.10+2, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1] = 10/10
-Catalyst: DFINITY "Cloud Engines" demo scheduled May 10 — dedicated AI nodes + agentic builds; 5th-anniversary milestone positioning ICP as decentralized hyperscaler alternative; new tokenomics direct 20% of engine revenue to buy-and-burn ICP via NNS.
-Risk: Post-demo "sell the news" reversal; broader risk-off tape (BTC $80k, F&G 38 Fear) compresses altcoin upside if demo disappoints.
-Vs recent picks: fresh — ICP not picked in the last 7d (prior: ONDO 05-08, JTO 05-07, ZEC 05-06, TON 05-05).
+*Token: SUI*  [HIGH]  signal 10/10
+Price: $1.13 (+7.2% 24h / +22.2% 7d) | mcap $4.5B | vol $786M (vol/mcap 0.177)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, trending+2, vol/mcap≥0.10+2, RS vs BTC/ETH+2] = 10/10
+Catalyst: SUI Group Holdings (Nasdaq-listed) staked its full 108.7M SUI position — ~2.7% of circulating supply locked — and Nigerian fintech Paga (35M+ users) announced Sui integration via USDsui stablecoin at Sui Live Miami
+Risk: Approaching $1.20 technical resistance; BTC holding $80k range — a flush below $79k triggers broad alt de-risking
+Vs recent picks: first SUI pick (last 7d: DASH, TON, ZEC, JTO, ONDO, ICP — all distinct narratives)
 
-*Market: "Hantavirus pandemic in 2026?"*  [MEDIUM]  edge 5.5pp
-Current: YES 8.45c / NO 91.55c | 24h vol $1.29M | resolves: 2026-12-31
-Fair YES: ~3% (inputs: [WHO DG publicly dismissed pandemic risk, called overall risk "low" and rejected COVID comparison — UN News 2026-05-07], [resolution clause requires explicit WHO "pandemic" characterization — PHEIC alone does not qualify], [MV Hondius cluster = 6 confirmed / 3 deaths; insufficient scale for pandemic characterization])
-Thesis: Market priced up on Andes virus H2H transmission novelty on the cruise ship cluster. Resolution clause is strict — WHO must use the word "pandemic" in official communications; WHO already moved rhetorically in the opposite direction. NO trade.
-Risk: Andes strain acquires efficient airborne transmission; WHO uses loose "pandemic" language in a minor report.
+*Market: "Strait of Hormuz traffic returns to normal by end of May?"*  [MEDIUM]  edge 9.5pp
+Current: YES 21.5¢ / NO 78.5¢ | 24h vol $720k | resolves: 2026-05-31
+Fair YES: ~12% (inputs: [Polymarket May-31 Iran peace deal at 24.5%], [MOU framework = 30-day negotiation period before Hormuz terms execute — normalization earliest late June], [Iran lost mines in strait — physical reopening delayed independent of any deal])
+Thesis: market pricing 1-in-5 odds despite structural impossibility; 30-day MOU negotiation lag + lost mines keeps Hormuz blocked through May 31 regardless of deal timing. Direction: NO at 78.5¢.
+Risk: MOU includes surprise immediate Hormuz provision, or US military escorts resume at scale and count as "normal" under resolution clause
 
-sources: cg=ok, dex=ok (ICP not on DexScreener trending — no cross-source bonus applied), poly=ok
+sources: cg=ok, dex=ok, poly=ok
 not financial advice — pattern-matching only

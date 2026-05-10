@@ -1,0 +1,561 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "token-pick — Daily Picks 2026-05-10"
+      },
+      "children": [
+        "section-token"
+      ]
+    },
+    "section-token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-header",
+        "token-price",
+        "token-market-stats",
+        "token-score",
+        "token-catalyst",
+        "token-risk",
+        "token-recent",
+        "separator-1",
+        "section-market"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "token-name",
+        "token-signal-badge",
+        "token-signal-score"
+      ]
+    },
+    "token-name": {
+      "type": "Heading",
+      "props": {
+        "text": "SUI",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "token-signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "token-signal-score": {
+      "type": "Stat",
+      "props": {
+        "label": "signal",
+        "value": "10/10"
+      },
+      "children": []
+    },
+    "token-price": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price-main",
+        "price-7d"
+      ]
+    },
+    "price-main": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$1.13",
+        "delta": "+7.2%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "price-7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d: +22.2%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "token-market-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-mcap",
+        "stat-vol",
+        "stat-vol-ratio"
+      ]
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market cap",
+        "value": "$4.5B"
+      },
+      "children": []
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$786M"
+      },
+      "children": []
+    },
+    "stat-vol-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap",
+        "value": "0.177"
+      },
+      "children": []
+    },
+    "token-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-label",
+        "score-table"
+      ]
+    },
+    "score-label": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "score-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Criterion",
+          "Points"
+        ],
+        "rows": [
+          [
+            "24h > 0",
+            "+1"
+          ],
+          [
+            "7d > 0",
+            "+1"
+          ],
+          [
+            "Both > 5%",
+            "+2"
+          ],
+          [
+            "Trending",
+            "+2"
+          ],
+          [
+            "Vol/mcap ≥ 0.10",
+            "+2"
+          ],
+          [
+            "RS vs BTC/ETH",
+            "+2"
+          ],
+          [
+            "Total",
+            "10/10"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "token-catalyst": {
+      "type": "Alert",
+      "props": {
+        "title": "Catalyst",
+        "message": "SUI Group Holdings (Nasdaq-listed) staked its full 108.7M SUI position — ~2.7% of circulating supply locked — and Nigerian fintech Paga (35M+ users) announced Sui integration via USDsui stablecoin at Sui Live Miami",
+        "type": "info"
+      },
+      "children": []
+    },
+    "token-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Approaching $1.20 technical resistance; BTC holding $80k range — a flush below $79k triggers broad alt de-risking",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "token-recent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recent-intro",
+        "recent-badges"
+      ]
+    },
+    "recent-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first SUI pick. Last 7d (all distinct narratives):",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "recent-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dash",
+        "badge-ton",
+        "badge-zec",
+        "badge-jto",
+        "badge-ondo",
+        "badge-icp"
+      ]
+    },
+    "badge-dash": {
+      "type": "Badge",
+      "props": {
+        "text": "DASH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-ton": {
+      "type": "Badge",
+      "props": {
+        "text": "TON",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-jto": {
+      "type": "Badge",
+      "props": {
+        "text": "JTO",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-ondo": {
+      "type": "Badge",
+      "props": {
+        "text": "ONDO",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-icp": {
+      "type": "Badge",
+      "props": {
+        "text": "ICP",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-odds",
+        "market-fair",
+        "market-thesis",
+        "market-risk",
+        "separator-2",
+        "sources"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market-title",
+        "market-signal-badge",
+        "market-edge"
+      ]
+    },
+    "market-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Strait of Hormuz traffic returns to normal by end of May?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "market-signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "market-edge": {
+      "type": "Stat",
+      "props": {
+        "label": "edge",
+        "value": "9.5pp"
+      },
+      "children": []
+    },
+    "market-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "odds-label",
+        "odds-yes",
+        "odds-no",
+        "odds-meta"
+      ]
+    },
+    "odds-label": {
+      "type": "Text",
+      "props": {
+        "text": "Current:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "odds-yes": {
+      "type": "Progress",
+      "props": {
+        "value": 21.5,
+        "max": 100,
+        "label": "YES 21.5¢"
+      },
+      "children": []
+    },
+    "odds-no": {
+      "type": "Progress",
+      "props": {
+        "value": 78.5,
+        "max": 100,
+        "label": "NO 78.5¢"
+      },
+      "children": []
+    },
+    "odds-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "odds-vol",
+        "odds-resolves"
+      ]
+    },
+    "odds-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h vol",
+        "value": "$720k"
+      },
+      "children": []
+    },
+    "odds-resolves": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "2026-05-31"
+      },
+      "children": []
+    },
+    "market-fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair-value",
+        "fair-inputs"
+      ]
+    },
+    "fair-value": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES odds",
+        "value": "~12%"
+      },
+      "children": []
+    },
+    "fair-inputs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "input-label",
+        "input-1",
+        "input-2",
+        "input-3"
+      ]
+    },
+    "input-label": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "input-1": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket May-31 Iran peace deal at 24.5%",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "input-2": {
+      "type": "Text",
+      "props": {
+        "text": "MOU framework = 30-day negotiation period before Hormuz terms execute — normalization earliest late June",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "input-3": {
+      "type": "Text",
+      "props": {
+        "text": "Iran lost mines in strait — physical reopening delayed independent of any deal",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "market-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-label",
+        "thesis-text",
+        "direction"
+      ]
+    },
+    "thesis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market pricing 1-in-5 odds despite structural impossibility; 30-day MOU negotiation lag + lost mines keeps Hormuz blocked through May 31 regardless of deal timing.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Direction: NO at 78.5¢",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "MOU includes surprise immediate Hormuz provision, or US military escorts resume at scale and count as \"normal\" under resolution clause",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-status",
+        "sources-disclaimer"
+      ]
+    },
+    "sources-status": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sources-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
