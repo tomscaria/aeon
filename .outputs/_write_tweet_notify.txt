@@ -22,4 +22,3 @@ note: revenant-snapshot 26h stale; CalibrationGap stats sourced from MEMORY.md
 5b. Why does a market move +7pp on a deal the resolver won't honor? Because two readers are pricing it.
 
 best: 4a — only draft that lands the two-event pattern, precise clause mechanism, and live P&L proof in one beat
-
