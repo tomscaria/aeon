@@ -87,3 +87,7 @@ The sandbox may block outbound curl. Use **WebFetch** as a fallback for any URL 
 ## Log
 
 Log everything to memory/logs/${today}.md.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

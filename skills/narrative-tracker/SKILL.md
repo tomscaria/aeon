@@ -186,3 +186,7 @@ The sandbox blocks outbound curl in many cases. Always read `.xai-cache/narrativ
 
 - `XAI_API_KEY` — used by the pre-fetch step outside the sandbox; the skill reads the cached JSON. Optional — falls back to WebSearch.
 - Notification channels configured via repo secrets (see CLAUDE.md).
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

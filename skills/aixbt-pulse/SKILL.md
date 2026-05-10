@@ -183,3 +183,11 @@ All three endpoints are unauthenticated. Plain curl from the sandbox should work
 ## Output
 
 End with a `## Summary` block: createdAt, windowHours, NEW count, bridge call, which files were updated.
+
+## Sandbox note
+
+This skill uses local file reads and web search only. No outbound API calls needed.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

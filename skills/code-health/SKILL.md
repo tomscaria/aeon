@@ -50,3 +50,11 @@ Steps:
    ```
 4. Send a summary via `./notify`.
 5. Log what you did to memory/logs/${today}.md.
+
+## Sandbox note
+
+This skill uses local file reads and web search only. No outbound API calls needed.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

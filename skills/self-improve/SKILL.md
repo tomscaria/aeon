@@ -119,3 +119,11 @@ Prioritize improvements that address patterns visible in session context (repeat
 - If you can't find anything to improve, that's fine. Log "self-improve: everything looks healthy" and exit.
 - Never modify workflow files (.github/workflows/) — only skill files, CLAUDE.md, and aeon.yml.
 - Don't create circular improvements (e.g. don't improve self-improve).
+
+## Sandbox note
+
+This skill uses local file reads and web search only. No outbound API calls needed.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

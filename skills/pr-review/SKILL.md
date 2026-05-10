@@ -130,3 +130,7 @@ If no open PRs across all repos, log `PR_REVIEW_OK` and end.
 ## Sandbox note
 
 `gh` CLI handles GitHub auth internally — use it over raw curl in this sandbox. If `gh` fails at the repo level, log the error and continue to the next repo. As a last-resort fallback, use **WebFetch** on the raw PR URL to read the diff.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

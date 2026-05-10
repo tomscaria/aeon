@@ -174,3 +174,7 @@ Neither is needed during Claude's in-sandbox run. Do not read them, do not embed
 ## Sandbox note
 
 All the skill's work happens inside the sandbox — file writes and notify only. No outbound network required during Claude's run. The deploy step runs post-sandbox from `scripts/postprocess-deploy.sh`, which reads `.pending-deploy/` and uses `VERCEL_TOKEN` + `GH_GLOBAL` directly. If that script is missing, flag it in the notify (exit mode `DEPLOY_PROTOTYPE_NO_POSTPROCESS`) — the skill still succeeds at its file-writing job, but the operator needs to add the postprocess script for deploys to actually happen.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

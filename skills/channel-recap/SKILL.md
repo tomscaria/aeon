@@ -152,3 +152,7 @@ Append to `memory/logs/${today}.md`:
 ## Sandbox note
 
 The sandbox may block outbound curl. Use **WebFetch** as the primary fetch method for all t.me/s/ and embed URLs — it bypasses the sandbox. If a WebFetch call returns empty or malformed HTML, retry once before skipping the page.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

@@ -114,3 +114,7 @@ Append to `memory/logs/${today}.md`:
 ## Sandbox note
 
 The sandbox may block outbound curl. Use **WebFetch** as a fallback for any public URL. For auth-required APIs (none required here), use the pre-fetch / post-process pattern described in CLAUDE.md.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.
