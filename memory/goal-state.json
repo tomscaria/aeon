@@ -1,89 +1,89 @@
 {
-  "run_at": "2026-05-09T07:25:00Z",
+  "run_at": "2026-05-10T18:00:00Z",
   "goals": {
     "open-adr-096-resolution-text-ingest-swarm-fund-mvp": {
       "status": "ON_TRACK",
-      "activity_count_14d": 16,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 20,
+      "last_activity_date": "2026-05-10"
     },
     "fix-chain-runner-yml-dispatch-skill": {
       "status": "BLOCKED",
-      "activity_count_14d": 290,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 280,
+      "last_activity_date": "2026-05-10"
     },
     "cost-discipline-sonnet-downgrade-pass": {
       "status": "ON_TRACK",
       "activity_count_14d": 35,
-      "last_activity_date": "2026-05-09"
+      "last_activity_date": "2026-05-10"
     },
     "add-trusted-authors-to-watched-repos": {
       "status": "BLOCKED",
-      "activity_count_14d": 49,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 45,
+      "last_activity_date": "2026-05-10"
     },
     "monitor-runners-deep-liq-floor-patch": {
       "status": "ON_TRACK",
       "activity_count_14d": 185,
-      "last_activity_date": "2026-05-09"
+      "last_activity_date": "2026-05-10"
     },
     "swarm-fund-mvp-tick-broker-falsifier": {
       "status": "ON_TRACK",
       "activity_count_14d": 80,
-      "last_activity_date": "2026-05-09"
+      "last_activity_date": "2026-05-10"
     },
     "swarm-fund-mvp-72h-merge-cadence-test": {
       "status": "NEEDS_ATTENTION",
-      "activity_count_14d": 38,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 35,
+      "last_activity_date": "2026-05-10"
     },
     "pre-apex-push-monitor-polymarket-and-polymarket-comments": {
       "status": "ON_TRACK",
-      "activity_count_14d": 235,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 240,
+      "last_activity_date": "2026-05-10"
     },
     "hermes-arb-gate-adjustment-bump-min-gap": {
       "status": "ON_TRACK",
-      "activity_count_14d": 154,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 150,
+      "last_activity_date": "2026-05-10"
     },
     "swarm-fund-mvp-ollama-full-rollout-falsifier": {
       "status": "ON_TRACK",
-      "activity_count_14d": 66,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 65,
+      "last_activity_date": "2026-05-10"
     },
     "operator-config-sweep": {
       "status": "BLOCKED",
       "activity_count_14d": 80,
-      "last_activity_date": "2026-05-09"
+      "last_activity_date": "2026-05-10"
     },
     "skill-evals-key-fixes": {
       "status": "ON_TRACK",
-      "activity_count_14d": 99,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 95,
+      "last_activity_date": "2026-05-10"
     },
     "code-health-day-7-carry": {
       "status": "ON_TRACK",
-      "activity_count_14d": 39,
+      "activity_count_14d": 35,
       "last_activity_date": "2026-05-09"
     },
     "iss-018-iss-019-prompt-bug-fixes": {
       "status": "ON_TRACK",
-      "activity_count_14d": 26,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 25,
+      "last_activity_date": "2026-05-10"
     },
     "paper-pick-daily-build-phd-reading-list": {
       "status": "ON_TRACK",
-      "activity_count_14d": 619,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 650,
+      "last_activity_date": "2026-05-10"
     },
     "cite-stack-for-grant-stanford-application": {
       "status": "ON_TRACK",
-      "activity_count_14d": 26,
-      "last_activity_date": "2026-05-09"
+      "activity_count_14d": 30,
+      "last_activity_date": "2026-05-10"
     },
     "pr-156-reply-maker-xai-prefetch": {
       "status": "DONE",
-      "activity_count_14d": 352,
+      "activity_count_14d": 320,
       "last_activity_date": "2026-05-08",
       "completed_at": "2026-05-08T01:18:03Z"
     },
