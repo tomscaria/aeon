@@ -1,59 +1,72 @@
-*Daily Routine — 2026-05-09*
+*Daily Routine — 2026-05-10*
 
-_Risk-on rotation: 14/17 major alts green; ZEC and SOL lead breakouts; TON enters 3rd post-peak fade day._
+_Quiet consolidation after yesterday's risk-on rotation — large-cap alts fading, trending dominated by micro-cap pumps; UNI the lone large-cap breakout._
 
-*Top Winners (24h)*
-1. ZEC — $608 +6.6% / 7d +60.8% / 1h -1.3% • $1.02B / #15 [BREAKOUT][TRENDING+UP]
-2. SOL — $93.68 +6.1% / 7d +11.8% / 1h +0.2% • $4.15B / #7 [MAJOR][TRENDING+UP]
-3. LINK — $10.47 +5.9% / 7d +15.1% • $616M / #19 [MAJOR]
-4. ADA — $0.276 +5.1% / 7d +11.3% • $414M / #14 [MAJOR]
-5. XMR — $413.6 +4.4% / 7d +6.6% • $134M / #18 [MAJOR]
-6. DOGE — $0.1105 +3.8% • $1.12B / #10 [MAJOR]
-7. XRP — $1.42 +2.9% • $1.57B / #4 [MAJOR]
-8. BNB — $650 +2.1% / 7d +5.6% • $914M / #5 [MAJOR]
-9. HYPE — $43.83 +2.2% / 7d +5.8% • $226M / #12
-10. ONDO — $0.436 +18.1% [TRENDING+UP] (trending endpoint, #45)
+*Top 5 Winners (24h)*
+1. UNI — $4.04  +10.0% / 7d +25.7% / 1h +3.2%  •  $321M / #39  [BREAKOUT]
+2. SUI — $1.09  +1.4% / 7d +18.9% / 1h +1.2%  •  $625M / #27
+3. ZEC — $616  +0.6% / 7d +59.8% / 1h +0.5%  •  $761M / #13
+4. BTC — $80,754  +0.7% / 7d +3.2% / 1h +0.1%  •  $17.0B / #1
+5. ETH — $2,328  +0.6% / 7d +1.1% / 1h -0.0%  •  $9.8B / #2
 
-*Top Losers (24h)*
-1. TON — $2.54 -7.3% / 7d +91.3% • $840M / #20 [MAJOR] — day-3 post-peak fade
-(Partial dataset: only major loser >2% in top-20 by mcap)
+*Top 7 Losers (24h)*
+1. WLFI — $0.068  -9.8% / 7d +20.8% / 1h -0.3%  •  $99M / #44
+2. ICP — $3.46  -7.5% / 7d +46.9% / 1h -0.3%  •  $116M / #47  [TRENDING+DOWN][FADE]
+3. ONDO — $0.409  -6.1% / 7d +47.5% / 1h +0.8%  •  $227M / #46  [TRENDING+DOWN][FADE]
+4. ASTER — $0.700  -3.3% / 7d +3.1%  •  $193M / #51
+5. HYPE — $43.07  -1.9% / 7d +5.1%  •  $186M / #14  [TRENDING+DOWN]
+6. TON — $2.50  -2.4%  •  #20  [TRENDING+DOWN]
+7. DOGE — $0.109  -1.6% / 7d +0.6%  •  $572M / #10
 
-*Trending*
-1. ONDO — #45, $0.436, +18.1% [TRENDING+UP]
-2. SUI — #27, $1.07, +10.8% [TRENDING+UP]
-3. WOJAK — #630, $0.000000119, +16.1% [PUMP-RISK][MICROCAP]
-4. PENGU — #89, $0.01070, +4.1%
-5. VVV — #87, $15.35, +14.0%
-6. ZEC — #15, $609, +6.9% [BREAKOUT][TRENDING+UP]
-7. SOL — #7, $93.69, +6.2% [MAJOR][TRENDING+UP]
+*Trending (top 7)*
+1. SWEAT — #990, $0.0019, +890.6%  [PUMP-RISK][MICROCAP]
+2. TROLL — #320, $0.091, +71.2%  [PUMP-RISK]
+3. LAYER (Solayer) — #746, $0.139, +51.9%  [PUMP-RISK][MICROCAP]
+4. LAB — #133, $4.88, +13.9%
+5. ICP — #47, $3.46, -7.5%  [TRENDING+DOWN]
+6. BILL — #173, $0.103, +7.8%
+7. ONDO — #46, $0.409, -6.1%  [TRENDING+DOWN]
 
 *Notable*
-• ZEC [BREAKOUT][TRENDING+UP]: 7d +60.8% on $1.02B vol — reverses 2-day trending fade from memory
-• WOJAK [PUMP-RISK]: rank 630, +16% — manipulation signal, disclose
-• ONDO: +18.1% trending — RWA/institutional DeFi momentum
+• SWEAT [PUMP-RISK] rank #990 +890.6% trending — extreme micro-cap pump, manipulation probable
+• ICP + ONDO [TRENDING+DOWN][FADE] — reversing yesterday's breakouts; 7d gains intact, day-2 sellers arriving
+• UNI [BREAKOUT] — only clean large-cap move on flat consolidation tape
 
 *Tweet Roundup*
-*Crypto/PM:* Lagarde flagged $310B stablecoin market as systemic stability risk. Polymarket daily fees rose sharply after March 30 fee-model expansion. Prediction-market aggregators emerging as dominant interface layer for multi-billion weekly volume.
-*AI:* Anthropic planning $50B raise at ~$900B valuation; Google pledging $40B into Anthropic. Frontier models (Claude Opus 4.6, Gemini 3.1 Pro) now exceed 50% on Humanity's Last Exam. Agentic AI showing the biggest benchmark gains of any AI category.
-*Dev:* OpenClaw breakout open-source agent project. OpenAI Codex Chrome extension ships browser-session agents across live tabs. Ollama normalizing local LLM inference; Continue bringing open-source AI coding to any editor.
+*Crypto/PM:* Kalshi leads weekly tx volume (13.3M vs PM 11.6M); both venues moving into perps; insider-trading bans racing as that's the mechanism.
+*AI:* 255 model releases Q1 2026 (~3/day); Claude Opus 4.7 SWE-bench 87.6%; 81% of enterprise teams expanding agent use.
+*Dev:* Bun Rust rewrite at 99.8% compat (see HN); Python leads agent orchestration; Rust past hype into infra mandates.
 
 *Paper of the Day*
-"ForesightFlow" — Nechepurenko (May 1, 2026) — closes the 8-paper run: ILS framework for detecting informed trading on decentralized PMs; exponential hazard baseline for deadline-resolved markets; data + code released.
-[Read](https://arxiv.org/abs/2605.00493) | [PDF](https://arxiv.org/pdf/2605.00493)
+"The Signal Credibility Index for Prediction Markets" — Nechepurenko · Apr 29 2026
+Microstructure diagnostic separating genuine info processing from liquidity pressure and coordination noise; real-time monitoring extension; 4th Nechepurenko paper, first operational-monitoring tool in the ILS suite. CalibrationGap live-signal validation candidate.
+[Read](https://arxiv.org/abs/2604.27041) | [PDF](https://arxiv.org/pdf/2604.27041)
 
 *GitHub Issues*
-No new issues (13th clean day on tomscaria scope)
+No new issues — 14th consecutive clean day on tomscaria scope.
 
 *HN Digest*
-_Security day — reCAPTCHA break, kernel LPE, and AI-vulnerability threads dominate; Mojo 1.0 adds infra weight._
-1. [Google broke reCAPTCHA for de-googled Android](https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users) (941pts, 314c) — Google Play Services dependency breaks privacy-focused users.
-   [Discuss](https://news.ycombinator.com/item?id=48067119)
-2. [AI is breaking two vulnerability cultures](https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures) (316pts, 130c) — AI eroding both quiet-disclosure and public-disclosure security norms simultaneously.
-   [Discuss](https://news.ycombinator.com/item?id=48066524)
-3. [Mojo 1.0 Beta](https://mojolang.org/) (338pts, 218c) — production milestone for the Python-superset systems language.
-   [Discuss](https://news.ycombinator.com/item?id=48057901)
-4. [io_uring ZCRX freelist LPE](https://ze3tar.github.io/post-zcrx.html) (178pts, 105c) — kernel exploit via zero-copy receive freelist; u32 input yields root.
-   [Discuss](https://news.ycombinator.com/item?id=48067734)
-5. [ChatGPT 5.5 Pro experience](https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/) (218pts, 104c) — mathematician's field notes on frontier model reasoning.
-   [Discuss](https://news.ycombinator.com/item?id=48071262)
+_Bun Rust rewrite nearly passes; EU targets VPNs; Meta AI mandate eating morale._
+
+1. [Infra] [Bun Rust rewrite hits 99.8% test compat](https://twitter.com/jarredsumner/status/2053047748191232310) — 523pts · 482c
+   First credible signal a JS runtime can be Rust-rewritten without compatibility loss.
+   HN: "119 open, 885 closed segfaults for Bun vs 10 open, 46 closed for Deno" — dminik
+   [Discuss](https://news.ycombinator.com/item?id=48073680)
+
+2. [Security] [EU calls VPNs a loophole](https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push/) — 507pts · 338c
+   EU Parliamentary Research Service targeting VPNs in age-verification push — bloc-wide restriction precedent.
+   [Discuss](https://news.ycombinator.com/item?id=48072190)
+
+3. [AI] [Meta AI is making employees miserable](https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html) — 375pts · 402c
+   Forced AI adoption across Meta products driving morale decline and skill-atrophy concerns.
+   HN: "corporations adopt open source while keeping control — same playbook" — hamdingers
+   [Discuss](https://news.ycombinator.com/item?id=48077126)
+
+4. [AI] [Claude Code: unreasonable effectiveness of HTML](https://twitter.com/trq212/status/2052809885763747935) — 451pts · 252c
+   HTML simplicity is the AI-coding sweet spot — less structure, fewer failure modes.
+   [Discuss](https://news.ycombinator.com/item?id=48071940)
+
+5. [Rights] [Internet Archive Switzerland](https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/) — 593pts · 91c
+   IA expanding to Swiss jurisdiction — shielding preservation mission from US legal exposure.
+   [Discuss](https://news.ycombinator.com/item?id=48074265)
 
