@@ -1,0 +1,264 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Config Audit"
+      },
+      "children": [
+        "heading-main",
+        "stack-severity",
+        "sep-1",
+        "heading-findings",
+        "stack-findings",
+        "sep-2",
+        "heading-preexisting",
+        "alert-iss015",
+        "sep-3",
+        "heading-fixes",
+        "pr-link",
+        "text-issues-filed",
+        "sep-4",
+        "heading-remaining",
+        "stack-remaining"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "Config Audit — 2026-05-10 — Grade: B (89/100)",
+        "level": "h2"
+      }
+    },
+    "stack-severity": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-critical",
+        "badge-high",
+        "badge-medium",
+        "badge-low"
+      ]
+    },
+    "badge-critical": {
+      "type": "Badge",
+      "props": {
+        "text": "0 critical",
+        "variant": "default"
+      }
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "0 high",
+        "variant": "default"
+      }
+    },
+    "badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "2 medium",
+        "variant": "secondary"
+      }
+    },
+    "badge-low": {
+      "type": "Badge",
+      "props": {
+        "text": "1 low",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-findings": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Findings",
+        "level": "h3"
+      }
+    },
+    "stack-findings": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "finding-m1",
+        "finding-m2",
+        "finding-l1"
+      ]
+    },
+    "finding-m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-m1",
+        "text-m1"
+      ]
+    },
+    "badge-m1": {
+      "type": "Badge",
+      "props": {
+        "text": "M1",
+        "variant": "secondary"
+      }
+    },
+    "text-m1": {
+      "type": "Text",
+      "props": {
+        "text": "5 skills missing Sandbox note (reflect, self-improve, code-health, external-feature, aixbt-pulse) — fallback pattern undocumented, silent failures on sandbox-blocked curl",
+        "variant": "body"
+      }
+    },
+    "finding-m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-m2",
+        "text-m2"
+      ]
+    },
+    "badge-m2": {
+      "type": "Badge",
+      "props": {
+        "text": "M2",
+        "variant": "secondary"
+      }
+    },
+    "text-m2": {
+      "type": "Text",
+      "props": {
+        "text": "26 active skills missing Constraints stub — self-improve/autoresearch could mutate tags or var semantics breaking cron dispatch",
+        "variant": "body"
+      }
+    },
+    "finding-l1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-l1",
+        "text-l1"
+      ]
+    },
+    "badge-l1": {
+      "type": "Badge",
+      "props": {
+        "text": "L1",
+        "variant": "outline"
+      }
+    },
+    "text-l1": {
+      "type": "Text",
+      "props": {
+        "text": "Abbreviated wallet address in aeon.yml monitor-polymarket var field — non-functional but documents a risky pattern",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-preexisting": {
+      "type": "Heading",
+      "props": {
+        "text": "Pre-existing Issues",
+        "level": "h3"
+      }
+    },
+    "alert-iss015": {
+      "type": "Alert",
+      "props": {
+        "title": "ISS-015",
+        "message": "messages.yml repository_dispatch toJson injection — HIGH severity, still open",
+        "type": "warning"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-fixes": {
+      "type": "Heading",
+      "props": {
+        "text": "Auto-fixes Applied",
+        "level": "h3"
+      }
+    },
+    "pr-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #12: 31 files auto-fixed",
+        "href": "https://github.com/tomscaria/aeon/pull/12",
+        "source": "aeon"
+      }
+    },
+    "text-issues-filed": {
+      "type": "Text",
+      "props": {
+        "text": "Issues filed: none (ISS-015 already covers the only HIGH vector)",
+        "variant": "caption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-remaining": {
+      "type": "Heading",
+      "props": {
+        "text": "Remaining Work",
+        "level": "h3"
+      }
+    },
+    "stack-remaining": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-remaining-1",
+        "text-remaining-2"
+      ]
+    },
+    "text-remaining-1": {
+      "type": "Text",
+      "props": {
+        "text": "~25 inactive skills need second-pass Constraints",
+        "variant": "body"
+      }
+    },
+    "text-remaining-2": {
+      "type": "Text",
+      "props": {
+        "text": "firecrawl-* family (13 skills) needs operator-reviewed Sandbox stubs",
+        "variant": "body"
+      }
+    }
+  }
+}
