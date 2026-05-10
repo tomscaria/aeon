@@ -1,0 +1,229 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "RSS Digest — 2026-05-10"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "block_heading",
+        "block_section_stack",
+        "separator",
+        "hn_heading",
+        "hn_section_stack"
+      ]
+    },
+    "block_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "The Block",
+        "level": "h2"
+      }
+    },
+    "block_section_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "block_article_1_container",
+        "block_article_2_container",
+        "block_article_3_container"
+      ]
+    },
+    "block_article_1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "block_article_1_link",
+        "block_article_1_desc"
+      ]
+    },
+    "block_article_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "BoE's Bailey warns of 'wrestle' with US over stablecoin rules",
+        "href": "https://www.theblock.co/post/400639",
+        "source": "The Block"
+      }
+    },
+    "block_article_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "FSB chair flags UK run-risk from hard-to-redeem US stablecoins flooding in during a crisis; coincides with Lagarde's systemic-risk warning yesterday on the $320B market. Watch for regulatory divergence as USD1 entered top-5 stablecoins.",
+        "variant": "body"
+      }
+    },
+    "block_article_2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "block_article_2_link",
+        "block_article_2_desc"
+      ]
+    },
+    "block_article_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "LayerZero apology for Kelp DAO exploit, admits single-verifier fault",
+        "href": "https://www.theblock.co/post/400629",
+        "source": "The Block"
+      }
+    },
+    "block_article_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "disclosed a previously unreported incident where a multisig signer used production hardware for a personal trade; governance credibility hit for the cross-chain messaging leader after $700M Solv migration to Chainlink.",
+        "variant": "body"
+      }
+    },
+    "block_article_3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "block_article_3_link",
+        "block_article_3_desc"
+      ]
+    },
+    "block_article_3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Arbitrum's $71M ETH cleared for Aave transfer — court order shields voters but fate unresolved",
+        "href": "https://www.theblock.co/post/400642",
+        "source": "The Block"
+      }
+    },
+    "block_article_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "North Korea terrorism creditors retain legal claim; DAO voters now protected from freeze-violation liability, final disposition still open.",
+        "variant": "body"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hn_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hacker News",
+        "level": "h2"
+      }
+    },
+    "hn_section_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hn_article_1_container",
+        "hn_article_2_container",
+        "hn_article_3_container"
+      ]
+    },
+    "hn_article_1_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn_article_1_link",
+        "hn_article_1_desc"
+      ]
+    },
+    "hn_article_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "LLMs corrupt your documents when you delegate",
+        "href": "https://arxiv.org/abs/2604.15597",
+        "source": "Hacker News"
+      }
+    },
+    "hn_article_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "arXiv:2604.15597. Shows LLM agents systematically corrupt document content during delegated editing; the one-bad-input-poisons-the-batch failure class documented across 8/11 swarm-fund-mvp defect-hardening PRs this week now has a paper-level anchor. ADR-095 local-LLM delegation makes this directly load-bearing.",
+        "variant": "body"
+      }
+    },
+    "hn_article_2_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn_article_2_link",
+        "hn_article_2_desc"
+      ]
+    },
+    "hn_article_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Gemini API File Search is now multimodal",
+        "href": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+        "source": "Hacker News"
+      }
+    },
+    "hn_article_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Google expands file search to multimodal RAG (images, audio, documents in a single grounded query). Relevant context for the Aeon retrieval-policy-bandit ADR seeded by AEL (2604.21725).",
+        "variant": "body"
+      }
+    },
+    "hn_article_3_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn_article_3_link",
+        "hn_article_3_desc"
+      ]
+    },
+    "hn_article_3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Meta's AI push is making its employees miserable",
+        "href": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+        "source": "Hacker News"
+      }
+    },
+    "hn_article_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "internal pressure to adopt AI tools regardless of productivity fit; mirrors the swarm-fund-mvp forced-tool risk (OLLAMA_FULL=1 rollout falsifier, 14 days). Forced adoption kills velocity before it compounds.",
+        "variant": "body"
+      }
+    }
+  }
+}
