@@ -1,20 +1,20 @@
-*Evening Recap — 2026-05-10* (stale data)
-_TL;DR: 2 PRs filed, SCI paper picked completing 4-paper Nechepurenko stack; Revenant snapshot stale 36h, no live NAV delta_
+*Evening Recap — 2026-05-11*
+_TL;DR: signals fired but context stale — cost-report down 7d (ISS-021), Revenant delta unverifiable._
 
-*Trading loop* (stale, synced 05-09T07:16):
-- Scans: 8,431 PM market scans + 1,578 HL queries (period total)
-- Signals fired: 0 — Iran MOU May-31 +7pp but UMA clause excludes; Kalshi T3.50 -9pp spread 23pp; no CalibrationGap entry
-- Revenant orders: none today (last trade 2026-04-27; snapshot empty)
-- NAV delta: unavailable — baseline +$415 / 29 trades / 76% WR / Sharpe 0.31
+*Trading:*
+- Loop scan: stale (last-sync 2026-05-09T07:16Z, 48h+)
+- Signals: Kalshi KXFED-27APR T3.50 +17pp alert; PM Iran May-15 3.35% NO lean; Hantavirus 8.85% fade-vs-incubation debate; Warsh cloture risk
+- Revenant: snapshot empty/stale — 29 trades / 76% WR / +$415 / Sharpe 0.31 (last known)
+- NAV delta: unknown (context not refreshed today)
+
+*Failures:*
+- cost-report — CRITICAL cf=6, 7d down · memory/issues/ISS-021.md
+- chain:morning-brief — dispatch_skill() day 15
+- chain:evening-rollup — day 15
 
 *Top 3 today:*
-1. SCI arXiv:2604.27041 — per-tick credibility diagnostic, ADR seed sci-entry-gate · https://arxiv.org/abs/2604.27041
-2. PR #12 config-audit — 31 auto-fixes, grade B (89/100) · https://github.com/tomscaria/aeon/pull/12
-3. PM-comments: Iran non-nuclear MOU submitted live — May-31 +7pp, clause-excluded; direct ADR-096+ anchor
+1. Galanis 2604.20050 — LLM aggregation breaks on complexity; CalibrationGap ADR-096+ anchor (econ.GN)
+2. paper-digest — Eywa ↑209 (orchestration) + BLF (beats GPT-5/Grok on ForecastBench binaries) · articles/paper-digest-2026-05-11.md
+3. PM comments — Iran May-15 NO lean (morenaji track record); Hantavirus 6-wk incubation counter-fade (Ancient-Armadillo 05-11)
 
-*Failures:* chain:morning-brief day 14; reddit-digest fail #16 (ISS-002/012); workflow-security-audit stuck cron-state (ISS-020)
-
-*Decisions:* merge PR #12; pause reddit-digest cron; refresh revenant-snapshot
-
-_+15 routine runs collapsed · sources: log=ok cron-state=ok_
-
+_+12 routine runs collapsed · sources: log=ok cron-state=ok · stale: trading/revenant/last-sync 48h+_
