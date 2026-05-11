@@ -1,0 +1,254 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "RSS Digest — 2026-05-11"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-theblock",
+        "sep-1",
+        "section-arxiv",
+        "sep-2",
+        "section-decrypt"
+      ]
+    },
+    "section-theblock": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-theblock",
+        "item-btc82k",
+        "item-morgstanley",
+        "item-canton"
+      ]
+    },
+    "heading-theblock": {
+      "type": "Heading",
+      "props": {
+        "text": "The Block",
+        "level": "h2"
+      }
+    },
+    "item-btc82k": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-btc82k",
+        "desc-btc82k"
+      ]
+    },
+    "story-btc82k": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Bitcoin briefly tops $82,000; Sui jumps 25%",
+        "href": "https://www.theblock.co/post/400663/bitcoin-briefly-tops-82000-sui-jumps-25",
+        "source": "The Block"
+      }
+    },
+    "desc-btc82k": {
+      "type": "Text",
+      "props": {
+        "text": "BTC cleared $82k, landing above KXBTC's B81750 modal bucket from Friday's Kalshi read; Sui +25% extends yesterday's token pick into a second session.",
+        "variant": "caption"
+      }
+    },
+    "item-morgstanley": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-morgstanley",
+        "desc-morgstanley"
+      ]
+    },
+    "story-morgstanley": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Morgan Stanley BTC ETF: $194M in month one, zero net daily outflows",
+        "href": "https://www.theblock.co/post/400650/morgan-stanleys-bitcoin-etf-absorbs-194-million-in-first-month-with-no-net-daily-outflows",
+        "source": "The Block"
+      }
+    },
+    "desc-morgstanley": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional demand absorbed new supply without a single net redemption day; complements 5-week ETF buying streak and suppresses Hermes-arb convergence-exit urgency.",
+        "variant": "caption"
+      }
+    },
+    "item-canton": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-canton",
+        "desc-canton"
+      ]
+    },
+    "story-canton": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Canton Network's Digital Asset eyes $300M raise at $2B valuation, a16z leads",
+        "href": "https://www.theblock.co/post/400647/canton-network-developer-digital-asset-eyes-300-million-raise-at-2-billion-valuation-led-by-a16z-crypto-bloomberg",
+        "source": "The Block"
+      }
+    },
+    "desc-canton": {
+      "type": "Text",
+      "props": {
+        "text": "DAML-based institutional settlement layer getting a16z capital at $2B; adjacent to prediction-market settlement infrastructure and yesterday's Agentic Payments narrative.",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-arxiv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-arxiv",
+        "item-coalitions",
+        "item-switchcraft"
+      ]
+    },
+    "heading-arxiv": {
+      "type": "Heading",
+      "props": {
+        "text": "arXiv cs.AI",
+        "level": "h2"
+      }
+    },
+    "item-coalitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-coalitions",
+        "desc-coalitions"
+      ]
+    },
+    "story-coalitions": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Hidden Coalitions in Multi-Agent AI: Spectral Diagnostic (2605.06696)",
+        "href": "https://arxiv.org/abs/2605.06696",
+        "source": "arXiv"
+      }
+    },
+    "desc-coalitions": {
+      "type": "Text",
+      "props": {
+        "text": "Spectral partitioning of agent hidden-state mutual information detects coordinated coalitions in MARL and LLMs; maps to SCI failure mode #2 (multi-wallet manipulation passing concentration screen) and gives CalibrationGap a concrete detection axis.",
+        "variant": "caption"
+      }
+    },
+    "item-switchcraft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-switchcraft",
+        "desc-switchcraft"
+      ]
+    },
+    "story-switchcraft": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Switchcraft: AI Model Router for Agentic Tool Calling (2605.07112)",
+        "href": "https://arxiv.org/abs/2605.07112",
+        "source": "arXiv"
+      }
+    },
+    "desc-switchcraft": {
+      "type": "Text",
+      "props": {
+        "text": "DistilBERT router at 82.9% accuracy cuts inference cost 84% ($3,600/1M query savings); direct shape match for ADR-094 LLM router and the $40/wk cost-discipline mandate.",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-decrypt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-decrypt",
+        "item-survivor"
+      ]
+    },
+    "heading-decrypt": {
+      "type": "Heading",
+      "props": {
+        "text": "Decrypt",
+        "level": "h2"
+      }
+    },
+    "item-survivor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-survivor",
+        "desc-survivor"
+      ]
+    },
+    "story-survivor": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AI Models Scheme, Betray and Vote Each Other Out in Survivor-Style Game",
+        "href": "https://decrypt.co/367213/ai-models-scheme-betray-vote-out-survivor-style-game",
+        "source": "Decrypt"
+      }
+    },
+    "desc-survivor": {
+      "type": "Text",
+      "props": {
+        "text": "LLM agents sustain adversarial deception and coalition-formation in game-theoretic elimination; empirical grounding for the adversarial multi-agent finance thesis and Stanford PhD application axis.",
+        "variant": "caption"
+      }
+    }
+  }
+}
