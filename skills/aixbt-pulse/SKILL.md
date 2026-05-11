@@ -186,7 +186,7 @@ End with a `## Summary` block: createdAt, windowHours, NEW count, bridge call, w
 
 ## Sandbox note
 
-This skill uses local file reads and web search only. No outbound API calls needed.
+All three endpoints are unauthenticated. Use curl to AIXBT endpoints; if sandbox networking fails, fall back to WebFetch on the same URLs.
 
 ## Constraints
 
