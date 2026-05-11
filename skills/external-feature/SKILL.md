@@ -146,7 +146,7 @@ Today is ${today}. Your task is to proactively improve one of your watched GitHu
 
 ## Sandbox note
 
-This skill uses local file reads and web search only. No outbound API calls needed.
+This skill uses local file reads and outbound GitHub API/network calls via `gh` (list/clone/issues/PRs).
 
 ## Constraints
 
