@@ -1,0 +1,557 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-05-11"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_section",
+        "sep1",
+        "critical_section",
+        "sep2",
+        "degraded_section",
+        "sep3",
+        "no_data_section",
+        "sep4",
+        "healthy_section",
+        "sep5",
+        "summary_section"
+      ]
+    },
+    "header_section": {
+      "type": "Alert",
+      "props": {
+        "title": "HEALTH: CRITICAL",
+        "message": "Systemic issue ISS-013/ISS-020 (burst tail) — 21 DEGRADED skills, chain-runner day 15",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "critical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "critical_heading",
+        "critical_items"
+      ]
+    },
+    "critical_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CRITICAL (1)",
+        "level": "h3"
+      }
+    },
+    "critical_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cost_report_item"
+      ]
+    },
+    "cost_report_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_cost_report",
+        "text_cost_report",
+        "investigate_badge",
+        "iss_021_link"
+      ]
+    },
+    "badge_cost_report": {
+      "type": "Badge",
+      "props": {
+        "text": "cost-report",
+        "variant": "destructive"
+      }
+    },
+    "text_cost_report": {
+      "type": "Text",
+      "props": {
+        "text": "cf=4, 7d down (last success 2026-05-04)",
+        "variant": "body"
+      }
+    },
+    "investigate_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "iss_021_link": {
+      "type": "Link",
+      "props": {
+        "label": "ISS-021",
+        "href": "#ISS-021"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "degraded_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "degraded_heading",
+        "degraded_note",
+        "degraded_items"
+      ]
+    },
+    "degraded_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DEGRADED (21)",
+        "level": "h3"
+      }
+    },
+    "degraded_note": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-013/ISS-020 burst-tail carriers — cf=0 across all, last_status=success",
+        "variant": "muted"
+      }
+    },
+    "degraded_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "degraded_item_1",
+        "degraded_item_2",
+        "degraded_item_3",
+        "degraded_item_4",
+        "degraded_item_5",
+        "degraded_more_note"
+      ]
+    },
+    "degraded_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_workflow_audit",
+        "text_workflow_audit",
+        "investigate_1"
+      ]
+    },
+    "badge_workflow_audit": {
+      "type": "Badge",
+      "props": {
+        "text": "workflow-security-audit",
+        "variant": "secondary"
+      }
+    },
+    "text_workflow_audit": {
+      "type": "Text",
+      "props": {
+        "text": "sr=15%, ~8d since last success",
+        "variant": "body"
+      }
+    },
+    "investigate_1": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "degraded_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_narrative_tracker",
+        "text_narrative_tracker",
+        "investigate_2"
+      ]
+    },
+    "badge_narrative_tracker": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "secondary"
+      }
+    },
+    "text_narrative_tracker": {
+      "type": "Text",
+      "props": {
+        "text": "sr=32%, ~4d since last success",
+        "variant": "body"
+      }
+    },
+    "investigate_2": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "degraded_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_token_report",
+        "text_token_report",
+        "investigate_3"
+      ]
+    },
+    "badge_token_report": {
+      "type": "Badge",
+      "props": {
+        "text": "token-report",
+        "variant": "secondary"
+      }
+    },
+    "text_token_report": {
+      "type": "Text",
+      "props": {
+        "text": "sr=37%",
+        "variant": "body"
+      }
+    },
+    "investigate_3": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "degraded_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_token_movers",
+        "text_token_movers",
+        "investigate_4"
+      ]
+    },
+    "badge_token_movers": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "secondary"
+      }
+    },
+    "text_token_movers": {
+      "type": "Text",
+      "props": {
+        "text": "sr=41%",
+        "variant": "body"
+      }
+    },
+    "investigate_4": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "degraded_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_on_chain_monitor",
+        "text_on_chain_monitor",
+        "investigate_5"
+      ]
+    },
+    "badge_on_chain_monitor": {
+      "type": "Badge",
+      "props": {
+        "text": "on-chain-monitor",
+        "variant": "secondary"
+      }
+    },
+    "text_on_chain_monitor": {
+      "type": "Text",
+      "props": {
+        "text": "sr=43%",
+        "variant": "body"
+      }
+    },
+    "investigate_5": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "degraded_more_note": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_more_degraded",
+        "index_link"
+      ]
+    },
+    "text_more_degraded": {
+      "type": "Text",
+      "props": {
+        "text": "+16 more",
+        "variant": "muted"
+      }
+    },
+    "index_link": {
+      "type": "Link",
+      "props": {
+        "label": "see memory/issues/INDEX.md",
+        "href": "memory/issues/INDEX.md"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "no_data_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "no_data_heading",
+        "no_data_grid",
+        "no_data_action"
+      ]
+    },
+    "no_data_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NO DATA (11)",
+        "level": "h3"
+      }
+    },
+    "no_data_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "sm"
+      },
+      "children": [
+        "skill_auto_workflow",
+        "skill_autoresearch",
+        "skill_create_skill",
+        "skill_deploy_prototype",
+        "skill_distribute_tokens",
+        "skill_last30",
+        "skill_onboard",
+        "skill_skill_repair",
+        "skill_spawn_instance",
+        "skill_task_planner",
+        "skill_tool_builder"
+      ]
+    },
+    "skill_auto_workflow": {
+      "type": "Badge",
+      "props": {
+        "text": "auto-workflow",
+        "variant": "secondary"
+      }
+    },
+    "skill_autoresearch": {
+      "type": "Badge",
+      "props": {
+        "text": "autoresearch",
+        "variant": "secondary"
+      }
+    },
+    "skill_create_skill": {
+      "type": "Badge",
+      "props": {
+        "text": "create-skill",
+        "variant": "secondary"
+      }
+    },
+    "skill_deploy_prototype": {
+      "type": "Badge",
+      "props": {
+        "text": "deploy-prototype",
+        "variant": "secondary"
+      }
+    },
+    "skill_distribute_tokens": {
+      "type": "Badge",
+      "props": {
+        "text": "distribute-tokens",
+        "variant": "secondary"
+      }
+    },
+    "skill_last30": {
+      "type": "Badge",
+      "props": {
+        "text": "last30",
+        "variant": "secondary"
+      }
+    },
+    "skill_onboard": {
+      "type": "Badge",
+      "props": {
+        "text": "onboard",
+        "variant": "secondary"
+      }
+    },
+    "skill_skill_repair": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-repair",
+        "variant": "secondary"
+      }
+    },
+    "skill_spawn_instance": {
+      "type": "Badge",
+      "props": {
+        "text": "spawn-instance",
+        "variant": "secondary"
+      }
+    },
+    "skill_task_planner": {
+      "type": "Badge",
+      "props": {
+        "text": "task-planner",
+        "variant": "secondary"
+      }
+    },
+    "skill_tool_builder": {
+      "type": "Badge",
+      "props": {
+        "text": "tool-builder",
+        "variant": "secondary"
+      }
+    },
+    "no_data_action": {
+      "type": "Badge",
+      "props": {
+        "text": "DISPATCH-SKILL",
+        "variant": "outline"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "healthy_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "healthy_heading",
+        "healthy_new_list"
+      ]
+    },
+    "healthy_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HEALTHY (13)",
+        "level": "h3"
+      }
+    },
+    "healthy_new_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_new_skills",
+        "healthy_new_1",
+        "healthy_new_2"
+      ]
+    },
+    "text_new_skills": {
+      "type": "Text",
+      "props": {
+        "text": "+2 new:",
+        "variant": "muted"
+      }
+    },
+    "healthy_new_1": {
+      "type": "Badge",
+      "props": {
+        "text": "monetize-revenant",
+        "variant": "default"
+      }
+    },
+    "healthy_new_2": {
+      "type": "Badge",
+      "props": {
+        "text": "session-learner",
+        "variant": "default"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "summary_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_open_issues",
+        "stat_resolved"
+      ]
+    },
+    "stat_open_issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "15"
+      }
+    },
+    "stat_resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}

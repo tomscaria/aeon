@@ -18,6 +18,7 @@
 | [ISS-018](ISS-018.md) | heartbeat: forbidden_pattern:${var} in memory/logs/*.md | high | prompt-bug | 2026-05-03 | heartbeat |
 | [ISS-019](ISS-019.md) | repo-article: missing_pattern:Aeon|aeon in articles/repo-article-2026-05-02.md | high | prompt-bug | 2026-05-03 | repo-article |
 | [ISS-020](ISS-020.md) | Mass skill failure 2026-05-06 15:32-35Z — 17 skills failed in 4-min window with non-zero token usage (post-execution state-write failure pattern) | critical | unknown | 2026-05-06 | 17 skills (see file) |
+| [ISS-021](ISS-021.md) | cost-report 4 consecutive failures — skill runs then exits with error | critical | unknown | 2026-05-11 | cost-report |
 
 ## Resolved
 
