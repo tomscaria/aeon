@@ -1,24 +1,31 @@
-*Top Tweets — Polymarket (2026-05-10)*
-_Two live clause-text blow-ups dominate — Hantavirus spawned 4+ new Polymarket markets in 48h while Russia-Ukraine ceasefire resolved YES on a 3-day parade truce, triggering $14.5M in refund disputes._
+*Top Tweets — prediction markets (2026-05-11)*
+_Hantavirus market holds 8% fade despite global passenger dispersal completing — Kalshi captured April volume crown (50%) the same week Warsh Senate confirmation enters its final 4-day window._
 
-*Russia-Ukraine — ceasefire clause dispute*
-1. x.com/ukraine_map — $14.5M ceasefire market resolved YES on 3-day parade truce; traders demanding refunds. Textbook resolution-clause mismatch: market was priced as a full war-end event, resolved on a temporary military pause. Direct ADR-096+ evidence.
-Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/ukraine_map/status/2053212103826116986)
+*Hantavirus — market fade vs dispersal arc*
+1. x.com/Stocktwits — 8% pandemic odds live May 11 despite WHO contacting 12 countries; market pricing Andes close-contact mechanism, not volume.
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/Stocktwits/status/2053845331264098497)
 
-*Hantavirus — escalation arc + resolution clause risk*
-2. x.com/Polymarket — New market opened today: 'Confirmed hantavirus case in US by May 15?' Escalation arc from Argentina-Cape Verde cruise ship to US entry created a fresh resolution-clause-sensitive market with a hard deadline.
-Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/Polymarket/status/2053373723697348623)
+2. x.com/Polymarket — 23 infected passengers dispersed globally, one critically ill — factual escalation basis for the fade debate.
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/Polymarket/status/2052142598588944629)
 
-3. x.com/Polymarket — CDC notified NJ of two possibly-exposed residents. The concrete US-entry signal driving the new market; hantavirus moved from international cruise context to domestic surveillance.
-Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/Polymarket/status/2052808550821277922)
+3. x.com/WHO — Official: 1 confirmed, 5 suspected, 3 dead on ship — authoritative baseline for resolution clause.
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/WHO/status/2051029427614818551)
 
-4. x.com/Polymarket — WHO DG invokes hantavirus to argue against US WHO withdrawal. Political framing shifts the resolution context: if the US exits WHO, who confirms the pandemic threshold?
-Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/Polymarket/status/2052394475582803988)
+*Warsh / Fed Chair — confirmation timing*
+4. x.com/DeItaone — Only 33% chance Warsh confirmed by May 15; Tillis opposition is the identified blocking risk. Senate floor vote week opens today.
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/DeItaone/status/2046591536893194387)
 
-5. x.com/dr_bandak — Epidemiologist challenges the pandemic odds: Andes variant is close-contact only, not airborne — the defining transmission parameter for pandemic potential. Directly challenges the 'pandemic' resolution clause on the YES side.
-Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/dr_bandak/status/2052089862640312547)
+*Prediction market structure — Kalshi takes April crown*
+5. x.com/MessariCrypto — April 2026: Kalshi 50% of volume ($14.8B), Polymarket 34% ($10.2B), Limitless 6% — first month Kalshi leads outright.
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/MessariCrypto/status/2052481648856531156)
+
+*Iran — next time-horizon market*
+6. x.com/Polymarket — New market: US x Iran peace deal before Trump visits China? May-15 market resolves tomorrow; this is the next ladder rung.
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/Polymarket/status/2051890701953339636)
+
