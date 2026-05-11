@@ -1,34 +1,34 @@
-*Reply Maker — 2026-05-10* [REPLY_MAKER_DEGRADED — timestamps unverifiable, XAI auth-gated]
+*Reply Maker — 2026-05-11* (REPLY_MAKER_DEGRADED — XAI auth-gated, timestamps estimated via WebSearch)
 
-*1.* https://x.com/coatuemgmt/status/2052787188124012704  (@coatuemgmt, est. today, major VC/hedge fund)
-> Coatue's May 2026 Public Markets Update... rise of token economy... why agents are the next major unlock
-why: major institutional fund making a broad 'agents are next' claim with no live-capital evidence — room to add specificity and push back on mechanism timing
-A: 29 trades on Polymarket, 76% hit rate, Sharpe 0.31. The agent unlock thesis is correct — but the edge isn't the model, it's the regime-conditional sizing. Coatue's framing will be 5 years right and 18 months early on the mechanism.
-B: Agents aren't 'next.' CalibrationGap has been live on Polymarket for 3 months, 29 closed trades, 76% win. The unlock isn't agents — it's agents surviving a real adversarial environment. Most won't.
+*1.* https://x.com/ericjackson/status/2046310042778153277  (@ericjackson, est. May 3-4, eng. N/A)
+> Warsh is not a standard hawk or dove. His framework, on record since 2010: rates LOWER, balance sheet SMALLER, mandate NARROWER. He wants rate cuts AND faster QT, at the same time.
+why: Warsh Senate confirmation vote is TODAY (May 11). Operator has Kalshi KXFED T3.50 +17pp data that directly validates this framing. Highest-leverage reply window of the week.
+A: Kalshi is already pricing this. KXFED-27APR T3.50 moved +17pp to 54% in 24h. Market's catching up to Warsh's dual-track framework — slower cuts + faster balance-sheet runoff. June FOMC is the first live test.
+B: 'Rates lower' is conditional on QT pace. If Warsh shrinks the balance sheet fast while cutting slowly, the neutral rate moves up — net tightening even with nominal cuts. June FOMC statement will show whether he follows through or recants.
 
-*2.* https://x.com/BenFoldy/status/2051659618267308449  (@BenFoldy, est. May 8-9, WSJ journalist)
-> Kalshi responds to WSJ story on PM loss rates with comps showing better loss rates than day traders in Taiwanese stocks 1995-1999, Indian options traders, sports books and Brazilian equity futures
-why: Kalshi using cherry-picked 30-year-old benchmarks in a defensive response — weak stats that reveal what they're hiding about actual edge distribution
-A: The right comp is against informed traders on the same venue, not 1995 Taiwanese day traders. Nechepurenko (2026) shows 3.14% of Polymarket wallets drive outsized directional edge. Kalshi's number vs that 3.14% is the actual benchmark.
-B: A $22B platform defending itself with 30-year-old Taiwanese stock data is the comp that should worry you. Kalshi's response doesn't reveal the actual edge distribution — Polymarket research pegs it at 3.14% of wallets. The WSJ asked the wrong question.
+*2.* https://x.com/DrJStrategy/status/2046913821378486447  (@DrJStrategy, est. May 4-5, eng. N/A)
+> Warsh: Hawkish on QE, Not on Growth. Wall St is late again. Wall Street is reading him through a Keynesian playbook he has already thrown in the bin.
+why: Clear claim about market misread. Operator has June 17-18 FOMC falsifier as a concrete time-bound test — better evidence than "Wall St is late."
+A: The proof is in the June 17-18 FOMC statement. If Warsh keeps Powell's 'meeting-by-meeting' forward-guidance verbatim, Wall St's reading wins. If he drops it, the balance-sheet debate becomes live capital.
+B: Wall St is confusing QT size with rate level. Warsh on record wanting BOTH lower rates AND smaller balance sheet. If net tightening from QT exceeds rate-cut easing, hawk/dove label is the wrong axis. Yield curve will clarify in ~90 days.
 
-*3.* https://x.com/coinbureau/status/2050602463150133410  (@coinbureau, est. May 7-8, major crypto media)
-> FIRST HYPERLIQUID PREDICTION MARKET GOES LIVE ON MAINNET TODAY — expanding the platform beyond perpetuals into event-based trading
-why: launch framing misses the harder problem — venue structure is not the constraint; resolution text and oracle quality are
-A: HIP-4's cross-margin solves capital fragmentation — 14% of Polymarket's top traders ($1.43B vol) already on HL. Add zero-funding outcome contracts with single-resolution settlement. The capital is there. PM-side liquidity depth is the open question.
-B: The hard part isn't launching prediction markets on Hyperliquid. It's resolution text. Polymarket's most mispriced markets — Iran-airspace 48pp rich, Russia-Ukraine UMA dispute — fail on clause language, not venue structure. HL inherits the same oracle problem.
+*3.* https://x.com/ASvanevik/status/2032324178033234131  (@ASvanevik, est. Feb-Mar, eng. N/A)
+> stating the obvious: prediction markets + trading agents = the internet becomes hyper efficient at absorbing information incredibly synergistic
+why: Popular take. Galanis (econ.GN, Apr 2026) ran the controlled experiment that directly tests this claim. Operator has live data and a published counter-evidence.
+A: Works on simple information structures. Galanis (econ.GN, Apr 2026) ran the experiment: AI agents absorb easy signals well, fail significantly on complex reasoning. Efficiency is conditional on clause complexity, not uniform.
+B: 'Hyper efficient' is doing a lot of work. AI agents miss the complexity threshold — resolution clause says X, the headline says Y — and you get liquidity at the wrong price for days. Iran airspace priced 48pp away from the sister 'major closure' contract on the same event.
 
-*4.* https://x.com/aixbt_agent/status/2043583764669006184  (@aixbt_agent, est. late April, crypto AI agent account)
-> HIP-4 lets you cross-margin prediction markets against perps in one account. 14% of Polymarket's top traders on HL = $1.43B in PM vol. Right now they split capital across two platforms. HIP-4 launches and that [continues]
-why: the 14%/$1.43B stat is real but the migration implication is overstated — the LP base problem is harder than capital consolidation
-A: The capital-split problem is real but venue migration is stickier. Polymarket's 2028 election pools run $15M+ in liquidity with resident LPs pricing political-risk. HIP-4 gets cross-margin; it doesn't get that LP base on day 1.
-B: 14% of Polymarket's top traders on HL is the ceiling, not the floor. That cohort already cross-trades. HIP-4 consolidates their positions — it doesn't recruit new capital. Venue migration runs slower than cross-margin convenience implies.
+*4.* https://x.com/quantscience_/status/2038591142854291522  (@quantscience_, est. Mar-Apr, eng. N/A)
+> NEW open-source multi-agent LLM trading framework — TradingAgents. One agent researches, one manages risk, one makes the call — they argue before every trade.
+why: Multi-agent simulated trading firm. Operator can ground the reply in live P&L — the only real test that matters.
+A: Multi-agent backtests look clean until adversarial microstructure. 29 live Polymarket trades, 76% win, +$415 P&L. The hard part isn't the framework — it's knowing when NOT to bet. Resolution clause complexity kills headline-only systems.
+B: TradingAgents simulates the team. Live markets punish the framework. Analyst / risk-manager / executor debate only works if each role has calibrated priors. Most open-source setups treat P&L as the eval metric — should be Sharpe-with-drawdown.
 
-*5.* https://x.com/Jonasoeth/status/1989524236214604070  (@Jonasoeth, est. Jan-Feb 2026, PM-focused account)
-> Prediction markets set to dominate 2026 narratives. Polymarket and Kalshi are broad all-purpose platforms. But the new wave is going niche — Opinion is building dedicated macro prediction venue with clean markets
-why: the 'niche venues solve it' thesis ignores that resolution-text quality is the bottleneck, not market breadth — addressable edge shrinks with liquidity
-A: 3.14% of Polymarket wallets are informed traders per Nechepurenko (2026) — that concentration rises when clauses get specific. Niche macro venues inherit a harder oracle problem. The bottleneck isn't market breadth. It's resolution text quality.
-B: Niche PMs don't solve the core problem — they shrink it. The edge on Polymarket is clause-text mispricing on liquid $10M+ pools. Iran-airspace traded 48pp rich vs its sister market on identical clause text. That spread doesn't exist at $500k liquidity.
+*5.* https://x.com/0xRicker/status/2013307444395463104  (@0xRicker, est. Jan, eng. N/A)
+> How to make thousands by trading Disputes on Polymarket? 70% accuracy + 24h reveal window + alerts = consistent triple-digit ROI on disputes.
+why: Resolution-clause arbitrage directly maps to ADR-096+ thesis. 70% is the floor — full clause ingestion before the market opens is the actual edge.
+A: Resolution-text arbitrage is real. On Iran-airspace-by-May-8, the 'major closure' sub-clause diverged 48pp from the headline market for three days. 70% accuracy through the dispute window is the floor — clause ingestion before the market opens is the actual edge.
+B: The 24h reveal window is the lagging edge. The leading edge is before the market opens — ingest the resolution clause and measure how far it diverges from the headline. Dispute arbitrage captures the correction; clause-text arb captures the initial misprice.
 
-source-status: xai=fail (auth-gated, no prefetch cache), memory=1 (tweet-roundup context), websearch=ok
+source-status: xai=fail (auth-gated, no .xai-cache/), memory=2 (tweet-roundup + 05-11 logs), websearch=ok
 
