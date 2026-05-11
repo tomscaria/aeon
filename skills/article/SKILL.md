@@ -39,3 +39,7 @@ Steps:
 The sandbox may block outbound curl. Use **WebFetch** as a fallback for any URL fetch. For auth-required APIs, use the pre-fetch/post-process pattern (see CLAUDE.md).
 
 Write complete, publication-ready content. No placeholders.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

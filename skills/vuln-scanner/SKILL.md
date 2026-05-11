@@ -265,3 +265,7 @@ General sandbox rules: use **WebFetch** as a fallback for any plain URL fetch. F
 - **Be deferential in disclosure language** — you're offering help, not grading homework.
 - **Public PRs are only for dependency bumps** addressing already-disclosed CVEs. Everything else is private.
 - **All-scanners-failed ≠ clean.** Report it as an error and do not publish anything.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

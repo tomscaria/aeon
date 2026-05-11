@@ -188,3 +188,7 @@ The sandbox may block outbound curl. Use **WebFetch** as a fallback for any URL 
 - `WebFetch("https://api.elections.kalshi.com/trade-api/v2/markets/candlesticks?tickers=...&start_ts=...&end_ts=...&period_interval=60")`
 - `WebFetch("https://api.elections.kalshi.com/trade-api/v2/markets/MARKET_TICKER/orderbook?depth=10")`
 - All Kalshi endpoints are public and need no auth headers.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

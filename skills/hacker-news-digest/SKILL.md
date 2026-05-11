@@ -118,3 +118,7 @@ If after filtering and dedup zero stories remain, log `HN_DIGEST_EMPTY: <reason>
 ## Sandbox note
 
 The sandbox may block outbound curl. Use **WebFetch** as a fallback for any URL fetch above. Both Firebase HN (`hacker-news.firebaseio.com`) and Algolia HN (`hn.algolia.com`) are public — no auth, no env vars in headers — so neither pre-fetch nor post-process patterns are required.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

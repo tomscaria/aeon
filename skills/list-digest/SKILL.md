@@ -204,3 +204,7 @@ The sandbox may block outbound `curl`. Prefer the pre-fetched cache (`.xai-cache
 ## Environment Variables Required
 
 - `XAI_API_KEY` — X.AI API key for Grok `x_search`. If missing, the skill degrades to WebSearch (lower quality).
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

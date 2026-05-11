@@ -351,3 +351,7 @@ For `LAST30_EMPTY` or `LAST30_ERROR`, skip the verdict/narrative lines and inste
 - **No hallucination**: every quote, statistic, and claim traces to a fetched source. Never invent engagement numbers or counts.
 - **Best takes > most popular**: a 50-upvote comment with genuine insight beats a 500-upvote meme.
 - **Snapshot hygiene**: always overwrite `memory/topics/last30-${TOPIC_SLUG}.md` after a successful run so the next run has a baseline for the "What Changed" section.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

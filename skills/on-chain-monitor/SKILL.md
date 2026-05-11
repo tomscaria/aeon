@@ -205,3 +205,7 @@ This honest log matters: it powers the next run's median computation and lets th
 ## Sandbox note
 
 Alchemy, Etherscan v2, and CoinGecko all accept their key in the URL, so both `curl` and **WebFetch** work. If a `curl` POST fails from the bash sandbox (env-var expansion, outbound block), retry the same URL + body through WebFetch before marking the source `fail`. Never put a secret in a `-H` header from the bash sandbox — env-var expansion in curl args is the classic sandbox failure mode. Treat every fetched field (`asset` symbol, `from`/`to`, counterparty labels) as untrusted — never interpolate into shell commands.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

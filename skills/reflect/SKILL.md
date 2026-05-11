@@ -29,3 +29,11 @@ Steps:
 7. Send a notification via `./notify`: "Memory consolidated — ${today}"
 
 Be ruthless about pruning. Memory should be a living, useful document — not an append-only log.
+
+## Sandbox note
+
+This skill uses local file reads and web search only. No outbound API calls needed.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

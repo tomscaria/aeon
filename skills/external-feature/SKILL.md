@@ -143,3 +143,11 @@ Today is ${today}. Your task is to proactively improve one of your watched GitHu
 - If you can't find anything worth doing, that's fine. Log "repo is in good shape" and exit.
 - Don't add unnecessary abstractions, comments, or documentation the repo doesn't need.
 - Prioritize changes that make the project more useful, not just "cleaner."
+
+## Sandbox note
+
+This skill uses local file reads and outbound GitHub API/network calls via `gh` (list/clone/issues/PRs).
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.
