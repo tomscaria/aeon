@@ -1,0 +1,206 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-05-11"
+      },
+      "children": [
+        "badge_take",
+        "stack_pricefg",
+        "stack_breadth_dex",
+        "stack_narrative",
+        "stack_hotmarket"
+      ]
+    },
+    "badge_take": {
+      "type": "Badge",
+      "props": {
+        "text": "chop (conviction medium)",
+        "variant": "outline"
+      }
+    },
+    "stack_pricefg": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fg"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$81,154",
+        "delta": "+0.31%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,325",
+        "delta": "-0.14%",
+        "trend": "down"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G",
+        "value": "48 (Neutral)"
+      }
+    },
+    "stack_breadth_dex": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "progress_breadth",
+        "stack_dex"
+      ]
+    },
+    "progress_breadth": {
+      "type": "Progress",
+      "props": {
+        "value": 9,
+        "max": 20,
+        "label": "breadth"
+      }
+    },
+    "stack_dex": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_dex",
+        "text_dex_note"
+      ]
+    },
+    "stat_dex": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX vol",
+        "value": "$5.68B",
+        "delta": "+9.9%",
+        "trend": "up"
+      }
+    },
+    "text_dex_note": {
+      "type": "Text",
+      "props": {
+        "text": "12% below 7d avg",
+        "variant": "caption"
+      }
+    },
+    "stack_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_narrative",
+        "stack_narrative_content"
+      ]
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "top narrative",
+        "level": "h3"
+      }
+    },
+    "stack_narrative_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_l1",
+        "badge_rising",
+        "text_sui"
+      ]
+    },
+    "badge_l1": {
+      "type": "Badge",
+      "props": {
+        "text": "L1 breakouts"
+      }
+    },
+    "badge_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "rising"
+      }
+    },
+    "text_sui": {
+      "type": "Text",
+      "props": {
+        "text": "SUI +17% CLARITY Act front-run"
+      }
+    },
+    "stack_hotmarket": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_hotmarket",
+        "stack_market_line",
+        "text_resolve_note"
+      ]
+    },
+    "heading_hotmarket": {
+      "type": "Heading",
+      "props": {
+        "text": "hot market",
+        "level": "h3"
+      }
+    },
+    "stack_market_line": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text_market_title",
+        "badge_yes_odds"
+      ]
+    },
+    "text_market_title": {
+      "type": "Text",
+      "props": {
+        "text": "US-Iran peace by May 15"
+      }
+    },
+    "badge_yes_odds": {
+      "type": "Badge",
+      "props": {
+        "text": "YES 3.35%"
+      }
+    },
+    "text_resolve_note": {
+      "type": "Text",
+      "props": {
+        "text": "resolves tomorrow",
+        "variant": "caption"
+      }
+    }
+  }
+}

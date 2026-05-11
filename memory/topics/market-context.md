@@ -1,81 +1,68 @@
-# Market Context (as of 2026-05-10)
+# Market Context (as of 2026-05-11)
 
-> **Take:** chop — BTC +0.71% within the ±2% flat zone; F&G recovered 9pts to Neutral (47) but breadth fell to 13/20 and DEX vol collapsed -29% to $5.17B; no signal dominates. Conviction: medium.
+> **Take:** chop — BTC flat at $81,154 (+0.31% 24h), breadth 9/20 green, F&G unchanged at 48 (Neutral); isolated SUI +17% breakout on CLARITY Act + Stripe/Bridge catalyst does not lift the broad tape. Conviction: medium.
 
 ## Signal Snapshot
-- BTC $80,936 (+0.71% 24h, +2.80% 7d) · dominance 58.27% (+0.04pp 24h)
-- ETH $2,329 (+0.70% 24h, +0.21% 7d) · ETH/BTC 0.02878
-- SOL $93.82 (+0.52% 24h, +11.54% 7d)
-- Total mcap $2.78T (+0.61% 24h) · DEX vol $5.17B 24h
-- Breadth: 13/20 green 24h · 16/20 green 7d
-- Fear & Greed: 47 (Neutral) — yesterday 38 (Fear)
+- BTC $81,154 (+0.31% 24h, +2.99% 7d) · dominance 58.27% (flat 0pp 24h)
+- ETH $2,325 (-0.14% 24h, -0.50% 7d) · ETH/BTC 0.02865
+- SOL $95.53 (+1.81% 24h, +13.75% 7d)
+- Total mcap $2.785T (+0.12% 24h) · DEX vol $5.68B 24h
+- Breadth: 9/20 green 24h · 15/20 green 7d
+- Fear & Greed: 48 (Neutral) — yesterday 47 (Neutral)
 
 ## What Changed Since Last Refresh
-- F&G jumped 9pts from 38 (Fear) to 47 (Neutral) — first Neutral reading in 9 days; single largest daily sentiment recovery in the current fear cycle
-- Regime flip: rotation → chop — BTC dominance flat (+0.04pp), breadth fell 17/20 → 13/20; alt-rotation signal from 05-09 did not carry through
-- DEX vol -29%: $7.28B → $5.17B — volume contraction on a flat-price day; yesterday's elevated session was the outlier (7d avg ~$6.2B/day, last Sunday ~$3.4B)
-- ICP -5.7% to -7.5% on DFINITY Cloud Engines demo day (05-10) — buy-the-rumor / sell-the-news; yesterday's +15.83% trending pick reversed in one session
+- SUI [BREAKOUT]: +17% 24h ($2.90B vol) on CLARITY Act Senate vote confirmed May 14 + Stripe/Bridge USDsui mainnet launch; extends 05-10 pick from $1.13 → ~$1.33
+- US-Iran May-15 peace: 14.35% → 3.35% (-11pp) — near-certain NO, resolves tomorrow; removes this binary from the active PM table
+- Breadth fell 13/20 → 9/20: ZEC -5.1%, HYPE -4.0%, TON -4.6% all extending prior-session losses despite BTC flat — sector distribution, not broad selloff
+- DEX vol recovered $5.17B → $5.68B (+9.9%) but remains 12% below 7d avg ($6.48B/day)
 
 ## Active Narratives
-- **Privacy coins (ZEC, XMR)** — phase: rising. Evidence: ZEC +50.68% 7d trending #2 CoinGecko 2 consecutive days; XMR +1.20% 24h; both in top-20 by mcap with multi-week sustained moves, 24h consolidation (+0.30%/+1.20%) not reversal.
-- **AI/oracle infra (LINK, TAO, VVV, AERO)** — phase: rising. Evidence: LINK +15.23% 7d; TAO +3.20%, AERO +5.11%, VVV +1.08% all in CoinGecko trending 05-10; 3+ AI/infra tokens in top trending 2 consecutive days.
-- **L1 breakouts (SUI, UNI)** — phase: rising. Evidence: SUI +8.27% 24h / +18.9% 7d [BREAKOUT]; UNI +8.4% 24h / +25.7% 7d [BREAKOUT] per 05-10 token-movers; two non-BTC L1 tokens outperforming top-10 mcap assets by 6+ pp on the same session.
-- **TON post-catalyst fading** — phase: fading. Evidence: TON -3.93% to -5.0% 24h (4th consecutive session red); trending but red [MAJOR][TRENDING+DOWN]; Pavel Durov validator catalyst (05-05) fully exhausted across 5 sessions.
+- **L1 breakouts (SUI, SOL, ADA)** — phase: rising. Evidence: SUI +17% 24h $2.90B vol [BREAKOUT][TRENDING]; SOL +13.75% 7d; ADA +12.63% 7d; CLARITY Act Senate vote May 14 as shared regulatory tailwind; SUI now in top-10 DEX chains by volume (DeFiLlama).
+- **AI/oracle infra (VVV, ONDO, LINK)** — phase: rising. Evidence: VVV +17% 24h trending #3; ONDO trending; LINK +11.94% 7d — 3 AI/infra tokens in top trending 2 consecutive sessions.
+- **Privacy coins (ZEC, XMR, ZANO)** — phase: peak. Evidence: ZEC -5.1% 24h after +37.91% 7d run — first top-20 reversal session; ZANO (rank 200, $183M mcap) entering trending #1, capital rotating to smaller privacy plays; distribution pattern, not re-accumulation.
+- **Canton Network / institutional settlement** — phase: emerging. Evidence: CC (rank 21, $5.9B mcap) in CoinGecko trending #9; a16z-led $300M raise at $2B valuation announced 05-11 (rss-digest); no top-20 breakout yet.
+- **TON catalyst exhaustion** — phase: fading. Evidence: -4.62% 24h, 5th consecutive red session; +66.31% 7d move from Pavel Durov/Telegram catalyst (05-05) fully exhausted; trending but red 24h.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: ~$20.5B (carried from 05-07; protocol endpoint not re-fetched)
-- SSV Network: ~$17.1B (carried)
-- Aave V3: ~$14.9B (carried)
-- EigenLayer: ~$8.1B (carried)
-- Morpho Blue: ~$7.6B (carried)
+- Lido: $20.43B (-3.74%)
+- SSV Network: $17.16B (-0.38%)
+- Aave V3: $14.94B (+2.45%)
+- WBTC: $9.37B (+2.90%)
+- Binance staked ETH: $8.61B (-0.24%)
 
-## Chain Flow (top 7 by TVL, vs prior snapshot 05-09)
-- Ethereum: $45.68B (+$0.02B vs 05-09, +0.04%)
-- Solana: $5.81B (+$0.02B vs 05-09, +0.03%)
-- BSC: $5.61B (flat)
-- Bitcoin: $5.31B (new in list — first appearance in top-8)
-- Tron: $5.16B (+$0.01B, flat)
-- Base: $4.59B (+$0.04B vs 05-09, +0.88%)
-- Arbitrum: $1.57B (flat)
+## Chain Flow (top 3 by TVL, vs prior snapshot 05-10)
+- Ethereum: $45.96B (+$0.28B vs 05-10, +0.61%)
+- Solana: $5.85B (+$0.04B vs 05-10, +0.69%)
+- BSC: $5.66B (+$0.05B vs 05-10, +0.89%)
 
 ## Stablecoins
-Total top-6: ~$289.2B. USDT $189.6B · USDC $78.0B · USDS $8.5B · DAI $4.7B · USD1 $4.4B · USDe $3.96B · combined share of mcap ~10.4%. USDS +$0.63B vs prior snapshot; USDC flat. USDT flat (no safety-bid acceleration today vs prior Fear session).
+Total top-8: ~$295.6B. USDT $189.6B · USDC $78.0B · USDS $8.5B · DAI $4.66B · USD1 $4.43B · USDe $3.96B · PYUSD $3.41B · BUIDL $2.99B · combined share of mcap ~10.6%. Top-6 flat vs 05-10 ($289.2B); PYUSD and BUIDL now visible in top-8.
 
 ## Trending (CoinGecko)
-- BTC — +0.70% 24h; trending #1 on fundamentals, not momentum
-- ZEC — +0.30% 24h; privacy-coin rising narrative, multi-week holder
-- TAO (Bittensor) — +3.20% 24h; AI infra; decentralized ML network
-- VVV (Venice Token) — +1.08% 24h; AI inference marketplace
-- SUI — +8.27% 24h; L1 breakout — SUI Group Holdings 108.7M SUI stake + Paga stablecoin integration
-- AERO (Aerodrome) — +5.11% 24h; Base ecosystem DeFi; rising on Base TVL momentum
-- BILL (Billions Network) — +18.78% 24h; vanity-4444 BSC wash-print actor (day 10+ active days); no position signal
-- SWEAT (Sweatcoin) — +407.96% 24h; rank #824-990 micro-cap pump; no position signal
+- ZANO — $11.96, rank 200; privacy coin trending #1 (new entry); capital rotating from ZEC after its first reversal day
+- VVV (Venice Token) — $17.07, rank 84; AI inference marketplace; +17% 24h; 3rd consecutive session trending
+- SUI — $1.27, rank 23; L1 breakout; CLARITY Act + Stripe/Bridge USDsui mainnet
+- ATOM (Cosmos Hub) — $2.01, rank 72; IBC ecosystem; co-trending with OSMO — Cosmos multi-token signal
+- ONDO — $0.421, rank 45; RWA/institutional DeFi; OUSG cross-chain settlement live
+- CANTON (CC) — $0.153, rank 21; institutional settlement layer; a16z $300M raise 05-11
+- MON (Monad) — $0.0337, rank 130; EVM-compatible L1; first appearance in trending
 
 ## Prediction Markets (Polymarket, top by 24h vol)
-
-*Russia-Ukraine ceasefire May-31 at ~99.95% YES filtered (>97% rule). BTC $150k by June 30 at 1.35% YES filtered (<3% rule — markets pricing near-zero on any near-term BTC moonshot).*
-
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Arsenal FC win 2026-05-10 | 63.5% | $3.73M | $1.44M |
-| Newcastle United FC win 2026-05-10 | 39.5% | $3.34M | $0.27M |
-| ACF Fiorentina win 2026-05-10 | 39.5% | $1.71M | $0.18M |
-| CSK vs LSG (IPL 2026-05-10) | 72.25% | $1.69M | $0.02M |
-| Nottingham Forest FC win 2026-05-10 | 23.5% | $1.22M | $0.39M |
-| US-Iran permanent peace by May 15 | 14.35% | $1.19M | $0.25M |
-| Hantavirus pandemic in 2026 | 6.65% | $1.07M | $1.58M |
-| Aston Villa FC win 2026-05-10 | 59.5% | $1.06M | $0.32M |
+| US-Iran permanent peace by May 15 | 3.35% | $2.43M | $515K |
+| US-Iran permanent peace by May 31 | 18.5% | $1.60M | $577K |
+| Hantavirus pandemic in 2026 | 8.85% | $1.37M | $1.02M |
 
-*US-Iran May-15 recovered +2pp to 14.35% (was 12.35% per 05-09) — partial reversal of the 05-09 selloff; May-11 market approaching 3% filter floor. Hantavirus 6.65% (-1.8pp from 8.45%) — WHO low-risk assessment + slow fade continues. Second-highest liquidity market in the active set at $1.58M = patient money on the NO side.*
+*Russia-Ukraine ceasefire May-31 at ~99.95% YES filtered (>97% rule). Iran May-15 at 3.35% near-floor, resolves tomorrow — watch for NO resolution confirmation. Hantavirus bounced +2.2pp from 6.65% (05-10) — first reversal since 9.65% peak on 05-08; patient NO-side money on the high-liquidity side ($1.02M). Iran May-31 continuing slow fade: 24.5% (05-09) → 20% (05-10) → 18.5% (05-11).*
 
 ## Macro Catalysts (next 48h)
-- **Russia-Ukraine truce expiry May 11 (tomorrow)**: 3-day mutual truce (May 8-11) expires. Market at 99.95% YES on May-31 ceasefire. Truce violation or non-renewal would collapse that market and trigger risk-off re-pricing. Zero-risk assumption is premature through tomorrow.
-- **Powell→Warsh Senate floor vote week of May 11**: Senate Finance Committee cleared Warsh 13-11 on April 29. May 15 is Powell's last day. Floor vote is the catalyst window for comment-side leverage on Warsh-related markets. Institutional ETF floor: 6-week inflow streak, $629M inflow last week, cumulative $58.72B (vs record $61.19B — still $2.47B below).
-- **CLARITY Act markup**: Lummis confirmed markup happening in May (possibly week of May 11 before May 21 Memorial Day recess). Regulatory clarity catalyst for XRP and broader crypto sector.
+- **US CPI May 12 (tomorrow)**: Primary macro event risk. Five consecutive weeks of BTC ETF net inflows (~$977M total; Morgan Stanley ETF absorbed $194M with zero net redemption days). Hot print = risk-off pressure on the 05-13 weekend tape.
+- **CLARITY Act Senate vote May 14**: Senate Banking Committee Executive Session confirmed (Dirksen 538, 10:30 AM). Regulatory catalyst for XRP, SUI, broad sector. SUI +17% today is front-running this — the vote itself is the next pricing event.
 
 ## Implications for Downstream Skills
-- **token-pick**: SUI and UNI are live breakouts with 7d momentum; lead candidates for 05-11. Privacy names ZEC/XMR confirmed rising — dedup gate blocks re-entry. Avoid TON (4th session fading), ICP (demo-day reversal), ONDO (2nd session reversal). LINK remains in play on 7d momentum. Check UNI fundamentals (no explicit catalyst found today).
-- **narrative-tracker**: Russia-Ukraine truce expiry 05-11 is top event risk — 99.95% YES position has massive downside on violation. Monitor ICP for second-day fade confirmation (would kill AI/infra narrative's CoinGecko-trending signal). Warsh vote week opens comment-side leverage window.
+- **token-pick**: SUI dedup gate applies (picked 05-10 at $1.13, now ~$1.33). VVV +17% and ONDO persistent trending are the cleanest new entries on AI/infra narrative. ADA and SOL show clean 7d momentum without 24h overextension. Avoid ZEC (first reversal day after +37.91% 7d run) and TON (5th fading session).
+- **narrative-tracker**: Watch ZEC for second consecutive -5%+ session — would confirm distribution and end the privacy-coin rising phase. Monitor CC for second-day trending confirmation post a16z raise. CLARITY Act May 14 is the next catalyst window for L1/regulatory sector moves.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
@@ -96,5 +83,5 @@ Total top-6: ~$289.2B. USDT $189.6B · USDC $78.0B · USDS $8.5B · DAI $4.7B ·
 | 2026-05-10 | SUI | $1.13 | SUI Group Holdings (Nasdaq-listed) staked 108.7M SUI (~2.7% circulating supply) into institutional staking + Paga Nigerian fintech integration via USDsui stablecoin at Sui Live Miami; outperforming BTC/ETH on 7d in risk-off tape; trending #7; vol/mcap 0.177; score 10/10 HIGH |
 
 ---
-*Sources — btc/eth/sol: CoinGecko · defi: DeFiLlama (chains+dex+stablecoins fresh; protocols carried from 05-07) · sentiment: alternative.me · markets: Polymarket Gamma · macro: WebSearch*
-*Source status: coingecko=ok defillama=ok(chains+dex+stablecoins,protocols-carried) fng=ok polymarket=ok websearch=ok*
+*Sources — btc/eth/sol: CoinGecko · defi: DeFiLlama (chains+dex+stablecoins+protocols fresh) · sentiment: alternative.me · markets: Polymarket Gamma · macro: WebSearch*
+*Source status: coingecko=ok defillama=ok fng=ok polymarket=ok websearch=ok*
