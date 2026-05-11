@@ -122,7 +122,7 @@ Prioritize improvements that address patterns visible in session context (repeat
 
 ## Sandbox note
 
-This skill uses local file reads and web search only. No outbound API calls needed.
+This skill reads local files and uses GitHub/notification commands (`gh`, `./notify`), which may require outbound network access.
 
 ## Constraints
 
