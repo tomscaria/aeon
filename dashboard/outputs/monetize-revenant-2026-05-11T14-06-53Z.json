@@ -1,0 +1,347 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Monetize Revenant",
+        "description": "Weekly Calibration Gap Report monetization plan — 2026-05-11"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_idea",
+        "separator_1",
+        "heading_livetrack",
+        "grid_livetrack",
+        "separator_2",
+        "heading_economics",
+        "grid_cost",
+        "grid_revenue",
+        "separator_3",
+        "heading_mvp",
+        "text_mvp",
+        "text_kill",
+        "separator_4",
+        "heading_sketch",
+        "stack_sketch",
+        "separator_5",
+        "heading_gtm",
+        "stack_gtm",
+        "separator_6",
+        "alert_stale"
+      ]
+    },
+    "stack_idea": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_idea",
+        "stack_attrs"
+      ]
+    },
+    "text_idea": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly Calibration Gap Report — top 10 Polymarket mispricing calls via email subscription",
+        "variant": "lead"
+      }
+    },
+    "stack_attrs": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_track",
+        "badge_ship"
+      ]
+    },
+    "badge_track": {
+      "type": "Badge",
+      "props": {
+        "text": "Track A (research)",
+        "variant": "secondary"
+      }
+    },
+    "badge_ship": {
+      "type": "Badge",
+      "props": {
+        "text": "Ship: 3 days",
+        "variant": "outline"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_livetrack": {
+      "type": "Heading",
+      "props": {
+        "text": "Live Track Record (Calibration Gap / Revenant)",
+        "level": "h3"
+      }
+    },
+    "grid_livetrack": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stat_trades",
+        "stat_winrate",
+        "stat_pl",
+        "stat_sharpe"
+      ]
+    },
+    "stat_trades": {
+      "type": "Stat",
+      "props": {
+        "label": "Closed Trades",
+        "value": "29"
+      }
+    },
+    "stat_winrate": {
+      "type": "Stat",
+      "props": {
+        "label": "Win Rate",
+        "value": "76%",
+        "trend": "up"
+      }
+    },
+    "stat_pl": {
+      "type": "Stat",
+      "props": {
+        "label": "P&L",
+        "value": "+$415",
+        "trend": "up"
+      }
+    },
+    "stat_sharpe": {
+      "type": "Stat",
+      "props": {
+        "label": "Sharpe Ratio",
+        "value": "0.31"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_economics": {
+      "type": "Heading",
+      "props": {
+        "text": "Economics",
+        "level": "h3"
+      }
+    },
+    "grid_cost": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_cost",
+        "stat_price"
+      ]
+    },
+    "stat_cost": {
+      "type": "Stat",
+      "props": {
+        "label": "Monthly Cost",
+        "value": "~$5",
+        "delta": "incremental inference + Resend free tier"
+      }
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Subscription Price",
+        "value": "$29/month"
+      }
+    },
+    "grid_revenue": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_10subs",
+        "stat_50subs"
+      ]
+    },
+    "stat_10subs": {
+      "type": "Stat",
+      "props": {
+        "label": "10 Subscribers",
+        "value": "$290 MRR"
+      }
+    },
+    "stat_50subs": {
+      "type": "Stat",
+      "props": {
+        "label": "50 Subscribers",
+        "value": "$1,450 MRR"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_mvp": {
+      "type": "Heading",
+      "props": {
+        "text": "MVP Test",
+        "level": "h3"
+      }
+    },
+    "text_mvp": {
+      "type": "Text",
+      "props": {
+        "text": "Post one free sample report on X + Polymarket Discord, collect signups via Stripe link over 14 days, zero paid spend"
+      }
+    },
+    "text_kill": {
+      "type": "Text",
+      "props": {
+        "text": "Kill criterion: <3 paid subscribers after 4 weeks of promotion"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_sketch": {
+      "type": "Heading",
+      "props": {
+        "text": "Sketch (Implementation Plan)",
+        "level": "h3"
+      }
+    },
+    "stack_sketch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_sketch_1",
+        "text_sketch_2",
+        "text_sketch_3",
+        "text_sketch_4",
+        "text_sketch_5"
+      ]
+    },
+    "text_sketch_1": {
+      "type": "Text",
+      "props": {
+        "text": "Add skills/weekly-calibration-report/SKILL.md (Monday 14:00 UTC, pulls context/trading/ snapshot, generates consensus top-10 table across canary agents)"
+      }
+    },
+    "text_sketch_2": {
+      "type": "Text",
+      "props": {
+        "text": "Add skills/monetize-revenant/report-template.md (market / gap score / direction / regime / confidence table + Kelly sizing note)"
+      }
+    },
+    "text_sketch_3": {
+      "type": "Text",
+      "props": {
+        "text": "Create Stripe payment link: $29/month, description cites 76%/29-trade live track record"
+      }
+    },
+    "text_sketch_4": {
+      "type": "Text",
+      "props": {
+        "text": "Add landing paragraph + Stripe link to rswarm.ai"
+      }
+    },
+    "text_sketch_5": {
+      "type": "Text",
+      "props": {
+        "text": "Launch: X thread (76%/29 stat + sample call), Polymarket Discord #strategy, PM Telegram groups"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_gtm": {
+      "type": "Heading",
+      "props": {
+        "text": "Launch Channels",
+        "level": "h3"
+      }
+    },
+    "stack_gtm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_gtm_1",
+        "text_gtm_2",
+        "text_gtm_3"
+      ]
+    },
+    "text_gtm_1": {
+      "type": "Text",
+      "props": {
+        "text": "X thread (76%/29 stat + sample call)"
+      }
+    },
+    "text_gtm_2": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket Discord #strategy"
+      }
+    },
+    "text_gtm_3": {
+      "type": "Text",
+      "props": {
+        "text": "PM Telegram groups"
+      }
+    },
+    "separator_6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_stale": {
+      "type": "Alert",
+      "props": {
+        "title": "Data Status",
+        "message": "revenant-snapshot.json stale (synced 2026-05-09, 48h old) — track record from memory (29 trades / 76% / +$415 / Sharpe 0.31)",
+        "type": "warning"
+      }
+    }
+  }
+}
