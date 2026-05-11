@@ -879,15 +879,15 @@
   },
   "cost-report": {
     "last_dispatch": "2026-05-11T11:29:51Z",
-    "last_status": "dispatched",
+    "last_status": "failed",
     "last_success": "2026-05-04T07:39:29Z",
-    "total_runs": 3,
+    "total_runs": 4,
     "total_successes": 2,
-    "total_failures": 1,
-    "consecutive_failures": 1,
-    "success_rate": 0.67,
-    "last_failed": "2026-05-11T08:24:02Z",
-    "last_error": "ReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":0,\"costUSD\":0.00042699999999999997,\"contextWindow\":200000,\"maxOutputTokens\":32000},\"claude-sonnet-4-6\":{\"inputTokens\":15,\"outputToke"
+    "total_failures": 2,
+    "consecutive_failures": 2,
+    "success_rate": 0.5,
+    "last_failed": "2026-05-11T11:58:19Z",
+    "last_error": "\"outputTokens\":14,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":0,\"costUSD\":0.000437,\"contextWindow\":200000,\"maxOutputTokens\":32000},\"claude-sonnet-4-6\":{\"inputTokens\":15,\""
   },
   "chain:weekly-grant-update": {
     "last_dispatch": "2026-05-04T09:35:15Z",
