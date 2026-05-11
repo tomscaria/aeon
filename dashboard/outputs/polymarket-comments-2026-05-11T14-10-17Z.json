@@ -1,0 +1,502 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket Comments - 2026-05-11",
+        "description": "High-volume thread narratives for info-asymmetry alpha signals"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "intro_section",
+        "sep1",
+        "market1_section",
+        "sep2",
+        "market2_section",
+        "sep3",
+        "market3_section",
+        "sep4",
+        "market4_section",
+        "sep5",
+        "synthesis_section"
+      ]
+    },
+    "intro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "intro_var_text",
+        "intro_crypto_alert"
+      ]
+    },
+    "intro_var_text": {
+      "type": "Text",
+      "props": {
+        "text": "Objective: Mine high-volume threads for narrative-shift signals (info-asymmetry alpha). Focus: politics + crypto.",
+        "variant": "body"
+      }
+    },
+    "intro_crypto_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Crypto vertical dead 8th consecutive day — birthday-bot + cambodia phone scam (+855) confirmed on BTC $150k event (36173). Substituting full politics load.",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market1_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market1_heading",
+        "market1_prices",
+        "market1_comments",
+        "market1_analysis"
+      ]
+    },
+    "market1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "US x Iran permanent peace deal by May 15/31?",
+        "level": "h2"
+      }
+    },
+    "market1_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "market1_yes_may15",
+        "market1_yes_may31",
+        "market1_volume"
+      ]
+    },
+    "market1_yes_may15": {
+      "type": "Stat",
+      "props": {
+        "label": "YES (May 15)",
+        "value": "3.35%"
+      }
+    },
+    "market1_yes_may31": {
+      "type": "Stat",
+      "props": {
+        "label": "YES (May 31)",
+        "value": "18.5%"
+      }
+    },
+    "market1_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$6.35M combined"
+      }
+    },
+    "market1_comments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "comment1_1",
+        "comment1_2",
+        "comment1_3",
+        "comment1_4",
+        "comment1_5"
+      ]
+    },
+    "comment1_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "nookey",
+        "text": "I think this time...there won't be peace anytime soon — fresh take today, unelabored but highest-engagement current commenter",
+        "likes": 4
+      }
+    },
+    "comment1_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ebrachai",
+        "text": "Honestly, it seems much more likely a MoU will be signed... — MoU framing persists; resolution clause requires lasting-basis permanent peace (UMA oracle); MoU does not qualify per ignorant-case (05-10 cite chain)",
+        "likes": 0
+      }
+    },
+    "comment1_3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "morenaji",
+        "text": "8 days left vs. MONTHS to negotiate... — established NO track record; consistent across all horizon markets; source-citer with citation chains",
+        "likes": 9
+      }
+    },
+    "comment1_4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MrNFT",
+        "text": "whos here from ukraine market — Russia-Ukraine 99.95% YES traders migrating here for YES exposure; explains volume spike; NOT informed buying",
+        "likes": 13
+      }
+    },
+    "comment1_5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "starbuck02",
+        "text": "Ghalibaf «We do not accept negotiations in a pressured environment» — parliament hardliner still the floor signal",
+        "likes": 10
+      }
+    },
+    "market1_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Iran volume spike driven by Russia-Ukraine 99.95% YES migration (MrNFT signal); not informed buying. morenaji + ignorant-case cite-chain intact as NO thesis. May-15 3.35% looks rich.",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market2_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market2_heading",
+        "market2_prices",
+        "market2_comments",
+        "market2_analysis"
+      ]
+    },
+    "market2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Will Trump visit China by May 15?",
+        "level": "h2"
+      }
+    },
+    "market2_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "market2_yes",
+        "market2_volume"
+      ]
+    },
+    "market2_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "99.05%"
+      }
+    },
+    "market2_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$2.65M"
+      }
+    },
+    "market2_comments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "comment2_1",
+        "comment2_2",
+        "comment2_3"
+      ]
+    },
+    "comment2_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "JordanBelfortion",
+        "text": "China hasn't confirmed the visit... — T-4 days, official Chinese-side confirmation still absent from state media",
+        "likes": 8
+      }
+    },
+    "comment2_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "NerdOnWeed",
+        "text": "Sanctioning SEVERAL Chinese companies... — parallel US sanctions as negative catalyst while visit pending",
+        "likes": 8
+      }
+    },
+    "comment2_3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chims",
+        "text": "他不会来的，大家应该买no [CN: He won't come, everyone buy NO] — native Chinese-language account; sourcing absent from quant scanner",
+        "likes": 5
+      }
+    },
+    "market2_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "99.05% YES but Chinese confirmation still absent (JordanBelfortion, 05-10); native-language NO cluster (Chims) is the only non-priced risk. Watch for last-minute resolution dispute.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market3_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market3_heading",
+        "market3_prices",
+        "market3_comments",
+        "market3_analysis"
+      ]
+    },
+    "market3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hantavirus pandemic in 2026?",
+        "level": "h2"
+      }
+    },
+    "market3_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "market3_yes",
+        "market3_volume"
+      ]
+    },
+    "market3_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "8.85%"
+      }
+    },
+    "market3_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$1.37M"
+      }
+    },
+    "market3_comments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "comment3_1",
+        "comment3_2",
+        "comment3_3",
+        "comment3_4"
+      ]
+    },
+    "comment3_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Parallel-Steamroller",
+        "text": "Hantavirus will leave the news cycle in approximately... — today's dominant fade thesis, most-reacted comment today",
+        "likes": 8
+      }
+    },
+    "comment3_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Ancient-Armadillo",
+        "text": "Wasn't it 6 weeks incubation time?... — factual counter-fade: Andes hantavirus incubation 1-8 weeks; Spain cruise-ship cases (early May) could yield secondaries through early June; resolution window intact",
+        "likes": 5
+      }
+    },
+    "comment3_3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "anon",
+        "text": "That's some easy money on YES, OMS has all the interest to declare a pande... — WHO institutional-incentive argument; untested but novel frame",
+        "likes": 0
+      }
+    },
+    "comment3_4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Giving-Forte",
+        "text": "What part of the Andes virus requires close contact... — source-citing clause-text analyst; NO-direction; consistent track record across multiple Hantavirus comments",
+        "likes": 10
+      }
+    },
+    "market3_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Fade thesis vs incubation-window counter. Ancient-Armadillo's 6-week incubation argument is today's novel informational claim. Market at 8.85% may be pricing fade too fast if cruise-ship secondaries materialize late May.",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market4_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market4_heading",
+        "market4_prices",
+        "market4_comments",
+        "market4_analysis"
+      ]
+    },
+    "market4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Who will be confirmed as Fed Chair?",
+        "level": "h2"
+      }
+    },
+    "market4_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "market4_warsh",
+        "market4_bowman",
+        "market4_volume"
+      ]
+    },
+    "market4_warsh": {
+      "type": "Stat",
+      "props": {
+        "label": "Warsh",
+        "value": "~100%"
+      }
+    },
+    "market4_bowman": {
+      "type": "Stat",
+      "props": {
+        "label": "Bowman",
+        "value": "0.15%"
+      }
+    },
+    "market4_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$3M"
+      }
+    },
+    "market4_comments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "comment4_1",
+        "comment4_2"
+      ]
+    },
+    "comment4_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Setfor20026",
+        "text": "cloture is our last line of defence — Senate procedural risk; cloture requires 60 votes vs 51 for confirmation; only actor flagging the procedural path; Warsh floor vote this week",
+        "likes": 0
+      }
+    },
+    "comment4_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "alpaje",
+        "text": "Extended complaint about whale concentration on Bowman/Judy Shelton sequence — same Top Holders actors rotating from Shelton to Warsh visible in comment thread",
+        "likes": 5
+      }
+    },
+    "market4_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Cloture procedural path is only residual risk (Setfor20026, vote week May 11). Warsh essentially done per $49.5M 100% YES market.",
+        "variant": "muted"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "synthesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "synthesis_heading",
+        "synthesis_text"
+      ]
+    },
+    "synthesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Signal Synthesis",
+        "level": "h2"
+      }
+    },
+    "synthesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Iran volume spike driven by Russia-Ukraine 99.95% YES migration (MrNFT signal); not informed buying. morenaji + ignorant-case cite-chain intact as NO thesis. May-15 3.35% looks rich.\n\nTrump China: 99.05% YES but Chinese confirmation still absent (JordanBelfortion, 05-10); native-language NO cluster (Chims) is the only non-priced risk. Watch for last-minute resolution dispute.\n\nHantavirus: fade thesis vs incubation-window counter. Ancient-Armadillo's 6-week incubation argument is today's novel informational claim. Market at 8.85% may be pricing fade too fast if cruise-ship secondaries materialize late May.\n\nFed Chair: cloture procedural path is only residual risk (Setfor20026, vote week May 11). Warsh essentially done per $49.5M 100% YES market.",
+        "variant": "body"
+      }
+    }
+  }
+}
