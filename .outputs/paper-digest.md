@@ -1,8 +1,8 @@
-*Paper Digest — 2026-05-10*
-13th consecutive thin HF daily browse; 1 prediction-market microstructure diagnostic, 1 multi-agent quant framework, 1 perpetual-DEX MM result adjacent to Hermes-arb; no new ILS or LLM-forecasting paper this cycle.
+*Paper Digest — 2026-05-11*
+1 high-upvote agentic orchestration framework, 1 Bayesian forecaster above GPT-5 on ForecastBench, 1 controlled PM aggregation experiment with a hard complexity bound; no new ILS or microstructure paper this cycle
 
-1. "The Signal Credibility Index for Prediction Markets" — Nechepurenko (↑0) — four-part microstructure diagnostic (logit persistence + Cobb-Douglas flow concentration + real-time spec + Monte Carlo stress tests); measures coordination credibility, not pure information quality; two documented failure modes (whale repricing underdetected, multi-wallet coordination overdetected)
-2. "AlphaCrafter" — Yuan et al. (↑0) — three-agent quant pipeline (Miner LLM-factor discovery + Screener regime-adaptive assembly + Trader risk-constrained execution); lowest cross-trial variance on CSI 300/S&P 500; regime-switching Screener is the quant-scanner upgrade architecture for post-Apex CalibrationGap
-3. "Funding-Aware Optimal Market Making for Perpetual DEXs" — Le (↑0) — HJB market making with inventory-funding coupling; outperforms Avellaneda-Stoikov on ETH/BTC Hyperliquid data; heavy-tailed SOL funding breaks Gaussian OU baseline — directly maps to Hermes-arb exit-timing sensitivity
+1. "Heterogeneous Scientific Foundation Model Collaboration" (Eywa, UIUC) — LLM orchestrator routes domain inputs to specialist FMs across 3 tiers (↑209)
+2. "Agentic Forecasting via Sequential Bayesian Updating of Linguistic Beliefs" (Kevin Murphy) — beats GPT-5, Grok 4.20, Cassi on 400 ForecastBench binaries; logit-space aggregation + Platt calibration; <1.5% leakage (↑0, v3)
+3. "Information Aggregation with AI Agents" (Galanis) — controlled double-auction PM experiment: simple markets aggregate, complexity degrades; feedback on past performance has zero effect on aggregation (↑0, revised 2026-05-07)
 
-Full: articles/paper-digest-2026-05-10.md
+Full: articles/paper-digest-2026-05-11.md
