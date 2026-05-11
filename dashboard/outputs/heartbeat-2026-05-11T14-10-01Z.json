@@ -1,0 +1,144 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "alert_failed",
+        "sep1",
+        "stack_content"
+      ]
+    },
+    "alert_failed": {
+      "type": "Alert",
+      "props": {
+        "title": "cost-report FAILED",
+        "message": "2 consecutive failures. Last failed 2026-05-11T11:58:19Z",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_monitoring",
+        "section_error",
+        "section_cost"
+      ]
+    },
+    "section_monitoring": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_monitoring",
+        "t_monitoring"
+      ]
+    },
+    "h_monitoring": {
+      "type": "Heading",
+      "props": {
+        "text": "Monitoring Status",
+        "level": "h3"
+      }
+    },
+    "t_monitoring": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly cost-discipline monitoring dark since 2026-05-04"
+      }
+    },
+    "section_error": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_error",
+        "t_error_pattern",
+        "stat_success_rate"
+      ]
+    },
+    "h_error": {
+      "type": "Heading",
+      "props": {
+        "text": "Error & Health",
+        "level": "h3"
+      }
+    },
+    "t_error_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Error matches post-execution state-write pattern (ISS-020 class)"
+      }
+    },
+    "stat_success_rate": {
+      "type": "Stat",
+      "props": {
+        "label": "Lifetime Success Rate",
+        "value": "50%",
+        "delta": "-50%",
+        "trend": "down"
+      }
+    },
+    "section_cost": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_cost",
+        "grid_cost"
+      ]
+    },
+    "h_cost": {
+      "type": "Heading",
+      "props": {
+        "text": "Cost Discipline",
+        "level": "h3"
+      }
+    },
+    "grid_cost": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_running",
+        "stat_target"
+      ]
+    },
+    "stat_running": {
+      "type": "Stat",
+      "props": {
+        "label": "Running",
+        "value": "$2,696/mo"
+      }
+    },
+    "stat_target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target",
+        "value": "$40/wk (~$160/mo)"
+      }
+    }
+  }
+}
