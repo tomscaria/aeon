@@ -1,38 +1,38 @@
-*Goal Tracker — 2026-05-10* (stale trading context: last-sync 31h ago)
+*Goal Tracker — 2026-05-09*
 
-Summary: 16 goals — 0 at risk, 1 needs attention, 12 on track, 3 blocked, 4 done (→ flat)
+Summary: 16 active goals — 0 at risk, 1 needs attention, 12 on track, 3 blocked, 4 done (overall -> slightly degrading: one ON TRACK -> NEEDS ATTENTION)
 
 NEEDS ATTENTION
-• swarm-fund-mvp 72h merge-cadence test — deadline 05-09 passed, 0d idle (→ flat; queue stagnation confirmed by two heartbeats today)
-  → Archive this falsifier; open queue-stagnation mitigation in next self-improve pass.
+• swarm-fund-mvp 72h merge-cadence test — deadline today 2026-05-09, no confirmation in logs (was ON TRACK ↓)
+  -> Action: Verify tomscaria/swarm-fund-mvp for new ADR opened today vs PRs #30/#31 stalled
 
-BLOCKED
-• chain-runner.yml dispatch_skill() — Day 14 idle, waiting on operator workflow patch
-  → Operator applies dispatch_skill() echo patch (add echo before each gh workflow run in chain-runner.yml).
-• Add Trusted Authors to memory/watched-repos.md — waiting on operator edit
-  → Operator adds aaronjmars (+ optionally tomscaria) to Trusted Authors; unblocks auto-merge.
-• Operator config sweep — waiting on operator
-  → Populate memory/on-chain-watches.yml with one address; add var: to list-digest in aeon.yml.
+BLOCKED (all operator-side)
+• Fix chain-runner.yml dispatch_skill() — Day 13 idle. BLOCKED: operator-side workflow patch. Gates ISS-013 decay.
+  -> Action: Add echo before each gh workflow run in chain-runner.yml to fix dispatch_skill()
+• Add Trusted Authors to memory/watched-repos.md — BLOCKED: operator memory edit. Blocks auto-merge for repo-owner PRs.
+  -> Action: Add aaronjmars to Trusted Authors section in memory/watched-repos.md
+• Operator config sweep — BLOCKED: on-chain-watches.yml empty, list-digest/refresh-x var unconfigured, skills.lock missing.
+  -> Action: Populate memory/on-chain-watches.yml with 1 wallet address to close NO_CONFIG loop
 
 ON TRACK
-• Open ADR-096 for resolution-text-ingest — 0d idle, heavy evidence build (→ flat) [14+ days no ADR slot; SCI sci-entry-gate ADR now ships first per 05-10 paper-pick]
-• Cost-discipline sonnet downgrade pass — 0d idle (→ flat) [still ~$2,696/mo vs $40/wk; no downgrade action taken]
-• monitor-runners DEEP-LIQ floor patch — 0d idle, 8+ evidence runs ready for self-improve (→ flat)
-• swarm-fund-mvp tick-broker falsifier — 0d idle, 7 days to 2026-05-17 deadline (→ flat)
-• Pre-Apex push: monitor-polymarket + polymarket-comments — 0d idle, both ran today (→ flat) [Revenant 29/100 stale; no fresh revenant_agents data]
-• Hermes-arb gate adjustment: min-gap 7pp → ~7.5-8pp — 0d idle (→ flat)
-• swarm-fund-mvp OLLAMA_FULL=1 rollout falsifier — 0d idle, 11 days to 2026-05-21 deadline (→ flat)
-• skill-evals key fixes (PR #5) — 0d idle, PR stalled ~13d (→ flat)
-• code-health Day-7 carry — 1d idle (→ flat)
-• ISS-018/ISS-019 prompt-bug fixes — 0d idle (→ flat)
-• paper-pick daily / build PhD reading list — 0d idle, SCI picked today (→ improving; 4-paper Nechepurenko stack complete)
-• cite stack for next grant / Stanford application — 0d idle, SCI added (→ improving)
+• Open ADR-096 resolution-text-ingest — 1d idle, active evidence; ForesightFlow closes 3-paper Nechepurenko arc. Iran-airspace + Hantavirus anchors ready. No ADR slot opened in ~14d.
+• Cost-discipline downgrade pass — in OPS ALERTS daily; Aeon-side ~$2,696/mo vs $40/wk target (>15x over). swarm-fund-mvp LLM $1.30/7d (under budget).
+• monitor-runners DEEP-LIQ floor patch — 8 runs of evidence (Bear slot-5 h1 -10.7% today = 8th). Ready for self-improve.
+• swarm-fund-mvp tick-broker falsifier — 9 days to 2026-05-17. No outputs/{skill}/{date}.json contract shipped yet.
+• Pre-Apex push: monitor-polymarket + polymarket-comments — both ran today. Revenant 29/100 trades (29%). Russia-Ukraine +92.45pp -> 99.95% YES (UMA dispute live). Iran peace cluster -5 to -10pp. Powell->Warsh Senate floor vote May 11.
+• Hermes-arb gate adjustment: bump min-gap to 7.5-8pp — KXBTC B80250 resolved correctly. No convergence signal on KXBTC-26MAY1517 yet.
+• swarm-fund-mvp OLLAMA_FULL=1 rollout falsifier — 12 days to 2026-05-21. No env file confirmation yet.
+• Skill-evals key fixes (PR #5) — open 12 days (since 04-27), hn-digest / polymarket key rename not merged.
+• Code-health Day-7 carry — Pyth/Birdeye feed IDs (pyth_ws.py:36, birdeye_rest.py:36-37) still unverified.
+• ISS-018/019 prompt-bug fixes — flagged in heartbeat today; surface to self-improve.
+• paper-pick daily + PhD reading list — ForesightFlow (2605.00493) picked today, closes 3-paper ILS arc. Next PhD slot: Heterogeneous Scientific Foundation Model (2604.27351). (improving)
+• Cite stack for grant/Stanford — 8-paper q-fin.TR bench now fully citable. ForesightFlow closes Nechepurenko ILS arc. (improving)
 
 DONE
-• PR #156 reply-maker XAI prefetch — completed 2026-05-08T01:18Z
-• 5 ACT NOW Vercel-failure PRs — completed 2026-05-03
-• Land code-health fix (secrets-route) — completed 2026-05-03
-• ISS-004 / ISS-006 resolved — completed 2026-05-03
+• PR #156 reply-maker XAI prefetch — merged 2026-05-08T01:18Z
+• 5 ACT NOW Vercel-FAILURE PRs on swarm-fund-mvp — completed 2026-05-03
+• Land code-health fix dashboard secrets-route — PR #150 + PR #158
+• ISS-004 / ISS-006 — resolved 2026-05-03
 
-Sources: logs=ok, git=ok, gh_pr=ok, gh_issue=ok(empty), cron-state=ok, revenant-snapshot=stale(empty ~31h), agents-summary=ok(canary=9/shadow=158, no revenant lifecycle), costs-summary=ok, last-sync=stale(31h)
+Sources: logs=ok, git=ok, gh_pr=ok, gh_issue=ok(empty), cron-state=ok, revenant-snapshot=stale(empty), agents-summary=ok(canary=9/shadow=158), costs-summary=ok, last-sync=ok(fresh 07:16Z)
 
