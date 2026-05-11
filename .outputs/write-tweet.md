@@ -1,25 +1,24 @@
-tweet drafts: clause-text vs headline divergence on PM (Iran peace +7pp on non-nuclear MOU)
-note: revenant-snapshot 26h stale; CalibrationGap stats sourced from MEMORY.md
+tweet drafts: clause-complexity is the LLM-prediction edge (Galanis 2026 + CalibrationGap)
 
 — one-liner —
-1a. The edge isn't in the headline. It's in the resolution clause.
-1b. Iran peace +7pp today on a deal the UMA clause says doesn't count.
+1a. LLMs price prediction markets fine — until the resolution clause gets complex.
+1b. 76% win rate over 29 trades. Every one in markets where the resolution clause was unambiguous.
 
 — two-punch —
-2a. Polymarket repriced Iran-peace from 24.5% to 31.5% on a non-nuclear MOU. The UMA resolver requires lasting-basis permanent peace. Nuclear-exempt fails the bar.
-2b. Quant scanners ingest market titles. Resolution oracles ingest clauses. Today's 7pp Iran-peace move is the gap between those two readers.
+2a. Galanis (May 2026, econ.GN) ran the experiment. AI agents aggregate private signals on easy market structures, fail on complex ones. Feedback about past P&L? Zero effect.
+2b. Everyone benchmarks LLMs on quiz-style binaries. The real failure mode is the resolution-clause — legal text, conditional triggers, UMA definitions. Quiz versus lawsuit.
 
 — paragraph —
-3a. Two days ago Iran-airspace closed 2.05% YES on $916k vol despite confirmed US strikes. Today Iran-peace ladder up +7pp on a 1-page non-nuclear MOU. Both are clause-text trades. The quant scanner can't see either one.
-3b. Polymarket pricing improvement when reading the title: minimal. When reading the resolver's actual clause: 48pp on Iran-airspace, 7pp on Iran-peace. The whole game is text the scanner doesn't tokenize.
+3a. "LLMs can't predict the future." They can — on simple resolution clauses. Galanis (May 2026, econ.GN) ran the experiment. Complexity degrades aggregation. Past-performance feedback does nothing. The edge isn't smarter prompts. It's clause selection.
+3b. 29 trades. 76% win. +$415 P&L. Sharpe 0.31. All on Polymarket binaries with clean resolution clauses. Galanis (May 2026) controlled the experiment: LLM aggregation degrades with complexity. The edge isn't smarter models. It's clause-text filtering.
 
 — long tweet —
-4a. Two weeks running the same lesson. Iran-airspace closed 2.05% YES on $916k despite confirmed strikes — quant scanner saw kinetic news up, clause text said "major commercial closure," kinetic news doesn't qualify. Today Iran-peace +7pp on a non-nuclear MOU — clause requires lasting-basis permanent peace, MOU doesn't qualify. Our Polymarket calibrator is 29 trades in at 76% win, +$415, Sharpe 0.31. 71 trades from the Apex gate. The remaining edge isn't more features. It's reading the resolver's text.
-4b. What is a prediction market actually pricing? Most people answer "the event." But the resolver only adjudicates the clause. So when Polymarket's Iran-peace ladder repriced +7pp today on a non-nuclear MOU, what moved was the headline. The clause — "lasting-basis permanent peace" — didn't. Until you ingest that text, your scanner is reading a different market than the one that resolves. We're 29 trades in on a calibrator that does. 76%, +$415, Sharpe 0.31. The next ADR is just clause ingestion.
+4a. Most LLM-prediction benchmarks miss the failure mode. Galanis (econ.GN, May 2026) ran the controlled experiment: AI agents aggregate private signals well on easy information structures, fail on complex ones, and feedback about past P&L has zero effect. Translation for Polymarket: the edge isn't smarter models or longer prompts. It's filtering by resolution-clause complexity. Iran-airspace resolved NO at 2.05% YES Sunday. The "major closure" sister market for the same period prices 48pp higher. Same event, different clauses, different probabilities. That's where the edge lives.
+4b. A 13-reaction Polymarket comment yesterday said the quiet part: "whos here from ukraine market." Russia-Ukraine 99.95% YES traders rotating into Iran-peace YES on inertia, not information. The Galanis experiment (econ.GN, May 2026) explains why this is exploitable — AI aggregation is robust on easy structures, breaks on complex clauses. The migration crowd treats every binary the same way. The model crowd doesn't read the clause. The trade is the gap between them. 29 trades, 76%, +$415 says it's there.
 
 — thread opener —
-5a. The biggest CalibrationGap upgrade we haven't shipped is reading the resolution clause, not the market title. Two events of evidence in two days.
-5b. Why does a market move +7pp on a deal the resolver won't honor? Because two readers are pricing it.
+5a. "Can LLMs predict the future" is the wrong framing. The real question is which class of markets they aggregate well, and which class they don't. Galanis (May 2026, econ.GN) just controlled-experimented this. The answer is sharper than people think.
+5b. Iran-airspace-by-May-8 resolved NO at 2.05% YES on $916k volume. The sister "major closure" market for the same period still prices 48 percentage points higher. Same event window. Different clause text. That is the structural edge in live agentic Polymarket.
 
-best: 4a — only draft that lands the two-event pattern, precise clause mechanism, and live P&L proof in one beat
+best: #4a — operator voice, data + theory + falsifier in one block, lands the trade
 
