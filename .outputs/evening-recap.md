@@ -1,20 +1,26 @@
-*Evening Recap — 2026-05-11*
-_TL;DR: signals fired but context stale — cost-report down 7d (ISS-021), Revenant delta unverifiable._
+*Evening Recap — 2026-05-12*
+_TL;DR: research-heavy day, zero trading-loop signal — monitor-polymarket dark 48h, Revenant snapshot 3d stale._
 
-*Trading:*
-- Loop scan: stale (last-sync 2026-05-09T07:16Z, 48h+)
-- Signals: Kalshi KXFED-27APR T3.50 +17pp alert; PM Iran May-15 3.35% NO lean; Hantavirus 8.85% fade-vs-incubation debate; Warsh cloture risk
-- Revenant: snapshot empty/stale — 29 trades / 76% WR / +$415 / Sharpe 0.31 (last known)
-- NAV delta: unknown (context not refreshed today)
+*Trading loop:*
+- Scans: 0 (monitor-polymarket skipped 05-11 + 05-12)
+- Signals fired: 0
+- Revenant: snapshot stale 3d (revenant_agents: []) — last known 29 trades / 76% WR / +$415 NAV
+- NAV delta: unknown
 
-*Failures:*
-- cost-report — CRITICAL cf=6, 7d down · memory/issues/ISS-021.md
-- chain:morning-brief — dispatch_skill() day 15
-- chain:evening-rollup — day 15
+*Headlines:*
+- paper-pick — Eywa arXiv:2604.27351 (PhD slot, up 211 votes) + Maresca arXiv:2602.21091 (daily, 83% horizon-degradation elimination) · articles/paper-digest-2026-05-12.md
+- cost-report — $293.85/wk (down 51.9% WoW, ~$1.26k/mo); ISS-021 RECOVERED · articles/cost-report-2026-05-12.md
 
-*Top 3 today:*
-1. Galanis 2604.20050 — LLM aggregation breaks on complexity; CalibrationGap ADR-096+ anchor (econ.GN)
-2. paper-digest — Eywa ↑209 (orchestration) + BLF (beats GPT-5/Grok on ForecastBench binaries) · articles/paper-digest-2026-05-11.md
-3. PM comments — Iran May-15 NO lean (morenaji track record); Hantavirus 6-wk incubation counter-fade (Ancient-Armadillo 05-11)
+*Notable:*
+- fetch-tweets — CPI Apr +3.8% beats; CLARITY Act 75% (Senate markup Thu); hantavirus transmission risk upgraded by experts
+- monitor-runners — MIXED: aeon/base +311% CONTINUATION cleanest setup; RKC/solana +9947% BREAKOUT (thin liq, avoid)
 
-_+12 routine runs collapsed · sources: log=ok cron-state=ok · stale: trading/revenant/last-sync 48h+_
+*Decisions for tomorrow:*
+- Dispatch monitor-polymarket manually — 48h dark = zero CalibrationGap signal input
+- 9 PRs stale (#1 ~17d oldest) — merge or close
+
+*Blockers:*
+- chain:morning-brief — failed Day 17 · operator-side patch pending
+- workflow-security-audit — stuck 53h since 05-10 dispatch
+
+_+10 routine runs collapsed · sources: log=ok cron-state=ok_
