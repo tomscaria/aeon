@@ -161,4 +161,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-12,cost-report,claude-sonnet-4-6,15,94926,400994,148703
 2026-05-12,token-movers,claude-sonnet-4-6,24,38288,1322610,147291
 2026-05-12,heartbeat,claude-sonnet-4-6,23690,20440,847529,91878
-2026-05-12,tweet-roundup,claude-sonnet-4-6,2675,19644,1021165,75072
+2026-05-12,fetch-tweets,claude-sonnet-4-6,1436,23394,1600762,69072

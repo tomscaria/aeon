@@ -1,0 +1,224 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — prediction markets (2026-05-12)"
+      },
+      "children": [
+        "summary_text",
+        "sep1",
+        "cpi_heading",
+        "cpi_stack",
+        "sep2",
+        "clarity_heading",
+        "clarity_stack",
+        "sep3",
+        "hantavirus_heading",
+        "hantavirus_stack"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "CPI printed +3.8% headline / +2.8% core (beats) — PM had this at 100% pre-print; CLARITY Act odds surged 10pp into Senate markup week; hantavirus experts upgraded transmission risk today.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "cpi_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CPI print + Fed path repricing",
+        "level": "h3"
+      }
+    },
+    "cpi_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "tweet_1_link",
+        "tweet_2",
+        "tweet_2_link",
+        "tweet_3",
+        "tweet_3_link"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Investingcom",
+        "handle": "Investingcom",
+        "text": "Breaking: core CPI +2.8% y/y, beats est. 2.7% — highest since Oct 2025; first hard number confirming inflation re-accelerated above Warsh-hawkish baseline",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Investingcom/status/2054178278278136170"
+      }
+    },
+    "tweet_2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "TheTranscript_",
+        "handle": "TheTranscript_",
+        "text": "Full breakdown: headline +3.8% y/y (up from 3.3%); energy +3.8% m/m = 40%+ of monthly increase — energy carrying the print, core less alarming than headline",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/TheTranscript_/status/2054184164400771171"
+      }
+    },
+    "tweet_3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "USPredict",
+        "handle": "USPredict",
+        "text": "Pre-print PM scorecard: 100% inflation >3%, Kalshi 100% CPI >3.2%, 55.6% zero cuts in 2026, 95.5% no June cut — markets were correctly positioned before the print",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet_3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/USPredict/status/2052116226063630396"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "clarity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CLARITY Act markup + odds surge",
+        "level": "h3"
+      }
+    },
+    "clarity_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_4",
+        "tweet_4_link",
+        "tweet_5",
+        "tweet_5_link",
+        "tweet_6",
+        "tweet_6_link"
+      ]
+    },
+    "tweet_4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "unusual_whales",
+        "handle": "unusual_whales",
+        "text": "74% chance Clarity Act signed into law in 2026 per Polymarket; Senate Banking Committee markup this week",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet_4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/unusual_whales/status/2053313450953355724"
+      }
+    },
+    "tweet_5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "BSCNews",
+        "handle": "BSCNews",
+        "text": "Polymarket odds up 10pp to 75% on CLARITY Act, coinciding with Tillis-Alsobrooks bipartisan deal confirmation and markup start",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet_5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/BSCNews/status/2053717237454844175"
+      }
+    },
+    "tweet_6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "business",
+        "handle": "business",
+        "text": "Bloomberg: Banking groups floating last-minute stablecoin yield changes as Senate panel begins markup — lobby friction is the clause-text risk for Clarity Act YES holders",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet_6_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/business/status/2053267535869411432"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "hantavirus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hantavirus escalation",
+        "level": "h3"
+      }
+    },
+    "hantavirus_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_7",
+        "tweet_7_link"
+      ]
+    },
+    "tweet_7": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Polymarket",
+        "handle": "Polymarket",
+        "text": "Health experts warn hantavirus \"more contagious than thought\" — first expert upgrade of transmission risk; market still 8-14% pandemic odds but narrative catalysts compressing on the same day as CPI print",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "tweet_7_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Polymarket/status/2054198972630069518"
+      }
+    }
+  }
+}
