@@ -1,13 +1,17 @@
-*RSS Digest — 2026-05-11*
-
-*The Block*
-- [Bitcoin briefly tops $82,000; Sui jumps 25%](https://www.theblock.co/post/400663/bitcoin-briefly-tops-82000-sui-jumps-25) — BTC cleared $82k, landing above KXBTC's B81750 modal bucket from Friday's Kalshi read; Sui +25% extends yesterday's token pick into a second session.
-- [Morgan Stanley BTC ETF: $194M in month one, zero net daily outflows](https://www.theblock.co/post/400650/morgan-stanleys-bitcoin-etf-absorbs-194-million-in-first-month-with-no-net-daily-outflows) — institutional demand absorbed new supply without a single net redemption day; complements 5-week ETF buying streak and suppresses Hermes-arb convergence-exit urgency.
-- [Canton Network's Digital Asset eyes $300M raise at $2B valuation, a16z leads](https://www.theblock.co/post/400647/canton-network-developer-digital-asset-eyes-300-million-raise-at-2-billion-valuation-led-by-a16z-crypto-bloomberg) — DAML-based institutional settlement layer getting a16z capital at $2B; adjacent to prediction-market settlement infrastructure and yesterday's Agentic Payments narrative.
-
-*arXiv cs.AI*
-- [Hidden Coalitions in Multi-Agent AI: Spectral Diagnostic (2605.06696)](https://arxiv.org/abs/2605.06696) — spectral partitioning of agent hidden-state mutual information detects coordinated coalitions in MARL and LLMs; maps to SCI failure mode #2 (multi-wallet manipulation passing concentration screen) and gives CalibrationGap a concrete detection axis.
-- [Switchcraft: AI Model Router for Agentic Tool Calling (2605.07112)](https://arxiv.org/abs/2605.07112) — DistilBERT router at 82.9% accuracy cuts inference cost 84% ($3,600/1M query savings); direct shape match for ADR-094 LLM router and the $40/wk cost-discipline mandate.
+*RSS Digest — 2026-05-12*
 
 *Decrypt*
-- [AI Models Scheme, Betray and Vote Each Other Out in Survivor-Style Game](https://decrypt.co/367213/ai-models-scheme-betray-vote-out-survivor-style-game) — LLM agents sustain adversarial deception and coalition-formation in game-theoretic elimination; empirical grounding for the adversarial multi-agent finance thesis and Stanford PhD application axis.
+- [MoonPay Acquires Dawn Labs — AI Trading Copilot for Prediction Markets](https://decrypt.co/367333/moonpay-acquires-dawn-labs-ai-trading-copilot-prediction-markets) — Plain-English prompts → automated crypto PM trades, shipped by a major payments gateway. Competitor signal for CalibrationGap; reshapes addressable-market framing for Polymarket Builders grant.
+- [Circle Gives AI Agents USDC Powers + $222M Arc Token Sale](https://decrypt.co/367490/circle-ai-agents-usdc-stablecoin-powers-222m-arc-token-sale) — AI agents now hold and transact USDC natively without human sign-off. Directly amplifies Agentic Payments narrative for FinCEN AML/CFT comment window (06-09 close).
+- [Clarity Act Vote Confirmed for May 14](https://decrypt.co/367487/clarity-act-vote-set-here-where-crypto-bill-stands) — Senate Banking Committee markup Thursday; crypto-regulatory binary with potential to move stablecoin and DeFi PM positions.
+
+*The Block*
+- [Senate Stablecoin Bill Adds DeFi Clause, Sidesteps Trump Conflicts](https://www.theblock.co/post/400843/updated-senate-banking-committee-bill) — Updated bill language covers DeFi developer liability and stablecoin rewards; pre-markup positioning ahead of Clarity Act vote.
+
+*Hacker News*
+- [Claude Platform on AWS](https://claude.com/blog/claude-platform-on-aws) — Anthropic-AWS partnership announced. Relevant to Anthropic Research Credits grant framing and aeon infrastructure.
+- [TanStack NPM Supply-Chain Compromise Postmortem](https://tanstack.com/blog/npm-supply-chain-compromise-postmortem) — React Query library hit by supply-chain attack. Security context for aeon-ops (ISS-015 open, workflow-security-audit DEGRADED).
+
+*arXiv cs.AI (2026-05-12 batch)*
+- [AgentPSO: Particle Swarm Optimization for NL Agent Skills](https://arxiv.org/abs/2605.08704) — Agent skills evolved through swarm mechanics without parameter updates; shape match for swarm-fund-mvp fleet-expansion architecture and Aeon skill-selection bandit ADR.
+- [When Can Human-AI Teams Outperform Individuals?](https://arxiv.org/abs/2605.08710) — Tight bounds: teams beat solo agents when error correlation falls below threshold, gains scale as sqrt(sensitivity difference). Concrete calibration axis for CalibrationGap multi-agent Bayesian fusion gate.
