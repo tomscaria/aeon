@@ -1,5 +1,5 @@
-*Paper Pick — 2026-05-11*
+*Paper Pick — 2026-05-12*
 
-"Information Aggregation with AI Agents" — Spyros Galanis · econ.GN/cs.AI/cs.GT · 64pp · v2 May 7 2026
-Controlled prediction-market experiment: LLMs aggregate dispersed private information through trading effectively on easy signal structures, degrade significantly under complexity, robust to cheap-talk and strategic prompting; "smarter" agents aggregate better and are more profitable, but past-performance feedback has no effect — first econ.GN-primary experimental cite for the operator's Polymarket Bayesian-fusion stage and the Stanford research statement.
-[Read](https://arxiv.org/abs/2604.20050) | [PDF](https://arxiv.org/pdf/2604.20050)
+"Heterogeneous Scientific Foundation Model Collaboration" — Zihao Li et al. (UIUC, Jingrui He group) · ↑211
+Eywa proposes a planner-orchestrated agentic framework where a language model routes inference through domain-specific foundation models rather than collapsing every problem onto natural-language reasoning — direct blueprint for stitching CalibrationGap's regime classifier, narrative scanner and resolution-text ingester under one planner instead of separate Aeon skills.
+[Read](https://arxiv.org/abs/2604.27351) | [PDF](https://arxiv.org/pdf/2604.27351)
