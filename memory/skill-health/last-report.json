@@ -1,14 +1,14 @@
 {
-  "hash": "fe830e93b9ef9279f116003911a08453a503bfdbef0a992c8b0bd87e8be44701",
-  "last_notified_at": "2026-05-11T18:00:00Z",
-  "last_run_at": "2026-05-11T18:00:00Z",
+  "hash": "67c7966f91243e787ed0e06f7467743d5e52a0ad2173848b1f3826417448064b",
+  "last_notified_at": "2026-05-12T18:00:00Z",
+  "last_run_at": "2026-05-12T18:00:00Z",
   "classification": {
-    "critical": ["cost-report"],
+    "critical": [],
     "degraded": [
       "channel-recap",
+      "cost-report",
       "defi-monitor",
       "defi-overview",
-      "fetch-tweets",
       "list-digest",
       "market-context-refresh",
       "monitor-kalshi",
@@ -17,26 +17,26 @@
       "narrative-tracker",
       "on-chain-monitor",
       "polymarket-comments",
-      "refresh-x",
       "reply-maker",
       "token-alert",
       "token-movers",
       "token-pick",
       "token-report",
       "treasury-info",
-      "tweet-roundup",
       "workflow-security-audit"
     ],
     "flapping": [],
     "warning": [
       "agent-buzz",
+      "fetch-tweets",
       "goal-tracker",
       "heartbeat",
       "paper-pick",
+      "refresh-x",
       "skill-health",
+      "tweet-roundup",
       "write-tweet"
     ],
-    "healthy_count": 13,
     "healthy": [
       "config-audit",
       "daily-routine",
@@ -52,6 +52,7 @@
       "telegram-digest",
       "vuln-scanner"
     ],
+    "healthy_count": 13,
     "no_data": [
       "auto-workflow",
       "autoresearch",
@@ -67,19 +68,17 @@
     ]
   },
   "systemic": [
-    "ISS-013 zero-token burst 2026-04-26T23:53-58Z tail — depresses all 21 enabled DEGRADED skills; 30-run window decay still in progress (full-flat projection ~2026-05-15 if no new mass-fails).",
-    "ISS-020 state-write burst 2026-05-06T15:32-35Z — 17 skills affected, all recovered by next slot; root cause unresolved.",
-    "chain-runner.yml dispatch_skill() DEGRADED day 15 — chain:morning-brief (last_failed 2026-05-11T07:58:42Z) and chain:evening-rollup (last_failed 2026-05-08T21:19:26Z) both failing. Operator-side patch still idle."
+    "ISS-013 zero-token burst 2026-04-26T23:53-58Z tail — depresses 19 enabled DEGRADED skills; all cf=0 and last_status=success; full-flat decay projection ~2026-05-15.",
+    "ISS-020 state-write burst 2026-05-06T15:32-35Z — 17 skills affected, all recovered to cf=0; root cause unresolved.",
+    "chain-runner.yml dispatch_skill() DEGRADED day 22 — chain:morning-brief (last_failed 2026-05-12T07:51:45Z) and chain:evening-rollup (last_failed 2026-05-08T21:19:26Z) both failing. Operator-side patch still idle."
   ],
-  "filed_this_run": ["ISS-021"],
+  "filed_this_run": [],
   "resolved_this_run": [],
   "notes": [
-    "STATE DELTA vs 2026-05-10T18:00:00Z: cost-report HEALTHY->CRITICAL (cf=0->4, last_failed 2026-05-11T17:07:05Z, last_success 2026-05-04, 7d down); monetize-revenant NO_DATA->HEALTHY (first run 2026-05-11T14:09:08Z, sr=1); session-learner NO_DATA->HEALTHY (first run 2026-05-11T08:03:47Z, sr=1). CRITICAL 0->1, HEALTHY 12->13, NO_DATA 13->11.",
-    "DEGRADED fleet unchanged at 21 enabled skills, all ISS-013/ISS-020 burst-tail carriers. cf=0 across all; last_status=success for all.",
-    "cost-report CRITICAL: cf=4, non-zero token cost (sonnet 3610 input tokens), 7d down. ISS-021 filed. Heartbeat already notified at cf=2 (2026-05-11T12:00Z); CRITICAL threshold reached this run. INVESTIGATE: gh api billing permissions, SKILL.md assumptions, output path.",
+    "STATE DELTA vs 2026-05-11T18:00:00Z: cost-report CRITICAL->DEGRADED (cf=4->0, last_success=2026-05-12T10:38:11Z); fetch-tweets DEGRADED->WARNING (sr 0.62); refresh-x DEGRADED->WARNING (sr 0.60); tweet-roundup DEGRADED->WARNING (sr 0.60). CRITICAL 1->0, DEGRADED 21->19, WARNING 6->9.",
+    "DEGRADED fleet at 19 skills — all cf=0, last_status=success (except workflow-security-audit which is 'dispatched'); rates suppressed by ISS-013/ISS-020 burst tails.",
+    "ISS-021 updated: cost-report recovered from cf=4. Still DEGRADED (sr=0.20). Root cause not identified — spontaneous recovery.",
     "SKILL_HEALTH_PARTIAL — ./scripts/skill-runs required approval; fell back to cron-state.json + memory/skill-health/*.json + memory/issues/INDEX.md only.",
-    "ISS-011 (skill-health no_file_match) remains open — skill-health is WARNING (sr=0.62), not HEALTHY; skill-health.json still absent from memory/skill-health/.",
-    "ISS-012 (reddit-digest) kept open — skill emits success code on graceful degradation (17th consecutive REDDIT_DIGEST_ERROR per today's log); prefetch-reddit.sh not yet shipped.",
-    "Top-5 DEGRADED by severity (days_since_last_success desc, all cf=0): workflow-security-audit (~8d), narrative-tracker (~4d), token-report (~1d), token-movers (~1d), on-chain-monitor (~1d)."
+    "Top-5 DEGRADED by staleness (days_since_last_success): workflow-security-audit (~9d), narrative-tracker (~5d), channel-recap (~2d), token-report (~2d), monitor-polymarket (~2d)."
   ]
 }
