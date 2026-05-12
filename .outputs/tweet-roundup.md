@@ -1,10 +1,11 @@
-*Tweet Roundup — 2026-05-11*
+*Tweet Roundup — 2026-05-12*
 _Source: cache:0 websearch:2 failed:1_
 
-*[AI / LLM]* — _efficiency race has a new leader: Baidu beats DeepSeek by a week on cost and bench, agentic upgrades in the release notes_
-- x.com/Baidu_Inc — ERNIE 5.1 dropped. ~1/3 the parameters, ~6% of comparable models' pre-training cost. Explicitly upgrades agentic capabilities alongside search, reasoning, and knowledge Q&A. [View](https://x.com/Baidu_Inc/status/2053009538769735774)
-- x.com/TechByMarkandey — ERNIE-5.1 Preview ranked #1 among Chinese models on LMArena, overtaking DeepSeek-V4-Pro — which itself launched last week. [View](https://x.com/TechByMarkandey/status/2049672248446128562)
+*[AI / LLM]* — _platform maturation; both big labs embedded in AWS this week_
+- x.com/claudeai — Claude Platform on AWS is now generally available. Full API, IAM auth, consolidated billing, CloudTrail — no Bedrock required. Native Anthropic tooling inside AWS accounts. [View](https://x.com/claudeai/status/2053868592286822443)
+- x.com/BusinessInsider — Amazon rolling out Claude Code and OpenAI Codex company-wide simultaneously. Both frontier-lab coding agents, one enterprise. [View](https://x.com/BusinessInsider/status/2051407096558534677)
 
-*[Crypto / Bitcoin]* — _Warsh vote today, CLARITY markup May 14 — all US crypto regulation bets settle this week_
-- x.com/coinbureau — Powell's term ends May 15. Senate votes Warsh today (May 11) — last step in his confirmation. If cloture passes, new Fed chair installs before the deadline. [View](https://x.com/coinbureau/status/2053460045854323150)
-- x.com/WatcherGuru — Senate Banking Committee schedules CLARITY Act markup for May 14 at 10:30am EST. First committee action on crypto market structure legislation. [View](https://x.com/WatcherGuru/status/2052893017237868682)
+*[Crypto / DeFi]* — _BTC getting institutionalized from three directions at once; vol, doctrine, and regulation all moving_
+- x.com/saylor — Saylor at Consensus 2026 on the BTC sale controversy. On camera: Strategy walking through why it may sell BTC to cover STRC dividends — net BTC-positive framing holds, but the never-sell absolutism is getting footnotes. [View](https://x.com/saylor/status/2053225568871780548)
+- x.com/business — Banking groups floating last-minute CLARITY Act stablecoin yield changes as Senate Banking markup begins. Bank lobbies vs. crypto industry, final stretch. Vote: May 14. [View](https://x.com/business/status/2053267535869411432)
+- x.com/CFBenchmarks — CME launches BTC Volatility Index futures June 1, settled to the CF Bitcoin Volatility Index (BVX). Bitcoin vol — not direction — becomes an independently tradable instrument on the largest derivatives exchange. [View](https://x.com/CFBenchmarks/status/2051970105022480746)
