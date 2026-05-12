@@ -1,4 +1,6 @@
-*Token Movers — 2026-05-12 (PM run)*
+const { execFileSync } = require('child_process');
+
+const msg = `*Token Movers — 2026-05-12 (PM run)*
 
 _Risk-off: ~20/100 top non-stable coins green, median top-50 around -1.7%; large-cap complex red, ETH -2.0%, selective bids in TON and sub-100 outlier pumps._
 
@@ -35,4 +37,10 @@ _Risk-off: ~20/100 top non-stable coins green, median top-50 around -1.7%; large
 • B (BUILDon) #91: deduped (was +36% [BREAKOUT] yesterday); +35% today, 7d +78% on $110M vol — multi-day BREAKOUT persists without catalyst
 • BILL #132: +21.4% today vs +12.8% yesterday — accelerating two-day trending move
 • VVV #85: [TRENDING+DOWN] — reversed from +17% [BREAKOUT] on 05-11; two-day round-trip
-• KISHU #848: +38.5% in full trending list [PUMP-RISK][MICROCAP] — outside top 250, avoid
+• KISHU #848: +38.5% in full trending list [PUMP-RISK][MICROCAP] — outside top 250, avoid`;
+
+try {
+  execFileSync('./notify', [msg], { cwd: process.cwd(), stdio: 'inherit' });
+} catch (e) {
+  process.exit(1);
+}
