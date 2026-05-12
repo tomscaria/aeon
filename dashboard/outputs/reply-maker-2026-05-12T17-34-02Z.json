@@ -1,0 +1,360 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Reply Maker",
+        "description": "Status: REPLY_MAKER_DEGRADED"
+      },
+      "children": [
+        "status_alert",
+        "sep1",
+        "reply1",
+        "sep2",
+        "reply2",
+        "sep3",
+        "reply3",
+        "sep4",
+        "reply4",
+        "sep5",
+        "reply5",
+        "sep6",
+        "source_status"
+      ]
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "xai=fail (auth-gated, no .xai-cache/); memory=4; websearch=ok"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "reply1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story1",
+        "date1",
+        "why1",
+        "analysis1_stack"
+      ]
+    },
+    "story1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Anthropic launching 10 specialized agent templates for trading, risk managemen…",
+        "href": "https://x.com/algotradingdesk/status/2051693357039239322",
+        "source": "@algotradingdesk"
+      }
+    },
+    "date1": {
+      "type": "Text",
+      "props": {
+        "text": "~May 7-8, est. 4-5d ago",
+        "variant": "caption"
+      }
+    },
+    "why1": {
+      "type": "Text",
+      "props": {
+        "text": "why: concrete adoption-compression claim — live production evidence directly reframes it",
+        "variant": "body"
+      }
+    },
+    "analysis1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "a1",
+        "b1"
+      ]
+    },
+    "a1": {
+      "type": "Text",
+      "props": {
+        "text": "A: Templates compress integration time, not regime-calibration time. CalibrationGap on Polymarket: 29 trades, 76% win, +$415, Sharpe 0.31 — took 6 weeks of canary mode post-deployment. The template gets you wired up; it doesn't handle adversarial tape.",
+        "variant": "body"
+      }
+    },
+    "b1": {
+      "type": "Text",
+      "props": {
+        "text": "B: The bottleneck was never setup speed — it's knowing when edge decays. 10 Anthropic templates, none solve regime-conditional sizing. That's what kills every live agent eventually. You can be connected in an afternoon and blowing up in 3 weeks.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "reply2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story2",
+        "date2",
+        "why2",
+        "analysis2_stack"
+      ]
+    },
+    "story2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "INSIGHTS: Gemini just launched Agentic Trading. Connect Claude or ChatGPT direc…",
+        "href": "https://x.com/MerlijnTrader/status/2049171787506753993",
+        "source": "@MerlijnTrader"
+      }
+    },
+    "date2": {
+      "type": "Text",
+      "props": {
+        "text": "~May 6-7, est. 5-6d ago",
+        "variant": "caption"
+      }
+    },
+    "why2": {
+      "type": "Text",
+      "props": {
+        "text": "why: \"no human in the loop\" framing is technically misleading and worth correcting from live experience",
+        "variant": "body"
+      }
+    },
+    "analysis2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "a2",
+        "b2"
+      ]
+    },
+    "a2": {
+      "type": "Text",
+      "props": {
+        "text": "A: MCP doesn't remove human-in-the-loop — it formalizes it. Gemini's auth scopes and tool permissions ARE the policy layer. What MCP actually does: makes the kill-switch explicit rather than implicit. The human moved from trader to policy author.",
+        "variant": "body"
+      }
+    },
+    "b2": {
+      "type": "Text",
+      "props": {
+        "text": "B: Execution latency was never the bottleneck. Connect Claude to Gemini via MCP and it'll still size into a reversal at open because regime detection isn't in the template. 'No human in in the loop' on execution; still fully human on the problem that matters.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "reply3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story3",
+        "date3",
+        "why3",
+        "analysis3_stack"
+      ]
+    },
+    "story3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "92% of retail loses in prediction markets, AI agents are 'flipping the scri…",
+        "href": "https://x.com/CreatorBid/status/2046277465010745423",
+        "source": "@CreatorBid"
+      }
+    },
+    "date3": {
+      "type": "Text",
+      "props": {
+        "text": "~May 4-5, est. 7-8d ago",
+        "variant": "caption"
+      }
+    },
+    "why3": {
+      "type": "Text",
+      "props": {
+        "text": "why: claims 376% single-trade returns — inflated stat, specific rebuttal available from live P&L",
+        "variant": "body"
+      }
+    },
+    "analysis3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "a3",
+        "b3"
+      ]
+    },
+    "a3": {
+      "type": "Text",
+      "props": {
+        "text": "A: 376% single-trade return is max, not expectation. CalibrationGap on Polymarket: 29 trades, 76% win rate, +$415, Sharpe 0.31 — sustainable. Max-return framing is survivor bias compressed into a marketing line.",
+        "variant": "body"
+      }
+    },
+    "b3": {
+      "type": "Text",
+      "props": {
+        "text": "B: The 92% retail loss rate isn't the problem — it's the subsidy. Agents that work need unsophisticated flow to persist. If AI systematically edges Polymarket, edge decays to near-zero in 18 months. Not flipping the script; accelerating your own obsolescence.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "reply4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story4",
+        "date4",
+        "why4",
+        "analysis4_stack"
+      ]
+    },
+    "story4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Kalshi CEO Tarek Mansour says the biggest categories in prediction markets ma…",
+        "href": "https://x.com/a16z/status/2044798519782027337",
+        "source": "@a16z"
+      }
+    },
+    "date4": {
+      "type": "Text",
+      "props": {
+        "text": "~May 3-4, est. 8-9d ago",
+        "variant": "caption"
+      }
+    },
+    "why4": {
+      "type": "Text",
+      "props": {
+        "text": "why: category-growth thesis can be grounded with specific April volume data and TradFi comparison",
+        "variant": "body"
+      }
+    },
+    "analysis4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "a4",
+        "b4"
+      ]
+    },
+    "a4": {
+      "type": "Text",
+      "props": {
+        "text": "A: Consistent with April data: Kalshi took 50% of PM volume ($14.8B) vs Polymarket 34% ($10.2B). Warsh confirmation at $49.5M. Same underlying bet in TradFi fed funds futures: $6B+. Category growth is real. The volume gap with TradFi is still 120x on the same signal.",
+        "variant": "body"
+      }
+    },
+    "b4": {
+      "type": "Text",
+      "props": {
+        "text": "B: Financial PM growth attracts quant players, not sports bettors. Sports books stay profitable because retail subsidizes the sharp; Kalshi financials/politics attract the same flow that makes TradFi efficient. Category ≠ edge. Mansour knows this.",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "reply5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story5",
+        "date5",
+        "why5",
+        "analysis5_stack"
+      ]
+    },
+    "story5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Quant bot strategy backtested on 72M+ trades achieving +$805K PnL through mi…",
+        "href": "https://x.com/0x_Discover/status/2042900690087952628",
+        "source": "@0x_Discover"
+      }
+    },
+    "date5": {
+      "type": "Text",
+      "props": {
+        "text": "~May 2-3, est. 9-10d ago",
+        "variant": "caption"
+      }
+    },
+    "why5": {
+      "type": "Text",
+      "props": {
+        "text": "why: specific methodology claim (80-99¢ bucket) with backtested P&L — credibility and sizing rebuttal available",
+        "variant": "body"
+      }
+    },
+    "analysis5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "a5",
+        "b5"
+      ]
+    },
+    "a5": {
+      "type": "Text",
+      "props": {
+        "text": "A: Polymarket data: >96% accuracy within 4h of close. Your actual mispricing window on 80-99¢ contracts is that 4-12h pre-resolution band. Kelly fraction at 90¢ YES is also tiny vs 50¢ for equivalent edge. The backtested P&L overstates live sizing capacity.",
+        "variant": "body"
+      }
+    },
+    "b5": {
+      "type": "Text",
+      "props": {
+        "text": "B: 72M-trade backtest on Polymarket tape is curve-fitting the resolution function. Every quant running similar strategies sees the same 80-99¢ bucket edge and compresses it. The backtest P&L of $805K is 2022-vintage. Live edge today is thinner and getting thinner.",
+        "variant": "body"
+      }
+    },
+    "sep6": {
+      "type": "Separator"
+    },
+    "source_status": {
+      "type": "Text",
+      "props": {
+        "text": "source-status: xai=fail (auth-gated, no .xai-cache/), memory=4, websearch=ok",
+        "variant": "caption"
+      }
+    }
+  }
+}
