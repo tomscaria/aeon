@@ -1,7 +1,10 @@
 ## Summary
 
-**Status: LIST_DIGEST_NO_CONFIG**
+`LIST_DIGEST_NO_CONFIG` — the `var:` field for list-digest in `aeon.yml` is empty (no X list IDs configured). Per skill spec: log only, no notification.
 
-The `var` field in `aeon.yml` for `list-digest` is empty — no X list IDs are configured. Per step 1 of the skill, this is a no-op exit: logged to `memory/logs/2026-05-11.md`, no notification sent.
+To activate list-digest, set `var:` in `aeon.yml` to one or more comma-separated numeric X list IDs, e.g.:
+```
+list-digest: { enabled: true, schedule: "0 17 * * *", var: "1953536336675365173,1937207796270829766" }
+```
 
-To activate the skill, set `var: "LIST_ID1,LIST_ID2"` in `aeon.yml` under `list-digest`. This is already flagged in MEMORY.md under "Operator config sweep (BLOCKED)."
+Log entry written to `memory/logs/2026-05-12.md`.
