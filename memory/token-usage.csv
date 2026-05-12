@@ -159,4 +159,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-11,evening-rollup,claude-sonnet-4-6,17,9978,942838,81376
 2026-05-12,daily-routine,claude-sonnet-4-6,4854,30716,2282049,185271
 2026-05-12,cost-report,claude-sonnet-4-6,15,94926,400994,148703
-2026-05-12,treasury-info,claude-sonnet-4-6,3214,1452,213499,30443
+2026-05-12,token-alert,claude-sonnet-4-6,10,3933,292470,29128
