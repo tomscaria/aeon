@@ -25,4 +25,3 @@ _TL;DR: heavy content day — evening chain manually run (chain-runner day 22 br
 - tick-broker falsifier — T-5 days (tomscaria/aeon outputs/ due 2026-05-17)
 
 _+8 routine runs collapsed · sources: log=ok cron-state=ok_
-
