@@ -1,0 +1,708 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Goal Tracker — 2026-05-12"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-summary",
+        "sep-1",
+        "alert-stale",
+        "sep-2",
+        "section-atrisk",
+        "sep-3",
+        "section-attention",
+        "sep-4",
+        "section-blocked",
+        "sep-5",
+        "section-ontrack",
+        "sep-6",
+        "section-done",
+        "sep-7",
+        "section-sources"
+      ]
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-heading",
+        "grid-stats",
+        "summary-trends-heading",
+        "stack-trends"
+      ]
+    },
+    "summary-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Summary: 18 active goals",
+        "level": "h2"
+      }
+    },
+    "grid-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "md"
+      },
+      "children": [
+        "stat-atrisk",
+        "stat-attention",
+        "stat-ontrack",
+        "stat-blocked",
+        "stat-done"
+      ]
+    },
+    "stat-atrisk": {
+      "type": "Stat",
+      "props": {
+        "label": "At Risk",
+        "value": "1"
+      }
+    },
+    "stat-attention": {
+      "type": "Stat",
+      "props": {
+        "label": "Needs Attention",
+        "value": "1"
+      }
+    },
+    "stat-ontrack": {
+      "type": "Stat",
+      "props": {
+        "label": "On Track",
+        "value": "12"
+      }
+    },
+    "stat-blocked": {
+      "type": "Stat",
+      "props": {
+        "label": "Blocked",
+        "value": "4"
+      }
+    },
+    "stat-done": {
+      "type": "Stat",
+      "props": {
+        "label": "Done",
+        "value": "4"
+      }
+    },
+    "summary-trends-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Status Trends",
+        "level": "h3"
+      }
+    },
+    "stack-trends": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-overall",
+        "badge-cost",
+        "badge-reddit",
+        "badge-hf"
+      ]
+    },
+    "badge-overall": {
+      "type": "Badge",
+      "props": {
+        "text": "Overall: flat",
+        "variant": "outline"
+      }
+    },
+    "badge-cost": {
+      "type": "Badge",
+      "props": {
+        "text": "cost-discipline ↑ improving",
+        "variant": "secondary"
+      }
+    },
+    "badge-reddit": {
+      "type": "Badge",
+      "props": {
+        "text": "land-scripts-prefetch-reddit.sh ↓ new AT RISK",
+        "variant": "destructive"
+      }
+    },
+    "badge-hf": {
+      "type": "Badge",
+      "props": {
+        "text": "activate-huggingface ↓ new BLOCKED",
+        "variant": "destructive"
+      }
+    },
+    "alert-stale": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Stale Data",
+        "message": "revenant-snapshot / agents-summary / last-sync all 3d old"
+      }
+    },
+    "section-atrisk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-atrisk",
+        "goal-atrisk-1"
+      ]
+    },
+    "heading-atrisk": {
+      "type": "Heading",
+      "props": {
+        "text": "AT RISK",
+        "level": "h2"
+      }
+    },
+    "goal-atrisk-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "goal-atrisk-1-desc",
+        "goal-atrisk-1-action"
+      ]
+    },
+    "goal-atrisk-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "land scripts/prefetch-reddit.sh — never started, 0 activity/14d (new)",
+        "variant": "body"
+      }
+    },
+    "goal-atrisk-1-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Create scripts/prefetch-reddit.sh to close ISS-002 + ISS-012; reddit-digest at 18 consecutive failures",
+        "variant": "caption"
+      }
+    },
+    "section-attention": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-attention",
+        "goal-attention-1"
+      ]
+    },
+    "heading-attention": {
+      "type": "Heading",
+      "props": {
+        "text": "NEEDS ATTENTION",
+        "level": "h2"
+      }
+    },
+    "goal-attention-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "goal-attention-1-desc",
+        "goal-attention-1-action"
+      ]
+    },
+    "goal-attention-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-fund-mvp 72h merge-cadence test — 1d idle, 1 activity/14d (→ flat) [deadline 2026-05-09 passed T+3]",
+        "variant": "body"
+      }
+    },
+    "goal-attention-1-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Verify swarm-fund-mvp for new ADR opened after 05-09 to close defect-hardening vs queue-stagnation answer",
+        "variant": "caption"
+      }
+    },
+    "section-blocked": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-blocked",
+        "goal-blocked-1",
+        "goal-blocked-2",
+        "goal-blocked-3",
+        "goal-blocked-4"
+      ]
+    },
+    "heading-blocked": {
+      "type": "Heading",
+      "props": {
+        "text": "BLOCKED",
+        "level": "h2"
+      }
+    },
+    "goal-blocked-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "goal-blocked-1-desc",
+        "goal-blocked-1-action"
+      ]
+    },
+    "goal-blocked-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "chain-runner.yml dispatch_skill() — operator-side workflow patch, day 16 (gates ISS-013 decay)",
+        "variant": "body"
+      }
+    },
+    "goal-blocked-1-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Add echo per dispatched skill before each gh workflow run in chain-runner.yml",
+        "variant": "caption"
+      }
+    },
+    "goal-blocked-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "goal-blocked-2-desc",
+        "goal-blocked-2-action"
+      ]
+    },
+    "goal-blocked-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Add Trusted Authors to watched-repos.md — operator memory edit (auto-merge policy-blocked)",
+        "variant": "body"
+      }
+    },
+    "goal-blocked-2-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Add ## Trusted Authors section to memory/watched-repos.md listing aaronjmars",
+        "variant": "caption"
+      }
+    },
+    "goal-blocked-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "goal-blocked-3-desc",
+        "goal-blocked-3-action"
+      ]
+    },
+    "goal-blocked-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Operator config sweep — operator config (on-chain-watches.yml empty, aeon.yml var: missing)",
+        "variant": "body"
+      }
+    },
+    "goal-blocked-3-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Populate memory/on-chain-watches.yml; add var: to list-digest/digest/refresh-x in aeon.yml",
+        "variant": "caption"
+      }
+    },
+    "goal-blocked-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "goal-blocked-4-desc",
+        "goal-blocked-4-action"
+      ]
+    },
+    "goal-blocked-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Activate huggingface-trending skill — operator aeon.yml flip since 2026-05-08 (PR #162 shipped disabled)",
+        "variant": "body"
+      }
+    },
+    "goal-blocked-4-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Flip enabled: true for huggingface-trending in aeon.yml",
+        "variant": "caption"
+      }
+    },
+    "section-ontrack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ontrack",
+        "goal-ontrack-1",
+        "goal-ontrack-2",
+        "goal-ontrack-3",
+        "goal-ontrack-4",
+        "goal-ontrack-5",
+        "goal-ontrack-6",
+        "goal-ontrack-7",
+        "goal-ontrack-8",
+        "goal-ontrack-9",
+        "goal-ontrack-10",
+        "goal-ontrack-11",
+        "goal-ontrack-12"
+      ]
+    },
+    "heading-ontrack": {
+      "type": "Heading",
+      "props": {
+        "text": "ON TRACK",
+        "level": "h2"
+      }
+    },
+    "goal-ontrack-1": {
+      "type": "Text",
+      "props": {
+        "text": "Open ADR-096 for resolution-text-ingest — 0d idle, active (polymarket-comments + paper anchors daily)",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "goal-ontrack-2-main",
+        "goal-ontrack-2-detail"
+      ]
+    },
+    "goal-ontrack-2-main": {
+      "type": "Text",
+      "props": {
+        "text": "Cost-discipline sonnet downgrade pass — 0d idle, cost-report recovered today",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "$293.85/wk -51.9% WoW; 3 optimization suggestions pending self-improve (↑ improving)",
+        "variant": "caption"
+      }
+    },
+    "goal-ontrack-3": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-runners DEEP-LIQ floor patch — 0d idle, MONITOR_RUNNERS_OK today",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-4": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-fund-mvp tick-broker falsifier — 0d idle (CLOCK: T-5 days to 2026-05-17 deadline)",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "goal-ontrack-5-main",
+        "goal-ontrack-5-detail"
+      ]
+    },
+    "goal-ontrack-5-main": {
+      "type": "Text",
+      "props": {
+        "text": "Pre-Apex push: monitor-polymarket + polymarket-comments — 1d idle",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-5-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Revenant 29/100 trades 76% +$415 Sharpe 0.31 (stale data)",
+        "variant": "caption"
+      }
+    },
+    "goal-ontrack-6": {
+      "type": "Text",
+      "props": {
+        "text": "Hermes-arb gate adjustment bump min-gap — active, monitor-kalshi + Dynamic Collateral asymmetric-threshold evidence",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-7": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-fund-mvp OLLAMA_FULL=1 rollout falsifier — active (T-9 days to 2026-05-21 deadline)",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-8": {
+      "type": "Text",
+      "props": {
+        "text": "Skill-evals key fixes — 2d idle, PR #5 open (hn-digest / polymarket key rename)",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-9": {
+      "type": "Text",
+      "props": {
+        "text": "Code-health Day-7 carry — 3d idle, code-health last ran 2026-05-08, Pyth/Birdeye feed IDs unverified",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-10": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-018 / ISS-019 prompt-bug fixes — 2d idle, surface to next self-improve (7d since last 2026-05-07)",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-11": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "goal-ontrack-11-main",
+        "goal-ontrack-11-detail"
+      ]
+    },
+    "goal-ontrack-11-main": {
+      "type": "Text",
+      "props": {
+        "text": "paper-pick daily + PhD reading list — 0d idle, 2 picks today",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-11-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Eywa 2604.27351 PhD + Maresca 2602.21091 daily; bench now 11-paper economics-and-trading",
+        "variant": "caption"
+      }
+    },
+    "goal-ontrack-12": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "goal-ontrack-12-main",
+        "goal-ontrack-12-detail"
+      ]
+    },
+    "goal-ontrack-12-main": {
+      "type": "Text",
+      "props": {
+        "text": "Cite stack for grant / Stanford application — 0d idle",
+        "variant": "body"
+      }
+    },
+    "goal-ontrack-12-detail": {
+      "type": "Text",
+      "props": {
+        "text": "11-paper bench confirmed; Eywa closes 3-paper arc with AEL + Galanis",
+        "variant": "caption"
+      }
+    },
+    "section-done": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-done",
+        "goal-done-1",
+        "goal-done-2",
+        "goal-done-3",
+        "goal-done-4"
+      ]
+    },
+    "heading-done": {
+      "type": "Heading",
+      "props": {
+        "text": "DONE",
+        "level": "h2"
+      }
+    },
+    "goal-done-1": {
+      "type": "Text",
+      "props": {
+        "text": "PR #156 reply-maker XAI prefetch — completed 2026-05-08",
+        "variant": "body"
+      }
+    },
+    "goal-done-2": {
+      "type": "Text",
+      "props": {
+        "text": "5 ACT NOW Vercel-FAILURE PRs on swarm-fund-mvp — completed 2026-05-03",
+        "variant": "body"
+      }
+    },
+    "goal-done-3": {
+      "type": "Text",
+      "props": {
+        "text": "Land code-health fix on dashboard secrets-route — completed 2026-05-03",
+        "variant": "body"
+      }
+    },
+    "goal-done-4": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-004 / ISS-006 RESOLVED — completed 2026-05-03",
+        "variant": "body"
+      }
+    },
+    "section-sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-sources",
+        "table-sources"
+      ]
+    },
+    "heading-sources": {
+      "type": "Heading",
+      "props": {
+        "text": "Data Sources",
+        "level": "h3"
+      }
+    },
+    "table-sources": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Source",
+          "Status"
+        ],
+        "rows": [
+          [
+            "logs",
+            "ok"
+          ],
+          [
+            "git",
+            "ok (1 commit 2026-05-12)"
+          ],
+          [
+            "gh_pr",
+            "ok (12)"
+          ],
+          [
+            "gh_issue",
+            "ok (disabled/0)"
+          ],
+          [
+            "cron-state",
+            "ok"
+          ],
+          [
+            "revenant-snapshot",
+            "stale (3d)"
+          ],
+          [
+            "agents-summary",
+            "stale (3d)"
+          ],
+          [
+            "last-sync",
+            "stale (3d)"
+          ]
+        ]
+      }
+    }
+  }
+}
