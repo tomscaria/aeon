@@ -1,10 +1,10 @@
-`memory/on-chain-watches.yml` exists with `watches: []` — no `type: wallet` entries. Skill exited clean per spec: no notification sent, logged `TREASURY_INFO_OK — no wallets configured` to `memory/logs/2026-05-10.md`.
+`treasury-info` complete. `memory/on-chain-watches.yml` exists with `watches: []` — no `type: wallet` entries. Per skill spec, no notification sent. Logged `TREASURY_INFO_OK — no wallets configured` to `memory/logs/2026-05-12.md`.
 
-To activate treasury-info, edit `memory/on-chain-watches.yml` to add real wallet addresses under `watches:` with `type: wallet`.
+To activate the skill, edit `memory/on-chain-watches.yml` and uncomment the template entries with real wallet addresses.
 
 ## Summary
 
-- Read `memory/on-chain-watches.yml`: file exists, `watches: []`, zero wallet entries.
-- Per skill spec (file exists, zero `type: wallet` entries): log and exit 0, no notification.
-- Logged `TREASURY_INFO_OK — no wallets configured` to `memory/logs/2026-05-10.md`.
-- Follow-up: populate `memory/on-chain-watches.yml` with real addresses to enable treasury monitoring. This is already flagged in MEMORY.md Next Priorities under "Operator config sweep."
+- Read `skills/treasury-info/SKILL.md` and executed the skill for 2026-05-12.
+- Config file present but empty (`watches: []`); no wallet entries to process.
+- No notification sent (per skill spec's zero-wallet-entry exit path).
+- Logged to `memory/logs/2026-05-12.md`.
