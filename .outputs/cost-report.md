@@ -1,18 +1,18 @@
-*Cost Report — 2026-05-04 (last 7 days)*
+*Cost Report — 2026-05-12 (last 7 days)*
 
-Spent $629.09 across 76 runs (no prior-week baseline); 1 anomaly flagged, projected monthly burn ~$2,696. ⚠ burn-rate watch.
+Spent $293.85 across 50 runs (↓51.9% WoW); 0 anomalies flagged, projected monthly burn ~$1,259.36.
 
 Top 3 by cost:
-1. external-feature — $65.52 (4 runs)
-2. repo-actions — $64.83 (6 runs)
-3. heartbeat — $61.04 (8 runs)
+1. repo-actions — $49.25 (3 runs)
+2. heartbeat — $29.25 (8 runs)
+3. reflect — $24.57 (2 runs)
 
-Actions this week (weekly cost 15x above $40 trigger — surface to next self-improve):
-• external-feature → Sonnet (~$52/wk savings)
-• repo-actions → Sonnet (~$52/wk savings)
-• heartbeat → Sonnet (~$45/wk savings)
+Actions this week:
+- repo-actions → downgrade to sonnet (~$39/wk savings)
+- reflect → downgrade to sonnet (~$20/wk savings)
+- code-health / hacker-news-digest / fetch-tweets → downgrade to sonnet (~$40/wk combined)
 
-⚠ 1 anomaly flagged — heartbeat 2026-05-02: $11.84 vs µ+2σ $11.29 (elevated cache_read 4.7M tokens)
+Model split: opus $261.85 (89%) vs sonnet $32.00 (11%) — mid-week shift 05-09 drove 5× cost drop. Sonnet-only baseline projects ~$240/mo.
 
-30-day projection: $2,696
-Full: articles/cost-report-2026-05-04.md
+30-day projection: $1,259.36
+Full: articles/cost-report-2026-05-12.md
