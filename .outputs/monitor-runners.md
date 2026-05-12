@@ -1,24 +1,25 @@
-*runners — 2026-05-10* — verdict: MIXED
+*runners — 2026-05-12* — verdict: MIXED
 
-1. [BREAKOUT] AGI (solana) +1328% 24h
-vol $8.7m | liq $73k | fdv $530k (no mcap) | h1 -13% | buys:sells 45k:38k
-— 17h pump on $73k liq, 119x vol/liq ratio; h1 already negative, momentum has crested; one large exit collapses the floor.
+1. [BREAKOUT] RKC (solana) +9947% 24h
+vol $41.8m | liq $277k | fdv $4.6m (no mcap) | h1 +6.4% | buys:sells 113684:99014
+— 15h-old pool at 150x daily vol/liq turnover; gate passed at 9947% (threshold 10000%); h1 holding but depth is thin; watch for liq pull, not a conviction position
 
-2. [BREAKOUT] CONSENSUS-1 (solana) +761% 24h
-vol $2.2m | liq $49k | fdv $288k (no mcap) | h1 +2.9% | buys:sells 20k:15k
-— consensus-week meme, 14h old; h1 still positive distinguishes it from AGI; 1.33:1 buyer ratio looks organic but $49k liq means a single whale exits and it's gone.
+2. [BREAKOUT] LO0P (eth) +1336% 24h
+vol $2m | liq $406k | fdv $991k (no mcap) | h1 -43% | buys:sells 1029:825
+— 9h-old eth pool; the 24h figure captures launch pump only; h1 faded hard (-43%); momentum has cleared; watch for reversal confirmation before any re-engagement
 
-3. [CONTINUATION] SWEAT (eth) +353% 24h
-vol $1.8m | liq $553k | fdv $4.1m | mcap $19.5m | h1 +4.1% | buys:sells 1032:919
-— earn-to-move token launched 2022, cleanest CONTINUATION in the set; h1 +4.1% and $553k liq give actual room for position; no obvious narrative catalyst — watch for external press confirming the move.
+3. [CONTINUATION] aeon (base) +311% 24h
+vol $1.9m | liq $685k | fdv $1.5m (no mcap) | h1 +13% | buys:sells 2307:1550
+— 63-day-old Base pool, cleanest setup in the session; h1 momentum intact with positive buy skew; no mcap listing on $1.9m daily vol suggests thin float — size into liq, not market order
 
-4. [REVERSAL] HANTA pool-2 (solana) +280% 24h
-vol $2.4m | liq $100k | fdv $1.2m (no mcap) | h1 -5.8% | buys:sells 33k:28k
-— distinct pool from the main HANTA token (which is -8% and gated); disease-meme narrative tied to PM Hantavirus event 448037 (9.65% YES, $2.12M); h1 -5.8% confirms REVERSAL — fading into the day. CalibrationGap-adjacent: Andes close-contact clause vs airborne sentiment is the watch here.
+4. [CONTINUATION] WARD (bsc) +190% 24h
+vol $1.8m | liq $83k | fdv $1.2m (no mcap) | h1 +4.7% | buys:sells 6350:5713
+— Feb-2026 BSC pool sustaining h1 momentum; thin liq ($83k) means any retail wave will gap; multi-day continuation pattern if h1 holds positive at next check
 
-5. [CONTINUATION] GAYTES (solana) +194% 24h ★ repeat
-vol $2.6m | liq $109k | fdv $1.1m | h1 +105% | buys:sells 19k:15k
-— 2nd consecutive top-5 day (05-09 slot 4 at +550%); h1 +105% is sharpest short-term momentum in the dataset today; ~49h from 05-08 launch cohort, just past the BREAKOUT window into CONTINUATION; $109k liq = one large exit from floor break.
+5. [BREAKOUT] EQM (solana) +177% 24h
+vol $1.7m | liq $48k | fdv $1.5m (no mcap) | h1 +7.7% | buys:sells 8080:6905
+— 17h-old Solana pool; $48k liq means 1:1 vol/liq ratio per hour; h1 positive with buy skew; early price discovery still active but slippage risk is significant at any size
 
-sources: gt-global=ok gt-solana=ok gt-eth=ok gt-base=ok gt-bsc=ok gt-arb=fail(429) gt-new=ok
-vibe: MIXED tape — two thin-liq Solana breakouts score highest on raw math; SWEAT on ETH is the only CONTINUATION with real liq depth; BSC DEEP-LIQ bench (BILL, INX, OPG) all passing the gate on $1-2m liq but posting <12% 24h moves only.
+sources: gt-global=ok gt-solana=ok gt-eth=ok gt-bsc=ok gt-new=ok gt-base=partial gt-arb=not-fetched
+sub-top deep-liq: GIGA/SOL score 54.6 ($2.4m liq, $7.7m vol, +59%) — SKYAI/BSC score 53.0 ($16.7m liq, +36%)
+vibe: breakout-heavy session dominated by fresh solana pools; no repeat runners; deepest liq anchors (GIGA, SKYAI) below score threshold — tape is micro-pool not institutional

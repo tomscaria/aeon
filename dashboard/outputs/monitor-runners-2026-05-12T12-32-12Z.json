@@ -1,0 +1,676 @@
+{
+  "root": "card_runners",
+  "state": {},
+  "elements": {
+    "card_runners": {
+      "type": "Card",
+      "props": {
+        "title": "runners",
+        "description": "2026-05-12 — verdict: MIXED"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_1_stack",
+        "sep1",
+        "token_2_stack",
+        "sep2",
+        "token_3_stack",
+        "sep3",
+        "token_4_stack",
+        "sep4",
+        "token_5_stack",
+        "sep5",
+        "sources_section"
+      ]
+    },
+    "token_1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "token_1_header",
+        "token_1_metrics",
+        "token_1_commentary"
+      ]
+    },
+    "token_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "h_1",
+        "badge_1"
+      ]
+    },
+    "h_1": {
+      "type": "Heading",
+      "props": {
+        "text": "RKC (solana)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "token_1_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_1_24h",
+        "stat_1_vol",
+        "stat_1_liq",
+        "stat_1_fdv",
+        "stat_1_h1",
+        "text_1_ratio"
+      ]
+    },
+    "stat_1_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+9947%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_1_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$41.8m"
+      },
+      "children": []
+    },
+    "stat_1_liq": {
+      "type": "Stat",
+      "props": {
+        "label": "liq",
+        "value": "$277k"
+      },
+      "children": []
+    },
+    "stat_1_fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "fdv",
+        "value": "$4.6m (no mcap)"
+      },
+      "children": []
+    },
+    "stat_1_h1": {
+      "type": "Stat",
+      "props": {
+        "label": "h1",
+        "value": "+6.4%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text_1_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "buys:sells 113684:99014",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token_1_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "15h-old pool at 150x daily vol/liq turnover; gate passed at 9947% (threshold 10000%); h1 holding but depth is thin; watch for liq pull, not a conviction position",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "token_2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "token_2_header",
+        "token_2_metrics",
+        "token_2_commentary"
+      ]
+    },
+    "token_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "h_2",
+        "badge_2"
+      ]
+    },
+    "h_2": {
+      "type": "Heading",
+      "props": {
+        "text": "LO0P (eth)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "token_2_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_2_24h",
+        "stat_2_vol",
+        "stat_2_liq",
+        "stat_2_fdv",
+        "stat_2_h1",
+        "text_2_ratio"
+      ]
+    },
+    "stat_2_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+1336%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_2_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$2m"
+      },
+      "children": []
+    },
+    "stat_2_liq": {
+      "type": "Stat",
+      "props": {
+        "label": "liq",
+        "value": "$406k"
+      },
+      "children": []
+    },
+    "stat_2_fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "fdv",
+        "value": "$991k (no mcap)"
+      },
+      "children": []
+    },
+    "stat_2_h1": {
+      "type": "Stat",
+      "props": {
+        "label": "h1",
+        "value": "-43%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text_2_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "buys:sells 1029:825",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token_2_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "9h-old eth pool; the 24h figure captures launch pump only; h1 faded hard (-43%); momentum has cleared; watch for reversal confirmation before any re-engagement",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "token_3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "token_3_header",
+        "token_3_metrics",
+        "token_3_commentary"
+      ]
+    },
+    "token_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "h_3",
+        "badge_3"
+      ]
+    },
+    "h_3": {
+      "type": "Heading",
+      "props": {
+        "text": "aeon (base)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_3": {
+      "type": "Badge",
+      "props": {
+        "text": "CONTINUATION",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "token_3_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_3_24h",
+        "stat_3_vol",
+        "stat_3_liq",
+        "stat_3_fdv",
+        "stat_3_h1",
+        "text_3_ratio"
+      ]
+    },
+    "stat_3_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+311%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_3_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$1.9m"
+      },
+      "children": []
+    },
+    "stat_3_liq": {
+      "type": "Stat",
+      "props": {
+        "label": "liq",
+        "value": "$685k"
+      },
+      "children": []
+    },
+    "stat_3_fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "fdv",
+        "value": "$1.5m (no mcap)"
+      },
+      "children": []
+    },
+    "stat_3_h1": {
+      "type": "Stat",
+      "props": {
+        "label": "h1",
+        "value": "+13%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text_3_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "buys:sells 2307:1550",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token_3_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "63-day-old Base pool, cleanest setup in the session; h1 momentum intact with positive buy skew; no mcap listing on $1.9m daily vol suggests thin float — size into liq, not market order",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "token_4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "token_4_header",
+        "token_4_metrics",
+        "token_4_commentary"
+      ]
+    },
+    "token_4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "h_4",
+        "badge_4"
+      ]
+    },
+    "h_4": {
+      "type": "Heading",
+      "props": {
+        "text": "WARD (bsc)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_4": {
+      "type": "Badge",
+      "props": {
+        "text": "CONTINUATION",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "token_4_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_4_24h",
+        "stat_4_vol",
+        "stat_4_liq",
+        "stat_4_fdv",
+        "stat_4_h1",
+        "text_4_ratio"
+      ]
+    },
+    "stat_4_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+190%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_4_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$1.8m"
+      },
+      "children": []
+    },
+    "stat_4_liq": {
+      "type": "Stat",
+      "props": {
+        "label": "liq",
+        "value": "$83k"
+      },
+      "children": []
+    },
+    "stat_4_fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "fdv",
+        "value": "$1.2m (no mcap)"
+      },
+      "children": []
+    },
+    "stat_4_h1": {
+      "type": "Stat",
+      "props": {
+        "label": "h1",
+        "value": "+4.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text_4_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "buys:sells 6350:5713",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token_4_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Feb-2026 BSC pool sustaining h1 momentum; thin liq ($83k) means any retail wave will gap; multi-day continuation pattern if h1 holds positive at next check",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "token_5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "token_5_header",
+        "token_5_metrics",
+        "token_5_commentary"
+      ]
+    },
+    "token_5_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "h_5",
+        "badge_5"
+      ]
+    },
+    "h_5": {
+      "type": "Heading",
+      "props": {
+        "text": "EQM (solana)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_5": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "token_5_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_5_24h",
+        "stat_5_vol",
+        "stat_5_liq",
+        "stat_5_fdv",
+        "stat_5_h1",
+        "text_5_ratio"
+      ]
+    },
+    "stat_5_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+177%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_5_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$1.7m"
+      },
+      "children": []
+    },
+    "stat_5_liq": {
+      "type": "Stat",
+      "props": {
+        "label": "liq",
+        "value": "$48k"
+      },
+      "children": []
+    },
+    "stat_5_fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "fdv",
+        "value": "$1.5m (no mcap)"
+      },
+      "children": []
+    },
+    "stat_5_h1": {
+      "type": "Stat",
+      "props": {
+        "label": "h1",
+        "value": "+7.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text_5_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "buys:sells 8080:6905",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token_5_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "17h-old Solana pool; $48k liq means 1:1 vol/liq ratio per hour; h1 positive with buy skew; early price discovery still active but slippage risk is significant at any size",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_sources",
+        "text_sources",
+        "text_deep_liq",
+        "text_vibe"
+      ]
+    },
+    "h_sources": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources & Analysis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "gt-global=ok gt-solana=ok gt-eth=ok gt-bsc=ok gt-new=ok gt-base=partial gt-arb=not-fetched",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_deep_liq": {
+      "type": "Text",
+      "props": {
+        "text": "sub-top deep-liq: GIGA/SOL score 54.6 ($2.4m liq, $7.7m vol, +59%) — SKYAI/BSC score 53.0 ($16.7m liq, +36%)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_vibe": {
+      "type": "Text",
+      "props": {
+        "text": "vibe: breakout-heavy session dominated by fresh solana pools; no repeat runners; deepest liq anchors (GIGA, SKYAI) below score threshold — tape is micro-pool not institutional",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
