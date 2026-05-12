@@ -1,5 +1,5 @@
 ## Summary
 
-`defi-monitor` ran for 2026-05-10. `memory/on-chain-watches.yml` is present but has `watches: []` and `protocols: []` — no DeFi positions configured. No pool queries executed, no notifications sent. Log entry appended to `memory/logs/2026-05-10.md`. Status: **DEFI_MONITOR_OK**.
+`memory/on-chain-watches.yml` exists but has no entries (`watches: []`, `protocols: []`). No DeFi positions to query. Logged `DEFI_MONITOR_OK` to `memory/logs/2026-05-12.md`.
 
-To activate this skill, populate `memory/on-chain-watches.yml` with real addresses (pool or position entries with `type: pool` or `type: position`) — flagged in MEMORY.md Operator Config Sweep.
+To activate this skill, populate `on-chain-watches.yml` with pool or position entries (type: pool or position) as described in the skill config schema.
