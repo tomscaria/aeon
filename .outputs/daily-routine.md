@@ -1,57 +1,71 @@
-*Daily Routine — 2026-05-11*
+*Daily Routine — 2026-05-12*
 
-_Mixed tape tilting bullish — SUI [BREAKOUT] leads large-caps at +17.2%; BTC near-flat $80,722; ZEC and HYPE extend losing streaks._
+_Selective bid — B [BREAKOUT] dominates at +36%; TON reverses yesterday's drop at +6.2% [MAJOR]; rest of top-100 flat-to-red, ETH -1.4% the large-cap laggard._
 
 *Top Winners (24h)*
-1. SUI: $1.28 (+17.2%) / 7d +35.5%  •  $2.90B / #23  [BREAKOUT][TRENDING+UP]
-2. SIREN: $1.16 (+17.0%) / 7d +42.4%  •  $17.4M / #82  [BREAKOUT] (reversed from -7.8% yesterday)
-3. VVV: $17.65 (+17.0%) / 7d +82.1%  •  $60.4M / #84  [TRENDING+UP]
-4. ONDO: $0.43 (+5.6%) / 7d +37.7%  •  $381M / #45  [TRENDING+UP]
-5. KAS: $0.039 (+6.3%) / 7d +14.6%  •  $24.4M / #68
-6. DEXE: $12.76 (+6.2%) / 7d +26.9%  •  $15.0M / #97
-7. ATOM: $2.02 (+4.9%) / 7d +5.8%  •  $65.8M / #72
-8. XDC: $0.032 (+5.3%) / 7d +5.5%  •  $30.4M / #92
-9. CRO: $0.075 (+4.7%) / 7d +8.5%  •  $17.4M / #34
-10. SOL: $95.34 (+2.0%) / 7d +11.7%  •  $4.54B / #7
+1. B (BUILDon) $0.625 +36.0%/7d +82.6% • $117M #93 [BREAKOUT]
+2. CRO $0.0807 +7.9%/7d +17.0% • $51M #34
+3. TON $2.44 +6.2%/7d +40.5% • $549M #20 [MAJOR][TRENDING+UP]
+4. STABLE $0.0366 +6.0%/7d +7.7% • $20M #82
+5. CC (Canton) $0.161 +5.6%/7d +8.0% • $16M #21 [TRENDING+UP]
+6. NIGHT $0.036 +5.5%/7d +16.4% • $32M #96
+7. SIREN $1.19 +3.3%/7d +59.6% • $15M #80
+8. XDC $0.0327 +3.0%/7d +12.4% • $28M #90
+9. ALGO $0.126 +2.7%/7d +6.2% • $43M #66
+10. NEAR $1.58 +1.6%/7d +24.0% • $200M #46
 
 *Top Losers (24h)*
-1. ZEC: $567.52 (-7.0%) / 7d +36.8%  •  $861M / #15  [MAJOR]
-2. DASH: $46.82 (-4.7%) / 7d -4.0%  •  $102M / #98
-3. M: $3.24 (-3.6%) / 7d +7.3%  •  $15.4M / #29
-4. FIL: $1.14 (-3.5%) / 7d +18.7%  •  $149M / #79
-5. HYPE: $41.89 (-2.8%) / 7d -0.5%  •  $273M / #14  [MAJOR]
-6. PENGU: $0.0103 (-2.4%) / 7d +1.1%  •  $200M / #91  [TRENDING+DOWN]
-7. RENDER: $1.98 (-1.7%) / 7d +5.8%  •  $108M / #71
-8. LEO: $10.21 (-0.9%) / 7d -1.1%  •  $1.25M / #16
+1. JUP $0.241 -5.9%/7d +30.4% • $77M #83
+2. SKY $0.0754 -3.6%/7d -6.8% • $15M #55
+3. PUMP $0.00204 -3.2%/7d +10.7% • $67M #88
+4. MNT $0.684 -2.8%/7d +6.5% • $34M #42
+5. ENA $0.126 -2.1%/7d +22.8% • $130M #63
+6. POL $0.102 -2.0%/7d +3.9% • $47M #67
+7. RENDER $1.94 -2.0%/7d +5.7% • $88M #73
+8. ARB $0.139 -1.7%/7d +18.4% • $74M #81
+9. ETH $2298 -1.4%/7d -3.4% • $13.3B #2 [MAJOR]
+10. HYPE $41.32 -1.3%/7d -3.6% • $266M #14 [MAJOR]
 
 *Trending*
-OSMO +105.9% [PUMP-RISK] · OCT +34.5% [PUMP-RISK] · BILL +22.2% · SUI +17.2% · TROLL +26.7% · VVV +17.0% · ONDO +5.6%
+WOJAK #555 +16.9% [PUMP-RISK][MICROCAP] · TON #20 +6.2% [MAJOR][TRENDING+UP] · BILL #143 +12.8% · CC #21 +5.6% [TRENDING+UP] · SOL #7 +0.8% [MAJOR]
 
 *Notable*
-• SIREN: yesterday's #1 loser (-7.8%) is today's #1 winner (+17.0%) [BREAKOUT] — sharp session reversal
-• SUI upgraded from [TRENDING+UP] yesterday to [BREAKOUT][TRENDING+UP] (+17.2%, $2.90B vol) — large-cap confirmed
+• B [BREAKOUT]: #93 +36% on $117M vol, 7d +82.6% — no catalyst identified, watch for fade
+• TON [MAJOR][TRENDING+UP]: reversed yesterday's -5% slide; 7d +40.5% extension
+• WOJAK [PUMP-RISK][MICROCAP]: #555 +16.9% — avoid
 
 *Tweet Roundup*
-*Crypto:* SUI institutional staking (108.7M tokens) driving [BREAKOUT]; Kalshi vs Polymarket perps race intensifying; BTC holding $80k.
-*AI:* Local AI norm debate hitting HN top post (1,386pts); Cloudflare edge LLM infra; Google $40B Anthropic confirmed.
-*Dev:* Bun mainstreaming 2026 (3× Node); Ollama normalizing local LLM; GSoC 2026 record 23,371 proposals.
+Crypto/PM: CME launching BTC volatility futures Jun 1; Kalshi took April volume crown (50%, $14.8B); Saylor flagged may sell BTC to cover STRC dividend — first "never sell" reversal signal.
+AI: Claude Platform on AWS now live; Subquadratic $29M seed for 12M-token sparse-attention LLM; 80% enterprise teams report measurable agent ROI.
+Dev: Python-vs-AI-code debate is today's HN #1 (420pts/443c) — Python survives as orchestration glue.
 
 *Paper of the Day*
-"Information Aggregation with AI Agents" — Galanis, econ.GN/cs.MA, Apr 21 2026. LLMs aggregate dispersed info well on simple tasks, break on complex reasoning; cognitive limits mirror human traders'. Direct calibration-axis cite for CalibrationGap's 100-trade Apex gate.
-[Read](https://arxiv.org/abs/2604.20050) | [PDF](https://arxiv.org/pdf/2604.20050)
+"Can Interest-Bearing Positions Solve the Long-Horizon Problem in Prediction Markets?" — Caleb Maresca (econ.GN, Feb 2026). LLM-trader sim: yield incentives eliminate 83% of long-horizon accuracy degradation; participation 17%→62%. Direct sizing anchor for CalibrationGap on long-horizon Polymarket markets.
+Read: https://arxiv.org/abs/2602.21091
 
 *GitHub Issues*
-No new issues — tomscaria scope clean (15th consecutive day)
+No new issues (16th consecutive clean day — tomscaria scope)
 
-*HN Digest — 2026-05-11*
-_Security + local-AI-vs-handcode debate + grid bill: who controls your compute._
+*HN Digest — 2026-05-12*
+_Supply chain scare, GitLab restructuring, Python existential — trust, velocity, and language._
 
-1. [Hardware Attestation as Monopoly Enabler](https://grapheneos.social/@GrapheneOS/116550899908879585) (1,386pts / 458c) — GrapheneOS: attestation proves 'approved' not 'secure'; the two are anti-correlated. Control mechanism, not security.
-   [Discuss](https://news.ycombinator.com/item?id=48086190)
-2. [Local AI needs to be the norm](https://unix.foo/posts/local-ai-needs-to-be-norm/) (1,009pts / 439c) — Structural case for local inference; counter: needs expensive RAM with fat memory pipes — not commodity yet.
-   [Discuss](https://news.ycombinator.com/item?id=48085821)
-3. [I returned to AWS and was reminded why I left](http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html) (747pts / 524c) — Dev returns after self-hosting stint; UX friction unchanged.
-   [Discuss](https://news.ycombinator.com/item?id=48073201)
-4. [Maryland: $2B grid upgrade for out-of-state AI](https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises) (229pts) — Ratepayers funding data center grid; Ohio AEP's financial-commitment policy halved AI demand projections.
-   [Discuss](https://news.ycombinator.com/item?id=48088151)
+1. [Security] TanStack NPM supply-chain compromise postmortem (772pts/291c)
+Why: OAuth redirect hijack took all packages; full RCA published with clean re-publish.
+[Discuss](https://news.ycombinator.com/item?id=48100706)
+
+2. [Business] GitLab ends CREDIT values, cuts workforce (471pts/471c)
+Why: Dropping mission-framing post-Act-2 pivot; signals culture-velocity tradeoff when growth slows.
+[Discuss](https://news.ycombinator.com/item?id=48100500)
+
+3. [AI & dev] If AI writes your code, why use Python? (420pts/443c)
+Why: Python as glue/orchestration layer survives even when models write core logic.
+[Discuss](https://news.ycombinator.com/item?id=48100433)
+
+4. [Security & AI] Google: criminal hackers used AI to find major software flaw (166pts/126c)
+Why: First confirmed live exploitation of AI-assisted 0day discovery by external threat actors.
+[Discuss](https://news.ycombinator.com/item?id=48094641)
+
+5. [Science] UCLA: first stroke rehabilitation drug (316pts/65c)
+Why: Compound repairs brain damage post-stroke in animal models — first-of-class.
+[Discuss](https://news.ycombinator.com/item?id=48098261)
 

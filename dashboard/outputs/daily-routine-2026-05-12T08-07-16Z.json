@@ -1,0 +1,701 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Routine — 2026-05-12"
+      },
+      "children": [
+        "market_summary",
+        "sep1",
+        "top_winners_heading",
+        "top_winners_table",
+        "sep2",
+        "top_losers_heading",
+        "top_losers_table",
+        "sep3",
+        "trending_heading",
+        "trending_stack",
+        "sep4",
+        "notable_heading",
+        "notable_stack",
+        "sep5",
+        "tweet_heading",
+        "tweet_section",
+        "sep6",
+        "paper_heading",
+        "paper_link",
+        "sep7",
+        "github_heading",
+        "github_text",
+        "sep8",
+        "hn_heading",
+        "hn_subtitle",
+        "hn_stack"
+      ]
+    },
+    "market_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Selective bid — B [BREAKOUT] dominates at +36%; TON reverses yesterday's drop at +6.2% [MAJOR]; rest of top-100 flat-to-red, ETH -1.4% the large-cap laggard.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "top_winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      }
+    },
+    "top_winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h %",
+          "7d %",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "B (BUILDon)",
+            "$0.625",
+            "+36.0%",
+            "+82.6%",
+            "$117M",
+            "#93",
+            "BREAKOUT"
+          ],
+          [
+            "CRO",
+            "$0.0807",
+            "+7.9%",
+            "+17.0%",
+            "$51M",
+            "#34",
+            ""
+          ],
+          [
+            "TON",
+            "$2.44",
+            "+6.2%",
+            "+40.5%",
+            "$549M",
+            "#20",
+            "MAJOR, TRENDING+UP"
+          ],
+          [
+            "STABLE",
+            "$0.0366",
+            "+6.0%",
+            "+7.7%",
+            "$20M",
+            "#82",
+            ""
+          ],
+          [
+            "CC (Canton)",
+            "$0.161",
+            "+5.6%",
+            "+8.0%",
+            "$16M",
+            "#21",
+            "TRENDING+UP"
+          ],
+          [
+            "NIGHT",
+            "$0.036",
+            "+5.5%",
+            "+16.4%",
+            "$32M",
+            "#96",
+            ""
+          ],
+          [
+            "SIREN",
+            "$1.19",
+            "+3.3%",
+            "+59.6%",
+            "$15M",
+            "#80",
+            ""
+          ],
+          [
+            "XDC",
+            "$0.0327",
+            "+3.0%",
+            "+12.4%",
+            "$28M",
+            "#90",
+            ""
+          ],
+          [
+            "ALGO",
+            "$0.126",
+            "+2.7%",
+            "+6.2%",
+            "$43M",
+            "#66",
+            ""
+          ],
+          [
+            "NEAR",
+            "$1.58",
+            "+1.6%",
+            "+24.0%",
+            "$200M",
+            "#46",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "top_losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "top_losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h %",
+          "7d %",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "JUP",
+            "$0.241",
+            "-5.9%",
+            "+30.4%",
+            "$77M",
+            "#83",
+            ""
+          ],
+          [
+            "SKY",
+            "$0.0754",
+            "-3.6%",
+            "-6.8%",
+            "$15M",
+            "#55",
+            ""
+          ],
+          [
+            "PUMP",
+            "$0.00204",
+            "-3.2%",
+            "+10.7%",
+            "$67M",
+            "#88",
+            ""
+          ],
+          [
+            "MNT",
+            "$0.684",
+            "-2.8%",
+            "+6.5%",
+            "$34M",
+            "#42",
+            ""
+          ],
+          [
+            "ENA",
+            "$0.126",
+            "-2.1%",
+            "+22.8%",
+            "$130M",
+            "#63",
+            ""
+          ],
+          [
+            "POL",
+            "$0.102",
+            "-2.0%",
+            "+3.9%",
+            "$47M",
+            "#67",
+            ""
+          ],
+          [
+            "RENDER",
+            "$1.94",
+            "-2.0%",
+            "+5.7%",
+            "$88M",
+            "#73",
+            ""
+          ],
+          [
+            "ARB",
+            "$0.139",
+            "-1.7%",
+            "+18.4%",
+            "$74M",
+            "#81",
+            ""
+          ],
+          [
+            "ETH",
+            "$2298",
+            "-1.4%",
+            "-3.4%",
+            "$13.3B",
+            "#2",
+            "MAJOR"
+          ],
+          [
+            "HYPE",
+            "$41.32",
+            "-1.3%",
+            "-3.6%",
+            "$266M",
+            "#14",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      }
+    },
+    "trending_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_item_1",
+        "trending_item_2",
+        "trending_item_3",
+        "trending_item_4",
+        "trending_item_5"
+      ]
+    },
+    "trending_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "WOJAK #555 +16.9% [PUMP-RISK][MICROCAP]"
+      }
+    },
+    "trending_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "TON #20 +6.2% [MAJOR][TRENDING+UP]"
+      }
+    },
+    "trending_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "BILL #143 +12.8%"
+      }
+    },
+    "trending_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "CC #21 +5.6% [TRENDING+UP]"
+      }
+    },
+    "trending_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "SOL #7 +0.8% [MAJOR]"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      }
+    },
+    "notable_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_item_1",
+        "notable_item_2",
+        "notable_item_3"
+      ]
+    },
+    "notable_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "B [BREAKOUT]: #93 +36% on $117M vol, 7d +82.6% — no catalyst identified, watch for fade"
+      }
+    },
+    "notable_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "TON [MAJOR][TRENDING+UP]: reversed yesterday's -5% slide; 7d +40.5% extension"
+      }
+    },
+    "notable_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "WOJAK [PUMP-RISK][MICROCAP]: #555 +16.9% — avoid"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet Roundup",
+        "level": "h3"
+      }
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet_category_1",
+        "tweet_category_2",
+        "tweet_category_3"
+      ]
+    },
+    "tweet_category_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_cat_1_heading",
+        "tweet_cat_1_content"
+      ]
+    },
+    "tweet_cat_1_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto/PM",
+        "variant": "lead"
+      }
+    },
+    "tweet_cat_1_content": {
+      "type": "Text",
+      "props": {
+        "text": "CME launching BTC volatility futures Jun 1; Kalshi took April volume crown (50%, $14.8B); Saylor flagged may sell BTC to cover STRC dividend — first \"never sell\" reversal signal."
+      }
+    },
+    "tweet_category_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_cat_2_heading",
+        "tweet_cat_2_content"
+      ]
+    },
+    "tweet_cat_2_heading": {
+      "type": "Text",
+      "props": {
+        "text": "AI",
+        "variant": "lead"
+      }
+    },
+    "tweet_cat_2_content": {
+      "type": "Text",
+      "props": {
+        "text": "Claude Platform on AWS now live; Subquadratic $29M seed for 12M-token sparse-attention LLM; 80% enterprise teams report measurable agent ROI."
+      }
+    },
+    "tweet_category_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_cat_3_heading",
+        "tweet_cat_3_content"
+      ]
+    },
+    "tweet_cat_3_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Dev",
+        "variant": "lead"
+      }
+    },
+    "tweet_cat_3_content": {
+      "type": "Text",
+      "props": {
+        "text": "Python-vs-AI-code debate is today's HN #1 (420pts/443c) — Python survives as orchestration glue."
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "paper_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Paper of the Day",
+        "level": "h3"
+      }
+    },
+    "paper_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Can Interest-Bearing Positions Solve the Long-Horizon Problem in Prediction Markets?",
+        "href": "https://arxiv.org/abs/2602.21091",
+        "source": "Caleb Maresca (econ.GN, Feb 2026)",
+        "score": "LLM-trader sim: yield incentives eliminate 83% of long-horizon accuracy degradation; participation 17%→62%. Direct sizing anchor for CalibrationGap on long-horizon Polymarket markets."
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {}
+    },
+    "github_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Issues",
+        "level": "h3"
+      }
+    },
+    "github_text": {
+      "type": "Text",
+      "props": {
+        "text": "No new issues (16th consecutive clean day — tomscaria scope)"
+      }
+    },
+    "sep8": {
+      "type": "Separator",
+      "props": {}
+    },
+    "hn_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HN Digest — 2026-05-12",
+        "level": "h3"
+      }
+    },
+    "hn_subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Supply chain scare, GitLab restructuring, Python existential — trust, velocity, and language.",
+        "variant": "muted"
+      }
+    },
+    "hn_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "hn_item_1",
+        "hn_item_2",
+        "hn_item_3",
+        "hn_item_4",
+        "hn_item_5"
+      ]
+    },
+    "hn_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn_1_title",
+        "hn_1_why",
+        "hn_1_link"
+      ]
+    },
+    "hn_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "[Security] TanStack NPM supply-chain compromise postmortem (772pts/291c)",
+        "variant": "lead"
+      }
+    },
+    "hn_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "OAuth redirect hijack took all packages; full RCA published with clean re-publish."
+      }
+    },
+    "hn_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "Discuss",
+        "href": "https://news.ycombinator.com/item?id=48100706"
+      }
+    },
+    "hn_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn_2_title",
+        "hn_2_why",
+        "hn_2_link"
+      ]
+    },
+    "hn_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "[Business] GitLab ends CREDIT values, cuts workforce (471pts/471c)",
+        "variant": "lead"
+      }
+    },
+    "hn_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "Dropping mission-framing post-Act-2 pivot; signals culture-velocity tradeoff when growth slows."
+      }
+    },
+    "hn_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "Discuss",
+        "href": "https://news.ycombinator.com/item?id=48100500"
+      }
+    },
+    "hn_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn_3_title",
+        "hn_3_why",
+        "hn_3_link"
+      ]
+    },
+    "hn_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "[AI & dev] If AI writes your code, why use Python? (420pts/443c)",
+        "variant": "lead"
+      }
+    },
+    "hn_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "Python as glue/orchestration layer survives even when models write core logic."
+      }
+    },
+    "hn_3_link": {
+      "type": "Link",
+      "props": {
+        "label": "Discuss",
+        "href": "https://news.ycombinator.com/item?id=48100433"
+      }
+    },
+    "hn_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn_4_title",
+        "hn_4_why",
+        "hn_4_link"
+      ]
+    },
+    "hn_4_title": {
+      "type": "Text",
+      "props": {
+        "text": "[Security & AI] Google: criminal hackers used AI to find major software flaw (166pts/126c)",
+        "variant": "lead"
+      }
+    },
+    "hn_4_why": {
+      "type": "Text",
+      "props": {
+        "text": "First confirmed live exploitation of AI-assisted 0day discovery by external threat actors."
+      }
+    },
+    "hn_4_link": {
+      "type": "Link",
+      "props": {
+        "label": "Discuss",
+        "href": "https://news.ycombinator.com/item?id=48094641"
+      }
+    },
+    "hn_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn_5_title",
+        "hn_5_why",
+        "hn_5_link"
+      ]
+    },
+    "hn_5_title": {
+      "type": "Text",
+      "props": {
+        "text": "[Science] UCLA: first stroke rehabilitation drug (316pts/65c)",
+        "variant": "lead"
+      }
+    },
+    "hn_5_why": {
+      "type": "Text",
+      "props": {
+        "text": "Compound repairs brain damage post-stroke in animal models — first-of-class."
+      }
+    },
+    "hn_5_link": {
+      "type": "Link",
+      "props": {
+        "label": "Discuss",
+        "href": "https://news.ycombinator.com/item?id=48098261"
+      }
+    }
+  }
+}
