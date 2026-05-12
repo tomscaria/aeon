@@ -1,0 +1,155 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "p3_section",
+        "sep1",
+        "recovered_section",
+        "sep2",
+        "p0_section"
+      ]
+    },
+    "p3_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p3_alert",
+        "p3_details"
+      ]
+    },
+    "p3_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "P3 STALE: monitor-polymarket + token-report",
+        "message": "Both missed 2 consecutive daily dispatches",
+        "type": "warning"
+      }
+    },
+    "p3_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3_line1",
+        "p3_line2",
+        "p3_line3",
+        "p3_line4",
+        "p3_line5"
+      ]
+    },
+    "p3_line1": {
+      "type": "Text",
+      "props": {
+        "text": "Last success 2026-05-10 12:45 UTC (monitor-polymarket) / 12:39 UTC (token-report)",
+        "variant": "body"
+      }
+    },
+    "p3_line2": {
+      "type": "Text",
+      "props": {
+        "text": "Downtime: >48 hours",
+        "variant": "body"
+      }
+    },
+    "p3_line3": {
+      "type": "Badge",
+      "props": {
+        "text": "ISS-017 cron-gap class",
+        "variant": "outline"
+      }
+    },
+    "p3_line4": {
+      "type": "Text",
+      "props": {
+        "text": "CalibrationGap impact: no fresh PM microstructure data since 05-10",
+        "variant": "body"
+      }
+    },
+    "p3_line5": {
+      "type": "Text",
+      "props": {
+        "text": "No action needed beyond tracking; both recover automatically when next cron fires",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "recovered_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "recovered_alert",
+        "recovered_details"
+      ]
+    },
+    "recovered_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "RECOVERED: cost-report",
+        "message": "Succeeded 2026-05-12 10:38 UTC",
+        "type": "success"
+      }
+    },
+    "recovered_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rec_line1",
+        "rec_line2",
+        "rec_line3"
+      ]
+    },
+    "rec_line1": {
+      "type": "Text",
+      "props": {
+        "text": "After 5 consecutive failures",
+        "variant": "body"
+      }
+    },
+    "rec_line2": {
+      "type": "Badge",
+      "props": {
+        "text": "ISS-021 filed critical on 05-11",
+        "variant": "outline"
+      }
+    },
+    "rec_line3": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health should close ISS-021 on next 18:00 cycle",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "p0_section": {
+      "type": "Alert",
+      "props": {
+        "title": "P0 findings status",
+        "message": "All deduped — chain-runner Day 16, workflow-security-audit stuck Day 2, ISS-013/020 chronic tail — all unchanged from 05-11 logs",
+        "type": "info"
+      }
+    }
+  }
+}

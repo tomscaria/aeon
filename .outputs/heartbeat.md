@@ -1,8 +1,5 @@
-HEARTBEAT_OK · STATUS_PAGE=DEGRADED — wrote docs/status.md
+🔵 P3 STALE: monitor-polymarket + token-report — both missed 2 consecutive daily dispatches (last success 2026-05-10 12:45 / 12:39 UTC, now >48h). ISS-017 cron-gap class. CalibrationGap impact: no fresh PM microstructure data since 05-10. No action needed beyond tracking; both recover automatically when next cron fires.
 
-## Summary
+✅ RECOVERED: cost-report — succeeded 2026-05-12 10:38 UTC after 5 consecutive failures (ISS-021 filed critical on 05-11). skill-health should close ISS-021 on next 18:00 cycle.
 
-- All P0/P1/P2/P3 findings deduped against prior heartbeats and MEMORY.md OPS ALERTS. No new notification sent.
-- Key deltas since the 14:12 UTC heartbeat: `cost-report` escalated from cf=2 to cf=5 (ISS-021 already filed by `skill-health` at 18:37 UTC); 18:xx batch ran cleanly (skill-health, goal-tracker, fetch-tweets, write-tweet, reply-maker, tweet-roundup, list-digest, refresh-x all ✅ success).
-- `docs/status.md` regenerated — Overall DEGRADED, 15 open issues (3 critical: ISS-013, ISS-020, ISS-021), next scheduled run: evening-recap at 21:00 UTC.
-- Log entry appended to `memory/logs/2026-05-11.md`.
+(All P0 findings deduped — chain-runner Day 16, workflow-security-audit stuck Day 2, ISS-013/020 chronic tail — all unchanged from 05-11 logs.)
