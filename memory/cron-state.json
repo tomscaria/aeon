@@ -181,12 +181,12 @@
   },
   "paper-pick": {
     "last_status": "success",
-    "last_success": "2026-05-11T08:02:23Z",
-    "total_runs": 46,
-    "total_successes": 29,
+    "last_success": "2026-05-12T07:59:26Z",
+    "total_runs": 47,
+    "total_successes": 30,
     "total_failures": 17,
     "consecutive_failures": 0,
-    "success_rate": 0.63,
+    "success_rate": 0.64,
     "last_dispatch": "2026-05-08T15:00:28Z",
     "last_failed": "2026-05-06T15:32:10Z",
     "last_error": "_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inpu"
