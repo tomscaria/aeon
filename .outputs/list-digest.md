@@ -1,7 +1,10 @@
 ## Summary
 
-Ran `skills/list-digest/SKILL.md` for 2026-05-08. Skill exited at step 1 with `LIST_DIGEST_NO_CONFIG` because `aeon.yml:89` (`list-digest: { enabled: true, schedule: "0 17 * * *" }`) has no `var:` value, and the skill's step 1 mandates log-only / no-notify when `${var}` is empty. No fetch attempt, no API call, no notification.
+`LIST_DIGEST_NO_CONFIG` — the `var:` field for list-digest in `aeon.yml` is empty (no X list IDs configured). Per skill spec: log only, no notification.
 
-**Files modified:** `memory/logs/2026-05-08.md` (appended `## list-digest` entry + summary).
+To activate list-digest, set `var:` in `aeon.yml` to one or more comma-separated numeric X list IDs, e.g.:
+```
+list-digest: { enabled: true, schedule: "0 17 * * *", var: "1953536336675365173,1937207796270829766" }
+```
 
-**Follow-up:** operator action — set `list-digest.var: "<comma-separated X list IDs>"` in `aeon.yml`. This is one of four skills already flagged under MEMORY.md "Operator config sweep (BLOCKED)" (alongside `digest`, `refresh-x`, `remix-tweets`); no new memory write needed. Surface to next `self-improve` cycle.
+Log entry written to `memory/logs/2026-05-12.md`.

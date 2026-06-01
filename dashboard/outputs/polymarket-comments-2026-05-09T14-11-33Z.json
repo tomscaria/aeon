@@ -1,0 +1,403 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "polymarket comments — 2026-05-09",
+        "description": "var: politics + crypto (crypto dead; politics substitution)"
+      },
+      "children": [
+        "market-1",
+        "sep-1",
+        "market-2",
+        "sep-2",
+        "market-3",
+        "sep-3",
+        "market-4",
+        "sep-4",
+        "market-5"
+      ]
+    },
+    "market-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "m1-title",
+        "m1-meta",
+        "m1-comments",
+        "m1-signal"
+      ]
+    },
+    "m1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Russia x Ukraine ceasefire by May 31?",
+        "level": "h3"
+      }
+    },
+    "m1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "m1-stat",
+        "m1-badge"
+      ]
+    },
+    "m1-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "99.95%",
+        "label": "YES",
+        "delta": "$17.9M vol"
+      }
+    },
+    "m1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "UMA DISPUTED",
+        "variant": "destructive"
+      }
+    },
+    "m1-comments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m1-c1",
+        "m1-c2",
+        "m1-c3"
+      ]
+    },
+    "m1-c1": {
+      "type": "Text",
+      "props": {
+        "text": "Porx (31 rxn): \"In a completely similar situation in April 2025, Polymarket said it wasn't enough, and I lost money.\"",
+        "variant": "body"
+      }
+    },
+    "m1-c2": {
+      "type": "Text",
+      "props": {
+        "text": "o-x (31 rxn): \"I lost my life savings because of this inconsistent treatment...humanitarian pause\"",
+        "variant": "body"
+      }
+    },
+    "m1-c3": {
+      "type": "Text",
+      "props": {
+        "text": "Chief-Cry (14:02 UTC): \"Would like to point out in Zelensky's statement. It is for humanitarian purposes and is limited only to the Red Square.\"",
+        "variant": "body"
+      }
+    },
+    "m1-signal": {
+      "type": "Alert",
+      "props": {
+        "title": "Signal",
+        "message": "Clause excludes humanitarian pauses + requires general pause in conflict. Zelensky's own statement uses the excluded language. UMA dispute live. April 2025 precedent: identical structure resolved NO. Market at 99.95% = zero clause-text discount priced in. CalibrationGap: blind spot.",
+        "type": "warning"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "m2-title",
+        "m2-stat",
+        "m2-comments",
+        "m2-signal"
+      ]
+    },
+    "m2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "2. US x Iran permanent peace deal by May 31?",
+        "level": "h3"
+      }
+    },
+    "m2-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "24.5%",
+        "label": "YES",
+        "delta": "$993K vol"
+      }
+    },
+    "m2-comments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m2-c1",
+        "m2-c2",
+        "m2-c3"
+      ]
+    },
+    "m2-c1": {
+      "type": "Text",
+      "props": {
+        "text": "abdoohl (23 rxn, recurrent): \"WHY SHOULD WE BE TREATED LIKE CHILDREN GIVE US MF STRIKE MARKETS!!!\"",
+        "variant": "body"
+      }
+    },
+    "m2-c2": {
+      "type": "Text",
+      "props": {
+        "text": "morenaji (May 9): \"Trump's 14 demands? He wants zero enrichment, total dismantling of the missile program, and permanent...\"",
+        "variant": "body"
+      }
+    },
+    "m2-c3": {
+      "type": "Text",
+      "props": {
+        "text": "💰💰 (May 9): \"Iranian port official says 6 people injured, 6 missing after a U.S. strike targeted an Iranian ship in the strait\"",
+        "variant": "body"
+      }
+    },
+    "m2-signal": {
+      "type": "Alert",
+      "props": {
+        "title": "Signal",
+        "message": "Live US strike on Iranian vessel in Strait of Hormuz today. 14 demands include zero enrichment + full missile dismantlement — Iran's stated red lines. MOU-vs-permanent clause gap intact. NO thesis intact.",
+        "type": "info"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "m3-title",
+        "m3-stat",
+        "m3-comments",
+        "m3-signal"
+      ]
+    },
+    "m3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "3. US x Iran permanent peace deal by May 15?",
+        "level": "h3"
+      }
+    },
+    "m3-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "12.45%",
+        "label": "YES",
+        "delta": "$858K vol"
+      }
+    },
+    "m3-comments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m3-c1",
+        "m3-c2"
+      ]
+    },
+    "m3-c1": {
+      "type": "Text",
+      "props": {
+        "text": "compute (May 9): \"Trump says he's 'still waiting' for Iran's response to the latest U.S. proposal\"",
+        "variant": "body"
+      }
+    },
+    "m3-c2": {
+      "type": "Text",
+      "props": {
+        "text": "ilovethisgameman (May 9): \"Yeah not even sure if the MOU is agreed on ATP.\"",
+        "variant": "body"
+      }
+    },
+    "m3-signal": {
+      "type": "Alert",
+      "props": {
+        "title": "Signal",
+        "message": "6 days to resolution. Trump waiting. Active strikes. 12.45% likely generous given evidence floor.",
+        "type": "info"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "m4-title",
+        "m4-stat",
+        "m4-comments",
+        "m4-signal"
+      ]
+    },
+    "m4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "4. Hantavirus pandemic in 2026?",
+        "level": "h3"
+      }
+    },
+    "m4-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "8.35%",
+        "label": "YES",
+        "delta": "$1.16M vol"
+      }
+    },
+    "m4-comments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m4-c1",
+        "m4-c2",
+        "m4-c3"
+      ]
+    },
+    "m4-c1": {
+      "type": "Text",
+      "props": {
+        "text": "amghost (12:53 UTC, 2 rxn): \"Two new cases in Spain...distance between them exceeds 1,000 kilometers.\"",
+        "variant": "body"
+      }
+    },
+    "m4-c2": {
+      "type": "Text",
+      "props": {
+        "text": "WeatherBot2 (May 9): \"Hantavirus is a trap. Crypto is a trap.\"",
+        "variant": "body"
+      }
+    },
+    "m4-c3": {
+      "type": "Text",
+      "props": {
+        "text": "zubyoha.eth (May 9): \"This is getting real each day, crazy shit.\"",
+        "variant": "body"
+      }
+    },
+    "m4-signal": {
+      "type": "Alert",
+      "props": {
+        "title": "Signal",
+        "message": "Spain cluster with 1,000+ km separation is new. Andes virus is close-contact only — geographic spread without airborne mechanism doesn't shift resolution odds. WHO low-risk stance stands. Fair YES ~3% per prior token-pick analysis.",
+        "type": "info"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "m5-title",
+        "m5-stat",
+        "m5-comments",
+        "m5-signal"
+      ]
+    },
+    "m5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "5. Russia x Ukraine ceasefire by June 30?",
+        "level": "h3"
+      }
+    },
+    "m5-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "99.95%",
+        "label": "YES",
+        "delta": "$3.7M vol"
+      }
+    },
+    "m5-comments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m5-c1",
+        "m5-c2",
+        "m5-c3"
+      ]
+    },
+    "m5-c1": {
+      "type": "Text",
+      "props": {
+        "text": "Kuomintang (May 9): \"refund us\"",
+        "variant": "body"
+      }
+    },
+    "m5-c2": {
+      "type": "Text",
+      "props": {
+        "text": "Usable-Porcelain (May 9): \"when can i bet on ceasefire again, poly?\"",
+        "variant": "body"
+      }
+    },
+    "m5-c3": {
+      "type": "Text",
+      "props": {
+        "text": "LWHikarikOld (May 9 RU): \"You have to be able to admit defeat\"",
+        "variant": "body"
+      }
+    },
+    "m5-signal": {
+      "type": "Alert",
+      "props": {
+        "title": "Signal",
+        "message": "Identical clause to May 31. If UMA rules May 31 truce a humanitarian pause (excluded), June 30 carries same exposure. No cross-horizon clause-text discount priced in.",
+        "type": "warning"
+      }
+    }
+  }
+}

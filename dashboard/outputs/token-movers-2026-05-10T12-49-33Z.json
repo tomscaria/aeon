@@ -1,0 +1,454 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-05-10"
+      },
+      "children": [
+        "overview-text",
+        "sep-1",
+        "winners-heading",
+        "winners-table",
+        "sep-2",
+        "losers-heading",
+        "losers-table",
+        "sep-3",
+        "trending-heading",
+        "trending-table",
+        "sep-4",
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "overview-text": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed-to-flat tape — top-100 roughly half green, median ~+0.1%; SUI and UNI break above the noise while ICP, WLFI, and TON post sharp reversals; trending dominated by a micro-cap pump cluster.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "#",
+          "Token",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Volume",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1",
+            "LUNC (Terra Luna Classic)",
+            "$0.0001013",
+            "+12.0%",
+            "+17.4%",
+            "−1.1%",
+            "$103M",
+            "#100",
+            "TRENDING+UP"
+          ],
+          [
+            "2",
+            "UNI (Uniswap)",
+            "$3.970",
+            "+8.4%",
+            "+21.9%",
+            "+1.6%",
+            "$409M",
+            "#39",
+            ""
+          ],
+          [
+            "3",
+            "SUI (Sui)",
+            "$1.130",
+            "+7.0%",
+            "+22.2%",
+            "−1.2%",
+            "$800M",
+            "#23",
+            "TRENDING+UP"
+          ],
+          [
+            "4",
+            "FLR (Flare)",
+            "$0.008357",
+            "+4.1%",
+            "+11.4%",
+            "+0.1%",
+            "$4.2M",
+            "#87",
+            ""
+          ],
+          [
+            "5",
+            "HBAR (Hedera)",
+            "$0.09502",
+            "+2.5%",
+            "+7.7%",
+            "+0.4%",
+            "$51.6M",
+            "#29",
+            ""
+          ],
+          [
+            "6",
+            "RAIN (Rain)",
+            "$0.007571",
+            "+2.1%",
+            "+0.2%",
+            "−0.3%",
+            "$25.0M",
+            "#32",
+            ""
+          ],
+          [
+            "7",
+            "KAS (Kaspa)",
+            "$0.03705",
+            "+1.8%",
+            "+9.2%",
+            "+0.2%",
+            "$15.7M",
+            "#71",
+            ""
+          ],
+          [
+            "8",
+            "M (MemeCore)",
+            "$3.420",
+            "+1.3%",
+            "+15.0%",
+            "+0.7%",
+            "$11.3M",
+            "#25",
+            ""
+          ],
+          [
+            "9",
+            "TAO (Bittensor)",
+            "$313.3",
+            "+1.1%",
+            "+8.7%",
+            "−0.6%",
+            "$148M",
+            "#35",
+            ""
+          ],
+          [
+            "10",
+            "ARB (Arbitrum)",
+            "$0.1438",
+            "+1.0%",
+            "+21.4%",
+            "+0.7%",
+            "$77.4M",
+            "#80",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "#",
+          "Token",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Volume",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1",
+            "SIREN (Siren)",
+            "$1.180",
+            "−7.8%",
+            "+67.6%",
+            "+0.6%",
+            "$22.4M",
+            "#81",
+            ""
+          ],
+          [
+            "2",
+            "WLFI (World Liberty Financial)",
+            "$0.06797",
+            "−6.8%",
+            "+18.2%",
+            "+0.4%",
+            "$93.9M",
+            "#44",
+            ""
+          ],
+          [
+            "3",
+            "ICP (Internet Computer)",
+            "$3.420",
+            "−5.7%",
+            "+45.0%",
+            "−0.1%",
+            "$101M",
+            "#47",
+            ""
+          ],
+          [
+            "4",
+            "TON (Toncoin)",
+            "$2.400",
+            "−5.0%",
+            "+79.0%",
+            "−0.1%",
+            "$569M",
+            "#20",
+            "MAJOR, TRENDING+DOWN"
+          ],
+          [
+            "5",
+            "CC (Canton)",
+            "$0.1524",
+            "−4.7%",
+            "+2.0%",
+            "+0.04%",
+            "$7.1M",
+            "#21",
+            ""
+          ],
+          [
+            "6",
+            "FIL (Filecoin)",
+            "$1.170",
+            "−4.5%",
+            "+26.6%",
+            "−0.6%",
+            "$112M",
+            "#77",
+            ""
+          ],
+          [
+            "7",
+            "VIRTUAL (Virtuals Protocol)",
+            "$0.9020",
+            "−4.2%",
+            "+21.3%",
+            "−0.1%",
+            "$79.5M",
+            "#97",
+            ""
+          ],
+          [
+            "8",
+            "QNT (Quant)",
+            "$73.23",
+            "−3.3%",
+            "+7.3%",
+            "−0.2%",
+            "$8.3M",
+            "#68",
+            ""
+          ],
+          [
+            "9",
+            "DASH (Dash)",
+            "$48.39",
+            "−2.9%",
+            "+26.0%",
+            "−1.4%",
+            "$82.3M",
+            "#94",
+            ""
+          ],
+          [
+            "10",
+            "ONDO (Ondo)",
+            "$0.4130",
+            "−2.6%",
+            "+48.8%",
+            "−1.5%",
+            "$243M",
+            "#46",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "#",
+          "Token",
+          "Rank",
+          "Price",
+          "24h Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1",
+            "SWEAT (SWEAT)",
+            "#824",
+            "$0.002900",
+            "+491.8%",
+            "PUMP-RISK, MICROCAP"
+          ],
+          [
+            "2",
+            "MON (Monad)",
+            "#119",
+            "$0.03550",
+            "+3.6%",
+            ""
+          ],
+          [
+            "3",
+            "LUNC (Terra Luna Classic)",
+            "#100",
+            "$0.0001013",
+            "+11.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "4",
+            "LAYER (Solayer)",
+            "#770",
+            "$0.1333",
+            "+43.9%",
+            "PUMP-RISK, MICROCAP"
+          ],
+          [
+            "5",
+            "TROLL (TROLL)",
+            "#320",
+            "$0.09370",
+            "+72.2%",
+            "PUMP-RISK, MICROCAP"
+          ],
+          [
+            "6",
+            "SUI (Sui)",
+            "#23",
+            "$1.132",
+            "+7.2%",
+            "TRENDING+UP"
+          ],
+          [
+            "7",
+            "TON (Toncoin)",
+            "#20",
+            "$2.414",
+            "−4.4%",
+            "MAJOR, TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4",
+        "notable-5"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "SUI [TRENDING+UP]: #23, $800M vol, +7.0% — strongest liquid signal today; 7d +22.2% sustained run; 1h already reversing (−1.2%), watch for intraday fade.",
+        "variant": "body"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "TON [MAJOR][TRENDING+DOWN]: #20, $569M vol, −5.0% — day 4 post-peak fade; 7d +79% run intact but daily action deteriorating; trending searches = exit liquidity.",
+        "variant": "body"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "SWEAT/TROLL/LAYER [PUMP-RISK]: ranks 824/320/770, +491%/+72%/+44% — micro-cap pump cluster crowding trending list; discard as directional signal.",
+        "variant": "body"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO [TRENDING+DOWN]: +18.1% winner yesterday, −2.6% today while still trending — distribution signal on RWA narrative.",
+        "variant": "body"
+      }
+    },
+    "notable-5": {
+      "type": "Text",
+      "props": {
+        "text": "ICP reversal: [BREAKOUT][TRENDING+UP] +15.1% yesterday, −5.7% today — DFINITY \"Cloud Engines\" demo catalyst exhausted in one session.",
+        "variant": "body"
+      }
+    }
+  }
+}

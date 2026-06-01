@@ -1,23 +1,33 @@
-*Top Tweets — prediction markets (2026-05-08)*
-_Kalshi closed $1B Series F at $22B today (Coatue + Sequoia + a16z; institutional volume +800% in 6mo). Polymarket's reply is operational not financial — 4 fresh market launches in 48h. Fundraising gap widens, headline cycle still Polymarket's._
+*Top Tweets — prediction markets (2026-05-12)*
+_CPI printed +3.8% headline / +2.8% core (beats) — PM had this at 100% pre-print; CLARITY Act odds surged 10pp into Senate markup week; hantavirus experts upgraded transmission risk today._
 
-*Polymarket headline market launches*
-1. x.com/Polymarket — NEW POLYMARKET: "Hantavirus pandemic this year?" — fastest-launched market in today's set; cleanest empirical-anchor launch since the Iran-airspace ladder.
-Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/Polymarket/status/2052053405221224574)
+*CPI print + Fed path repricing*
+1. x.com/Investingcom — Breaking: core CPI +2.8% y/y, beats est. 2.7% — highest since Oct 2025; first hard number confirming inflation re-accelerated above Warsh-hawkish baseline
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/Investingcom/status/2054178278278136170)
 
-2. x.com/Polymarket — JUST IN: Democrats & Republicans dead even on Senate at midterms — first 50/50 print since the contract opened.
-Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/Polymarket/status/2051307670531887111)
+2. x.com/TheTranscript_ — Full breakdown: headline +3.8% y/y (up from 3.3%); energy +3.8% m/m = 40%+ of monthly increase — energy carrying the print, core less alarming than headline
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/TheTranscript_/status/2054184164400771171)
 
-3. x.com/Polymarket — JUST IN: Hormuz traffic returns to normal by end of next month — 52% chance — sister-market to today's article-of-the-day Iran-airspace ladder; Kalshi side prices Aug 44% / Sep 54% / Oct 62%.
-Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/Polymarket/status/2050969768857841788)
+3. x.com/USPredict — Pre-print PM scorecard: 100% inflation >3%, Kalshi 100% CPI >3.2%, 55.6% zero cuts in 2026, 95.5% no June cut — markets were correctly positioned before the print
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/USPredict/status/2052116226063630396)
 
-*Sports vertical*
-4. x.com/PolymarketBlitz — "2027 Super Bowl Odds… What stands out?" — NFL-vertical 2027 cycle launches early while NBA/NFL hold out from Kalshi/Polymarket integrity deals.
-Likes: N/A | RTs: N/A | Replies: N/A
-[View tweet](https://x.com/PolymarketBlitz/status/2051377810296754602)
+*CLARITY Act markup + odds surge*
+4. x.com/unusual_whales — 74% chance Clarity Act signed into law in 2026 per Polymarket; Senate Banking Committee markup this week
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/unusual_whales/status/2053313450953355724)
 
-_Source path: WebSearch (XAI_API_KEY env-block on manual run; .xai-cache/ absent — 10th run-day on path C). Engagement counts unavailable; ranked by signal/recency/source authority._
+5. x.com/BSCNews — Polymarket odds up 10pp to 75% on CLARITY Act, coinciding with Tillis-Alsobrooks bipartisan deal confirmation and markup start
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/BSCNews/status/2053717237454844175)
 
+6. x.com/business — Bloomberg: Banking groups floating last-minute stablecoin yield changes as Senate panel begins markup — lobby friction is the clause-text risk for Clarity Act YES holders
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/business/status/2053267535869411432)
+
+*Hantavirus escalation*
+7. x.com/Polymarket — Health experts warn hantavirus "more contagious than thought" — first expert upgrade of transmission risk; market still 8-14% pandemic odds but narrative catalysts compressing on the same day as CPI print
+Likes: 0 | RTs: 0 | Replies: 0
+[View tweet](https://x.com/Polymarket/status/2054198972630069518)

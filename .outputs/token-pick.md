@@ -1,18 +1,18 @@
-*Daily Pick — 2026-05-08*
+*Daily Pick — 2026-05-12*
 
-*Token: ONDO*  HIGH  signal 10/10
-Price: rank 46 | mcap $1.95B | 24h +6.8% / 7d +49.9% | vol $362M (vol/mcap 0.186)
-Score: 24h>0 +1, 7d>0 +1, both >+5% +2, trending +2, vol/mcap >=0.10 +2, RS vs BTC(+2.65) and ETH(-0.76) +2 = 10/10
-Catalyst: May 6 Ondo + Ripple + Mastercard + JPMorgan Kinexys cross-border settlement pilot — OUSG cleared in <5s across XRPL/RLUSD/Mastercard MTN rails; Broadridge proxy-vote went live on 250+ tokenized stocks; Ondo joined DTCC tokenization working group.
-Risk: DTCC production trades don't start until July — narrative needs fresh catalyst inside 60 days or it retraces; monthly linear unlocks ~1.9% of supply.
-Vs recent picks: first time. Last 7d (UB / AKT / DASH / TON / ZEC / JTO + 04-30 LUNC) sit on AI-infra / privacy / memecoin / DeFi / staking axes — RWA-institutional-rail is a distinct narrative axis.
+*Token: NEAR*  [MEDIUM]  signal 6/10
+Price: $1.55 (+0.22% 24h / +20.96% 7d) | mcap $2.0B | vol $236M (vol/mcap 0.12)
+Score breakdown: [24h>0+1, 7d>0+1, vol/mcap>=0.10+2, RS vs BTC/ETH+2] = 6/10
+Catalyst: NEAR Protocol confirmed FIPS-204 (ML-DSA, NIST-approved post-quantum signing) for Q2 2026 testnet on May 7, extending quantum-safe Chain Signatures to 35+ external chains with Ledger hardware wallet integration — actual testnet launch still ahead, keeping the narrative live.
+Risk: Catalyst is 5 days old and partially priced in; post-quantum upgrade requires no user action, so no immediate demand driver — price could fade into the testnet window if attention rotates.
+Vs recent picks: first time picked; last 7d tokens: ZEC/JTO/ONDO/ICP/SUI — all distinct.
 
-*Market: "Will the US confirm that aliens exist before 2027?"*  HIGH  edge 12.5pp
-Current: YES 18.5c / NO 81.5c | 24h vol $560k | liq $424k | resolves 2026-12-31
-Fair YES: ~6% (inputs: [AARO 2026-04-20 still "no verifiable evidence"], [Trump 2026-02 UAP EO is a 300-day declassification window, not confirmation], [FY2026 NDAA mandates intercept briefings, not affirmation])
-Thesis: Resolution requires explicit federal-agency or Cabinet-level affirmation of extraterrestrial life. Nothing in 2024-26 has met that bar; AARO actively denies. The 18.5c tag is retail lottery premium. Action: BUY NO at 81.5c.
-Risk: AARO Volume II historical report (overdue) drops, or a Trump-directed declassification release contains a single sentence from a federal agency or Cabinet official explicitly stating non-human origin.
+*Market: Starmer out by May 15, 2026?*  [HIGH]  edge 13pp
+Current: YES 17.75c / NO 82.25c | 24h vol $1.42M | resolves: 2026-05-15
+Fair YES: ~5% (inputs: [78/81 Labour MPs reached, threshold not crossed], [Starmer explicitly refused to resign May 12], [formal Labour leadership ballot takes 1-2 weeks minimum, no mechanism to remove PM in 72h])
+Thesis: Market prices an 18% chance Starmer exits within 72 hours despite process mechanics that make both voluntary and forced removal near-impossible before May 15 — structural NO.
+Risk: Surprise resignation if private Cabinet ultimatum delivered in next 48h; or damaging revelation breaks Starmer position.
 
-sources: cg=ok, dex=ok, poly=ok
-not financial advice — pattern-matching only
+sources: cg=ok, dex=fail (micro-liq Solana meme tokens only), poly=ok
+not financial advice -- pattern-matching only
 

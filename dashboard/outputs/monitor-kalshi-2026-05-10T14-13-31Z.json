@@ -1,0 +1,352 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Kalshi Monitor — 2026-05-10"
+      },
+      "children": [
+        "verdict-section",
+        "sep1",
+        "fed-apr-section",
+        "sep2",
+        "fed-dec-section",
+        "sep3",
+        "btc-section",
+        "sep4",
+        "alerts-section",
+        "sep5",
+        "trending-section",
+        "sep6",
+        "sources-section"
+      ]
+    },
+    "verdict-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict-text"
+      ]
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "KXFED-27APR shows a consistent dovish step down across T3.25→T3.50 (−7 to −9pp) but all on thin books and sub-$200/day vol — T3.00=53% unchanged is the only clean read; KXBTC modal shifted to B81750 (9%) above $80,873 spot; no alerts, no gates cleared",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fed-apr-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fed-apr-heading",
+        "fed-apr-table",
+        "fed-apr-notes"
+      ]
+    },
+    "fed-apr-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fed funds rate Apr 2027 (KXFED-27APR) — Economics",
+        "level": "h3"
+      }
+    },
+    "fed-apr-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "prob",
+          "Δ24h",
+          "vol_24h",
+          "spread"
+        ],
+        "rows": [
+          [
+            "T3.00",
+            "53%",
+            "0pp →",
+            "$6",
+            "1pp tight"
+          ],
+          [
+            "T3.25",
+            "42%",
+            "−7pp ▼",
+            "$9",
+            "8pp loose"
+          ],
+          [
+            "T3.50",
+            "37%",
+            "−9pp ▼",
+            "$110",
+            "23pp thin"
+          ],
+          [
+            "T3.75",
+            "41%",
+            "−1pp →",
+            "$57",
+            "6pp thin"
+          ],
+          [
+            "T4.00",
+            "42%",
+            "+3pp ▲",
+            "$87",
+            "9pp thin"
+          ]
+        ]
+      }
+    },
+    "fed-apr-notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fed-apr-note1",
+        "fed-apr-note2"
+      ]
+    },
+    "fed-apr-note1": {
+      "type": "Text",
+      "props": {
+        "text": "mover: T3.50 — falling 9pp on $110 vol, 23pp spread; T4.00 +3pp simultaneously = non-monotonic artifact; T3.00 (1pp tight) is anchor",
+        "variant": "caption"
+      }
+    },
+    "fed-apr-note2": {
+      "type": "Text",
+      "props": {
+        "text": "note: T0.xx-T1.xx ladder non-monotonic (T1.00=86% > T0.25=79%) — those buckets pure thin-book noise",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fed-dec-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fed-dec-heading",
+        "fed-dec-table",
+        "fed-dec-note"
+      ]
+    },
+    "fed-dec-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fed funds rate Dec 2026 (KXFED-26DEC) — Economics",
+        "level": "h3"
+      }
+    },
+    "fed-dec-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "prob",
+          "Δ24h",
+          "vol_24h",
+          "spread"
+        ],
+        "rows": [
+          [
+            "T2.75",
+            "84%",
+            "0pp →",
+            "$1,260",
+            "4pp loose"
+          ],
+          [
+            "T3.50",
+            "55%",
+            "+2pp →",
+            "$3",
+            "1pp tight"
+          ]
+        ]
+      }
+    },
+    "fed-dec-note": {
+      "type": "Text",
+      "props": {
+        "text": "mover: T2.75 — largest 24h vol ($1,260), stable; no directional signal",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "btc-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc-heading",
+        "btc-table",
+        "btc-note"
+      ]
+    },
+    "btc-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Bitcoin May 15 5pm EDT (KXBTC-26MAY1517) — Crypto",
+        "level": "h3"
+      }
+    },
+    "btc-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "prob",
+          "Δ24h",
+          "vol_24h",
+          "spread"
+        ],
+        "rows": [
+          [
+            "B81750 ($81.5–82k)",
+            "9%",
+            "new",
+            "$229",
+            "2pp tight"
+          ],
+          [
+            "B80250 ($80–80.5k)",
+            "8%",
+            "0pp →",
+            "$113",
+            "3pp tight"
+          ],
+          [
+            "B80750 ($80.5–81k)",
+            "7%",
+            "new",
+            "$102",
+            "3pp tight"
+          ],
+          [
+            "B81250 ($81–81.5k)",
+            "8%",
+            "0pp →",
+            "$59",
+            "2pp tight"
+          ]
+        ]
+      }
+    },
+    "btc-note": {
+      "type": "Text",
+      "props": {
+        "text": "mover: B81750 new modal bucket at 9%; BTC spot $80,873 → market pricing $81.5k-$82k as week mode; Hermes-arb: no signal yet",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alerts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alerts-heading",
+        "alerts-content"
+      ]
+    },
+    "alerts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ALERTS (>5pp non-thin book)",
+        "level": "h3"
+      }
+    },
+    "alerts-content": {
+      "type": "Text",
+      "props": {
+        "text": "none — T3.25/T3.50 drops (−7/−9pp) disqualified by thin spreads and sub-$1k vol",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-content"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending (not tracked)",
+        "level": "h3"
+      }
+    },
+    "trending-content": {
+      "type": "Text",
+      "props": {
+        "text": "none — API returned only 2045-horizon long-dated events; all below tracked vol floor",
+        "variant": "body"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Text",
+      "props": {
+        "text": "sources: events=ok candlesticks=degraded(empty-array known) orderbook=ok",
+        "variant": "caption"
+      }
+    }
+  }
+}

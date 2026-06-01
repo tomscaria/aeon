@@ -1,16 +1,26 @@
-*Evening Digest — 2026-05-08*
+*Evening Recap — 2026-05-12*
+_TL;DR: research-heavy day, zero trading-loop signal — monitor-polymarket dark 48h, Revenant snapshot 3d stale._
 
-Trading-loop: 5 PM events scanned (~20 markets, 13:00 UTC). 0 signals fired — no >5pp movers. Vol spikes on Rand Paul R-nom ($415k NO accumulation) and Oprah D-nom ($342k YES buy) but no comment-side catalyst on either.
+*Trading loop:*
+- Scans: 0 (monitor-polymarket skipped 05-11 + 05-12)
+- Signals fired: 0
+- Revenant: snapshot stale 3d (revenant_agents: []) — last known 29 trades / 76% WR / +$415 NAV
+- NAV delta: unknown
 
-Revenant: Mexico FIFA (first order) flat 1.05% YES for 5th consecutive day, $662k liquid, no action taken. Iran-airspace-by-May-8 resolved NO at midnight ET as expected — 48pp clause-text divergence thesis confirmed, ADR-096+ anchor intact.
+*Headlines:*
+- paper-pick — Eywa arXiv:2604.27351 (PhD slot, up 211 votes) + Maresca arXiv:2602.21091 (daily, 83% horizon-degradation elimination) · articles/paper-digest-2026-05-12.md
+- cost-report — $293.85/wk (down 51.9% WoW, ~$1.26k/mo); ISS-021 RECOVERED · articles/cost-report-2026-05-12.md
 
-NAV delta: no new orders today. Lifetime +$415 / 29 closed trades / 76% win / Sharpe 0.31. 71 trades to Apex gate.
+*Notable:*
+- fetch-tweets — CPI Apr +3.8% beats; CLARITY Act 75% (Senate markup Thu); hantavirus transmission risk upgraded by experts
+- monitor-runners — MIXED: aeon/base +311% CONTINUATION cleanest setup; RKC/solana +9947% BREAKOUT (thin liq, avoid)
 
-Skill failures: chain:morning-brief (07:14Z) + chain:evening-rollup (21:19Z) — day 12 DEGRADED, same dispatch_skill() bug. Operator fix still blocked.
+*Decisions for tomorrow:*
+- Dispatch monitor-polymarket manually — 48h dark = zero CalibrationGap signal input
+- 9 PRs stale (#1 ~17d oldest) — merge or close
 
-Top 3:
-1. AEL 2604.21725 — Thompson-sampling retrieval-policy bandit, Sharpe 2.13, closes Darwinian queue flag (PhD slot)
-2. Per-Market ILS 2605.02287 — 3.14% skilled / 1,950 insider-flagged; ADR-096+ methodology anchor (daily slot)
-3. PR #156 reply-maker XAI prefetch merged 01:18Z — closes ISS-014 (day-13 carrier)
+*Blockers:*
+- chain:morning-brief — failed Day 17 · operator-side patch pending
+- workflow-security-audit — stuck 53h since 05-10 dispatch
 
-_sources: log=ok cron-state=ok_
+_+10 routine runs collapsed · sources: log=ok cron-state=ok_

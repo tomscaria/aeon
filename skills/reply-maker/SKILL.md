@@ -159,3 +159,7 @@ The sandbox may block outbound curl. Use **WebFetch** as a fallback for any URL 
 ## Environment Variables Required
 
 - `XAI_API_KEY` — X.AI API key for Grok x_search (optional — falls back to WebSearch + memory logs)
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

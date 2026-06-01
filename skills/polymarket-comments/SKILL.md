@@ -161,3 +161,7 @@ Append to memory/logs/${today}.md:
 - **Notable take:** "[best comment excerpt]"
 - **Notification sent:** yes
 ```
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

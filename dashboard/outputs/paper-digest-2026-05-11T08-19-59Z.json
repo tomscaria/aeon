@@ -1,0 +1,165 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Paper Digest",
+        "description": "2026-05-11"
+      },
+      "children": [
+        "summary_text",
+        "sep1",
+        "paper1_stack",
+        "paper2_stack",
+        "paper3_stack",
+        "sep2",
+        "full_link"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "1 high-upvote agentic orchestration framework, 1 Bayesian forecaster above GPT-5 on ForecastBench, 1 controlled PM aggregation experiment with a hard complexity bound; no new ILS or microstructure paper this cycle",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "paper1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper1_heading",
+        "paper1_authors",
+        "paper1_desc",
+        "paper1_badge"
+      ]
+    },
+    "paper1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Heterogeneous Scientific Foundation Model Collaboration",
+        "level": "h3"
+      }
+    },
+    "paper1_authors": {
+      "type": "Text",
+      "props": {
+        "text": "(Eywa, UIUC)",
+        "variant": "muted"
+      }
+    },
+    "paper1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "LLM orchestrator routes domain inputs to specialist FMs across 3 tiers"
+      }
+    },
+    "paper1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "↑209"
+      }
+    },
+    "paper2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper2_heading",
+        "paper2_authors",
+        "paper2_desc",
+        "paper2_badge"
+      ]
+    },
+    "paper2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Agentic Forecasting via Sequential Bayesian Updating of Linguistic Beliefs",
+        "level": "h3"
+      }
+    },
+    "paper2_authors": {
+      "type": "Text",
+      "props": {
+        "text": "(Kevin Murphy)",
+        "variant": "muted"
+      }
+    },
+    "paper2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "beats GPT-5, Grok 4.20, Cassi on 400 ForecastBench binaries; logit-space aggregation + Platt calibration; <1.5% leakage"
+      }
+    },
+    "paper2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "↑0 (v3)"
+      }
+    },
+    "paper3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper3_heading",
+        "paper3_authors",
+        "paper3_desc",
+        "paper3_badge"
+      ]
+    },
+    "paper3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Information Aggregation with AI Agents",
+        "level": "h3"
+      }
+    },
+    "paper3_authors": {
+      "type": "Text",
+      "props": {
+        "text": "(Galanis)",
+        "variant": "muted"
+      }
+    },
+    "paper3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "controlled double-auction PM experiment: simple markets aggregate, complexity degrades; feedback on past performance has zero effect on aggregation"
+      }
+    },
+    "paper3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "↑0 (revised 2026-05-07)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "full_link": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest",
+        "href": "articles/paper-digest-2026-05-11.md"
+      }
+    }
+  }
+}

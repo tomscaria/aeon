@@ -1,0 +1,459 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Evening Recap — 2026-05-11"
+      },
+      "children": [
+        "tldr",
+        "sep-1",
+        "headlines-section",
+        "sep-2",
+        "notable-section",
+        "sep-3",
+        "decisions-section",
+        "sep-4",
+        "blockers-section",
+        "sep-5",
+        "footer"
+      ]
+    },
+    "tldr": {
+      "type": "Text",
+      "props": {
+        "text": "TL;DR: dense signal day — paper-digest shipped, Warsh hawkish repricing confirmed, RU→Iran vol migration caught; ISS-021 cost-report 7-day blind is the one open wound",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "headlines-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "headlines-heading",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5"
+      ]
+    },
+    "headlines-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Headlines",
+        "level": "h2"
+      }
+    },
+    "h1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h1-title",
+        "h1-content",
+        "h1-link"
+      ]
+    },
+    "h1-title": {
+      "type": "Text",
+      "props": {
+        "text": "paper-digest",
+        "variant": "body"
+      }
+    },
+    "h1-content": {
+      "type": "Text",
+      "props": {
+        "text": "3 papers shipped (Eywa ↑209 / BLF Bayesian / Galanis 2604.20050)"
+      }
+    },
+    "h1-link": {
+      "type": "Link",
+      "props": {
+        "label": "articles/paper-digest-2026-05-11.md",
+        "href": "articles/paper-digest-2026-05-11.md"
+      }
+    },
+    "h2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h2-badge",
+        "h2-title",
+        "h2-content",
+        "h2-link"
+      ]
+    },
+    "h2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CRITICAL",
+        "variant": "destructive"
+      }
+    },
+    "h2-title": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-021",
+        "variant": "body"
+      }
+    },
+    "h2-content": {
+      "type": "Text",
+      "props": {
+        "text": "cost-report cf=6, down 7 days, filed by skill-health"
+      }
+    },
+    "h2-link": {
+      "type": "Link",
+      "props": {
+        "label": "memory/issues/ISS-021.md",
+        "href": "memory/issues/ISS-021.md"
+      }
+    },
+    "h3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h3-badge",
+        "h3-title",
+        "h3-content",
+        "h3-link"
+      ]
+    },
+    "h3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEGRADED",
+        "variant": "secondary"
+      }
+    },
+    "h3-title": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat ×2",
+        "variant": "body"
+      }
+    },
+    "h3-content": {
+      "type": "Text",
+      "props": {
+        "text": "status page written 12:00+20:00 UTC; cost-report cf=2→6 tracked"
+      }
+    },
+    "h3-link": {
+      "type": "Link",
+      "props": {
+        "label": "docs/status.md",
+        "href": "docs/status.md"
+      }
+    },
+    "h4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h4-title",
+        "h4-p1",
+        "h4-stat",
+        "h4-p2",
+        "h4-p3"
+      ]
+    },
+    "h4-title": {
+      "type": "Text",
+      "props": {
+        "text": "daily-routine",
+        "variant": "body"
+      }
+    },
+    "h4-p1": {
+      "type": "Text",
+      "props": {
+        "text": "4 sub-skills inline"
+      }
+    },
+    "h4-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SUI [BREAKOUT]",
+        "value": "+17.2%",
+        "trend": "up"
+      }
+    },
+    "h4-p2": {
+      "type": "Text",
+      "props": {
+        "text": "4 HN stories"
+      }
+    },
+    "h4-p3": {
+      "type": "Text",
+      "props": {
+        "text": "combined notify 3,992 chars"
+      }
+    },
+    "h5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h5-title",
+        "h5-content"
+      ]
+    },
+    "h5-title": {
+      "type": "Text",
+      "props": {
+        "text": "polymarket-comments",
+        "variant": "body"
+      }
+    },
+    "h5-content": {
+      "type": "Text",
+      "props": {
+        "text": "RU→Iran vol migration (not informed buying); Hantavirus 6-week incubation novel claim"
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "n1",
+        "n2",
+        "n3"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "n1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n1-title",
+        "n1-content"
+      ]
+    },
+    "n1-title": {
+      "type": "Text",
+      "props": {
+        "text": "monetize-revenant",
+        "variant": "body"
+      }
+    },
+    "n1-content": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly Calibration Gap Report proposed (Track A, $29/mo, 3-day ship estimate)"
+      }
+    },
+    "n2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n2-title",
+        "n2-badge",
+        "n2-stat",
+        "n2-content"
+      ]
+    },
+    "n2-title": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-kalshi",
+        "variant": "body"
+      }
+    },
+    "n2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEGRADED",
+        "variant": "secondary"
+      }
+    },
+    "n2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "KXFED T3.50",
+        "value": "+17pp",
+        "trend": "up"
+      }
+    },
+    "n2-content": {
+      "type": "Text",
+      "props": {
+        "text": "candlesticks degraded; Warsh hawkish path confirmed"
+      }
+    },
+    "n3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n3-title",
+        "n3-content"
+      ]
+    },
+    "n3-title": {
+      "type": "Text",
+      "props": {
+        "text": "goal-tracker",
+        "variant": "body"
+      }
+    },
+    "n3-content": {
+      "type": "Text",
+      "props": {
+        "text": "2 needs attention: cost-discipline (ISS-021), tick-broker falsifier T-6 days"
+      }
+    },
+    "sep-3": {
+      "type": "Separator"
+    },
+    "decisions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decisions-heading",
+        "d1",
+        "d2",
+        "d3"
+      ]
+    },
+    "decisions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decisions for tomorrow",
+        "level": "h2"
+      }
+    },
+    "d1": {
+      "type": "Text",
+      "props": {
+        "text": "Fix ISS-021: root-cause cost-report exit error (7d blind, cf=6; weekly cost data gone dark)"
+      }
+    },
+    "d2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d2-text",
+        "d2-link"
+      ]
+    },
+    "d2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Merge PR #12 (config-audit auto-fixes, 1d stale)"
+      }
+    },
+    "d2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #12: config-audit auto-fixes",
+        "href": "https://github.com/tomscaria/aeon/pull/12"
+      }
+    },
+    "d3": {
+      "type": "Text",
+      "props": {
+        "text": "Ship outputs/{skill}/{date}.json by 2026-05-17 (ADR-093 tick-broker falsifier, T-6 days)"
+      }
+    },
+    "sep-4": {
+      "type": "Separator"
+    },
+    "blockers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "blockers-heading",
+        "b1",
+        "b2"
+      ]
+    },
+    "blockers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Blockers",
+        "level": "h2"
+      }
+    },
+    "b1": {
+      "type": "Alert",
+      "props": {
+        "title": "cost-report",
+        "message": "cf=6, post-execution exit error, 7d down · ISS-021 CRITICAL",
+        "type": "error"
+      }
+    },
+    "b2": {
+      "type": "Alert",
+      "props": {
+        "title": "chain:morning-brief + chain:evening-rollup",
+        "message": "dispatch_skill() DEGRADED day 15",
+        "type": "warning"
+      }
+    },
+    "sep-5": {
+      "type": "Separator"
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "+9 routine runs collapsed · sources: log=ok cron-state=ok",
+        "variant": "muted"
+      }
+    }
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Evening Recap — 2026-05-12",
+        "description": "Heavy content day — evening chain manually run (chain-runner day 22 broken); cost-report recovered; RU-UA 99.95% YES flagged as reflexivity risk"
+      },
+      "children": [
+        "section_headlines",
+        "sep1",
+        "section_notable",
+        "sep2",
+        "section_decisions",
+        "sep3",
+        "section_blockers",
+        "footer_notes"
+      ]
+    },
+    "section_headlines": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_headlines",
+        "item_cost_report",
+        "item_paper_pick",
+        "item_paper_digest",
+        "item_narrative_tracker",
+        "item_monitor_polymarket"
+      ]
+    },
+    "heading_headlines": {
+      "type": "Heading",
+      "props": {
+        "text": "Headlines",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item_cost_report": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_cost_report_title",
+        "text_cost_report_stats",
+        "link_cost_report_file"
+      ]
+    },
+    "text_cost_report_title": {
+      "type": "Text",
+      "props": {
+        "text": "cost-report",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_cost_report_stats": {
+      "type": "Text",
+      "props": {
+        "text": "$293.85/50 runs -51.9% WoW, monthly $1,259",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_cost_report_file": {
+      "type": "Link",
+      "props": {
+        "label": "articles/cost-report-2026-05-12.md",
+        "href": "articles/cost-report-2026-05-12.md"
+      },
+      "children": []
+    },
+    "item_paper_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_paper_pick_title",
+        "text_paper_pick_desc",
+        "link_paper_pick_url"
+      ]
+    },
+    "text_paper_pick_title": {
+      "type": "Text",
+      "props": {
+        "text": "paper-pick",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_paper_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Eywa arXiv:2604.27351 PhD slot; AEL→Galanis→Eywa arc complete",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_paper_pick_url": {
+      "type": "Link",
+      "props": {
+        "label": "https://huggingface.co/papers/2604.27351",
+        "href": "https://huggingface.co/papers/2604.27351"
+      },
+      "children": []
+    },
+    "item_paper_digest": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_paper_digest_title",
+        "text_paper_digest_desc",
+        "link_paper_digest_file"
+      ]
+    },
+    "text_paper_digest_title": {
+      "type": "Text",
+      "props": {
+        "text": "paper-digest",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_paper_digest_desc": {
+      "type": "Text",
+      "props": {
+        "text": "3 Nechepurenko PM-perps papers (PIRAP + manipulation taxonomy)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_paper_digest_file": {
+      "type": "Link",
+      "props": {
+        "label": "articles/paper-digest-2026-05-12.md",
+        "href": "articles/paper-digest-2026-05-12.md"
+      },
+      "children": []
+    },
+    "item_narrative_tracker": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_narrative_tracker_title",
+        "text_narrative_tracker_desc",
+        "text_narrative_tracker_action"
+      ]
+    },
+    "text_narrative_tracker_title": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_narrative_tracker_desc": {
+      "type": "Text",
+      "props": {
+        "text": "RU-UA FADE: ceasefire expired + drone strikes May 12 = reflexivity alert; same structure as Iran-airspace-by-May-8",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_narrative_tracker_action": {
+      "type": "Text",
+      "props": {
+        "text": "write-tweet: clause-text angle, 10 drafts",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "item_monitor_polymarket": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_monitor_polymarket_title",
+        "market_item_trump_china",
+        "market_item_warsh",
+        "market_item_iran",
+        "market_item_clarity"
+      ]
+    },
+    "text_monitor_polymarket_title": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-polymarket",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "market_item_trump_china": {
+      "type": "Text",
+      "props": {
+        "text": "Trump-China 99.85% (was 92.5%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market_item_warsh": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh out May-16 87.35%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market_item_iran": {
+      "type": "Text",
+      "props": {
+        "text": "Iran-May-31 16.5% (-2pp)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market_item_clarity": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY 61.5% (-4pp)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_notable",
+        "item_monitor_runners",
+        "item_agent_buzz",
+        "item_daily_routine",
+        "item_skill_health"
+      ]
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item_monitor_runners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_monitor_runners_title",
+        "text_monitor_runners_rk",
+        "text_monitor_runners_aeon"
+      ]
+    },
+    "text_monitor_runners_title": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-runners",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_monitor_runners_rk": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_rk_breakout",
+        "text_rk_value"
+      ]
+    },
+    "badge_rk_breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_rk_value": {
+      "type": "Text",
+      "props": {
+        "text": "RKC +9947%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_monitor_runners_aeon": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aeon_continuation",
+        "text_aeon_value"
+      ]
+    },
+    "badge_aeon_continuation": {
+      "type": "Badge",
+      "props": {
+        "text": "CONTINUATION",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_aeon_value": {
+      "type": "Text",
+      "props": {
+        "text": "aeon/base +311% cleanest session",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_agent_buzz": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_agent_buzz_title",
+        "text_agent_buzz_mcp",
+        "alert_agent_buzz_db"
+      ]
+    },
+    "text_agent_buzz_title": {
+      "type": "Text",
+      "props": {
+        "text": "agent-buzz",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_agent_buzz_mcp": {
+      "type": "Text",
+      "props": {
+        "text": "MCP as production glue",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_agent_buzz_db": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Cursor/Opus 4.6 wiped prod DB (unscoped Railway token)"
+      },
+      "children": []
+    },
+    "item_daily_routine": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_daily_routine_title",
+        "text_daily_routine_build",
+        "text_daily_routine_hn"
+      ]
+    },
+    "text_daily_routine_title": {
+      "type": "Text",
+      "props": {
+        "text": "daily-routine x2",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_daily_routine_build": {
+      "type": "Text",
+      "props": {
+        "text": "B (BUILDon) +36%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_daily_routine_hn": {
+      "type": "Text",
+      "props": {
+        "text": "HN: TanStack supply-chain compromise #1 (772pts)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_skill_health": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_skill_health",
+        "text_skill_health_open",
+        "text_skill_health_closed"
+      ]
+    },
+    "badge_skill_health": {
+      "type": "Badge",
+      "props": {
+        "text": "DEGRADED",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text_skill_health_open": {
+      "type": "Text",
+      "props": {
+        "text": "11 open",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_skill_health_closed": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-021 cost-report closed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_decisions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_decisions",
+        "text_decision_1",
+        "text_decision_2",
+        "text_decision_3"
+      ]
+    },
+    "heading_decisions": {
+      "type": "Heading",
+      "props": {
+        "text": "Decisions for tomorrow",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_decision_1": {
+      "type": "Text",
+      "props": {
+        "text": "Read RU-UA May-31 resolution clause before sizing; 99.95% YES + drone strikes = repricing risk",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_decision_2": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh chair vote expected Wednesday — KXFED T3.50 entry window (4pp loose book)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_decision_3": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act markup Thursday — XRP/SUI/DeFi re-rate on passage",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_blockers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_blockers",
+        "alert_blocker_1",
+        "alert_blocker_2",
+        "alert_blocker_3"
+      ]
+    },
+    "heading_blockers": {
+      "type": "Heading",
+      "props": {
+        "text": "Blockers",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert_blocker_1": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "chain:morning-brief",
+        "message": "Day 17, no fix dispatched"
+      },
+      "children": []
+    },
+    "alert_blocker_2": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "chain:evening-rollup",
+        "message": "Day 4 (manually executed tonight)"
+      },
+      "children": []
+    },
+    "alert_blocker_3": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "tick-broker falsifier",
+        "message": "T-5 days (tomscaria/aeon outputs/ due 2026-05-17)"
+      },
+      "children": []
+    },
+    "footer_notes": {
+      "type": "Text",
+      "props": {
+        "text": "+8 routine runs collapsed · sources: log=ok cron-state=ok",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

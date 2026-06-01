@@ -1,30 +1,28 @@
-*Evening Recap — 2026-05-08*
-_TL;DR: ISS-014 closes overnight — PR #156 reply-maker XAI prefetch merged 01:18Z; otherwise routine ship day with swarm-fund-mvp silent 36+h after ADR-095._
+*Evening Recap — 2026-05-12*
+_TL;DR: heavy content day — evening chain manually run (chain-runner day 22 broken); cost-report recovered; RU-UA 99.95% YES flagged as reflexivity risk_
 
 *Headlines:*
-- aaronjmars/aeon PR #156 merged 01:18Z — reply-maker XAI prefetch, ISS-014 closes after 13d · https://github.com/aaronjmars/aeon/pull/156
-- aaronjmars/aeon PR #162 merged — huggingface-trending skill (112→113, ships disabled) · https://github.com/aaronjmars/aeon/pull/162
-- daily article — Iran airspace pricing 3% despite confirmed US strikes · articles/2026-05-08.md
-- repo-article — defect-hardening week confirmed, 8 of 11 PRs same bug class · articles/repo-article-2026-05-08.md
-- PR #7 opened on tomscaria/lore-financial-teaser — Supabase rotation note · https://github.com/tomscaria/lore-financial-teaser/pull/7
+- cost-report — $293.85/50 runs -51.9% WoW, monthly $1,259 · articles/cost-report-2026-05-12.md
+- paper-pick — Eywa arXiv:2604.27351 PhD slot; AEL→Galanis→Eywa arc complete · https://huggingface.co/papers/2604.27351
+- paper-digest — 3 Nechepurenko PM-perps papers (PIRAP + manipulation taxonomy) · articles/paper-digest-2026-05-12.md
+- narrative-tracker — RU-UA FADE: ceasefire expired + drone strikes May 12 = reflexivity alert; same structure as Iran-airspace-by-May-8; write-tweet: clause-text angle, 10 drafts
+- monitor-polymarket — Trump-China 99.85% (was 92.5%); Warsh out May-16 87.35%; Iran-May-31 16.5% (-2pp); CLARITY 61.5% (-4pp)
 
 *Notable:*
-- code-health — carry ledger 8→7 (ISS-014 drained); Pyth/Birdeye Day-7 top blast-radius
-- paper-pick — PhD AEL (2604.21725, Sharpe 2.13); daily Per-Market ILS (2605.02287)
-- shipped: repo-actions×5, explainer, research-brief, changelog, project-lens
-- monitor-polymarket — Rand Paul R-nom $415k spike on 0.95% YES; BTC/GTA-VI 50/50 clause confirmed
-- swarm-fund-mvp — 96 metrics-bot commits, signal silence 24h+, PRs #29/30/31/32 unchanged
+- monitor-runners — RKC +9947% [BREAKOUT], aeon/base [CONTINUATION] +311% cleanest session
+- agent-buzz — MCP as production glue; Cursor/Opus 4.6 wiped prod DB (unscoped Railway token)
+- daily-routine x2 — B (BUILDon) +36%; HN: TanStack supply-chain compromise #1 (772pts)
+- skill-health — DEGRADED; 11 open; ISS-021 cost-report closed
 
 *Decisions for tomorrow:*
-- Operator: flip huggingface-trending enabled: true in aeon.yml (09:30 UTC slot)
-- Open ADR-096 on swarm-fund-mvp for resolution-text-ingest — 14d flagged, anchors ready (Iran-airspace 48pp, Hantavirus)
-- Move ISS-014 open → resolved in INDEX.md (skill-health 18:00Z auto-flip)
+- Read RU-UA May-31 resolution clause before sizing; 99.95% YES + drone strikes = repricing risk
+- Warsh chair vote expected Wednesday — KXFED T3.50 entry window (4pp loose book)
+- CLARITY Act markup Thursday — XRP/SUI/DeFi re-rate on passage
 
 *Blockers:*
-- agent-buzz d5 XAI 401 + x.com 402 paywall
-- reddit-digest d14 / vibecoding-digest d16 — Reddit 403 (ISS-002/012)
-- chain-runner d12 — chain:morning-brief/evening-rollup/weekly-grant-update all failed
-- remix-tweets d11 + reply-maker tomscaria/aeon — XAI prefetch missing this repo
+- chain:morning-brief — Day 17, no fix dispatched
+- chain:evening-rollup — Day 4 (manually executed tonight)
+- tick-broker falsifier — T-5 days (tomscaria/aeon outputs/ due 2026-05-17)
 
-_sources: log=ok cron-state=ok_
+_+8 routine runs collapsed · sources: log=ok cron-state=ok_
 

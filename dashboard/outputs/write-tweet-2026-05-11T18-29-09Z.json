@@ -1,0 +1,387 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "write-tweet",
+        "description": "Tweet drafts: clause-complexity is the LLM-prediction edge"
+      },
+      "children": [
+        "heading_main",
+        "separator_1",
+        "section_oneliner",
+        "separator_2",
+        "section_twopunch",
+        "separator_3",
+        "section_paragraph",
+        "separator_4",
+        "section_longtweet",
+        "separator_5",
+        "section_threadopener",
+        "separator_6",
+        "recommendation"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "clause-complexity is the LLM-prediction edge (Galanis 2026 + CalibrationGap)",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "section_oneliner": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_oneliner",
+        "variant_1a",
+        "variant_1b"
+      ]
+    },
+    "heading_oneliner": {
+      "type": "Heading",
+      "props": {
+        "text": "one-liner",
+        "level": "h3"
+      }
+    },
+    "variant_1a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1a",
+        "text_1a"
+      ]
+    },
+    "badge_1a": {
+      "type": "Badge",
+      "props": {
+        "text": "1a"
+      }
+    },
+    "text_1a": {
+      "type": "Text",
+      "props": {
+        "text": "LLMs price prediction markets fine — until the resolution clause gets complex."
+      }
+    },
+    "variant_1b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1b",
+        "text_1b"
+      ]
+    },
+    "badge_1b": {
+      "type": "Badge",
+      "props": {
+        "text": "1b"
+      }
+    },
+    "text_1b": {
+      "type": "Text",
+      "props": {
+        "text": "76% win rate over 29 trades. Every one in markets where the resolution clause was unambiguous."
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "section_twopunch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_twopunch",
+        "variant_2a",
+        "variant_2b"
+      ]
+    },
+    "heading_twopunch": {
+      "type": "Heading",
+      "props": {
+        "text": "two-punch",
+        "level": "h3"
+      }
+    },
+    "variant_2a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_2a",
+        "text_2a"
+      ]
+    },
+    "badge_2a": {
+      "type": "Badge",
+      "props": {
+        "text": "2a"
+      }
+    },
+    "text_2a": {
+      "type": "Text",
+      "props": {
+        "text": "Galanis (May 2026, econ.GN) ran the experiment. AI agents aggregate private signals on easy market structures, fail on complex ones. Feedback about past P&L? Zero effect."
+      }
+    },
+    "variant_2b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_2b",
+        "text_2b"
+      ]
+    },
+    "badge_2b": {
+      "type": "Badge",
+      "props": {
+        "text": "2b"
+      }
+    },
+    "text_2b": {
+      "type": "Text",
+      "props": {
+        "text": "Everyone benchmarks LLMs on quiz-style binaries. The real failure mode is the resolution-clause — legal text, conditional triggers, UMA definitions. Quiz versus lawsuit."
+      }
+    },
+    "separator_3": {
+      "type": "Separator"
+    },
+    "section_paragraph": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_paragraph",
+        "variant_3a",
+        "variant_3b"
+      ]
+    },
+    "heading_paragraph": {
+      "type": "Heading",
+      "props": {
+        "text": "paragraph",
+        "level": "h3"
+      }
+    },
+    "variant_3a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_3a",
+        "text_3a"
+      ]
+    },
+    "badge_3a": {
+      "type": "Badge",
+      "props": {
+        "text": "3a"
+      }
+    },
+    "text_3a": {
+      "type": "Text",
+      "props": {
+        "text": "\"LLMs can't predict the future.\" They can — on simple resolution clauses. Galanis (May 2026, econ.GN) ran the experiment. Complexity degrades aggregation. Past-performance feedback does nothing. The edge isn't smarter prompts. It's clause selection."
+      }
+    },
+    "variant_3b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_3b",
+        "text_3b"
+      ]
+    },
+    "badge_3b": {
+      "type": "Badge",
+      "props": {
+        "text": "3b"
+      }
+    },
+    "text_3b": {
+      "type": "Text",
+      "props": {
+        "text": "29 trades. 76% win. +$415 P&L. Sharpe 0.31. All on Polymarket binaries with clean resolution clauses. Galanis (May 2026) controlled the experiment: LLM aggregation degrades with complexity. The edge isn't smarter models. It's clause-text filtering."
+      }
+    },
+    "separator_4": {
+      "type": "Separator"
+    },
+    "section_longtweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_longtweet",
+        "variant_4a",
+        "variant_4b"
+      ]
+    },
+    "heading_longtweet": {
+      "type": "Heading",
+      "props": {
+        "text": "long tweet",
+        "level": "h3"
+      }
+    },
+    "variant_4a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_4a",
+        "text_4a"
+      ]
+    },
+    "badge_4a": {
+      "type": "Badge",
+      "props": {
+        "text": "4a",
+        "variant": "default"
+      }
+    },
+    "text_4a": {
+      "type": "Text",
+      "props": {
+        "text": "Most LLM-prediction benchmarks miss the failure mode. Galanis (econ.GN, May 2026) ran the controlled experiment: AI agents aggregate private signals well on easy information structures, fail on complex ones, and feedback about past P&L has zero effect. Translation for Polymarket: the edge isn't smarter models or longer prompts. It's filtering by resolution-clause complexity. Iran-airspace resolved NO at 2.05% YES Sunday. The \"major closure\" sister market for the same period prices 48pp higher. Same event, different clauses, different probabilities. That's where the edge lives."
+      }
+    },
+    "variant_4b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_4b",
+        "text_4b"
+      ]
+    },
+    "badge_4b": {
+      "type": "Badge",
+      "props": {
+        "text": "4b"
+      }
+    },
+    "text_4b": {
+      "type": "Text",
+      "props": {
+        "text": "A 13-reaction Polymarket comment yesterday said the quiet part: \"whos here from ukraine market.\" Russia-Ukraine 99.95% YES traders rotating into Iran-peace YES on inertia, not information. The Galanis experiment (econ.GN, May 2026) explains why this is exploitable — AI aggregation is robust on easy structures, breaks on complex clauses. The migration crowd treats every binary the same way. The model crowd doesn't read the clause. The trade is the gap between them. 29 trades, 76%, +$415 says it's there."
+      }
+    },
+    "separator_5": {
+      "type": "Separator"
+    },
+    "section_threadopener": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_threadopener",
+        "variant_5a",
+        "variant_5b"
+      ]
+    },
+    "heading_threadopener": {
+      "type": "Heading",
+      "props": {
+        "text": "thread opener",
+        "level": "h3"
+      }
+    },
+    "variant_5a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_5a",
+        "text_5a"
+      ]
+    },
+    "badge_5a": {
+      "type": "Badge",
+      "props": {
+        "text": "5a"
+      }
+    },
+    "text_5a": {
+      "type": "Text",
+      "props": {
+        "text": "\"Can LLMs predict the future\" is the wrong framing. The real question is which class of markets they aggregate well, and which class they don't. Galanis (May 2026, econ.GN) just controlled-experimented this. The answer is sharper than people think."
+      }
+    },
+    "variant_5b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_5b",
+        "text_5b"
+      ]
+    },
+    "badge_5b": {
+      "type": "Badge",
+      "props": {
+        "text": "5b"
+      }
+    },
+    "text_5b": {
+      "type": "Text",
+      "props": {
+        "text": "Iran-airspace-by-May-8 resolved NO at 2.05% YES on $916k volume. The sister \"major closure\" market for the same period still prices 48 percentage points higher. Same event window. Different clause text. That is the structural edge in live agentic Polymarket."
+      }
+    },
+    "separator_6": {
+      "type": "Separator"
+    },
+    "recommendation": {
+      "type": "Alert",
+      "props": {
+        "title": "BEST",
+        "message": "4a — operator voice, data + theory + falsifier in one block, lands the trade",
+        "type": "success"
+      }
+    }
+  }
+}

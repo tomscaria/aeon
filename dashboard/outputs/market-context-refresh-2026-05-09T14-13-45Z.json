@@ -1,0 +1,167 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context"
+      },
+      "children": [
+        "text_date",
+        "badge_take",
+        "sep1",
+        "stack_prices",
+        "sep2",
+        "stack_metrics",
+        "sep3",
+        "stack_narratives",
+        "sep4",
+        "alert_ceasefire"
+      ]
+    },
+    "text_date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-05-09",
+        "variant": "caption"
+      }
+    },
+    "badge_take": {
+      "type": "Badge",
+      "props": {
+        "text": "rotation (conviction medium)",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fg"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$80,355",
+        "delta": "+0.63%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,313",
+        "delta": "+1.40%",
+        "trend": "up"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G (Fear)",
+        "value": "38",
+        "delta": "unchanged",
+        "trend": "neutral"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_breadth",
+        "stat_tvl"
+      ]
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "breadth",
+        "value": "17/20"
+      }
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL ETH",
+        "value": "$45.66B",
+        "delta": "+1.3%",
+        "trend": "up"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_narrative",
+        "text_zec",
+        "text_sol"
+      ]
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "top narrative",
+        "level": "h4"
+      }
+    },
+    "text_zec": {
+      "type": "Text",
+      "props": {
+        "text": "privacy coins: ZEC +58.31% 7d, rising"
+      }
+    },
+    "text_sol": {
+      "type": "Text",
+      "props": {
+        "text": "SOL ecosystem: rising"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_ceasefire": {
+      "type": "Alert",
+      "props": {
+        "title": "hot market",
+        "message": "Russia-Ukraine ceasefire May-31 YES 99.95% ($17.9M vol)",
+        "type": "info"
+      }
+    }
+  }
+}

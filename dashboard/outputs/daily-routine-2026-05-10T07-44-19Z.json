@@ -1,0 +1,753 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Routine — 2026-05-10"
+      },
+      "children": [
+        "summary-text",
+        "sep1",
+        "winners-heading",
+        "winners-table",
+        "sep2",
+        "losers-heading",
+        "losers-table",
+        "sep3",
+        "trending-heading",
+        "trending-table",
+        "sep4",
+        "notable-heading",
+        "notable-stack",
+        "sep5",
+        "tweets-heading",
+        "tweets-stack",
+        "sep6",
+        "paper-heading",
+        "paper-stack",
+        "sep7",
+        "github-heading",
+        "github-text",
+        "sep8",
+        "hn-heading",
+        "hn-stack"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet consolidation after yesterday's risk-on rotation — large-cap alts fading, trending dominated by micro-cap pumps; UNI the lone large-cap breakout.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top 5 Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Volume",
+          "Rank",
+          "Note"
+        ],
+        "rows": [
+          [
+            "UNI",
+            "$4.04",
+            "+10.0%",
+            "+25.7%",
+            "+3.2%",
+            "$321M",
+            "#39",
+            "BREAKOUT"
+          ],
+          [
+            "SUI",
+            "$1.09",
+            "+1.4%",
+            "+18.9%",
+            "+1.2%",
+            "$625M",
+            "#27",
+            ""
+          ],
+          [
+            "ZEC",
+            "$616",
+            "+0.6%",
+            "+59.8%",
+            "+0.5%",
+            "$761M",
+            "#13",
+            ""
+          ],
+          [
+            "BTC",
+            "$80,754",
+            "+0.7%",
+            "+3.2%",
+            "+0.1%",
+            "$17.0B",
+            "#1",
+            ""
+          ],
+          [
+            "ETH",
+            "$2,328",
+            "+0.6%",
+            "+1.1%",
+            "-0.0%",
+            "$9.8B",
+            "#2",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top 7 Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Volume",
+          "Rank",
+          "Note"
+        ],
+        "rows": [
+          [
+            "WLFI",
+            "$0.068",
+            "-9.8%",
+            "+20.8%",
+            "-0.3%",
+            "$99M",
+            "#44",
+            ""
+          ],
+          [
+            "ICP",
+            "$3.46",
+            "-7.5%",
+            "+46.9%",
+            "-0.3%",
+            "$116M",
+            "#47",
+            "TRENDING+DOWN, FADE"
+          ],
+          [
+            "ONDO",
+            "$0.409",
+            "-6.1%",
+            "+47.5%",
+            "+0.8%",
+            "$227M",
+            "#46",
+            "TRENDING+DOWN, FADE"
+          ],
+          [
+            "ASTER",
+            "$0.700",
+            "-3.3%",
+            "+3.1%",
+            "",
+            "$193M",
+            "#51",
+            ""
+          ],
+          [
+            "HYPE",
+            "$43.07",
+            "-1.9%",
+            "+5.1%",
+            "",
+            "$186M",
+            "#14",
+            "TRENDING+DOWN"
+          ],
+          [
+            "TON",
+            "$2.50",
+            "-2.4%",
+            "",
+            "",
+            "",
+            "#20",
+            "TRENDING+DOWN"
+          ],
+          [
+            "DOGE",
+            "$0.109",
+            "-1.6%",
+            "+0.6%",
+            "",
+            "$572M",
+            "#10",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending (top 7)",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol/Name",
+          "Rank",
+          "Price",
+          "Change%",
+          "Note"
+        ],
+        "rows": [
+          [
+            "SWEAT",
+            "#990",
+            "$0.0019",
+            "+890.6%",
+            "PUMP-RISK, MICROCAP"
+          ],
+          [
+            "TROLL",
+            "#320",
+            "$0.091",
+            "+71.2%",
+            "PUMP-RISK"
+          ],
+          [
+            "LAYER (Solayer)",
+            "#746",
+            "$0.139",
+            "+51.9%",
+            "PUMP-RISK, MICROCAP"
+          ],
+          [
+            "LAB",
+            "#133",
+            "$4.88",
+            "+13.9%",
+            ""
+          ],
+          [
+            "ICP",
+            "#47",
+            "$3.46",
+            "-7.5%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "BILL",
+            "#173",
+            "$0.103",
+            "+7.8%",
+            ""
+          ],
+          [
+            "ONDO",
+            "#46",
+            "$0.409",
+            "-6.1%",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "SWEAT [PUMP-RISK] rank #990 +890.6% trending — extreme micro-cap pump, manipulation probable"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "ICP + ONDO [TRENDING+DOWN][FADE] — reversing yesterday's breakouts; 7d gains intact, day-2 sellers arriving"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "UNI [BREAKOUT] — only clean large-cap move on flat consolidation tape"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweets-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet Roundup",
+        "level": "h2"
+      }
+    },
+    "tweets-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweets-crypto",
+        "tweets-ai",
+        "tweets-dev"
+      ]
+    },
+    "tweets-crypto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweets-crypto-heading",
+        "tweets-crypto-text"
+      ]
+    },
+    "tweets-crypto-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto/PM",
+        "variant": "lead"
+      }
+    },
+    "tweets-crypto-text": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi leads weekly tx volume (13.3M vs PM 11.6M); both venues moving into perps; insider-trading bans racing as that's the mechanism."
+      }
+    },
+    "tweets-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweets-ai-heading",
+        "tweets-ai-text"
+      ]
+    },
+    "tweets-ai-heading": {
+      "type": "Text",
+      "props": {
+        "text": "AI",
+        "variant": "lead"
+      }
+    },
+    "tweets-ai-text": {
+      "type": "Text",
+      "props": {
+        "text": "255 model releases Q1 2026 (~3/day); Claude Opus 4.7 SWE-bench 87.6%; 81% of enterprise teams expanding agent use."
+      }
+    },
+    "tweets-dev": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweets-dev-heading",
+        "tweets-dev-text"
+      ]
+    },
+    "tweets-dev-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Dev",
+        "variant": "lead"
+      }
+    },
+    "tweets-dev-text": {
+      "type": "Text",
+      "props": {
+        "text": "Bun Rust rewrite at 99.8% compat (see HN); Python leads agent orchestration; Rust past hype into infra mandates."
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "paper-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Paper of the Day",
+        "level": "h2"
+      }
+    },
+    "paper-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "paper-title",
+        "paper-meta",
+        "paper-desc",
+        "paper-links"
+      ]
+    },
+    "paper-title": {
+      "type": "Heading",
+      "props": {
+        "text": "The Signal Credibility Index for Prediction Markets",
+        "level": "h3"
+      }
+    },
+    "paper-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Nechepurenko · Apr 29 2026",
+        "variant": "caption"
+      }
+    },
+    "paper-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Microstructure diagnostic separating genuine info processing from liquidity pressure and coordination noise; real-time monitoring extension; 4th Nechepurenko paper, first operational-monitoring tool in the ILS suite. CalibrationGap live-signal validation candidate."
+      }
+    },
+    "paper-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "paper-link-abstract",
+        "paper-link-pdf"
+      ]
+    },
+    "paper-link-abstract": {
+      "type": "Link",
+      "props": {
+        "label": "Read",
+        "href": "https://arxiv.org/abs/2604.27041"
+      }
+    },
+    "paper-link-pdf": {
+      "type": "Link",
+      "props": {
+        "label": "PDF",
+        "href": "https://arxiv.org/pdf/2604.27041"
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "github-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Issues",
+        "level": "h2"
+      }
+    },
+    "github-text": {
+      "type": "Text",
+      "props": {
+        "text": "No new issues — 14th consecutive clean day on tomscaria scope."
+      }
+    },
+    "sep8": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hn-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HN Digest",
+        "level": "h2"
+      }
+    },
+    "hn-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "hn-summary",
+        "hn-1-wrapper",
+        "hn-2-wrapper",
+        "hn-3-wrapper",
+        "hn-4-wrapper",
+        "hn-5-wrapper"
+      ]
+    },
+    "hn-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Bun Rust rewrite nearly passes; EU targets VPNs; Meta AI mandate eating morale.",
+        "variant": "muted"
+      }
+    },
+    "hn-1-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-1-link",
+        "hn-1-desc",
+        "hn-1-source",
+        "hn-1-comment"
+      ]
+    },
+    "hn-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Bun Rust rewrite hits 99.8% test compat",
+        "href": "https://news.ycombinator.com/item?id=48073680",
+        "source": "[Infra] HN · 523pts · 482c",
+        "score": "523"
+      }
+    },
+    "hn-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "First credible signal a JS runtime can be Rust-rewritten without compatibility loss."
+      }
+    },
+    "hn-1-source": {
+      "type": "Link",
+      "props": {
+        "label": "Original source (twitter.com/jarredsumner)",
+        "href": "https://twitter.com/jarredsumner/status/2053047748191232310"
+      }
+    },
+    "hn-1-comment": {
+      "type": "Text",
+      "props": {
+        "text": "HN: \"119 open, 885 closed segfaults for Bun vs 10 open, 46 closed for Deno\" — dminik",
+        "variant": "caption"
+      }
+    },
+    "hn-2-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-2-link",
+        "hn-2-desc",
+        "hn-2-source"
+      ]
+    },
+    "hn-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "EU calls VPNs a loophole",
+        "href": "https://news.ycombinator.com/item?id=48072190",
+        "source": "[Security] HN · 507pts · 338c",
+        "score": "507"
+      }
+    },
+    "hn-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "EU Parliamentary Research Service targeting VPNs in age-verification push — bloc-wide restriction precedent."
+      }
+    },
+    "hn-2-source": {
+      "type": "Link",
+      "props": {
+        "label": "Original source (cyberinsider.com)",
+        "href": "https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push/"
+      }
+    },
+    "hn-3-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-3-link",
+        "hn-3-desc",
+        "hn-3-source",
+        "hn-3-comment"
+      ]
+    },
+    "hn-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Meta AI is making employees miserable",
+        "href": "https://news.ycombinator.com/item?id=48077126",
+        "source": "[AI] HN · 375pts · 402c",
+        "score": "375"
+      }
+    },
+    "hn-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Forced AI adoption across Meta products driving morale decline and skill-atrophy concerns."
+      }
+    },
+    "hn-3-source": {
+      "type": "Link",
+      "props": {
+        "label": "Original source (nytimes.com)",
+        "href": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html"
+      }
+    },
+    "hn-3-comment": {
+      "type": "Text",
+      "props": {
+        "text": "HN: \"corporations adopt open source while keeping control — same playbook\" — hamdingers",
+        "variant": "caption"
+      }
+    },
+    "hn-4-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-4-link",
+        "hn-4-desc",
+        "hn-4-source"
+      ]
+    },
+    "hn-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Claude Code: unreasonable effectiveness of HTML",
+        "href": "https://news.ycombinator.com/item?id=48071940",
+        "source": "[AI] HN · 451pts · 252c",
+        "score": "451"
+      }
+    },
+    "hn-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "HTML simplicity is the AI-coding sweet spot — less structure, fewer failure modes."
+      }
+    },
+    "hn-4-source": {
+      "type": "Link",
+      "props": {
+        "label": "Original source (twitter.com/trq212)",
+        "href": "https://twitter.com/trq212/status/2052809885763747935"
+      }
+    },
+    "hn-5-wrapper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-5-link",
+        "hn-5-desc",
+        "hn-5-source"
+      ]
+    },
+    "hn-5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Internet Archive Switzerland",
+        "href": "https://news.ycombinator.com/item?id=48074265",
+        "source": "[Rights] HN · 593pts · 91c",
+        "score": "593"
+      }
+    },
+    "hn-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "IA expanding to Swiss jurisdiction — shielding preservation mission from US legal exposure."
+      }
+    },
+    "hn-5-source": {
+      "type": "Link",
+      "props": {
+        "label": "Original source (blog.archive.org)",
+        "href": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/"
+      }
+    }
+  }
+}

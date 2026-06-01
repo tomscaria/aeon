@@ -4,31 +4,29 @@
 
 | ID | Title | Severity | Category | Detected | Affected Skills |
 |----|-------|----------|----------|----------|-----------------|
-| [ISS-001](ISS-001.md) | vuln-scanner cannot run — all scanners blocked by sandbox, no prefetch script | high | sandbox-limitation | 2026-04-25 | vuln-scanner |
 | [ISS-002](ISS-002.md) | vibecoding-digest cannot run — Reddit blocks GHA IPs, WebFetch also refused | high | sandbox-limitation | 2026-04-25 | vibecoding-digest |
 | [ISS-003](ISS-003.md) | repo-pulse: no_file_match — articles/repo-pulse-*.md absent | high | missing-secret-or-cron | 2026-04-26 | repo-pulse |
 | [ISS-005](ISS-005.md) | fork-fleet: no_file_match — articles/fork-fleet-*.md absent | high | missing-secret-or-cron | 2026-04-26 | fork-fleet |
 | [ISS-007](ISS-007.md) | hn-digest: no_file_match — evals.json key likely mismatches hacker-news-digest | high | output-format | 2026-04-26 | hn-digest |
-| [ISS-008](ISS-008.md) | rss-digest: no_file_match — articles/rss-digest-*.md absent | high | missing-secret-or-cron | 2026-04-26 | rss-digest |
 | [ISS-009](ISS-009.md) | polymarket: no_file_match — evals.json key likely mismatches monitor-polymarket | high | output-format | 2026-04-26 | polymarket |
 | [ISS-010](ISS-010.md) | token-alert: no_file_match — absent despite cron-state success | high | output-format | 2026-04-26 | token-alert |
 | [ISS-011](ISS-011.md) | skill-health: no_file_match — absent despite cron-state success | high | output-format | 2026-04-26 | skill-health |
 | [ISS-012](ISS-012.md) | reddit-digest cannot run on JSON API — Reddit blocks GHA IPs (same root as ISS-002) | high | sandbox-limitation | 2026-04-26 | reddit-digest |
 | [ISS-013](ISS-013.md) | Mass skill failure 2026-04-26 23:53-58Z — 50+ skills exit with 0 tokens consumed | critical | unknown | 2026-04-27 | 53 skills (see file) |
-| [ISS-014](ISS-014.md) | reply-maker cannot source fresh tweets — XAI prefetch case missing, WebFetch x.com paywall | high | sandbox-limitation | 2026-04-27 | reply-maker |
 | [ISS-015](ISS-015.md) | messages.yml run-block interpolates toJson(github.event.client_payload.message) into single-quoted echo | high | quality-regression | 2026-04-27 | workflow:.github/workflows/messages.yml |
 | [ISS-017](ISS-017.md) | GHA cron-tick gap — multiple slots silently skipped, escalating across 05-01 | high | unknown | 2026-05-01 | morning chain + 13:00/13:30/14:00 families (20 skills) |
 | [ISS-018](ISS-018.md) | heartbeat: forbidden_pattern:${var} in memory/logs/*.md | high | prompt-bug | 2026-05-03 | heartbeat |
 | [ISS-019](ISS-019.md) | repo-article: missing_pattern:Aeon|aeon in articles/repo-article-2026-05-02.md | high | prompt-bug | 2026-05-03 | repo-article |
 | [ISS-020](ISS-020.md) | Mass skill failure 2026-05-06 15:32-35Z — 17 skills failed in 4-min window with non-zero token usage (post-execution state-write failure pattern) | critical | unknown | 2026-05-06 | 17 skills (see file) |
-| [ISS-021](ISS-021.md) | ADR-093 outputs/{skill}/{date}.json contract never shipped — falsifier expired 14 days | critical | plan-drift | 2026-05-31 | monitor-polymarket, polymarket-comments, narrative-tracker |
+| [ISS-021](ISS-021.md) | cost-report 4 consecutive failures — skill runs then exits with error | critical | unknown | 2026-05-11 | cost-report |
 | [ISS-022](ISS-022.md) | ADR-095 OLLAMA_FULL=1 velocity falsifier fired — flag not in production env (10 days past target) | high | plan-drift | 2026-05-31 | swarm-fund-mvp |
 | [ISS-023](ISS-023.md) | feat/fs-adoption branch stranded — 27 commits orphaned by 2026-05-16 history rewrite | critical | plan-drift | 2026-05-31 | swarm-fund-mvp |
 | [ISS-024](ISS-024.md) | ADR-096+ resolution-text-ingest — no slot opened, 37+ days flagged | critical | plan-drift | 2026-05-31 | swarm-fund-mvp |
-| [ISS-025](ISS-025.md) | MEMORY.md staleness pattern — 23-day gap created phantom findings on already-resolved work | high | plan-drift | 2026-05-31 | reflect, consolidate-memory, plan-adherence |
+| [ISS-025](ISS-025.md) | MEMORY.md staleness pattern — 23-day gap created phantom findings on already-resolved work | high | quality-regression | 2026-05-31 | reflect, consolidate-memory, plan-adherence |
 | [ISS-026](ISS-026.md) | ADR-106 swarm-triage canary at 5% — 78% eval (below 80% gate), no graduation criteria defined | medium | plan-drift | 2026-05-31 | swarm-fund-mvp |
 | [ISS-027](ISS-027.md) | chain-runner.yml dispatch_skill DEGRADED day 35+ — 1-line echo patch still pending | high | plan-drift | 2026-05-31 | chain-runner, morning-brief, evening-rollup, weekly-grant-update |
-| [ISS-028](ISS-028.md) | Grant pipeline stalled — zero submission markers in 30+ days, six open applications | high | plan-drift | 2026-05-31 | grants |
+| [ISS-028](ISS-028.md) | Grant pipeline stalled — zero submission markers in 30+ days, six open applications | high | unknown | 2026-05-31 | grants |
+| [ISS-029](ISS-029.md) | ADR-093 outputs/{skill}/{date}.json contract never shipped — falsifier expired 14 days | critical | plan-drift | 2026-05-31 | monitor-polymarket, polymarket-comments, narrative-tracker |
 
 ## Resolved
 
@@ -36,3 +34,6 @@
 |----|-------|----------|--------|----------|
 | [ISS-004](ISS-004.md) | push-recap: no_file_match — articles/push-recap-*.md absent | high | — | 2026-05-03 |
 | [ISS-006](ISS-006.md) | cost-report: no_file_match — articles/cost-report-*.md absent | high | — | 2026-05-03 |
+| [ISS-001](ISS-001.md) | vuln-scanner cannot run — all scanners blocked by sandbox, no prefetch script | high | — | 2026-05-09 |
+| [ISS-008](ISS-008.md) | rss-digest: no_file_match — articles/rss-digest-*.md absent | high | — | 2026-05-09 |
+| [ISS-014](ISS-014.md) | reply-maker cannot source fresh tweets — XAI prefetch case missing, WebFetch x.com paywall | high | PR #156 | 2026-05-09 |

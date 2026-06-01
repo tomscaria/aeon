@@ -1,20 +1,18 @@
+TOKEN_ALERT_OK. No anomalies detected.
+
+**Current prices (2026-05-12):**
+
+| Token | Price | 24h Change | DoD vs 05-10 |
+|-------|-------|------------|--------------|
+| BTC | $80,794 | -0.48% | -0.10% |
+| ETH | $2,287.40 | -2.00% | -1.52% |
+| SOL | $95.10 | -0.08% | +1.90% |
+
+All under the 10% alert threshold. No 3x volume spikes — BTC volume elevated (~$31.9B) but attributable to Saylor sale signal and CME vol futures news, not a structural spike. No notification sent. Prices logged to `memory/logs/2026-05-12.md`.
+
 ## Summary
 
-Executed `skills/token-alert/SKILL.md` for tracked tokens BTC/ETH/SOL (10% threshold).
-
-**Result: TOKEN_ALERT_OK** — no anomalies; no notification dispatched.
-
-**Spot pulls (CoinGecko, direct curl OK — WebFetch fallback unused):**
-- BTC $80,034 (-1.34% 24h), vol $39.42B
-- ETH $2,285.16 (-1.95% 24h), vol $22.18B
-- SOL $88.46 (-1.41% 24h), vol $3.30B
-
-**Checks:**
-- 24h price changes: all under 10% threshold (max ETH -1.95%).
-- Volume vs 05-07 print: BTC 1.09x, ETH 1.11x, SOL 0.80x — none ≥3x.
-- DoD: BTC -1.01% / ETH -1.91% / SOL -1.22% — risk-off day 2 post 05-06 risk-on peak.
-
-**Files modified:**
-- `memory/logs/2026-05-08.md` — appended `### token-alert (2026-05-08)` block with prices, DoD, volume ratios, and cross-skill note (BTC sub-$80k ~50bps away, KXBTC/SnapMarkets/HIP-4 strike-density watch).
-
-**Follow-up:** None required. BTC sub-$80k watch for tomorrow's run is implicitly on the table given the round-number proximity.
+- Fetched CoinGecko spot prices for BTC / ETH / SOL
+- Compared against 05-10 token-alert log (last prior run; no 05-11 entry)
+- No 24h price changes exceeded 10%; no 3x volume spikes
+- TOKEN_ALERT_OK — appended log entry to `memory/logs/2026-05-12.md`

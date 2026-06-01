@@ -7,5 +7,5 @@
 KXFED-26DEC
 KXFED-27APR
 
-# BTC weekly price range (update each week — next: KXBTC-26MAY0817, then KXBTC-26MAY1517)
-KXBTC-26MAY0817
+# BTC weekly price range (update each week — next: KXBTC-26MAY1517, then KXBTC-26MAY2217)
+KXBTC-26MAY1517

@@ -109,5 +109,5 @@ Consumers SHOULD:
 ## History
 
 - **2026-05-03 (ADR-093)** — Contract first specified in `swarm-fund-mvp/DECISIONS.md`. Producer side never shipped.
-- **2026-05-31 (ISS-021)** — Producer side shipped on aeon (this commit). Three skills (monitor-polymarket, polymarket-comments, narrative-tracker) now emit conforming JSON.
+- **2026-05-31 (ISS-029, originally filed as ISS-021 then renumbered during PR merge)** — Producer side shipped on aeon (this commit). Three skills (monitor-polymarket, polymarket-comments, narrative-tracker) now emit conforming JSON.
 - **2026-05-31** — This doc written to make the contract portable for prysm-squads-mvp adoption (planned: lore-coins-monitor as the bridge skill).

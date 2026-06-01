@@ -183,3 +183,11 @@ All three endpoints are unauthenticated. Plain curl from the sandbox should work
 ## Output
 
 End with a `## Summary` block: createdAt, windowHours, NEW count, bridge call, which files were updated.
+
+## Sandbox note
+
+All three endpoints are unauthenticated. Use curl to AIXBT endpoints; if sandbox networking fails, fall back to WebFetch on the same URLs.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

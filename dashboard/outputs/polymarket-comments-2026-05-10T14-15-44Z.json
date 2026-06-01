@@ -1,0 +1,951 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "polymarket comments",
+        "description": "2026-05-10 · politics + crypto · narrative-shift signals · info-asymmetry alpha"
+      },
+      "children": [
+        "market_1",
+        "sep_1",
+        "market_2",
+        "sep_2",
+        "market_3",
+        "sep_3",
+        "market_4",
+        "sep_4",
+        "market_5"
+      ]
+    },
+    "market_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_m1",
+        "stats_m1",
+        "alert_m1",
+        "comments_m1",
+        "cal_m1"
+      ]
+    },
+    "h_m1": {
+      "type": "Heading",
+      "props": {
+        "text": "US x Iran permanent peace deal by May 15?",
+        "level": "h2"
+      }
+    },
+    "stats_m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_m1_yes",
+        "stat_m1_vol"
+      ]
+    },
+    "stat_m1_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "14.4%"
+      }
+    },
+    "stat_m1_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$1.19m"
+      }
+    },
+    "alert_m1": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "LIVE",
+        "message": "Iran submitted formal proposal today ~12:42 UTC (IRNA). Proposal \"focused on ending the war\" but explicitly excludes nuclear issue. May-31 horizon repriced +7pp (24.5%→31.5%) on the news."
+      }
+    },
+    "comments_m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "c1_1",
+        "c1_2",
+        "c1_3",
+        "c1_4"
+      ]
+    },
+    "c1_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c1_1_head",
+        "c1_1_text"
+      ]
+    },
+    "c1_1_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c1_1_user",
+        "c1_1_meta"
+      ]
+    },
+    "c1_1_user": {
+      "type": "Text",
+      "props": {
+        "text": "ignorant-case",
+        "variant": "lead"
+      }
+    },
+    "c1_1_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "05-10, fresh",
+        "variant": "outline"
+      }
+    },
+    "c1_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "UMA clause requires \"Permanent Peace on lasting basis.\" Nuclear-exempt security arrangement doesn't clear the bar. \"Core conflicts remain unresolved.\"",
+        "variant": "body"
+      }
+    },
+    "c1_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c1_2_head",
+        "c1_2_text"
+      ]
+    },
+    "c1_2_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c1_2_user",
+        "c1_2_meta"
+      ]
+    },
+    "c1_2_user": {
+      "type": "Text",
+      "props": {
+        "text": "ill-ultimatum",
+        "variant": "lead"
+      }
+    },
+    "c1_2_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "05-10",
+        "variant": "outline"
+      }
+    },
+    "c1_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Iran's proposal doesn't address nuclear issue, US won't accept without it\" — the precise asymmetry.",
+        "variant": "body"
+      }
+    },
+    "c1_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c1_3_head",
+        "c1_3_text"
+      ]
+    },
+    "c1_3_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c1_3_user",
+        "c1_3_meta"
+      ]
+    },
+    "c1_3_user": {
+      "type": "Text",
+      "props": {
+        "text": "morenaji",
+        "variant": "lead"
+      }
+    },
+    "c1_3_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "05-07 • 9 reactions • citation",
+        "variant": "secondary"
+      }
+    },
+    "c1_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Former DefSec Esper/Yahoo Finance — \"real deal months away, no unconditional surrender.\" Called Yes buyers \"exit liquidity for whales.\"",
+        "variant": "body"
+      }
+    },
+    "c1_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c1_4_head",
+        "c1_4_text"
+      ]
+    },
+    "c1_4_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c1_4_user",
+        "c1_4_meta"
+      ]
+    },
+    "c1_4_user": {
+      "type": "Text",
+      "props": {
+        "text": "grimy-formicarium",
+        "variant": "lead"
+      }
+    },
+    "c1_4_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "04-27 • 8 reactions",
+        "variant": "secondary"
+      }
+    },
+    "c1_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"I'm from Iran but in Romania — Iran never wants a deal from USA.\" Persian-national perspective, persistent holder.",
+        "variant": "body"
+      }
+    },
+    "cal_m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cal_m1_label",
+        "cal_m1_text"
+      ]
+    },
+    "cal_m1_label": {
+      "type": "Text",
+      "props": {
+        "text": "CalibrationGap",
+        "variant": "lead"
+      }
+    },
+    "cal_m1_text": {
+      "type": "Text",
+      "props": {
+        "text": "May-15 YES 14.4% vs May-11 YES 3.95% = 10.45pp timing premium for 4-5 days of negotiation on a non-nuclear proposal. Nuclear exclusion is the clause-text trap.",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_m2",
+        "stats_m2",
+        "alert_m2_top",
+        "comments_m2",
+        "cal_m2"
+      ]
+    },
+    "h_m2": {
+      "type": "Heading",
+      "props": {
+        "text": "Russia x Ukraine ceasefire by May 31?",
+        "level": "h2"
+      }
+    },
+    "stats_m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_m2_yes",
+        "stat_m2_vol",
+        "badge_dispute"
+      ]
+    },
+    "stat_m2_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "99.95%"
+      }
+    },
+    "stat_m2_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$15.8m"
+      }
+    },
+    "badge_dispute": {
+      "type": "Badge",
+      "props": {
+        "text": "UMA DISPUTE LIVE",
+        "variant": "destructive"
+      }
+    },
+    "alert_m2_top": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "API returned empty for fresh comments today (05-09 data available)"
+      }
+    },
+    "comments_m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "c2_1",
+        "c2_2"
+      ]
+    },
+    "c2_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c2_1_head",
+        "c2_1_text"
+      ]
+    },
+    "c2_1_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c2_1_user",
+        "c2_1_meta"
+      ]
+    },
+    "c2_1_user": {
+      "type": "Text",
+      "props": {
+        "text": "chief-cry",
+        "variant": "lead"
+      }
+    },
+    "c2_1_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "05-09 • top take",
+        "variant": "secondary"
+      }
+    },
+    "c2_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Zelensky's statement: for humanitarian purposes and limited only to the Red Square.\" Resolution clause excludes humanitarian/limited-scope pauses.",
+        "variant": "body"
+      }
+    },
+    "c2_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c2_2_head",
+        "c2_2_text"
+      ]
+    },
+    "c2_2_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c2_2_user",
+        "c2_2_meta"
+      ]
+    },
+    "c2_2_user": {
+      "type": "Text",
+      "props": {
+        "text": "porx / o-x",
+        "variant": "lead"
+      }
+    },
+    "c2_2_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "31 reactions each",
+        "variant": "secondary"
+      }
+    },
+    "c2_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "April 2025 precedent — identical structure, ruled NO.",
+        "variant": "body"
+      }
+    },
+    "cal_m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cal_m2_label",
+        "cal_m2_text"
+      ]
+    },
+    "cal_m2_label": {
+      "type": "Text",
+      "props": {
+        "text": "CalibrationGap",
+        "variant": "lead"
+      }
+    },
+    "cal_m2_text": {
+      "type": "Text",
+      "props": {
+        "text": "June-30 horizon at identical 99.95% carries same clause, unpriced twin. Biggest P&L asymmetry on platform. UMA window open.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_m3",
+        "stats_m3",
+        "alert_m3",
+        "comments_m3",
+        "cal_m3"
+      ]
+    },
+    "h_m3": {
+      "type": "Heading",
+      "props": {
+        "text": "Hantavirus pandemic in 2026?",
+        "level": "h2"
+      }
+    },
+    "stats_m3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_m3_yes",
+        "stat_m3_vol",
+        "stat_m3_move"
+      ]
+    },
+    "stat_m3_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "6.65%"
+      }
+    },
+    "stat_m3_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$1.07m"
+      }
+    },
+    "stat_m3_move": {
+      "type": "Stat",
+      "props": {
+        "label": "Move (today)",
+        "value": "6.65%",
+        "delta": "9.65% → 6.65%",
+        "trend": "down"
+      }
+    },
+    "alert_m3": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Repriced today despite two new Spain cases 1,000+ km apart"
+      }
+    },
+    "comments_m3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "c3_1",
+        "c3_2",
+        "c3_3"
+      ]
+    },
+    "c3_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c3_1_head",
+        "c3_1_text"
+      ]
+    },
+    "c3_1_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c3_1_user",
+        "c3_1_meta"
+      ]
+    },
+    "c3_1_user": {
+      "type": "Text",
+      "props": {
+        "text": "giving-forte",
+        "variant": "lead"
+      }
+    },
+    "c3_1_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "05-09 • 10 reactions",
+        "variant": "secondary"
+      }
+    },
+    "c3_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"This whole ship infection narrative is too cinematic to not be planned. WHO will likely declare pandemic in <10 days.\" Conspiracy-frame long — also most analytically grounded NO voice on Andes-virus close-contact mechanism. Self-contradictory actor.",
+        "variant": "body"
+      }
+    },
+    "c3_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c3_2_head",
+        "c3_2_text"
+      ]
+    },
+    "c3_2_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c3_2_user",
+        "c3_2_meta"
+      ]
+    },
+    "c3_2_user": {
+      "type": "Text",
+      "props": {
+        "text": "measly-homogenate",
+        "variant": "lead"
+      }
+    },
+    "c3_2_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "05-09 • 8 reactions",
+        "variant": "secondary"
+      }
+    },
+    "c3_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Ya'll realize the World Cup is perfect for this to spread?\" North America venue = only credible YES catalyst.",
+        "variant": "body"
+      }
+    },
+    "c3_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c3_3_head",
+        "c3_3_text"
+      ]
+    },
+    "c3_3_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c3_3_user",
+        "c3_3_meta"
+      ]
+    },
+    "c3_3_user": {
+      "type": "Text",
+      "props": {
+        "text": "imaginary-confusion",
+        "variant": "lead"
+      }
+    },
+    "c3_3_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "05-08 • 10 reactions",
+        "variant": "secondary"
+      }
+    },
+    "c3_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"What if somebody sick bets YES and purposefully spreads this disease?\" — moral hazard flag.",
+        "variant": "body"
+      }
+    },
+    "cal_m3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cal_m3_label",
+        "cal_m3_text"
+      ]
+    },
+    "cal_m3_label": {
+      "type": "Text",
+      "props": {
+        "text": "CalibrationGap",
+        "variant": "lead"
+      }
+    },
+    "cal_m3_text": {
+      "type": "Text",
+      "props": {
+        "text": "-3pp despite Spain geographic spread = market tracking mechanism correctly. WHO \"low risk\" holds.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_m4",
+        "stats_m4",
+        "alert_m4",
+        "comments_m4",
+        "cal_m4"
+      ]
+    },
+    "h_m4": {
+      "type": "Heading",
+      "props": {
+        "text": "Who will be confirmed as Fed Chair?",
+        "level": "h2"
+      }
+    },
+    "stats_m4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_m4_warsh",
+        "stat_m4_vol"
+      ]
+    },
+    "stat_m4_warsh": {
+      "type": "Stat",
+      "props": {
+        "label": "Warsh",
+        "value": "~99.85%"
+      }
+    },
+    "stat_m4_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$562k"
+      }
+    },
+    "alert_m4": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Senate floor vote expected this week (May 11)"
+      }
+    },
+    "comments_m4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "c4_1",
+        "c4_2"
+      ]
+    },
+    "c4_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c4_1_head",
+        "c4_1_text"
+      ]
+    },
+    "c4_1_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c4_1_user",
+        "c4_1_meta"
+      ]
+    },
+    "c4_1_user": {
+      "type": "Text",
+      "props": {
+        "text": "grand-gum",
+        "variant": "lead"
+      }
+    },
+    "c4_1_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "05-08",
+        "variant": "outline"
+      }
+    },
+    "c4_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"cloture is our last line of defence\" — 60-vote procedural threshold. Only structural risk to Warsh not in price.",
+        "variant": "body"
+      }
+    },
+    "c4_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c4_2_head",
+        "c4_2_text"
+      ]
+    },
+    "c4_2_head": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "c4_2_user",
+        "c4_2_meta"
+      ]
+    },
+    "c4_2_user": {
+      "type": "Text",
+      "props": {
+        "text": "silver-violin",
+        "variant": "lead"
+      }
+    },
+    "c4_2_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "05-09",
+        "variant": "outline"
+      }
+    },
+    "c4_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"This market has not adjusted to the latest data\" — posted near floor-vote news.",
+        "variant": "body"
+      }
+    },
+    "cal_m4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cal_m4_label",
+        "cal_m4_text"
+      ]
+    },
+    "cal_m4_label": {
+      "type": "Text",
+      "props": {
+        "text": "CalibrationGap",
+        "variant": "lead"
+      }
+    },
+    "cal_m4_text": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh at ~100% prices zero cloture risk. June 17-18 FOMC is the post-confirmation falsifier.",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_m5",
+        "stats_m5",
+        "alert_m5"
+      ]
+    },
+    "h_m5": {
+      "type": "Heading",
+      "props": {
+        "text": "Will Bitcoin hit $150k by June 30?",
+        "level": "h2"
+      }
+    },
+    "stats_m5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_m5_yes",
+        "stat_m5_vol"
+      ]
+    },
+    "stat_m5_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "1.35%"
+      }
+    },
+    "stat_m5_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$5.82m"
+      }
+    },
+    "alert_m5": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "No Signal",
+        "message": "Crypto comments dead 7th+ consecutive day. Birthday-bot cluster confirmed: alice2002 posted identical \"it's my bday anyone?\" on 04-21, 04-27, 05-01, 05-04. Cambodia phone scam (+855) in thread. aniket04 (8 reactions) flagging spam directly. Crypto vertical substituted with full politics load per MEMORY.md precedent."
+      }
+    }
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-05-10"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_status",
+        "sep_1",
+        "section_systemic",
+        "sep_2",
+        "section_degraded",
+        "sep_3",
+        "section_warning",
+        "sep_4",
+        "section_stats"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Health Status",
+        "message": "DEGRADED (21 skills)"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_systemic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_systemic",
+        "issue_013",
+        "issue_020",
+        "chain_runner"
+      ]
+    },
+    "heading_systemic": {
+      "type": "Heading",
+      "props": {
+        "text": "SYSTEMIC",
+        "level": "h3"
+      }
+    },
+    "issue_013": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-013 zero-token burst 2026-04-26 — 21 enabled DEGRADED skills; 30-run window decay ~2026-05-15"
+      }
+    },
+    "issue_020": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-020 state-write burst 2026-05-06 — all recovered; root cause unresolved"
+      }
+    },
+    "chain_runner": {
+      "type": "Text",
+      "props": {
+        "text": "chain-runner dispatch_skill() DEGRADED day 14 — chain:morning-brief failed 07:32Z; chain:evening-rollup last failed 2026-05-08"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_degraded": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_degraded",
+        "degraded_items"
+      ]
+    },
+    "heading_degraded": {
+      "type": "Heading",
+      "props": {
+        "text": "DEGRADED (21)",
+        "level": "h3"
+      }
+    },
+    "degraded_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deg_item_1",
+        "deg_item_2",
+        "deg_item_3",
+        "deg_item_4",
+        "deg_item_5",
+        "deg_item_more"
+      ]
+    },
+    "deg_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_deg_1",
+        "stat_deg_1",
+        "badge_investigate_1"
+      ]
+    },
+    "badge_deg_1": {
+      "type": "Badge",
+      "props": {
+        "text": "workflow-security-audit",
+        "variant": "destructive"
+      }
+    },
+    "stat_deg_1": {
+      "type": "Text",
+      "props": {
+        "text": "sr=15%"
+      }
+    },
+    "badge_investigate_1": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "deg_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_deg_2",
+        "stat_deg_2",
+        "badge_investigate_2"
+      ]
+    },
+    "badge_deg_2": {
+      "type": "Badge",
+      "props": {
+        "text": "channel-recap",
+        "variant": "destructive"
+      }
+    },
+    "stat_deg_2": {
+      "type": "Text",
+      "props": {
+        "text": "sr=21%"
+      }
+    },
+    "badge_investigate_2": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "deg_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_deg_3",
+        "stat_deg_3",
+        "badge_investigate_3"
+      ]
+    },
+    "badge_deg_3": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "destructive"
+      }
+    },
+    "stat_deg_3": {
+      "type": "Text",
+      "props": {
+        "text": "sr=32%"
+      }
+    },
+    "badge_investigate_3": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "deg_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_deg_4",
+        "stat_deg_4",
+        "badge_investigate_4"
+      ]
+    },
+    "badge_deg_4": {
+      "type": "Badge",
+      "props": {
+        "text": "token-report",
+        "variant": "destructive"
+      }
+    },
+    "stat_deg_4": {
+      "type": "Text",
+      "props": {
+        "text": "sr=37%"
+      }
+    },
+    "badge_investigate_4": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "deg_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_deg_5",
+        "stat_deg_5",
+        "badge_investigate_5"
+      ]
+    },
+    "badge_deg_5": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "destructive"
+      }
+    },
+    "stat_deg_5": {
+      "type": "Text",
+      "props": {
+        "text": "sr=41%"
+      }
+    },
+    "badge_investigate_5": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "outline"
+      }
+    },
+    "deg_item_more": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_more",
+        "link_more"
+      ]
+    },
+    "text_more": {
+      "type": "Text",
+      "props": {
+        "text": "+16 more —"
+      }
+    },
+    "link_more": {
+      "type": "Link",
+      "props": {
+        "label": "see memory/issues/INDEX.md",
+        "href": "memory/issues/INDEX.md"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_warning": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_warning",
+        "warning_items"
+      ]
+    },
+    "heading_warning": {
+      "type": "Heading",
+      "props": {
+        "text": "WARNING (6)",
+        "level": "h3"
+      }
+    },
+    "warning_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "warn_item_1",
+        "warn_item_2",
+        "warn_item_3",
+        "warn_item_4",
+        "warn_item_5",
+        "warn_item_6"
+      ]
+    },
+    "warn_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_warn_1",
+        "stat_warn_1"
+      ]
+    },
+    "badge_warn_1": {
+      "type": "Badge",
+      "props": {
+        "text": "agent-buzz",
+        "variant": "secondary"
+      }
+    },
+    "stat_warn_1": {
+      "type": "Text",
+      "props": {
+        "text": "sr=64%"
+      }
+    },
+    "warn_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_warn_2",
+        "stat_warn_2"
+      ]
+    },
+    "badge_warn_2": {
+      "type": "Badge",
+      "props": {
+        "text": "goal-tracker",
+        "variant": "secondary"
+      }
+    },
+    "stat_warn_2": {
+      "type": "Text",
+      "props": {
+        "text": "sr=64%"
+      }
+    },
+    "warn_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_warn_3",
+        "stat_warn_3"
+      ]
+    },
+    "badge_warn_3": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "secondary"
+      }
+    },
+    "stat_warn_3": {
+      "type": "Text",
+      "props": {
+        "text": "sr=73%"
+      }
+    },
+    "warn_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_warn_4",
+        "stat_warn_4"
+      ]
+    },
+    "badge_warn_4": {
+      "type": "Badge",
+      "props": {
+        "text": "paper-pick",
+        "variant": "secondary"
+      }
+    },
+    "stat_warn_4": {
+      "type": "Text",
+      "props": {
+        "text": "sr=62%"
+      }
+    },
+    "warn_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_warn_5",
+        "stat_warn_5"
+      ]
+    },
+    "badge_warn_5": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "secondary"
+      }
+    },
+    "stat_warn_5": {
+      "type": "Text",
+      "props": {
+        "text": "sr=60%"
+      }
+    },
+    "warn_item_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_warn_6",
+        "stat_warn_6"
+      ]
+    },
+    "badge_warn_6": {
+      "type": "Badge",
+      "props": {
+        "text": "write-tweet",
+        "variant": "secondary"
+      }
+    },
+    "stat_warn_6": {
+      "type": "Text",
+      "props": {
+        "text": "sr=62%"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary_stats",
+        "delta_section"
+      ]
+    },
+    "summary_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stat_healthy",
+        "stat_no_data",
+        "stat_open_issues",
+        "stat_resolved"
+      ]
+    },
+    "stat_healthy": {
+      "type": "Stat",
+      "props": {
+        "label": "HEALTHY",
+        "value": "12"
+      }
+    },
+    "stat_no_data": {
+      "type": "Stat",
+      "props": {
+        "label": "NO DATA",
+        "value": "13"
+      }
+    },
+    "stat_open_issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "14"
+      }
+    },
+    "stat_resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    },
+    "delta_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_delta_heading",
+        "text_delta_1",
+        "text_delta_2",
+        "text_delta_3"
+      ]
+    },
+    "text_delta_heading": {
+      "type": "Text",
+      "props": {
+        "text": "State delta vs 2026-05-09:",
+        "variant": "lead"
+      }
+    },
+    "text_delta_1": {
+      "type": "Text",
+      "props": {
+        "text": "skill-health DEGRADED→WARNING (sr 14/24→15/25)"
+      }
+    },
+    "text_delta_2": {
+      "type": "Text",
+      "props": {
+        "text": "config-audit NO_DATA→HEALTHY (first run 16:29Z)"
+      }
+    },
+    "text_delta_3": {
+      "type": "Text",
+      "props": {
+        "text": "NO DATA (13): auto-workflow, autoresearch, create-skill, deploy-prototype, distribute-tokens, last30, monetize-revenant, onboard, session-learner, skill-repair, spawn-instance, task-planner, tool-builder — DISPATCH-SKILL"
+      }
+    }
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Goal Tracker — 2026-05-10"
+      },
+      "children": [
+        "metadata_stack",
+        "sep_1",
+        "needs_attention_alert",
+        "sep_2",
+        "blocked_section",
+        "sep_3",
+        "on_track_section",
+        "sep_4",
+        "done_section",
+        "sep_5",
+        "sources_section"
+      ]
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sync_text",
+        "summary_text",
+        "summary_stats"
+      ]
+    },
+    "sync_text": {
+      "type": "Text",
+      "props": {
+        "text": "Stale trading context: last-sync 31h ago",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "16 goals — 0 at risk, 1 needs attention, 12 on track, 3 blocked, 4 done (→ flat)"
+      },
+      "children": []
+    },
+    "summary_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 6,
+        "gap": "md"
+      },
+      "children": [
+        "stat_total",
+        "stat_risk",
+        "stat_attention",
+        "stat_track",
+        "stat_blocked",
+        "stat_done"
+      ]
+    },
+    "stat_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "16"
+      },
+      "children": []
+    },
+    "stat_risk": {
+      "type": "Stat",
+      "props": {
+        "label": "At Risk",
+        "value": "0"
+      },
+      "children": []
+    },
+    "stat_attention": {
+      "type": "Stat",
+      "props": {
+        "label": "Needs Attention",
+        "value": "1"
+      },
+      "children": []
+    },
+    "stat_track": {
+      "type": "Stat",
+      "props": {
+        "label": "On Track",
+        "value": "12"
+      },
+      "children": []
+    },
+    "stat_blocked": {
+      "type": "Stat",
+      "props": {
+        "label": "Blocked",
+        "value": "3"
+      },
+      "children": []
+    },
+    "stat_done": {
+      "type": "Stat",
+      "props": {
+        "label": "Done",
+        "value": "4"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "needs_attention_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "NEEDS ATTENTION",
+        "message": "swarm-fund-mvp 72h merge-cadence test — deadline 05-09 passed, 0d idle (→ flat; queue stagnation confirmed by two heartbeats today). Archive this falsifier; open queue-stagnation mitigation in next self-improve pass.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "blocked_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "blocked_heading",
+        "blocked_item_1",
+        "blocked_item_2",
+        "blocked_item_3"
+      ]
+    },
+    "blocked_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BLOCKED",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "blocked_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "blocked_1_title",
+        "blocked_1_action"
+      ]
+    },
+    "blocked_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "chain-runner.yml dispatch_skill() — Day 14 idle, waiting on operator workflow patch"
+      },
+      "children": []
+    },
+    "blocked_1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Operator applies dispatch_skill() echo patch (add echo before each gh workflow run in chain-runner.yml).",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "blocked_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "blocked_2_title",
+        "blocked_2_action"
+      ]
+    },
+    "blocked_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Add Trusted Authors to memory/watched-repos.md — waiting on operator edit"
+      },
+      "children": []
+    },
+    "blocked_2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Operator adds aaronjmars (+ optionally tomscaria) to Trusted Authors; unblocks auto-merge.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "blocked_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "blocked_3_title",
+        "blocked_3_action"
+      ]
+    },
+    "blocked_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "Operator config sweep — waiting on operator"
+      },
+      "children": []
+    },
+    "blocked_3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Populate memory/on-chain-watches.yml with one address; add var: to list-digest in aeon.yml.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "on_track_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "on_track_heading",
+        "on_track_item_1",
+        "on_track_item_2",
+        "on_track_item_3",
+        "on_track_item_4",
+        "on_track_item_5",
+        "on_track_item_6",
+        "on_track_item_7",
+        "on_track_item_8",
+        "on_track_item_9",
+        "on_track_item_10",
+        "on_track_item_11",
+        "on_track_item_12"
+      ]
+    },
+    "on_track_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ON TRACK",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "on_track_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "Open ADR-096 for resolution-text-ingest — 0d idle, heavy evidence build (→ flat) [14+ days no ADR slot; SCI sci-entry-gate ADR now ships first per 05-10 paper-pick]"
+      },
+      "children": []
+    },
+    "on_track_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "Cost-discipline sonnet downgrade pass — 0d idle (→ flat) [still ~$2,696/mo vs $40/wk; no downgrade action taken]"
+      },
+      "children": []
+    },
+    "on_track_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-runners DEEP-LIQ floor patch — 0d idle, 8+ evidence runs ready for self-improve (→ flat)"
+      },
+      "children": []
+    },
+    "on_track_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-fund-mvp tick-broker falsifier — 0d idle, 7 days to 2026-05-17 deadline (→ flat)"
+      },
+      "children": []
+    },
+    "on_track_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "Pre-Apex push: monitor-polymarket + polymarket-comments — 0d idle, both ran today (→ flat) [Revenant 29/100 stale; no fresh revenant_agents data]"
+      },
+      "children": []
+    },
+    "on_track_item_6": {
+      "type": "Text",
+      "props": {
+        "text": "Hermes-arb gate adjustment: min-gap 7pp → ~7.5-8pp — 0d idle (→ flat)"
+      },
+      "children": []
+    },
+    "on_track_item_7": {
+      "type": "Text",
+      "props": {
+        "text": "swarm-fund-mvp OLLAMA_FULL=1 rollout falsifier — 0d idle, 11 days to 2026-05-21 deadline (→ flat)"
+      },
+      "children": []
+    },
+    "on_track_item_8": {
+      "type": "Text",
+      "props": {
+        "text": "skill-evals key fixes (PR #5) — 0d idle, PR stalled ~13d (→ flat)"
+      },
+      "children": []
+    },
+    "on_track_item_9": {
+      "type": "Text",
+      "props": {
+        "text": "code-health Day-7 carry — 1d idle (→ flat)"
+      },
+      "children": []
+    },
+    "on_track_item_10": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-018/ISS-019 prompt-bug fixes — 0d idle (→ flat)"
+      },
+      "children": []
+    },
+    "on_track_item_11": {
+      "type": "Text",
+      "props": {
+        "text": "paper-pick daily / build PhD reading list — 0d idle, SCI picked today (→ improving; 4-paper Nechepurenko stack complete)"
+      },
+      "children": []
+    },
+    "on_track_item_12": {
+      "type": "Text",
+      "props": {
+        "text": "cite stack for next grant / Stanford application — 0d idle, SCI added (→ improving)"
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "done_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "done_heading",
+        "done_item_1",
+        "done_item_2",
+        "done_item_3",
+        "done_item_4"
+      ]
+    },
+    "done_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DONE",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "done_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "PR #156 reply-maker XAI prefetch — completed 2026-05-08T01:18Z"
+      },
+      "children": []
+    },
+    "done_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "5 ACT NOW Vercel-failure PRs — completed 2026-05-03"
+      },
+      "children": []
+    },
+    "done_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "Land code-health fix (secrets-route) — completed 2026-05-03"
+      },
+      "children": []
+    },
+    "done_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "ISS-004 / ISS-006 resolved — completed 2026-05-03"
+      },
+      "children": []
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_heading",
+        "sources_text"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Data Sources",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "logs=ok, git=ok, gh_pr=ok, gh_issue=ok(empty), cron-state=ok, revenant-snapshot=stale(empty ~31h), agents-summary=ok(canary=9/shadow=158, no revenant lifecycle), costs-summary=ok, last-sync=stale(31h)",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

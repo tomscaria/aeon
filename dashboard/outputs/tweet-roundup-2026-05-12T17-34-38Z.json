@@ -1,0 +1,238 @@
+{
+  "root": "mainCard",
+  "state": {},
+  "elements": {
+    "mainCard": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup",
+        "description": "2026-05-12"
+      },
+      "children": [
+        "sourceText",
+        "aiSection",
+        "separator1",
+        "cryptoSection"
+      ]
+    },
+    "sourceText": {
+      "type": "Text",
+      "props": {
+        "text": "Source: cache:0 websearch:2 failed:1",
+        "variant": "caption"
+      }
+    },
+    "aiSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiHeading",
+        "aiDescription",
+        "aiTweet1",
+        "aiSeparator",
+        "aiTweet2"
+      ]
+    },
+    "aiHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI / LLM",
+        "level": "h2"
+      }
+    },
+    "aiDescription": {
+      "type": "Text",
+      "props": {
+        "text": "platform maturation; both big labs embedded in AWS this week",
+        "variant": "muted"
+      }
+    },
+    "aiTweet1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiTweet1Card",
+        "aiTweet1Link"
+      ]
+    },
+    "aiTweet1Card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "claudeai",
+        "handle": "claudeai",
+        "text": "Claude Platform on AWS is now generally available. Full API, IAM auth, consolidated billing, CloudTrail — no Bedrock required. Native Anthropic tooling inside AWS accounts."
+      }
+    },
+    "aiTweet1Link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/claudeai/status/2053868592286822443"
+      }
+    },
+    "aiSeparator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiTweet2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiTweet2Card",
+        "aiTweet2Link"
+      ]
+    },
+    "aiTweet2Card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "BusinessInsider",
+        "handle": "BusinessInsider",
+        "text": "Amazon rolling out Claude Code and OpenAI Codex company-wide simultaneously. Both frontier-lab coding agents, one enterprise."
+      }
+    },
+    "aiTweet2Link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/BusinessInsider/status/2051407096558534677"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cryptoSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cryptoHeading",
+        "cryptoDescription",
+        "cryptoTweet1",
+        "cryptoSeparator1",
+        "cryptoTweet2",
+        "cryptoSeparator2",
+        "cryptoTweet3"
+      ]
+    },
+    "cryptoHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto / DeFi",
+        "level": "h2"
+      }
+    },
+    "cryptoDescription": {
+      "type": "Text",
+      "props": {
+        "text": "BTC getting institutionalized from three directions at once; vol, doctrine, and regulation all moving",
+        "variant": "muted"
+      }
+    },
+    "cryptoTweet1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cryptoTweet1Card",
+        "cryptoTweet1Link"
+      ]
+    },
+    "cryptoTweet1Card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "saylor",
+        "handle": "saylor",
+        "text": "Saylor at Consensus 2026 on the BTC sale controversy. On camera: Strategy walking through why it may sell BTC to cover STRC dividends — net BTC-positive framing holds, but the never-sell absolutism is getting footnotes."
+      }
+    },
+    "cryptoTweet1Link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/saylor/status/2053225568871780548"
+      }
+    },
+    "cryptoSeparator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cryptoTweet2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cryptoTweet2Card",
+        "cryptoTweet2Link"
+      ]
+    },
+    "cryptoTweet2Card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "business",
+        "handle": "business",
+        "text": "Banking groups floating last-minute CLARITY Act stablecoin yield changes as Senate Banking markup begins. Bank lobbies vs. crypto industry, final stretch. Vote: May 14."
+      }
+    },
+    "cryptoTweet2Link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/business/status/2053267535869411432"
+      }
+    },
+    "cryptoSeparator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cryptoTweet3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cryptoTweet3Card",
+        "cryptoTweet3Link"
+      ]
+    },
+    "cryptoTweet3Card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "CFBenchmarks",
+        "handle": "CFBenchmarks",
+        "text": "CME launches BTC Volatility Index futures June 1, settled to the CF Bitcoin Volatility Index (BVX). Bitcoin vol — not direction — becomes an independently tradable instrument on the largest derivatives exchange."
+      }
+    },
+    "cryptoTweet3Link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/CFBenchmarks/status/2051970105022480746"
+      }
+    }
+  }
+}

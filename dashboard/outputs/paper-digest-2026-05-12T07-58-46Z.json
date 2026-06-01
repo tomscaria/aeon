@@ -1,0 +1,200 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Paper Digest — 2026-05-12"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "intro",
+        "sep1",
+        "papers-container",
+        "sep2",
+        "full-link"
+      ]
+    },
+    "intro": {
+      "type": "Text",
+      "props": {
+        "text": "Three new Nechepurenko papers (May 11) on PM perpetual futures — empirical failure, manipulation taxonomy, design taxonomy; no new ILS/forecasting paper from other authors."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "papers-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "paper1-container",
+        "paper2-container",
+        "paper3-container"
+      ]
+    },
+    "paper1-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper1-title",
+        "paper1-body",
+        "paper1-tags"
+      ]
+    },
+    "paper1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Manipulation, Insider Information, Regulation in Leveraged Event-Linked Markets",
+        "level": "h3"
+      }
+    },
+    "paper1-body": {
+      "type": "Text",
+      "props": {
+        "text": "Two-axis manipulation taxonomy + 14 operator recommendations + jurisdictional-arbitrage map across US/EU/UK/SG"
+      }
+    },
+    "paper1-tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-econ-gn",
+        "badge-crosslist"
+      ]
+    },
+    "badge-econ-gn": {
+      "type": "Badge",
+      "props": {
+        "text": "econ.GN",
+        "variant": "outline"
+      }
+    },
+    "badge-crosslist": {
+      "type": "Badge",
+      "props": {
+        "text": "cross-list",
+        "variant": "outline"
+      }
+    },
+    "paper2-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper2-title",
+        "paper2-body",
+        "paper2-tags"
+      ]
+    },
+    "paper2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Resolution-Aware Perpetual Futures on Binary PM (PIRAP)",
+        "level": "h3"
+      }
+    },
+    "paper2-body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper2-line1",
+        "paper2-line2"
+      ]
+    },
+    "paper2-line1": {
+      "type": "Text",
+      "props": {
+        "text": "Six-component framework on 13,298 PMXT v2 April 2026 markets"
+      }
+    },
+    "paper2-line2": {
+      "type": "Text",
+      "props": {
+        "text": "Welfare-side directional tests failed — deployment not validated",
+        "variant": "muted"
+      }
+    },
+    "paper2-tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-pirap"
+      ]
+    },
+    "badge-pirap": {
+      "type": "Badge",
+      "props": {
+        "text": "PIRAP",
+        "variant": "secondary"
+      }
+    },
+    "paper3-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper3-title",
+        "paper3-body"
+      ]
+    },
+    "paper3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Taxonomy of Event-Linked Perpetual Futures",
+        "level": "h3"
+      }
+    },
+    "paper3-body": {
+      "type": "Text",
+      "props": {
+        "text": "Seven canonical variants, non-portability proposition for conditional contracts at low probability, three-channel spread decomposition"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "full-link": {
+      "type": "Link",
+      "props": {
+        "label": "Full: articles/paper-digest-2026-05-12.md",
+        "href": "articles/paper-digest-2026-05-12.md"
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Paper Pick"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story-link",
+        "description",
+        "links-stack"
+      ]
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Heterogeneous Scientific Foundation Model Collaboration",
+        "href": "https://arxiv.org/abs/2604.27351",
+        "source": "Zihao Li et al. (UIUC, Jingrui He group)",
+        "score": "211"
+      }
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "Eywa proposes a planner-orchestrated agentic framework where a language model routes inference through domain-specific foundation models rather than collapsing every problem onto natural-language reasoning — direct blueprint for stitching CalibrationGap's regime classifier, narrative scanner and resolution-text ingester under one planner instead of separate Aeon skills.",
+        "variant": "body"
+      }
+    },
+    "links-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link-read",
+        "link-pdf"
+      ]
+    },
+    "link-read": {
+      "type": "Link",
+      "props": {
+        "label": "Read",
+        "href": "https://arxiv.org/abs/2604.27351"
+      }
+    },
+    "link-pdf": {
+      "type": "Link",
+      "props": {
+        "label": "PDF",
+        "href": "https://arxiv.org/pdf/2604.27351"
+      }
+    }
+  }
+}

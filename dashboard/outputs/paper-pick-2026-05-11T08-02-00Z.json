@@ -1,0 +1,100 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Paper Pick — 2026-05-11"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_paper",
+        "stack_metadata",
+        "text_description",
+        "stack_links"
+      ]
+    },
+    "heading_paper": {
+      "type": "Heading",
+      "props": {
+        "text": "Information Aggregation with AI Agents",
+        "level": "h2"
+      }
+    },
+    "stack_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_author",
+        "text_categories",
+        "text_specs"
+      ]
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "Spyros Galanis",
+        "variant": "body"
+      }
+    },
+    "text_categories": {
+      "type": "Text",
+      "props": {
+        "text": "econ.GN/cs.AI/cs.GT",
+        "variant": "caption"
+      }
+    },
+    "text_specs": {
+      "type": "Text",
+      "props": {
+        "text": "64pp · v2 May 7 2026",
+        "variant": "caption"
+      }
+    },
+    "text_description": {
+      "type": "Text",
+      "props": {
+        "text": "Controlled prediction-market experiment: LLMs aggregate dispersed private information through trading effectively on easy signal structures, degrade significantly under complexity, robust to cheap-talk and strategic prompting; \"smarter\" agents aggregate better and are more profitable, but past-performance feedback has no effect — first econ.GN-primary experimental cite for the operator's Polymarket Bayesian-fusion stage and the Stanford research statement.",
+        "variant": "body"
+      }
+    },
+    "stack_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_read",
+        "link_pdf"
+      ]
+    },
+    "link_read": {
+      "type": "Link",
+      "props": {
+        "label": "Read",
+        "href": "https://arxiv.org/abs/2604.20050"
+      }
+    },
+    "link_pdf": {
+      "type": "Link",
+      "props": {
+        "label": "PDF",
+        "href": "https://arxiv.org/pdf/2604.20050"
+      }
+    }
+  }
+}

@@ -70,3 +70,7 @@ Style rules:
 ## Sandbox note
 
 The sandbox may block outbound curl. Use **WebFetch** as a fallback for any URL fetch. For GitHub queries, use `gh` CLI (handles auth internally) rather than curl.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

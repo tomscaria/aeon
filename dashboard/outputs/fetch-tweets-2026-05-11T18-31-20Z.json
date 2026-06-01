@@ -1,0 +1,340 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Top Tweets — prediction markets (2026-05-11)",
+        "description": "Hantavirus market holds 8% fade despite global passenger dispersal completing — Kalshi captured April volume crown (50%) the same week Warsh Senate confirmation enters its final 4-day window."
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "hantavirus-section",
+        "sep-1",
+        "warsh-section",
+        "sep-2",
+        "kalshi-section",
+        "sep-3",
+        "iran-section"
+      ]
+    },
+    "hantavirus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-hanta",
+        "tweet-stack-1",
+        "tweet-stack-2",
+        "tweet-stack-3"
+      ]
+    },
+    "heading-hanta": {
+      "type": "Heading",
+      "props": {
+        "text": "Hantavirus — market fade vs dispersal arc",
+        "level": "h3"
+      }
+    },
+    "tweet-stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-1",
+        "engagement-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stocktwits",
+        "handle": "Stocktwits",
+        "text": "8% pandemic odds live May 11 despite WHO contacting 12 countries; market pricing Andes close-contact mechanism, not volume.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "engagement-1": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 0 | RTs: 0 | Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stocktwits/status/2053845331264098497"
+      }
+    },
+    "tweet-stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-2",
+        "engagement-2",
+        "link-2"
+      ]
+    },
+    "tweet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Polymarket",
+        "handle": "Polymarket",
+        "text": "23 infected passengers dispersed globally, one critically ill — factual escalation basis for the fade debate.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "engagement-2": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 0 | RTs: 0 | Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-2": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Polymarket/status/2052142598588944629"
+      }
+    },
+    "tweet-stack-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-3",
+        "engagement-3",
+        "link-3"
+      ]
+    },
+    "tweet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "WHO",
+        "handle": "WHO",
+        "text": "Official: 1 confirmed, 5 suspected, 3 dead on ship — authoritative baseline for resolution clause.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "engagement-3": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 0 | RTs: 0 | Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-3": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/WHO/status/2051029427614818551"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "warsh-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-warsh",
+        "tweet-stack-4"
+      ]
+    },
+    "heading-warsh": {
+      "type": "Heading",
+      "props": {
+        "text": "Warsh / Fed Chair — confirmation timing",
+        "level": "h3"
+      }
+    },
+    "tweet-stack-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-4",
+        "engagement-4",
+        "link-4"
+      ]
+    },
+    "tweet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "DeItaone",
+        "handle": "DeItaone",
+        "text": "Only 33% chance Warsh confirmed by May 15; Tillis opposition is the identified blocking risk. Senate floor vote week opens today.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "engagement-4": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 0 | RTs: 0 | Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-4": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/DeItaone/status/2046591536893194387"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "kalshi-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-kalshi",
+        "tweet-stack-5"
+      ]
+    },
+    "heading-kalshi": {
+      "type": "Heading",
+      "props": {
+        "text": "Prediction market structure — Kalshi takes April crown",
+        "level": "h3"
+      }
+    },
+    "tweet-stack-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-5",
+        "engagement-5",
+        "link-5"
+      ]
+    },
+    "tweet-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "MessariCrypto",
+        "handle": "MessariCrypto",
+        "text": "April 2026: Kalshi 50% of volume ($14.8B), Polymarket 34% ($10.2B), Limitless 6% — first month Kalshi leads outright.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "engagement-5": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 0 | RTs: 0 | Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-5": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/MessariCrypto/status/2052481648856531156"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "iran-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-iran",
+        "tweet-stack-6"
+      ]
+    },
+    "heading-iran": {
+      "type": "Heading",
+      "props": {
+        "text": "Iran — next time-horizon market",
+        "level": "h3"
+      }
+    },
+    "tweet-stack-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-6",
+        "engagement-6",
+        "link-6"
+      ]
+    },
+    "tweet-6": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Polymarket",
+        "handle": "Polymarket",
+        "text": "New market: US x Iran peace deal before Trump visits China? May-15 market resolves tomorrow; this is the next ladder rung.",
+        "likes": 0,
+        "retweets": 0
+      }
+    },
+    "engagement-6": {
+      "type": "Text",
+      "props": {
+        "text": "Likes: 0 | RTs: 0 | Replies: 0",
+        "variant": "caption"
+      }
+    },
+    "link-6": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Polymarket/status/2051890701953339636"
+      }
+    }
+  }
+}

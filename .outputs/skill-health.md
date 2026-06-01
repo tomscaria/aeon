@@ -1,20 +1,21 @@
-*Skill Health — 2026-05-08*
-HEALTH: DEGRADED(53) [systemic: ISS-013 zero-token tail still gates 53 / ISS-020 05-06 burst recovered / ISS-017 chain wrappers d12]
+*Skill Health — 2026-05-12*
+HEALTH: DEGRADED(19)
+SYSTEMIC: 19 DEGRADED — all cf=0, running; ISS-013/ISS-020 burst tail decay ~2026-05-15; chain-runner day 22
 
-🟡 DEGRADED (53) — top 5 by sr:
-- skill-leaderboard — sr 0.13, 5d since success — INVESTIGATE → ISS-013
-- skill-graph — sr 0.14, 5d since success — INVESTIGATE → ISS-013
-- update-gallery — sr 0.14, 5d since success — INVESTIGATE → ISS-013
-- channel-recap — sr 0.15, 5d since success — INVESTIGATE → ISS-013
-- workflow-security-audit — sr 0.15, 5d since success — INVESTIGATE → ISS-013
-+48 more — see memory/issues/INDEX.md
+DELTA vs 2026-05-11:
+- cost-report: CRITICAL -> DEGRADED (cf=0, ran successfully today) — ISS-021 updated
+- fetch-tweets/refresh-x/tweet-roundup: DEGRADED -> WARNING
 
-🟠 WARNING (8): action-converter, agent-buzz, evening-rollup, fleet-control, goal-tracker(NEW), heartbeat, paper-pick(NEW), push-recap(NEW)
+DEGRADED (19) — all functional (cf=0), rates suppressed by burst tails
+Top 5 by staleness:
+- workflow-security-audit — sr 15%, ~9d since last success — INVESTIGATE
+- narrative-tracker — sr 32%, ~5d since last success — INVESTIGATE
+- channel-recap — sr 21%, ~2d since last success — INVESTIGATE
+- token-report — sr 37%, ~2d since last success — INVESTIGATE
+- monitor-polymarket — sr 43%, ~2d since last success — INVESTIGATE
++14 more — see memory/issues/INDEX.md
 
-⚪ NO DATA (4): repo-scanner, syndicate-article, vercel-projects, weekly-shiplog — DISPATCH-SKILL (chain:weekly-grant-update gates weekly-shiplog/syndicate-article)
+NO DATA (11): autoresearch, auto-workflow, create-skill, deploy-prototype, distribute-tokens, last30, onboard, skill-repair, spawn-instance, task-planner, tool-builder — DISPATCH-SKILL
+HEALTHY: 13
 
-🟢 HEALTHY: 23 (+2 vs prev — morning-brief and hacker-news-digest first cron-state writes today)
-
-Delta vs 2026-05-07: 3 DEGRADED→WARNING graduations (sr crossings 0.6/0.6/0.61), 2 NO DATA→HEALTHY. Pure ISS-013 decay; no new mass-fails.
-
-Open issues: 17 · Resolved this run: 0
+Open issues: 11 · Resolved this run: 0

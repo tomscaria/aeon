@@ -112,3 +112,7 @@ Sandbox may block outbound curl. Path A (cache) avoids the issue entirely. If Pa
 ## Environment Variables Required
 
 - `XAI_API_KEY` — X.AI API key (optional; skill falls back to WebSearch when not set, but quality is lower).
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

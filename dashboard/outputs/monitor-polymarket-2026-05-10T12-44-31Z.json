@@ -1,0 +1,565 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket Monitor"
+      },
+      "children": [
+        "header",
+        "rep_section",
+        "dem_section",
+        "election_section",
+        "separator1",
+        "revenant_section",
+        "btc_section",
+        "geopolitical_section",
+        "separator2",
+        "alerts_section",
+        "narrative_section"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "2026-05-10",
+        "variant": "muted"
+      }
+    },
+    "rep_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "rep_heading",
+        "rep_stats",
+        "rep_odds_container",
+        "rep_mover",
+        "youngkin_detail",
+        "rep_comment"
+      ]
+    },
+    "rep_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Republican Presidential Nominee 2028",
+        "level": "h2"
+      }
+    },
+    "rep_stats": {
+      "type": "Text",
+      "props": {
+        "text": "$1.74M vol24h / $28.1M liq",
+        "variant": "caption"
+      }
+    },
+    "rep_odds_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "rep_vance",
+        "rep_rubio",
+        "rep_youngkin",
+        "rep_trump",
+        "rep_gabbard"
+      ]
+    },
+    "rep_vance": {
+      "type": "Stat",
+      "props": {
+        "label": "Vance",
+        "value": "37.05%",
+        "delta": "-0.10pp",
+        "trend": "down"
+      }
+    },
+    "rep_rubio": {
+      "type": "Stat",
+      "props": {
+        "label": "Rubio",
+        "value": "25.55%",
+        "delta": "+1.20pp",
+        "trend": "up"
+      }
+    },
+    "rep_youngkin": {
+      "type": "Stat",
+      "props": {
+        "label": "Youngkin",
+        "value": "1.45%",
+        "delta": "0pp",
+        "trend": "neutral"
+      }
+    },
+    "rep_trump": {
+      "type": "Stat",
+      "props": {
+        "label": "Trump",
+        "value": "1.75%"
+      }
+    },
+    "rep_gabbard": {
+      "type": "Stat",
+      "props": {
+        "label": "Gabbard",
+        "value": "1.05%"
+      }
+    },
+    "rep_mover": {
+      "type": "Text",
+      "props": {
+        "text": "Biggest mover: Rubio — rising 24.35% → 25.55%",
+        "variant": "lead"
+      }
+    },
+    "youngkin_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Youngkin $84k vol24h (highest of tail candidates, 24% of $347k liq pool — elevated turnover)"
+      }
+    },
+    "rep_comment": {
+      "type": "TweetCard",
+      "props": {
+        "author": "anon",
+        "handle": "2026-05-09",
+        "text": "Marco Rubio for the win! He is the most well spoken politician I have seen in a while..."
+      }
+    },
+    "dem_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dem_heading",
+        "dem_stats",
+        "dem_odds_container",
+        "dem_mover",
+        "dem_comment1",
+        "dem_comment2"
+      ]
+    },
+    "dem_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Democratic Presidential Nominee 2028",
+        "level": "h2"
+      }
+    },
+    "dem_stats": {
+      "type": "Text",
+      "props": {
+        "text": "$1.63M vol24h / $58.6M liq",
+        "variant": "caption"
+      }
+    },
+    "dem_odds_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "dem_ossoff",
+        "dem_whitmer",
+        "dem_smith",
+        "dem_oprah"
+      ]
+    },
+    "dem_ossoff": {
+      "type": "Stat",
+      "props": {
+        "label": "Ossoff",
+        "value": "6.45%",
+        "delta": "-0.20pp",
+        "trend": "down"
+      }
+    },
+    "dem_whitmer": {
+      "type": "Stat",
+      "props": {
+        "label": "Whitmer",
+        "value": "1.25%"
+      }
+    },
+    "dem_smith": {
+      "type": "Stat",
+      "props": {
+        "label": "Smith",
+        "value": "1.05%"
+      }
+    },
+    "dem_oprah": {
+      "type": "Stat",
+      "props": {
+        "label": "Oprah",
+        "value": "0.75%"
+      }
+    },
+    "dem_mover": {
+      "type": "Text",
+      "props": {
+        "text": "Biggest mover: Ossoff — falling 6.65% → 6.45%",
+        "variant": "lead"
+      }
+    },
+    "dem_comment1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "anon",
+        "handle": "2026-05-08",
+        "text": "AOC chance should be nonexistent after the interview today"
+      }
+    },
+    "dem_comment2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "anon",
+        "handle": "2026-05-09",
+        "text": "kamala again :) — wishful, no position signal"
+      }
+    },
+    "election_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "election_heading",
+        "election_stats",
+        "election_eric_trump",
+        "election_note",
+        "election_comment"
+      ]
+    },
+    "election_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Presidential Election Winner 2028",
+        "level": "h2"
+      }
+    },
+    "election_stats": {
+      "type": "Text",
+      "props": {
+        "text": "$1.01M vol24h / $29.2M liq",
+        "variant": "caption"
+      }
+    },
+    "election_eric_trump": {
+      "type": "Stat",
+      "props": {
+        "label": "Eric Trump",
+        "value": "0.55%",
+        "delta": "0pp",
+        "trend": "neutral"
+      }
+    },
+    "election_note": {
+      "type": "Text",
+      "props": {
+        "text": "All other slots placeholder (zero vol)",
+        "variant": "muted"
+      }
+    },
+    "election_comment": {
+      "type": "TweetCard",
+      "props": {
+        "author": "anon",
+        "handle": "2026-05-08",
+        "text": "rubio and jd can beat anyone"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "revenant_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "revenant_heading",
+        "revenant_status",
+        "revenant_prior"
+      ]
+    },
+    "revenant_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Revenant First Order — Mexico FIFA World Cup 2026",
+        "level": "h2"
+      }
+    },
+    "revenant_status": {
+      "type": "Alert",
+      "props": {
+        "title": "API Response Empty",
+        "message": "Slug will-mexico-win-the-2026-fifa-world-cup-529 returned empty from API (2nd+ consecutive day). Market dark — slug likely stale or market moved to closed.",
+        "type": "warning"
+      }
+    },
+    "revenant_prior": {
+      "type": "Text",
+      "props": {
+        "text": "Prior reading 05-08/09: 1.05% YES flat / $662k vol / $2.4M liq"
+      }
+    },
+    "btc_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc_heading",
+        "btc_status",
+        "btc_recommendation"
+      ]
+    },
+    "btc_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC $1M Before GTA VI",
+        "level": "h2"
+      }
+    },
+    "btc_status": {
+      "type": "Alert",
+      "props": {
+        "title": "Confirmed Stale",
+        "message": "Slug will-bitcoin-hit-1m-before-gta-vi-872 confirmed stale (3rd+ consecutive not-found). No live data.",
+        "type": "error"
+      }
+    },
+    "btc_recommendation": {
+      "type": "Text",
+      "props": {
+        "text": "Recommend removing from watchlist"
+      }
+    },
+    "geopolitical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "geopolitical_heading",
+        "geopolitical_note",
+        "ukraine_subsection",
+        "iran_subsection"
+      ]
+    },
+    "geopolitical_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Russia-Ukraine / Iran",
+        "level": "h2"
+      }
+    },
+    "geopolitical_note": {
+      "type": "Text",
+      "props": {
+        "text": "Yesterday's data — API geopolitical search non-functional today",
+        "variant": "muted"
+      }
+    },
+    "ukraine_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ukraine_title",
+        "ukraine_odds",
+        "ukraine_detail"
+      ]
+    },
+    "ukraine_title": {
+      "type": "Text",
+      "props": {
+        "text": "Russia-Ukraine Ceasefire May-31",
+        "variant": "lead"
+      }
+    },
+    "ukraine_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "~99.95%"
+      }
+    },
+    "ukraine_detail": {
+      "type": "Text",
+      "props": {
+        "text": "UMA dispute live. Zelensky 'humanitarian / Red Square' language = clause-excluded. If UMA rules NO: $17.9M vol market fully reprices."
+      }
+    },
+    "iran_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "iran_title",
+        "iran_cluster",
+        "iran_recent"
+      ]
+    },
+    "iran_title": {
+      "type": "Text",
+      "props": {
+        "text": "Iran Peace Cluster",
+        "variant": "lead"
+      }
+    },
+    "iran_cluster": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "iran_may15",
+        "iran_may31",
+        "iran_jun30"
+      ]
+    },
+    "iran_may15": {
+      "type": "Stat",
+      "props": {
+        "label": "May-15",
+        "value": "12.35%"
+      }
+    },
+    "iran_may31": {
+      "type": "Stat",
+      "props": {
+        "label": "May-31",
+        "value": "24.5%"
+      }
+    },
+    "iran_jun30": {
+      "type": "Stat",
+      "props": {
+        "label": "Jun-30",
+        "value": "44.5%"
+      }
+    },
+    "iran_recent": {
+      "type": "Text",
+      "props": {
+        "text": "All fading. 05-09 US strike on Iranian vessel in Hormuz live."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alerts_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alerts_heading",
+        "alerts_content"
+      ]
+    },
+    "alerts_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Alerts",
+        "level": "h2"
+      }
+    },
+    "alerts_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_threshold",
+        "alert_mover"
+      ]
+    },
+    "alert_threshold": {
+      "type": "Text",
+      "props": {
+        "text": "No markets >5pp"
+      }
+    },
+    "alert_mover": {
+      "type": "Text",
+      "props": {
+        "text": "Biggest mover: Rubio +1.20pp (below threshold)"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative_heading",
+        "narrative_rubio_vance",
+        "narrative_vance_arc",
+        "narrative_warsh",
+        "narrative_youngkin"
+      ]
+    },
+    "narrative_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Narrative",
+        "level": "h2"
+      }
+    },
+    "narrative_rubio_vance": {
+      "type": "Text",
+      "props": {
+        "text": "Rubio creeping up while Vance fades."
+      }
+    },
+    "narrative_vance_arc": {
+      "type": "Text",
+      "props": {
+        "text": "7-day Vance arc: 39.15% → 37.55% → 37.05% (-2.10pp)"
+      }
+    },
+    "narrative_warsh": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh senate floor vote week of May 11 — Rubio endorsed Warsh as SecState; watch for Rubio vol spike on vote day."
+      }
+    },
+    "narrative_youngkin": {
+      "type": "Text",
+      "props": {
+        "text": "Youngkin elevated turnover with no news catalyst = possible quiet accumulation."
+      }
+    }
+  }
+}

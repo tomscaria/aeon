@@ -1,0 +1,88 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Paper Pick",
+        "description": "2026-05-09"
+      },
+      "children": [
+        "story_link",
+        "metadata_stack",
+        "separator",
+        "description_text",
+        "links_stack"
+      ]
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ForesightFlow: An Information Leakage Score Framework for Prediction Markets",
+        "href": "https://arxiv.org/abs/2605.00493",
+        "source": "arXiv"
+      }
+    },
+    "metadata_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "author_text",
+        "score_badge"
+      ]
+    },
+    "author_text": {
+      "type": "Text",
+      "props": {
+        "text": "Maksym Nechepurenko",
+        "variant": "caption"
+      }
+    },
+    "score_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "↑0",
+        "variant": "outline"
+      }
+    },
+    "separator": {
+      "type": "Separator"
+    },
+    "description_text": {
+      "type": "Text",
+      "props": {
+        "text": "Foundational ILS-framework paper of the 8-paper Nechepurenko q-fin.TR run; closes the queue with the methodology-formalization layer that anchors ADR-096+ resolution-text-ingest (24-insider-case inventory, 0.444-magnitude article-vs-automated-proxy ILS sign-reversal, Murphy-decomposition link to Coordination Layer).",
+        "variant": "body"
+      }
+    },
+    "links_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "read_link",
+        "pdf_link"
+      ]
+    },
+    "read_link": {
+      "type": "Link",
+      "props": {
+        "label": "Read",
+        "href": "https://arxiv.org/abs/2605.00493"
+      }
+    },
+    "pdf_link": {
+      "type": "Link",
+      "props": {
+        "label": "PDF",
+        "href": "https://arxiv.org/pdf/2605.00493"
+      }
+    }
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Kalshi monitor"
+      },
+      "children": [
+        "verdict-text",
+        "sep1",
+        "section-fed-27apr",
+        "sep2",
+        "section-fed-26dec",
+        "sep3",
+        "section-btc",
+        "sep4",
+        "alerts-section",
+        "sep5",
+        "trending-section",
+        "sep6",
+        "sources-section"
+      ]
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-05-11: KXFED-27APR repriced hawkish ahead of Warsh Senate vote — T3.50 +17pp, T3.25 +11pp, T4.00 -14pp on loose books; Dec-2026 curve drifting dovish on thin books.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-fed-27apr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fed-27apr-heading",
+        "fed-27apr-subtitle",
+        "fed-27apr-table",
+        "fed-27apr-mover",
+        "fed-27apr-note"
+      ]
+    },
+    "fed-27apr-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fed funds rate after Apr 2027 meeting (KXFED-27APR)",
+        "level": "h3"
+      }
+    },
+    "fed-27apr-subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Economics",
+        "variant": "caption"
+      }
+    },
+    "fed-27apr-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "prob",
+          "Δ24h",
+          "vol_24h",
+          "spread"
+        ],
+        "rows": [
+          [
+            "T3.50",
+            "54%",
+            "+17pp ▲",
+            "$29",
+            "4pp loose"
+          ],
+          [
+            "T4.00",
+            "28%",
+            "-14pp ▼",
+            "$64",
+            "4pp loose"
+          ],
+          [
+            "T3.25",
+            "53%",
+            "+11pp ▲",
+            "$15",
+            "17pp thin"
+          ]
+        ]
+      }
+    },
+    "fed-27apr-mover": {
+      "type": "Text",
+      "props": {
+        "text": "mover: T3.50 — 37%→54%, surging on loose 4pp book; +3 below threshold",
+        "variant": "body"
+      }
+    },
+    "fed-27apr-note": {
+      "type": "Text",
+      "props": {
+        "text": "note: T3.00=53% unchanged (1pp tight anchor). T4.25=42% artifact intact — T4.00/T4.25 non-monotonic; T4.00 drop may be partial artifact correction.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-fed-26dec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fed-26dec-heading",
+        "fed-26dec-subtitle",
+        "fed-26dec-table",
+        "fed-26dec-mover",
+        "fed-26dec-note"
+      ]
+    },
+    "fed-26dec-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fed funds rate after Dec 2026 meeting (KXFED-26DEC)",
+        "level": "h3"
+      }
+    },
+    "fed-26dec-subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Economics",
+        "variant": "caption"
+      }
+    },
+    "fed-26dec-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "prob",
+          "Δ24h",
+          "vol_24h",
+          "spread"
+        ],
+        "rows": [
+          [
+            "T4.25",
+            "12%",
+            "-4pp ▼",
+            "$7",
+            "7pp thin"
+          ],
+          [
+            "T3.25",
+            "58%",
+            "-3pp ▼",
+            "$4",
+            "13pp thin"
+          ],
+          [
+            "T3.75",
+            "35%",
+            "-2pp ▼",
+            "$1",
+            "9pp thin"
+          ]
+        ]
+      }
+    },
+    "fed-26dec-mover": {
+      "type": "Text",
+      "props": {
+        "text": "mover: T4.25 — tail dovish drift; all thin books, treat skeptically",
+        "variant": "body"
+      }
+    },
+    "fed-26dec-note": {
+      "type": "Text",
+      "props": {
+        "text": "note: T3.00=77%, T3.50=54% stable.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc-heading",
+        "btc-subtitle",
+        "btc-table",
+        "btc-mover",
+        "btc-top-oi",
+        "btc-note"
+      ]
+    },
+    "btc-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Bitcoin price range May 15 (KXBTC-26MAY1517)",
+        "level": "h3"
+      }
+    },
+    "btc-subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto",
+        "variant": "caption"
+      }
+    },
+    "btc-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "prob",
+          "Δ24h",
+          "vol_24h",
+          "spread"
+        ],
+        "rows": [
+          [
+            "B80250",
+            "5%",
+            "-3pp ▼",
+            "$48",
+            "2pp tight"
+          ],
+          [
+            "B81750",
+            "7%",
+            "-2pp ▼",
+            "$68",
+            "1pp tight"
+          ]
+        ]
+      }
+    },
+    "btc-mover": {
+      "type": "Text",
+      "props": {
+        "text": "mover: modal shifted B81750→B80750 by OI; BTC retraced from $82k intraday high to $80,722 spot.",
+        "variant": "body"
+      }
+    },
+    "btc-top-oi": {
+      "type": "Text",
+      "props": {
+        "text": "top OI: B80750=4147 · B81750=3443 · B81250=2935 · B80250=2054",
+        "variant": "caption"
+      }
+    },
+    "btc-note": {
+      "type": "Text",
+      "props": {
+        "text": "note: All markets fail >$1k vol suppression gate. Ultra-thin dollar books — pattern read, not tradeable.",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alerts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alerts-heading",
+        "alert1",
+        "alert2"
+      ]
+    },
+    "alerts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ALERTS (>5pp on non-thin book)",
+        "level": "h3"
+      }
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "KXFED-27APR T3.50: 37%→54%",
+        "message": "why it matters: new level not continuation (reversed from -9pp yesterday); 4pp book; Warsh vote week hawkish repricing.",
+        "type": "warning"
+      }
+    },
+    "alert2": {
+      "type": "Alert",
+      "props": {
+        "title": "KXFED-27APR T4.00: 42%→28%",
+        "message": "why it matters: caution — T4.25 stuck at 42% (non-monotonic artifact); T4.00 drop may correct yesterday's dislocated curve more than reflect new information.",
+        "type": "warning"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-text"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending (not tracked)",
+        "level": "h3"
+      }
+    },
+    "trending-text": {
+      "type": "Text",
+      "props": {
+        "text": "All 50 open events: Romania PM (84 FP), Israel PM (49 FP), Mars/supervolcano long-dated — all below tracked-event vol floor. No additions.",
+        "variant": "body"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources-heading",
+        "sources-text"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "sources",
+        "level": "h3"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "events=ok candlesticks=degraded(price_only vs 05-10 log) orderbook=ok(T3.00=1pp tight · T3.50=4pp loose · T4.00=4pp loose)",
+        "variant": "caption"
+      }
+    }
+  }
+}

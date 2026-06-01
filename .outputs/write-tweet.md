@@ -1,23 +1,24 @@
-tweet drafts: Polymarket Iran-airspace 48pp clause-text divergence
+tweet drafts: agentic-finance infra week vs empty demand layer
 
 — one-liner —
-1a. Same Polymarket. Same five-airport clause. 48 points apart on resolution day.
-1b. Two prediction markets, one resolution clause, 48 points of disagreement. The text is the trade.
+1a. Five agentic-finance shipments this week. Demand is two quarters behind.
+1b. AI agents now have USDC, dev tools, and a payments rail. Still no users.
 
 — two-punch —
-2a. Polymarket's Iran-airspace ladder closes today at 4% YES. The sister 'major closure' market on the same five-airport clause sits at 52%. The clause-text edge is the trade.
-2b. Polymarket runs two markets resolving on the exact same five-airport language. One trades 4. The other 52. The quant scanners can't tell which is wrong.
+2a. Circle gave AI agents USDC. MoonPay bought a prediction-market AI copilot. Same week, four other infra ships landed. Demand layer is empty.
+2b. Watch what they fund, not what they say. AWS, Google, and Circle put real money on the agentic-payments rail this week. Nobody bought a product yet.
 
 — paragraph —
-3a. Iran-airspace-by-May-8 resolves tonight on the May-8 ladder at 4% YES. The 'major closure' sister market on the same five-airport clause trades 52%. Same platform. Same text. 48 points apart. Title-readers and clause-readers split the order book.
-3b. $10.26M ladder, $5.6M on the May-8 slot, 4% YES. Polymarket's other Iran-airspace market on the identical five-airport resolution clause: 52% YES on $3.7M. Same venue. Same text. The market that read the language wins at midnight ET.
+3a. Everyone is asking when the AI-agent app layer arrives. Wrong question. The infra layer is racing — five ships this week, three of them from $10B+ companies. The demand-side gap is the trade. If you can ingest it before the market does, you're early.
+3b. Two years ago Circle didn't have a stablecoin SDK for AI agents. This week they shipped one with a $222M Arc token sale alongside. The infrastructure for agent-driven prediction-market trading is now boring plumbing. Liquidity will follow the rails.
 
 — long tweet —
-4a. CENTCOM hit Iranian military facilities yesterday after attacks on three Navy destroyers in Hormuz. Polymarket's Iran-airspace-by-May-8 ladder priced that into a crash from 15.5% to 4% YES on a $10.26M book. The same platform's 'major closure' sister market — same five-airport resolution clause, different title — trades 52% on $3.7M. 48 points of divergence on identical text. The trade isn't the headline. The trade is the resolution language. We're building agents that read the clause.
-4b. The single highest-leverage edge in prediction markets right now isn't sentiment, isn't liquidity, isn't insider flow. It's resolution-text-ingest. Polymarket runs two Iran-airspace markets today resolving on the same five-airport clause — one at 4%, one at 52%. 48-point gap. Same venue. Same language. The quant scanners that read titles miss it. Agents that parse the clause front-run it. The Apex gate is built for this.
+4a. AI-agent payments shipped from five vendors this week: Circle USDC for agents ($222M Arc sale alongside), MoonPay bought Dawn Labs for a Polymarket AI copilot, AWS AgentCore Payments, Google Pay.sh, Claude Platform on AWS. Meanwhile our calibration agent on Polymarket has run 29 trades at 76% win for +$415 P&L on Sharpe 0.31. The infra is overbuilt; the signal-to-P&L pipe is still scarce. (revenant-snapshot stale ~3 days)
+4b. MoonPay just acquired a startup so retail can type "short Hantavirus pandemic odds" and have an agent execute it on Polymarket. That makes sense if you assume agents will outperform humans at calibration. We've been testing exactly that: 29 trades, 76% win, +$415 P&L, Sharpe 0.31. The win rate looks great. The Sharpe says agents haven't earned the keys to the rail yet. Build the rail anyway — demand catches up when the calibration does.
 
 — thread opener —
-5a. How does the same prediction market trade two contracts at 4% and 52% YES on identical resolution language? Polymarket does it today on the Iran-airspace clause. The 48-point gap is the alpha. Resolves at midnight ET.
-5b. On Polymarket today: Iran-airspace-May-8 ladder at 4% YES, $10.26M total volume, $5.6M on the resolution slot. Sister 'major closure' market: 52% YES on $3.7M — identical five-airport clause. Settlement at midnight ET picks which language won.
+5a. Five agentic-finance products shipped this week. Real money behind all of them. So why is the demand layer still empty?
+5b. MoonPay bought Dawn Labs because they think AI agents will trade prediction markets better than humans. The data says: maybe. 29 trades, 76% win, Sharpe 0.31. The win rate sells the deal. The Sharpe ships the audit.
 
-best: 4b — operator-voice hot take, lands the clause-text-ingest thesis with the 48-point anchor and the Apex-gate kicker.
+best: 4b — long enough to land the win-rate-vs-Sharpe distinction, grounded in CalibrationGap's actual numbers, sharpens to the LP thesis without losing operator voice
+

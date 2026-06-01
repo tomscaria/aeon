@@ -1,0 +1,369 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-05-09"
+      },
+      "children": [
+        "icp_section",
+        "separator1",
+        "hantavirus_section",
+        "separator2",
+        "disclaimer"
+      ]
+    },
+    "icp_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "icp_heading",
+        "icp_badges",
+        "icp_price",
+        "icp_market_data",
+        "icp_score",
+        "icp_catalyst",
+        "icp_risk",
+        "icp_recent"
+      ]
+    },
+    "icp_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ICP",
+        "level": "h2"
+      }
+    },
+    "icp_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_high",
+        "badge_signal"
+      ]
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      }
+    },
+    "icp_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$3.59",
+        "delta": "+14.74% (24h) / +53.51% (7d)",
+        "trend": "up"
+      }
+    },
+    "icp_market_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "icp_mcap",
+        "icp_vol",
+        "icp_vol_mcap"
+      ]
+    },
+    "icp_mcap": {
+      "type": "Text",
+      "props": {
+        "text": "mcap $1.98B"
+      }
+    },
+    "icp_vol": {
+      "type": "Text",
+      "props": {
+        "text": "vol $332M"
+      }
+    },
+    "icp_vol_mcap": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap 0.167"
+      }
+    },
+    "icp_score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_label",
+        "score_breakdown"
+      ]
+    },
+    "score_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Score breakdown",
+        "level": "h4"
+      }
+    },
+    "score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2, both >5% +2, vol/mcap ≥0.10 +2, RS vs BTC/ETH +2, 24h >0 +1, 7d >0 +1 = 10/10",
+        "variant": "caption"
+      }
+    },
+    "icp_catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_label",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "DFINITY \"Cloud Engines\" demo scheduled May 10 — dedicated AI nodes + agentic builds; 5th-anniversary milestone positioning ICP as decentralized hyperscaler alternative; new tokenomics direct 20% of engine revenue to buy-and-burn ICP via NNS."
+      }
+    },
+    "icp_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Post-demo \"sell the news\" reversal; broader risk-off tape (BTC $80k, F&G 38 Fear) compresses altcoin upside if demo disappoints.",
+        "type": "warning"
+      }
+    },
+    "icp_recent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recent_label",
+        "recent_text"
+      ]
+    },
+    "recent_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs recent picks",
+        "level": "h4"
+      }
+    },
+    "recent_text": {
+      "type": "Text",
+      "props": {
+        "text": "Fresh — ICP not picked in last 7d. Prior: ONDO 05-08, JTO 05-07, ZEC 05-06, TON 05-05"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hantavirus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hanta_heading",
+        "hanta_badges",
+        "hanta_odds",
+        "hanta_details",
+        "hanta_fair",
+        "hanta_thesis",
+        "hanta_risk",
+        "hanta_sources"
+      ]
+    },
+    "hanta_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Hantavirus pandemic in 2026?",
+        "level": "h2"
+      }
+    },
+    "hanta_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_medium",
+        "badge_edge"
+      ]
+    },
+    "badge_medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "outline"
+      }
+    },
+    "badge_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 5.5pp",
+        "variant": "default"
+      }
+    },
+    "hanta_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "hanta_yes",
+        "hanta_no"
+      ]
+    },
+    "hanta_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "8.45c"
+      }
+    },
+    "hanta_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "91.55c"
+      }
+    },
+    "hanta_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "hanta_24h_vol",
+        "hanta_resolves"
+      ]
+    },
+    "hanta_24h_vol": {
+      "type": "Text",
+      "props": {
+        "text": "24h vol $1.29M"
+      }
+    },
+    "hanta_resolves": {
+      "type": "Text",
+      "props": {
+        "text": "resolves 2026-12-31"
+      }
+    },
+    "hanta_fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair_label",
+        "fair_text"
+      ]
+    },
+    "fair_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair YES",
+        "level": "h4"
+      }
+    },
+    "fair_text": {
+      "type": "Text",
+      "props": {
+        "text": "~3%. Inputs: WHO DG publicly dismissed pandemic risk, called overall risk \"low\" and rejected COVID comparison (UN News 2026-05-07); resolution clause requires explicit WHO \"pandemic\" characterization—PHEIC alone does not qualify; MV Hondius cluster = 6 confirmed / 3 deaths, insufficient scale for pandemic characterization."
+      }
+    },
+    "hanta_thesis": {
+      "type": "Alert",
+      "props": {
+        "title": "Thesis",
+        "message": "Market priced up on Andes virus H2H transmission novelty on cruise ship cluster. Resolution clause is strict—WHO must use the word \"pandemic\" in official communications; WHO already moved rhetorically in opposite direction. NO trade.",
+        "type": "info"
+      }
+    },
+    "hanta_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Andes strain acquires efficient airborne transmission; WHO uses loose \"pandemic\" language in a minor report.",
+        "type": "warning"
+      }
+    },
+    "hanta_sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_label",
+        "sources_text"
+      ]
+    },
+    "sources_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=ok (ICP not on DexScreener trending—no cross-source bonus applied), poly=ok",
+        "variant": "caption"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice—pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}

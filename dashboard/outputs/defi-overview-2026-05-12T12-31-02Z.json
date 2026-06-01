@@ -1,0 +1,289 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi — 2026-05-12"
+      },
+      "children": [
+        "subtitle",
+        "tvl-stat",
+        "sep-1",
+        "chains-heading",
+        "chains-table",
+        "sep-2",
+        "chain-movers-alert",
+        "movers-heading",
+        "movers-table",
+        "no-upmover-note",
+        "sep-3",
+        "fees-heading",
+        "fees-table",
+        "fees-threshold-note",
+        "sep-4",
+        "dex-heading",
+        "dex-stat",
+        "dex-movers-table",
+        "sep-5",
+        "stables-heading",
+        "stables-stat",
+        "stables-note",
+        "sep-6",
+        "data-unavailable-heading",
+        "yields-alert",
+        "incentive-alert",
+        "sep-7",
+        "sources-text"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed: volume +17.9% while TVL drifts −0.9%, stables flat",
+        "variant": "lead"
+      }
+    },
+    "tvl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL",
+        "value": "$85.9B",
+        "delta": "−0.9% (24h), −1.2% (7d)",
+        "trend": "down"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chains-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Chains",
+        "level": "h3"
+      }
+    },
+    "chains-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Chain",
+          "TVL"
+        ],
+        "rows": [
+          [
+            "Ethereum",
+            "$45.3B"
+          ],
+          [
+            "Solana",
+            "$5.8B"
+          ],
+          [
+            "BSC",
+            "$5.6B"
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chain-movers-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Chain movers suppressed — change_1d null across all chains in DeFiLlama /v2/chains today"
+      }
+    },
+    "movers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Movers — Protocols",
+        "level": "h3"
+      }
+    },
+    "movers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Protocol",
+          "Change",
+          "TVL",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Pendle",
+            "−14.2%",
+            "$1.42B",
+            "Volume spiked +176% same day; active PT/YT unwinding; no exogenous catalyst"
+          ]
+        ]
+      }
+    },
+    "no-upmover-note": {
+      "type": "Text",
+      "props": {
+        "text": "No up-mover cleared +10% / $100M TVL threshold today",
+        "variant": "muted"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "fees-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fees Leaders (24h)",
+        "level": "h3"
+      }
+    },
+    "fees-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Protocol",
+          "Fees (24h)",
+          "vs 7d Avg"
+        ],
+        "rows": [
+          [
+            "Lido",
+            "$1.54M",
+            "flat ($1.54M)"
+          ],
+          [
+            "Sky Lending",
+            "$1.09M",
+            "flat ($1.10M)"
+          ],
+          [
+            "Raydium AMM",
+            "$249K",
+            "−43% ($441K)"
+          ]
+        ]
+      }
+    },
+    "fees-threshold-note": {
+      "type": "Text",
+      "props": {
+        "text": "No protocol cleared fees +20% (7d) with TVL <+5% (7d) gate",
+        "variant": "muted"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "dex-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DEX Volume (24h)",
+        "level": "h3"
+      }
+    },
+    "dex-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$6.70B",
+        "delta": "+17.9%",
+        "trend": "up"
+      }
+    },
+    "dex-movers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "DEX",
+          "Volume",
+          "Change"
+        ],
+        "rows": [
+          [
+            "Curve",
+            "$232M",
+            "+113%"
+          ],
+          [
+            "Orca",
+            "$214M",
+            "+22.8%"
+          ],
+          [
+            "Raydium",
+            "$176M",
+            "+22.5%"
+          ]
+        ]
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stables-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Stables",
+        "level": "h3"
+      }
+    },
+    "stables-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$310.6B"
+      }
+    },
+    "stables-note": {
+      "type": "Text",
+      "props": {
+        "text": "No single-issuer move ≥1% above $1B threshold; market flat",
+        "variant": "muted"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "data-unavailable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Data Availability",
+        "level": "h3"
+      }
+    },
+    "yields-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "real_yield unavailable",
+        "message": "llama_yields endpoint exceeds 10MB fetch limit — signal: zero qualifying pools surfaced"
+      }
+    },
+    "incentive-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "incentive_yield unavailable",
+        "message": "llama_yields endpoint exceeds 10MB fetch limit — signal: zero qualifying pools surfaced"
+      }
+    },
+    "sep-7": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: llama_tvl (ok, change_null) | llama_dex (ok) | llama_fees (ok) | llama_stables (ok) | llama_yields (fail) | Note: change_1d null returned for all chains; protocol-weighted avg TVL used as proxy",
+        "variant": "caption"
+      }
+    }
+  }
+}

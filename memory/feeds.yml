@@ -1,0 +1,22 @@
+feeds:
+  # Prediction markets & finance
+  - name: Kalshi Blog
+    url: https://kalshi.com/blog/rss.xml
+  - name: Polymarket Blog
+    url: https://polymarket.com/blog/rss.xml
+  - name: Hacker News (top)
+    url: https://news.ycombinator.com/rss
+  - name: The Block
+    url: https://www.theblock.co/rss.xml
+  - name: Decrypt
+    url: https://decrypt.co/feed
+  # AI / research
+  - name: Hugging Face Papers
+    url: https://huggingface.co/papers.rss
+  - name: arXiv cs.AI (new)
+    url: https://rss.arxiv.org/rss/cs.AI
+  # Markets & macro
+  - name: Reuters Business
+    url: https://feeds.reuters.com/reuters/businessNews
+  - name: CoinDesk
+    url: https://www.coindesk.com/arc/outboundfeeds/rss/

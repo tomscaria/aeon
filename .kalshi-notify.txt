@@ -1,0 +1,37 @@
+*Kalshi monitor — 2026-05-10*
+verdict: KXFED-27APR shows a consistent dovish step down across T3.25→T3.50 (−7 to −9pp) but all on thin books and sub-$200/day vol — T3.00=53% unchanged is the only clean read; KXBTC modal shifted to B81750 (9%) above $80,873 spot; no alerts, no gates cleared
+
+**Fed funds rate Apr 2027** (KXFED-27APR) — Economics
+| Market | prob | Δ24h | vol_24h | spread |
+|--------|------|------|---------|--------|
+| T3.00 | 53% | 0pp → | $6 | 1pp tight |
+| T3.25 | 42% | −7pp ▼ | $9 | 8pp loose |
+| T3.50 | 37% | −9pp ▼ | $110 | 23pp thin |
+| T3.75 | 41% | −1pp → | $57 | 6pp thin |
+| T4.00 | 42% | +3pp ▲ | $87 | 9pp thin |
+mover: T3.50 — falling 9pp on $110 vol, 23pp spread; T4.00 +3pp simultaneously = non-monotonic artifact; T3.00 (1pp tight) is anchor
+note: T0.xx-T1.xx ladder non-monotonic (T1.00=86% > T0.25=79%) — those buckets pure thin-book noise
+
+**Fed funds rate Dec 2026** (KXFED-26DEC) — Economics
+| Market | prob | Δ24h | vol_24h | spread |
+|--------|------|------|---------|--------|
+| T2.75 | 84% | 0pp → | $1,260 | 4pp loose |
+| T3.50 | 55% | +2pp → | $3 | 1pp tight |
+mover: T2.75 — largest 24h vol ($1,260), stable; no directional signal
+
+**Bitcoin May 15 5pm EDT** (KXBTC-26MAY1517) — Crypto
+| Market | prob | Δ24h | vol_24h | spread |
+|--------|------|------|---------|--------|
+| B81750 ($81.5–82k) | 9% | new | $229 | 2pp tight |
+| B80250 ($80–80.5k) | 8% | 0pp → | $113 | 3pp tight |
+| B80750 ($80.5–81k) | 7% | new | $102 | 3pp tight |
+| B81250 ($81–81.5k) | 8% | 0pp → | $59 | 2pp tight |
+mover: B81750 new modal bucket at 9%; BTC spot $80,873 → market pricing $81.5k-$82k as week mode; Hermes-arb: no signal yet
+
+**ALERTS** (>5pp non-thin book)
+none — T3.25/T3.50 drops (−7/−9pp) disqualified by thin spreads and sub-$1k vol
+
+**Trending (not tracked)**
+none — API returned only 2045-horizon long-dated events; all below tracked vol floor
+
+sources: events=ok candlesticks=degraded(empty-array known) orderbook=ok

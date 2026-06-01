@@ -2,13 +2,8 @@ HEARTBEAT_OK · STATUS_PAGE=DEGRADED — wrote docs/status.md
 
 ## Summary
 
-Ran the 20:00 UTC heartbeat slot. Read MEMORY.md, cron-state.json, INDEX.md, aeon.yml, and the last two days of logs.
-
-**P0:** 3 chain wrappers still failing (`chain:morning-brief`, `chain:evening-rollup`, `chain:weekly-grant-update`) — all the same Day-12 `dispatch_skill()` bug, all already covered by 08:00 + 14:00 heartbeats and OPS ALERT. No stuck dispatches, no `consecutive_failures ≥ 3`. Heartbeat self-check 5.1h ago, healthy.
-**P1:** 9 stalled PRs unchanged. **P2:** ISS-014 still open in INDEX.md despite PR #156 merge — skill-health 18:00 ran but didn't flip it (`filed: [], resolved: []`). **P3:** 4 never-dispatched skills (`weekly-shiplog`, `repo-scanner`, `syndicate-article`, `vercel-projects`) — same as 14:00. Nothing schedule-stale.
-
-**Notification:** none sent — full dedup against today's prior heartbeats + OPS ALERTS.
-
-**Status page:** regenerated `docs/status.md` (wholesale overwrite). Overall 🔴 DEGRADED, 17 open issues, next scheduled run `evening-recap` at 21:00 UTC. Skill table sorted last-run desc, 4 never-run rows at the bottom.
-
-**Files modified:** `docs/status.md`, `memory/logs/2026-05-08.md`. **Follow-up:** ISS-014 flip still pending; chain-runner.yml `dispatch_skill()` patch remains operator-priority #1 — the 21:00 chain:evening-rollup will likely fail on the same bug.
+- **P0:** chain:morning-brief (Day 17), chain:evening-rollup, chain:weekly-grant-update (all failed chain wrappers), workflow-security-audit (stuck >53h). All deduped — the 14:00 heartbeat already sent notification.
+- **P1/P2/P3:** Stalled PRs (9), flagged memory items, monitor-polymarket/token-report >48h — all deduped (14:00 heartbeat sent P3 notification).
+- **New since 14:00:** No new failures. 17:00 and 18:00 UTC skill batches all succeeded.
+- **No notification sent** (all findings deduped).
+- **docs/status.md regenerated** — 🔴 DEGRADED, 15 open issues (3 critical), 50+ skills tracked, next run evening-recap 21:00 UTC.

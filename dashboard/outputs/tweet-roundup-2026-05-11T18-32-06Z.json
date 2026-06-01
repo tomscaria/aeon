@@ -1,0 +1,110 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Roundup",
+        "description": "2026-05-11 | Source: cache:0 websearch:2 failed:1"
+      },
+      "children": [
+        "section_ai",
+        "sep1",
+        "section_crypto"
+      ]
+    },
+    "section_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ai",
+        "subheading_ai",
+        "tweet_ai_1",
+        "tweet_ai_2"
+      ]
+    },
+    "heading_ai": {
+      "type": "Heading",
+      "props": {
+        "text": "AI / LLM",
+        "level": "h3"
+      }
+    },
+    "subheading_ai": {
+      "type": "Text",
+      "props": {
+        "text": "efficiency race has a new leader: Baidu beats DeepSeek by a week on cost and bench, agentic upgrades in the release notes",
+        "variant": "lead"
+      }
+    },
+    "tweet_ai_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ERNIE 5.1 dropped. ~1/3 the parameters, ~6% of comparable models' pre-training cost. Explicitly upgrades agentic capabilities alongside search, reasoning, and knowledge Q&A.",
+        "href": "https://x.com/Baidu_Inc/status/2053009538769735774",
+        "source": "x.com/Baidu_Inc"
+      }
+    },
+    "tweet_ai_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ERNIE-5.1 Preview ranked #1 among Chinese models on LMArena, overtaking DeepSeek-V4-Pro — which itself launched last week.",
+        "href": "https://x.com/TechByMarkandey/status/2049672248446128562",
+        "source": "x.com/TechByMarkandey"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_crypto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_crypto",
+        "subheading_crypto",
+        "tweet_crypto_1",
+        "tweet_crypto_2"
+      ]
+    },
+    "heading_crypto": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto / Bitcoin",
+        "level": "h3"
+      }
+    },
+    "subheading_crypto": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh vote today, CLARITY markup May 14 — all US crypto regulation bets settle this week",
+        "variant": "lead"
+      }
+    },
+    "tweet_crypto_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Powell's term ends May 15. Senate votes Warsh today (May 11) — last step in his confirmation. If cloture passes, new Fed chair installs before the deadline.",
+        "href": "https://x.com/coinbureau/status/2053460045854323150",
+        "source": "x.com/coinbureau"
+      }
+    },
+    "tweet_crypto_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Senate Banking Committee schedules CLARITY Act markup for May 14 at 10:30am EST. First committee action on crypto market structure legislation.",
+        "href": "https://x.com/WatcherGuru/status/2052893017237868682",
+        "source": "x.com/WatcherGuru"
+      }
+    }
+  }
+}

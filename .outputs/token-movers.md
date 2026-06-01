@@ -1,42 +1,38 @@
-*Token Movers — 2026-05-08*
+*Token Movers — 2026-05-12 (PM run)*
 
-_Risk-off — 31/100 top coins green, median top-50 -1.3%; losers dominate._
+_Risk-off: ~20/100 top non-stable coins green, median top-50 around -1.7%; large-cap complex red, ETH -2.0%, selective bids in TON and sub-100 outlier pumps._
 
 *Top Winners (24h)*
-1. BSB (Block Street) — $0.645  +38.4% / 7d +34.8% / 1h -2.4%  •  $33M / #237  [BREAKOUT,PUMP-RISK]
-2. STRK (Starknet) — $0.0554  +28.4% / 7d +41.6% / 1h -0.7%  •  $267M / #143  [TRENDING+UP,BREAKOUT]
-3. CHIP (USD.AI) — $0.0668  +19.5% / 7d +6.6% / 1h -3.3%  •  $206M / #246
-4. JTO (Jito) — $0.553  +15.7% / 7d +55.8% / 1h -1.2%  •  $371M / #167  [BREAKOUT]
-5. LAB (LAB) — $4.090  +10.7% / 7d +488.8% / 1h -6.9%  •  $113M / #154
-6. PENDLE (Pendle) — $2.080  +10.2% / 7d +34.9% / 1h +2.2%  •  $85M / #136
-7. EIGEN (EigenCloud (prev. EigenLayer)) — $0.222  +9.3% / 7d +23.1% / 1h +2.1%  •  $34M / #211
-8. TON (Toncoin) — $2.580  +8.8% / 7d +92.8% / 1h +1.0%  •  $1.26B / #20  [TRENDING+UP,MAJOR]
-9. BILL (Billions Network) — $0.0834  +8.5% / 7d ? / 1h -5.6%  •  $255M / #187  [TRENDING+UP]
-10. B (BUILDon) — $0.373  +8.0% / 7d +69.9% / 1h +2.9%  •  $29M / #130
+1. SKYAI (SkyAI) — $0.5591  +34.7% / 7d +6.1% / 1h +0.8%  •  $69.6M / #100
+2. STABLE (Stable) — $0.03872  +12.3% / 7d +14.1% / 1h +2.6%  •  $24.1M / #78
+3. TON (Toncoin) — $2.35  +2.6% / 7d +27.2% / 1h -1.0%  •  $565M / #20  [MAJOR]
+4. FIGR (Figure Heloc) — $1.03  +2.4% / 7d 0.0% / 1h 0.0%  •  $17.4M / #9  [MAJOR]
+5. JST (JUST) — $0.08930  +2.2% / 7d +5.6% / 1h +0.1%  •  $24.3M / #86
+6. BNB — $664.24  +1.4% / 7d +5.7% / 1h +0.4%  •  $1.08B / #5  [MAJOR]
+7. FLR (Flare) — $0.008732  +1.4% / 7d +15.3% / 1h -0.2%  •  $4.7M / #87
 
 *Top Losers (24h)*
-1. H (Humanity) — $0.172  -13.7% / 7d -11.4% / 1h -12.5%  •  $29M / #148
-2. GENIUS (Genius) — $0.543  -7.4% / 7d +4.2% / 1h -0.3%  •  $12M / #199
-3. COMP (Compound) — $21.80  -7.2% / 7d -13.2% / 1h -0.0%  •  $32M / #183
-4. CFG (Centrifuge) — $0.282  -7.2% / 7d +35.5% / 1h +1.1%  •  $29M / #212
-5. PI (Pi Network) — $0.169  -5.9% / 7d -6.3% / 1h -0.8%  •  $23M / #51
-6. DASH (Dash) — $50.22  -5.6% / 7d +40.7% / 1h +0.2%  •  $167M / #90
-7. DCR (Decred) — $19.16  -5.4% / 7d +5.3% / 1h +0.0%  •  $2M / #142
-8. EDGE (edgeX) — $1.280  -5.0% / 7d +5.6% / 1h -0.4%  •  $15M / #114
-9. FARTCOIN (Fartcoin) — $0.244  -4.7% / 7d +20.3% / 1h -0.4%  •  $30M / #174
-10. XMR (Monero) — $397.8  -4.5% / 7d +5.0% / 1h +0.2%  •  $165M / #18  [MAJOR]
+1. JUP (Jupiter) — $0.2325  -8.8% / 7d +26.4% / 1h +0.1%  •  $73.4M / #84
+2. ICP (Internet Computer) — $3.28  -6.7% / 7d +32.9% / 1h -0.5%  •  $93.4M / #48
+3. VVV (Venice Token) — $16.66  -6.0% / 7d +79.5% / 1h +0.2%  •  $140.5M / #85  [TRENDING+DOWN]
+4. ENA (Ethena) — $0.1229  -4.9% / 7d +15.0% / 1h +0.3%  •  $129.8M / #65
+5. BONK — $0.000007160  -4.3% / 7d +10.1% / 1h +0.5%  •  $60.6M / #92
+6. WLD (Worldcoin) — $0.2693  -3.7% / 7d +10.4% / 1h +0.2%  •  $77.6M / #76
+7. TAO (Bittensor) — $310.69  -3.6% / 7d +8.6% / 1h 0.0%  •  $235.2M / #37
+8. UNI (Uniswap) — $3.77  -3.6% / 7d +12.2% / 1h +0.2%  •  $194.0M / #39
+9. MORPHO — $2.08  -2.9% / 7d -5.6% / 1h +0.4%  •  $9.1M / #62
 
 *Trending*
-1. Starknet (STRK) — #145, $0.0558, 24h +30.4%
-2. Pharos (PROS) — #258, $0.918, 24h +47.1%  [MICROCAP,PUMP-RISK]
-3. Ondo (ONDO) — #46, $0.396, 24h +7.9%
-4. wojak (WOJAK) — #726, $0.000000, 24h -1.8%  [MICROCAP]
-5. Billions Network (BILL) — #186, $0.0831, 24h +8.6%
-6. Toncoin (TON) — #20, $2.596, 24h +6.9%  [MAJOR]
-7. Pudgy Penguins (PENGU) — #88, $0.0104, 24h -2.8%
+1. FIRO (Firo) — #819, $1.344, +13.2%  [MICROCAP]
+2. ZANO (Zano) — #207, $11.59, -3.2%
+3. BILL (Billions Network) — #132, $0.1605, +21.4%
+4. LAB — #142, $4.554, -1.3%
+5. PENGU (Pudgy Penguins) — #93, $0.009915, -3.6%  [TRENDING+DOWN]
+6. WOJAK — #602, $0.000000128, +5.9%  [MICROCAP]
+7. VVV (Venice Token) — #85, $16.68, -6.0%  [TRENDING+DOWN]
 
 *Notable*
-• BSB: #237 rank up 38.4% — PUMP-RISK, low-cap tier
-• STRK: trending and +28.4% on $267M vol — corroborated signal
-• JTO: 24h +15.7% on top of 7d +55.8% — sustained breakout
-• TON: trending and +8.8% on $1.26B vol — corroborated signal
+• B (BUILDon) #91: deduped (was +36% [BREAKOUT] yesterday); +35% today, 7d +78% on $110M vol — multi-day BREAKOUT persists without catalyst
+• BILL #132: +21.4% today vs +12.8% yesterday — accelerating two-day trending move
+• VVV #85: [TRENDING+DOWN] — reversed from +17% [BREAKOUT] on 05-11; two-day round-trip
+• KISHU #848: +38.5% in full trending list [PUMP-RISK][MICROCAP] — outside top 250, avoid

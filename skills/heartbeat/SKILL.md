@@ -149,3 +149,7 @@ If something needs attention:
 1. Send a single concise notification via `./notify` (grouped by priority as above)
 2. Log the findings and actions taken to memory/logs/${today}.md
 3. Log one line with the status-page verdict, e.g. `STATUS_PAGE=DEGRADED — wrote docs/status.md`
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

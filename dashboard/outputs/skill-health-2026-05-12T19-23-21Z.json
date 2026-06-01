@@ -1,0 +1,243 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health",
+        "description": "2026-05-12"
+      },
+      "children": [
+        "alert",
+        "sep1",
+        "metrics",
+        "sep2",
+        "delta",
+        "sep3",
+        "degraded",
+        "sep4",
+        "nodata",
+        "sep5",
+        "issues"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Health Status",
+        "message": "DEGRADED(19) — all functional (cf=0), rates suppressed by burst tails. Systemic: 19 DEGRADED — all cf=0, running; ISS-013/ISS-020 burst tail decay ~2026-05-15; chain-runner day 22",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-degraded",
+        "stat-healthy",
+        "stat-nodata"
+      ]
+    },
+    "stat-degraded": {
+      "type": "Stat",
+      "props": {
+        "label": "Degraded",
+        "value": "19"
+      }
+    },
+    "stat-healthy": {
+      "type": "Stat",
+      "props": {
+        "label": "Healthy",
+        "value": "13"
+      }
+    },
+    "stat-nodata": {
+      "type": "Stat",
+      "props": {
+        "label": "No Data",
+        "value": "11"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "delta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "delta-heading",
+        "delta-1",
+        "delta-2"
+      ]
+    },
+    "delta-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Delta vs 2026-05-11",
+        "level": "h3"
+      }
+    },
+    "delta-1": {
+      "type": "Text",
+      "props": {
+        "text": "cost-report: CRITICAL → DEGRADED (cf=0, ran successfully today) — ISS-021 updated"
+      }
+    },
+    "delta-2": {
+      "type": "Text",
+      "props": {
+        "text": "fetch-tweets/refresh-x/tweet-roundup: DEGRADED → WARNING"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "degraded": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "degraded-heading",
+        "degraded-items",
+        "degraded-more"
+      ]
+    },
+    "degraded-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Degraded (19)",
+        "level": "h3"
+      }
+    },
+    "degraded-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deg-1",
+        "deg-2",
+        "deg-3",
+        "deg-4",
+        "deg-5"
+      ]
+    },
+    "deg-1": {
+      "type": "Text",
+      "props": {
+        "text": "workflow-security-audit — sr 15%, ~9d since last success — INVESTIGATE"
+      }
+    },
+    "deg-2": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker — sr 32%, ~5d since last success — INVESTIGATE"
+      }
+    },
+    "deg-3": {
+      "type": "Text",
+      "props": {
+        "text": "channel-recap — sr 21%, ~2d since last success — INVESTIGATE"
+      }
+    },
+    "deg-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-report — sr 37%, ~2d since last success — INVESTIGATE"
+      }
+    },
+    "deg-5": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-polymarket — sr 43%, ~2d since last success — INVESTIGATE"
+      }
+    },
+    "degraded-more": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "more-text",
+        "more-link"
+      ]
+    },
+    "more-text": {
+      "type": "Text",
+      "props": {
+        "text": "+14 more"
+      }
+    },
+    "more-link": {
+      "type": "Link",
+      "props": {
+        "label": "see memory/issues/INDEX.md",
+        "href": "memory/issues/INDEX.md"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "nodata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "nodata-heading",
+        "nodata-list",
+        "dispatch-action"
+      ]
+    },
+    "nodata-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "No Data (11)",
+        "level": "h3"
+      }
+    },
+    "nodata-list": {
+      "type": "Text",
+      "props": {
+        "text": "autoresearch, auto-workflow, create-skill, deploy-prototype, distribute-tokens, last30, onboard, skill-repair, spawn-instance, task-planner, tool-builder"
+      }
+    },
+    "dispatch-action": {
+      "type": "Badge",
+      "props": {
+        "text": "DISPATCH-SKILL",
+        "variant": "outline"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "issues": {
+      "type": "Text",
+      "props": {
+        "text": "Open issues: 11 · Resolved this run: 0"
+      }
+    }
+  }
+}

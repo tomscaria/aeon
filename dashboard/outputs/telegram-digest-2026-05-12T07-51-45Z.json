@@ -1,0 +1,46 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Telegram Digest"
+      },
+      "children": [
+        "status_alert",
+        "sep1",
+        "instructions"
+      ]
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "No channels configured"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "instructions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "instruction_text"
+      ]
+    },
+    "instruction_text": {
+      "type": "Text",
+      "props": {
+        "text": "Add usernames to skills/telegram-digest/channels.md (one per line) or pass var=<channel>"
+      }
+    }
+  }
+}

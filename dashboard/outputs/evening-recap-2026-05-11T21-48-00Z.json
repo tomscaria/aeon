@@ -1,0 +1,394 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Evening Recap — 2026-05-11",
+        "description": "signals fired but context stale — cost-report down 7d (ISS-021), Revenant delta unverifiable."
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-trading",
+        "sep-1",
+        "section-failures",
+        "sep-2",
+        "section-top3",
+        "sep-3",
+        "footer"
+      ]
+    },
+    "section-trading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trading-heading",
+        "loop-scan",
+        "signals-heading",
+        "signal-1",
+        "signal-2",
+        "signal-3",
+        "signal-4",
+        "revenant-heading",
+        "revenant-note",
+        "revenant-stats",
+        "nav-delta"
+      ]
+    },
+    "trading-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trading",
+        "level": "h3"
+      }
+    },
+    "loop-scan": {
+      "type": "Text",
+      "props": {
+        "text": "Loop scan: stale (last-sync 2026-05-09T07:16Z, 48h+)"
+      }
+    },
+    "signals-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Signals",
+        "level": "h4"
+      }
+    },
+    "signal-1": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi KXFED-27APR T3.50 +17pp alert"
+      }
+    },
+    "signal-2": {
+      "type": "Text",
+      "props": {
+        "text": "PM Iran May-15 3.35% NO lean"
+      }
+    },
+    "signal-3": {
+      "type": "Text",
+      "props": {
+        "text": "Hantavirus 8.85% fade-vs-incubation debate"
+      }
+    },
+    "signal-4": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh cloture risk"
+      }
+    },
+    "revenant-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Revenant",
+        "level": "h4"
+      }
+    },
+    "revenant-note": {
+      "type": "Text",
+      "props": {
+        "text": "snapshot empty/stale",
+        "variant": "muted"
+      }
+    },
+    "revenant-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-trades",
+        "stat-wr",
+        "stat-pl",
+        "stat-sharpe"
+      ]
+    },
+    "stat-trades": {
+      "type": "Stat",
+      "props": {
+        "label": "Trades",
+        "value": "29"
+      }
+    },
+    "stat-wr": {
+      "type": "Stat",
+      "props": {
+        "label": "Win Rate",
+        "value": "76%"
+      }
+    },
+    "stat-pl": {
+      "type": "Stat",
+      "props": {
+        "label": "P&L",
+        "value": "+$415"
+      }
+    },
+    "stat-sharpe": {
+      "type": "Stat",
+      "props": {
+        "label": "Sharpe",
+        "value": "0.31"
+      }
+    },
+    "nav-delta": {
+      "type": "Text",
+      "props": {
+        "text": "NAV delta: unknown (context not refreshed today)",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-failures": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "failures-heading",
+        "failure-cost-report-group",
+        "failure-morning-brief",
+        "failure-evening-rollup"
+      ]
+    },
+    "failures-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Failures",
+        "level": "h3"
+      }
+    },
+    "failure-cost-report-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert-cost-report",
+        "cost-report-link"
+      ]
+    },
+    "alert-cost-report": {
+      "type": "Alert",
+      "props": {
+        "title": "cost-report",
+        "message": "CRITICAL cf=6, 7d down",
+        "type": "error"
+      }
+    },
+    "cost-report-link": {
+      "type": "Link",
+      "props": {
+        "label": "memory/issues/ISS-021.md",
+        "href": "memory/issues/ISS-021.md"
+      }
+    },
+    "failure-morning-brief": {
+      "type": "Text",
+      "props": {
+        "text": "chain:morning-brief — dispatch_skill() day 15"
+      }
+    },
+    "failure-evening-rollup": {
+      "type": "Text",
+      "props": {
+        "text": "chain:evening-rollup — day 15"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-top3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top3-heading",
+        "top-item-1",
+        "top-item-2",
+        "top-item-3"
+      ]
+    },
+    "top3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top 3 today",
+        "level": "h3"
+      }
+    },
+    "top-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top1-title",
+        "top1-content"
+      ]
+    },
+    "top1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Galanis 2604.20050",
+        "level": "h4"
+      }
+    },
+    "top1-content": {
+      "type": "Text",
+      "props": {
+        "text": "LLM aggregation breaks on complexity; CalibrationGap ADR-096+ anchor (econ.GN)"
+      }
+    },
+    "top-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top2-title",
+        "top2-content"
+      ]
+    },
+    "top2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "2. paper-digest",
+        "level": "h4"
+      }
+    },
+    "top2-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top2-text",
+        "top2-link"
+      ]
+    },
+    "top2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Eywa ↑209 (orchestration) + BLF (beats GPT-5/Grok on ForecastBench binaries)"
+      }
+    },
+    "top2-link": {
+      "type": "Link",
+      "props": {
+        "label": "articles/paper-digest-2026-05-11.md",
+        "href": "articles/paper-digest-2026-05-11.md"
+      }
+    },
+    "top-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top3-title",
+        "top3-content"
+      ]
+    },
+    "top3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "3. PM comments",
+        "level": "h4"
+      }
+    },
+    "top3-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top3-text1",
+        "top3-text2"
+      ]
+    },
+    "top3-text1": {
+      "type": "Text",
+      "props": {
+        "text": "Iran May-15 NO lean (morenaji track record)"
+      }
+    },
+    "top3-text2": {
+      "type": "Text",
+      "props": {
+        "text": "Hantavirus 6-wk incubation counter-fade (Ancient-Armadillo 05-11)"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-collapsed",
+        "footer-sources",
+        "footer-stale"
+      ]
+    },
+    "footer-collapsed": {
+      "type": "Text",
+      "props": {
+        "text": "+12 routine runs collapsed",
+        "variant": "caption"
+      }
+    },
+    "footer-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: log=ok cron-state=ok",
+        "variant": "caption"
+      }
+    },
+    "footer-stale": {
+      "type": "Text",
+      "props": {
+        "text": "stale: trading/revenant/last-sync 48h+",
+        "variant": "caption"
+      }
+    }
+  }
+}

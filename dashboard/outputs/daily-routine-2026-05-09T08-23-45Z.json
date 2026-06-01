@@ -1,0 +1,700 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Routine — 2026-05-09"
+      },
+      "children": [
+        "lead-text",
+        "sep-1",
+        "winners-heading",
+        "winners-table",
+        "sep-2",
+        "losers-heading",
+        "losers-table",
+        "sep-3",
+        "trending-heading",
+        "trending-table",
+        "sep-4",
+        "notable-heading",
+        "notable-stack",
+        "sep-5",
+        "tweets-heading",
+        "tweets-stack",
+        "sep-6",
+        "paper-heading",
+        "paper-stack",
+        "sep-7",
+        "github-heading",
+        "github-text",
+        "sep-8",
+        "hn-heading",
+        "hn-stack"
+      ]
+    },
+    "lead-text": {
+      "type": "Text",
+      "props": {
+        "text": "Risk-on rotation: 14/17 major alts green; ZEC and SOL lead breakouts; TON enters 3rd post-peak fade day.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-8": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "ZEC",
+            "$608",
+            "+6.6%",
+            "+60.8%",
+            "-1.3%",
+            "$1.02B",
+            "#15",
+            "BREAKOUT, TRENDING+UP"
+          ],
+          [
+            "SOL",
+            "$93.68",
+            "+6.1%",
+            "+11.8%",
+            "+0.2%",
+            "$4.15B",
+            "#7",
+            "MAJOR, TRENDING+UP"
+          ],
+          [
+            "LINK",
+            "$10.47",
+            "+5.9%",
+            "+15.1%",
+            "–",
+            "$616M",
+            "#19",
+            "MAJOR"
+          ],
+          [
+            "ADA",
+            "$0.276",
+            "+5.1%",
+            "+11.3%",
+            "–",
+            "$414M",
+            "#14",
+            "MAJOR"
+          ],
+          [
+            "XMR",
+            "$413.6",
+            "+4.4%",
+            "+6.6%",
+            "–",
+            "$134M",
+            "#18",
+            "MAJOR"
+          ],
+          [
+            "DOGE",
+            "$0.1105",
+            "+3.8%",
+            "–",
+            "–",
+            "$1.12B",
+            "#10",
+            "MAJOR"
+          ],
+          [
+            "XRP",
+            "$1.42",
+            "+2.9%",
+            "–",
+            "–",
+            "$1.57B",
+            "#4",
+            "MAJOR"
+          ],
+          [
+            "BNB",
+            "$650",
+            "+2.1%",
+            "+5.6%",
+            "–",
+            "$914M",
+            "#5",
+            "MAJOR"
+          ],
+          [
+            "HYPE",
+            "$43.83",
+            "+2.2%",
+            "+5.8%",
+            "–",
+            "$226M",
+            "#12",
+            "–"
+          ],
+          [
+            "ONDO",
+            "$0.436",
+            "+18.1%",
+            "–",
+            "–",
+            "–",
+            "#45",
+            "TRENDING+UP"
+          ]
+        ]
+      }
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h %",
+          "7d %",
+          "Market Cap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "TON",
+            "$2.54",
+            "-7.3%",
+            "+91.3%",
+            "$840M",
+            "#20",
+            "MAJOR — day-3 post-peak fade"
+          ]
+        ]
+      }
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h %",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "ONDO",
+            "$0.436",
+            "+18.1%",
+            "#45",
+            "TRENDING+UP"
+          ],
+          [
+            "SUI",
+            "$1.07",
+            "+10.8%",
+            "#27",
+            "TRENDING+UP"
+          ],
+          [
+            "WOJAK",
+            "$0.000000119",
+            "+16.1%",
+            "#630",
+            "PUMP-RISK, MICROCAP"
+          ],
+          [
+            "PENGU",
+            "$0.01070",
+            "+4.1%",
+            "#89",
+            "–"
+          ],
+          [
+            "VVV",
+            "$15.35",
+            "+14.0%",
+            "#87",
+            "–"
+          ],
+          [
+            "ZEC",
+            "$609",
+            "+6.9%",
+            "#15",
+            "BREAKOUT, TRENDING+UP"
+          ],
+          [
+            "SOL",
+            "$93.69",
+            "+6.2%",
+            "#7",
+            "MAJOR, TRENDING+UP"
+          ]
+        ]
+      }
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC [BREAKOUT][TRENDING+UP]: 7d +60.8% on $1.02B vol — reverses 2-day trending fade from memory"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "WOJAK [PUMP-RISK]: rank 630, +16% — manipulation signal, disclose"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO: +18.1% trending — RWA/institutional DeFi momentum"
+      }
+    },
+    "tweets-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet Roundup",
+        "level": "h3"
+      }
+    },
+    "tweets-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweets-crypto-heading",
+        "tweets-crypto-text",
+        "tweets-ai-heading",
+        "tweets-ai-text",
+        "tweets-dev-heading",
+        "tweets-dev-text"
+      ]
+    },
+    "tweets-crypto-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto/PM",
+        "level": "h4"
+      }
+    },
+    "tweets-crypto-text": {
+      "type": "Text",
+      "props": {
+        "text": "Lagarde flagged $310B stablecoin market as systemic stability risk. Polymarket daily fees rose sharply after March 30 fee-model expansion. Prediction-market aggregators emerging as dominant interface layer for multi-billion weekly volume."
+      }
+    },
+    "tweets-ai-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI",
+        "level": "h4"
+      }
+    },
+    "tweets-ai-text": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic planning $50B raise at ~$900B valuation; Google pledging $40B into Anthropic. Frontier models (Claude Opus 4.6, Gemini 3.1 Pro) now exceed 50% on Humanity's Last Exam. Agentic AI showing the biggest benchmark gains of any AI category."
+      }
+    },
+    "tweets-dev-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Dev",
+        "level": "h4"
+      }
+    },
+    "tweets-dev-text": {
+      "type": "Text",
+      "props": {
+        "text": "OpenClaw breakout open-source agent project. OpenAI Codex Chrome extension ships browser-session agents across live tabs. Ollama normalizing local LLM inference; Continue bringing open-source AI coding to any editor."
+      }
+    },
+    "paper-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Paper of the Day",
+        "level": "h3"
+      }
+    },
+    "paper-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "paper-title",
+        "paper-author",
+        "paper-description",
+        "paper-links-stack"
+      ]
+    },
+    "paper-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ForesightFlow",
+        "level": "h4"
+      }
+    },
+    "paper-author": {
+      "type": "Text",
+      "props": {
+        "text": "Nechepurenko (May 1, 2026) — closes the 8-paper run",
+        "variant": "caption"
+      }
+    },
+    "paper-description": {
+      "type": "Text",
+      "props": {
+        "text": "ILS framework for detecting informed trading on decentralized PMs; exponential hazard baseline for deadline-resolved markets; data + code released."
+      }
+    },
+    "paper-links-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "paper-read-link",
+        "paper-pdf-link"
+      ]
+    },
+    "paper-read-link": {
+      "type": "Link",
+      "props": {
+        "label": "Read",
+        "href": "https://arxiv.org/abs/2605.00493"
+      }
+    },
+    "paper-pdf-link": {
+      "type": "Link",
+      "props": {
+        "label": "PDF",
+        "href": "https://arxiv.org/pdf/2605.00493"
+      }
+    },
+    "github-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "GitHub Issues",
+        "level": "h3"
+      }
+    },
+    "github-text": {
+      "type": "Text",
+      "props": {
+        "text": "No new issues (13th clean day on tomscaria scope)"
+      }
+    },
+    "hn-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HN Digest",
+        "level": "h3"
+      }
+    },
+    "hn-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "hn-intro",
+        "hn-item-1",
+        "hn-item-2",
+        "hn-item-3",
+        "hn-item-4",
+        "hn-item-5"
+      ]
+    },
+    "hn-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Security day — reCAPTCHA break, kernel LPE, and AI-vulnerability threads dominate; Mojo 1.0 adds infra weight.",
+        "variant": "muted"
+      }
+    },
+    "hn-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-1-link",
+        "hn-1-desc",
+        "hn-1-discuss"
+      ]
+    },
+    "hn-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Google broke reCAPTCHA for de-googled Android",
+        "href": "https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users",
+        "source": "Hacker News",
+        "score": "941 pts, 314 comments"
+      }
+    },
+    "hn-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Google Play Services dependency breaks privacy-focused users.",
+        "variant": "caption"
+      }
+    },
+    "hn-1-discuss": {
+      "type": "Link",
+      "props": {
+        "label": "Discuss",
+        "href": "https://news.ycombinator.com/item?id=48067119"
+      }
+    },
+    "hn-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-2-link",
+        "hn-2-desc",
+        "hn-2-discuss"
+      ]
+    },
+    "hn-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AI is breaking two vulnerability cultures",
+        "href": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+        "source": "Hacker News",
+        "score": "316 pts, 130 comments"
+      }
+    },
+    "hn-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI eroding both quiet-disclosure and public-disclosure security norms simultaneously.",
+        "variant": "caption"
+      }
+    },
+    "hn-2-discuss": {
+      "type": "Link",
+      "props": {
+        "label": "Discuss",
+        "href": "https://news.ycombinator.com/item?id=48066524"
+      }
+    },
+    "hn-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-3-link",
+        "hn-3-desc",
+        "hn-3-discuss"
+      ]
+    },
+    "hn-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Mojo 1.0 Beta",
+        "href": "https://mojolang.org/",
+        "source": "Hacker News",
+        "score": "338 pts, 218 comments"
+      }
+    },
+    "hn-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Production milestone for the Python-superset systems language.",
+        "variant": "caption"
+      }
+    },
+    "hn-3-discuss": {
+      "type": "Link",
+      "props": {
+        "label": "Discuss",
+        "href": "https://news.ycombinator.com/item?id=48057901"
+      }
+    },
+    "hn-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-4-link",
+        "hn-4-desc",
+        "hn-4-discuss"
+      ]
+    },
+    "hn-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "io_uring ZCRX freelist LPE",
+        "href": "https://ze3tar.github.io/post-zcrx.html",
+        "source": "Hacker News",
+        "score": "178 pts, 105 comments"
+      }
+    },
+    "hn-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Kernel exploit via zero-copy receive freelist; u32 input yields root.",
+        "variant": "caption"
+      }
+    },
+    "hn-4-discuss": {
+      "type": "Link",
+      "props": {
+        "label": "Discuss",
+        "href": "https://news.ycombinator.com/item?id=48067734"
+      }
+    },
+    "hn-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-5-link",
+        "hn-5-desc",
+        "hn-5-discuss"
+      ]
+    },
+    "hn-5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ChatGPT 5.5 Pro experience",
+        "href": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
+        "source": "Hacker News",
+        "score": "218 pts, 104 comments"
+      }
+    },
+    "hn-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Mathematician's field notes on frontier model reasoning.",
+        "variant": "caption"
+      }
+    },
+    "hn-5-discuss": {
+      "type": "Link",
+      "props": {
+        "label": "Discuss",
+        "href": "https://news.ycombinator.com/item?id=48071262"
+      }
+    }
+  }
+}

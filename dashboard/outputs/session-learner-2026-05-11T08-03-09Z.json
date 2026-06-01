@@ -1,0 +1,136 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Session Learner"
+      },
+      "children": [
+        "alert",
+        "metadata",
+        "sep1",
+        "heading",
+        "proposals",
+        "sep2",
+        "footer"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Stale Data",
+        "message": "Last update 48+ hours ago"
+      }
+    },
+    "metadata": {
+      "type": "Text",
+      "props": {
+        "text": "2026-05-11 | 20 sessions, 7 log days",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "10 Proposals Ranked by Impact",
+        "level": "h3"
+      }
+    },
+    "proposals": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prop1",
+        "prop2",
+        "prop3",
+        "prop4",
+        "prop5",
+        "prop6",
+        "prop7",
+        "prop8",
+        "prop9",
+        "prop10"
+      ]
+    },
+    "prop1": {
+      "type": "Text",
+      "props": {
+        "text": "1. [tool-builder] chain-runner dispatch_skill() patch — DEGRADED day 14, gates 3 chains"
+      }
+    },
+    "prop2": {
+      "type": "Text",
+      "props": {
+        "text": "2. [skill-repair] reddit-digest prefetch script — 16+ consecutive failures, ISS-002+012"
+      }
+    },
+    "prop3": {
+      "type": "Text",
+      "props": {
+        "text": "3. [tool-builder] XAI prefetch — 3 skills degraded 6+ runs (reply-maker, fetch-tweets, tweet-roundup)"
+      }
+    },
+    "prop4": {
+      "type": "Text",
+      "props": {
+        "text": "4. [memory-write] context-sync.sh staleness — last-sync 48h+ stale, 4h schedule not firing"
+      }
+    },
+    "prop5": {
+      "type": "Text",
+      "props": {
+        "text": "5. [memory-write] ISS-020 state-write failure pattern — root cause still unidentified"
+      }
+    },
+    "prop6": {
+      "type": "Text",
+      "props": {
+        "text": "6. [autoresearch] monitor-runners DEEP-LIQ floor patch — 8+ runs ready for self-improve"
+      }
+    },
+    "prop7": {
+      "type": "Text",
+      "props": {
+        "text": "7. [CLAUDE.md] Add ## Interests to MEMORY.md — paper-digest inferring topics 13 consecutive days"
+      }
+    },
+    "prop8": {
+      "type": "Text",
+      "props": {
+        "text": "8. [autoresearch] polymarket-comments crypto vertical — 7+ days dead, permanent substitution unacknowledged in config"
+      }
+    },
+    "prop9": {
+      "type": "Text",
+      "props": {
+        "text": "9. [memory-write] Agentic payments infrastructure topic — NEW narrative, not tracked"
+      }
+    },
+    "prop10": {
+      "type": "Text",
+      "props": {
+        "text": "10. [memory-write] Operator config sweep checklist — 4 skills NO_CONFIG every run"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "footer": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Report",
+        "href": "articles/session-learner-2026-05-11.md",
+        "source": "Session Learner"
+      }
+    }
+  }
+}

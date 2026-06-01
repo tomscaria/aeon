@@ -119,3 +119,7 @@ The recap is not a log dump — the operator can read the log themselves. Its jo
 ## Sandbox note
 
 All inputs are local file reads (logs, issues index, cron-state). `gh pr list` runs through the GitHub CLI and is sandbox-friendly — if it fails, treat the source as unavailable and skip the PR-staleness check. `./notify` writes to `.pending-notify/` when outbound HTTP is blocked, so delivery is reliable.
+
+## Constraints
+
+- Do not change the skill's tags or var semantics.

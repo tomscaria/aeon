@@ -1,0 +1,170 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Evening Recap — 2026-05-10"
+      },
+      "children": [
+        "tldr_text",
+        "sep1",
+        "trading_heading",
+        "trading_badge",
+        "trading_scans",
+        "trading_signals",
+        "trading_orders",
+        "trading_nav",
+        "sep2",
+        "top3_heading",
+        "top3_item1",
+        "top3_item2",
+        "top3_item3",
+        "sep3",
+        "failures_alert",
+        "sep4",
+        "decisions_heading",
+        "decision1",
+        "decision2",
+        "decision3",
+        "sep5",
+        "footer_text"
+      ]
+    },
+    "tldr_text": {
+      "type": "Text",
+      "props": {
+        "text": "2 PRs filed, SCI paper picked completing 4-paper Nechepurenko stack; Revenant snapshot stale 36h, no live NAV delta",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trading_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trading loop",
+        "level": "h3"
+      }
+    },
+    "trading_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stale, synced 05-09T07:16",
+        "variant": "outline"
+      }
+    },
+    "trading_scans": {
+      "type": "Text",
+      "props": {
+        "text": "Scans: 8,431 PM market scans + 1,578 HL queries (period total)"
+      }
+    },
+    "trading_signals": {
+      "type": "Text",
+      "props": {
+        "text": "Signals fired: 0 — Iran MOU May-31 +7pp but UMA clause excludes; Kalshi T3.50 -9pp spread 23pp; no CalibrationGap entry"
+      }
+    },
+    "trading_orders": {
+      "type": "Text",
+      "props": {
+        "text": "Revenant orders: none today (last trade 2026-04-27; snapshot empty)"
+      }
+    },
+    "trading_nav": {
+      "type": "Text",
+      "props": {
+        "text": "NAV delta: unavailable — baseline +$415 / 29 trades / 76% WR / Sharpe 0.31"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "top3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top 3 today",
+        "level": "h3"
+      }
+    },
+    "top3_item1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SCI arXiv:2604.27041 — per-tick credibility diagnostic, ADR seed sci-entry-gate",
+        "href": "https://arxiv.org/abs/2604.27041",
+        "source": "arXiv"
+      }
+    },
+    "top3_item2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PR #12 config-audit — 31 auto-fixes, grade B (89/100)",
+        "href": "https://github.com/tomscaria/aeon/pull/12",
+        "source": "GitHub"
+      }
+    },
+    "top3_item3": {
+      "type": "Text",
+      "props": {
+        "text": "PM-comments: Iran non-nuclear MOU submitted live — May-31 +7pp, clause-excluded; direct ADR-096+ anchor"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "failures_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Failures",
+        "message": "chain:morning-brief day 14; reddit-digest fail #16 (ISS-002/012); workflow-security-audit stuck cron-state (ISS-020)",
+        "type": "error"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "decisions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decisions",
+        "level": "h3"
+      }
+    },
+    "decision1": {
+      "type": "Text",
+      "props": {
+        "text": "merge PR #12"
+      }
+    },
+    "decision2": {
+      "type": "Text",
+      "props": {
+        "text": "pause reddit-digest cron"
+      }
+    },
+    "decision3": {
+      "type": "Text",
+      "props": {
+        "text": "refresh revenant-snapshot"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "+15 routine runs collapsed · sources: log=ok cron-state=ok",
+        "variant": "muted"
+      }
+    }
+  }
+}

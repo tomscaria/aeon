@@ -1,0 +1,438 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Evening Recap — 2026-05-12",
+        "description": "TL;DR: research-heavy day, zero trading-loop signal — monitor-polymarket dark 48h, Revenant snapshot 3d stale."
+      },
+      "children": [
+        "trading_loop_heading",
+        "trading_loop_stack",
+        "separator_1",
+        "headlines_heading",
+        "headlines_stack",
+        "separator_2",
+        "notable_heading",
+        "notable_stack",
+        "separator_3",
+        "decisions_heading",
+        "decisions_stack",
+        "separator_4",
+        "blockers_heading",
+        "blockers_stack",
+        "separator_5",
+        "footnote_text"
+      ]
+    },
+    "trading_loop_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trading Loop",
+        "level": "h2"
+      }
+    },
+    "trading_loop_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_scans",
+        "stat_signals",
+        "revenant_status_text",
+        "revenant_stats_grid",
+        "stat_nav_delta"
+      ]
+    },
+    "stat_scans": {
+      "type": "Stat",
+      "props": {
+        "label": "Scans",
+        "value": "0",
+        "delta": "monitor-polymarket skipped 05-11 + 05-12"
+      }
+    },
+    "stat_signals": {
+      "type": "Stat",
+      "props": {
+        "label": "Signals Fired",
+        "value": "0"
+      }
+    },
+    "revenant_status_text": {
+      "type": "Text",
+      "props": {
+        "text": "Revenant: snapshot stale 3 days (revenant_agents: empty)",
+        "variant": "body"
+      }
+    },
+    "revenant_stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_revenant_trades",
+        "stat_revenant_wr",
+        "stat_revenant_nav"
+      ]
+    },
+    "stat_revenant_trades": {
+      "type": "Stat",
+      "props": {
+        "label": "Trades",
+        "value": "29"
+      }
+    },
+    "stat_revenant_wr": {
+      "type": "Stat",
+      "props": {
+        "label": "Win Rate",
+        "value": "76%"
+      }
+    },
+    "stat_revenant_nav": {
+      "type": "Stat",
+      "props": {
+        "label": "NAV",
+        "value": "$415",
+        "trend": "up"
+      }
+    },
+    "stat_nav_delta": {
+      "type": "Stat",
+      "props": {
+        "label": "NAV Delta",
+        "value": "unknown"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "headlines_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Headlines",
+        "level": "h2"
+      }
+    },
+    "headlines_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "headlines_paper_stack",
+        "headlines_cost_stack"
+      ]
+    },
+    "headlines_paper_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper_pick_label",
+        "eywa_link",
+        "maresca_link",
+        "paper_digest_link"
+      ]
+    },
+    "paper_pick_label": {
+      "type": "Text",
+      "props": {
+        "text": "paper-pick",
+        "variant": "lead"
+      }
+    },
+    "eywa_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Eywa",
+        "href": "https://arxiv.org/abs/2604.27351",
+        "source": "arXiv",
+        "score": "Up 211 votes (PhD slot)"
+      }
+    },
+    "maresca_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Maresca",
+        "href": "https://arxiv.org/abs/2602.21091",
+        "source": "arXiv",
+        "score": "83% horizon-degradation elimination (daily)"
+      }
+    },
+    "paper_digest_link": {
+      "type": "Link",
+      "props": {
+        "label": "Paper Digest 2026-05-12",
+        "href": "articles/paper-digest-2026-05-12.md"
+      }
+    },
+    "headlines_cost_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cost_report_label",
+        "cost_stat",
+        "cost_detail_text",
+        "cost_digest_link",
+        "iss_021_badge"
+      ]
+    },
+    "cost_report_label": {
+      "type": "Text",
+      "props": {
+        "text": "cost-report",
+        "variant": "lead"
+      }
+    },
+    "cost_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Weekly Cost",
+        "value": "$293.85",
+        "delta": "-51.9% WoW",
+        "trend": "down"
+      }
+    },
+    "cost_detail_text": {
+      "type": "Text",
+      "props": {
+        "text": "~$1.26k/mo run rate",
+        "variant": "caption"
+      }
+    },
+    "cost_digest_link": {
+      "type": "Link",
+      "props": {
+        "label": "Cost Report 2026-05-12",
+        "href": "articles/cost-report-2026-05-12.md"
+      }
+    },
+    "iss_021_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ISS-021 RECOVERED",
+        "variant": "default"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "notable_tweets_stack",
+        "notable_runners_stack"
+      ]
+    },
+    "notable_tweets_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fetch_tweets_label",
+        "cpi_stat",
+        "clarity_stat",
+        "hantavirus_alert"
+      ]
+    },
+    "fetch_tweets_label": {
+      "type": "Text",
+      "props": {
+        "text": "fetch-tweets",
+        "variant": "lead"
+      }
+    },
+    "cpi_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CPI Apr",
+        "value": "+3.8%",
+        "delta": "beats expectations",
+        "trend": "up"
+      }
+    },
+    "clarity_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CLARITY Act",
+        "value": "75%",
+        "delta": "Senate markup Thu"
+      }
+    },
+    "hantavirus_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Hantavirus transmission risk upgraded by experts",
+        "type": "warning"
+      }
+    },
+    "notable_runners_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor_runners_label",
+        "runners_status_text",
+        "aeon_base_stat",
+        "rkc_solana_alert"
+      ]
+    },
+    "monitor_runners_label": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-runners",
+        "variant": "lead"
+      }
+    },
+    "runners_status_text": {
+      "type": "Text",
+      "props": {
+        "text": "Status: MIXED",
+        "variant": "caption"
+      }
+    },
+    "aeon_base_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "aeon/base",
+        "value": "+311%",
+        "delta": "CONTINUATION (cleanest setup)",
+        "trend": "up"
+      }
+    },
+    "rkc_solana_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "RKC/solana +9947% BREAKOUT",
+        "message": "Thin liquidity — avoid",
+        "type": "warning"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "decisions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Decisions for Tomorrow",
+        "level": "h2"
+      }
+    },
+    "decisions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decision_1_text",
+        "decision_2_text"
+      ]
+    },
+    "decision_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Dispatch monitor-polymarket manually — 48h dark = zero CalibrationGap signal input",
+        "variant": "body"
+      }
+    },
+    "decision_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "9 PRs stale (#1 ~17d oldest) — merge or close",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "blockers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Blockers",
+        "level": "h2"
+      }
+    },
+    "blockers_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "blocker_1_alert",
+        "blocker_2_alert"
+      ]
+    },
+    "blocker_1_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "chain:morning-brief",
+        "message": "Failed Day 17 · operator-side patch pending",
+        "type": "error"
+      }
+    },
+    "blocker_2_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "workflow-security-audit",
+        "message": "Stuck 53h since 05-10 dispatch",
+        "type": "error"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footnote_text": {
+      "type": "Text",
+      "props": {
+        "text": "+10 routine runs collapsed · sources: log=ok cron-state=ok",
+        "variant": "caption"
+      }
+    }
+  }
+}

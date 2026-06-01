@@ -1,0 +1,316 @@
+{
+  "root": "card-tweets",
+  "state": {},
+  "elements": {
+    "card-tweets": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet drafts: agentic-finance infra week vs empty demand layer"
+      },
+      "children": [
+        "stack-sections"
+      ]
+    },
+    "stack-sections": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-1-liner",
+        "sep-1",
+        "section-2-punch",
+        "sep-2",
+        "section-3-para",
+        "sep-3",
+        "section-4-long",
+        "sep-4",
+        "section-5-thread",
+        "sep-5",
+        "section-recommendation"
+      ]
+    },
+    "section-1-liner": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-1-liner",
+        "stack-1-variants"
+      ]
+    },
+    "h-1-liner": {
+      "type": "Heading",
+      "props": {
+        "text": "one-liner",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-1-variants": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-1a",
+        "text-1b"
+      ]
+    },
+    "text-1a": {
+      "type": "Text",
+      "props": {
+        "text": "1a. Five agentic-finance shipments this week. Demand is two quarters behind."
+      },
+      "children": []
+    },
+    "text-1b": {
+      "type": "Text",
+      "props": {
+        "text": "1b. AI agents now have USDC, dev tools, and a payments rail. Still no users."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-2-punch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-2-punch",
+        "stack-2-variants"
+      ]
+    },
+    "h-2-punch": {
+      "type": "Heading",
+      "props": {
+        "text": "two-punch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-2-variants": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-2a",
+        "text-2b"
+      ]
+    },
+    "text-2a": {
+      "type": "Text",
+      "props": {
+        "text": "2a. Circle gave AI agents USDC. MoonPay bought a prediction-market AI copilot. Same week, four other infra ships landed. Demand layer is empty."
+      },
+      "children": []
+    },
+    "text-2b": {
+      "type": "Text",
+      "props": {
+        "text": "2b. Watch what they fund, not what they say. AWS, Google, and Circle put real money on the agentic-payments rail this week. Nobody bought a product yet."
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-3-para": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-3-para",
+        "stack-3-variants"
+      ]
+    },
+    "h-3-para": {
+      "type": "Heading",
+      "props": {
+        "text": "paragraph",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-3-variants": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-3a",
+        "text-3b"
+      ]
+    },
+    "text-3a": {
+      "type": "Text",
+      "props": {
+        "text": "3a. Everyone is asking when the AI-agent app layer arrives. Wrong question. The infra layer is racing — five ships this week, three of them from $10B+ companies. The demand-side gap is the trade. If you can ingest it before the market does, you're early."
+      },
+      "children": []
+    },
+    "text-3b": {
+      "type": "Text",
+      "props": {
+        "text": "3b. Two years ago Circle didn't have a stablecoin SDK for AI agents. This week they shipped one with a $222M Arc token sale alongside. The infrastructure for agent-driven prediction-market trading is now boring plumbing. Liquidity will follow the rails."
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-4-long": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-4-long",
+        "stack-4-variants"
+      ]
+    },
+    "h-4-long": {
+      "type": "Heading",
+      "props": {
+        "text": "long tweet",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-4-variants": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-4a",
+        "text-4b"
+      ]
+    },
+    "text-4a": {
+      "type": "Text",
+      "props": {
+        "text": "4a. AI-agent payments shipped from five vendors this week: Circle USDC for agents ($222M Arc sale alongside), MoonPay bought Dawn Labs for a Polymarket AI copilot, AWS AgentCore Payments, Google Pay.sh, Claude Platform on AWS. Meanwhile our calibration agent on Polymarket has run 29 trades at 76% win for +$415 P&L on Sharpe 0.31. The infra is overbuilt; the signal-to-P&L pipe is still scarce. (revenant-snapshot stale ~3 days)"
+      },
+      "children": []
+    },
+    "text-4b": {
+      "type": "Text",
+      "props": {
+        "text": "4b. MoonPay just acquired a startup so retail can type \"short Hantavirus pandemic odds\" and have an agent execute it on Polymarket. That makes sense if you assume agents will outperform humans at calibration. We've been testing exactly that: 29 trades, 76% win, +$415 P&L, Sharpe 0.31. The win rate looks great. The Sharpe says agents haven't earned the keys to the rail yet. Build the rail anyway — demand catches up when the calibration does."
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-5-thread": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-5-thread",
+        "stack-5-variants"
+      ]
+    },
+    "h-5-thread": {
+      "type": "Heading",
+      "props": {
+        "text": "thread opener",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-5-variants": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-5a",
+        "text-5b"
+      ]
+    },
+    "text-5a": {
+      "type": "Text",
+      "props": {
+        "text": "5a. Five agentic-finance products shipped this week. Real money behind all of them. So why is the demand layer still empty?"
+      },
+      "children": []
+    },
+    "text-5b": {
+      "type": "Text",
+      "props": {
+        "text": "5b. MoonPay bought Dawn Labs because they think AI agents will trade prediction markets better than humans. The data says: maybe. 29 trades, 76% win, Sharpe 0.31. The win rate sells the deal. The Sharpe ships the audit."
+      },
+      "children": []
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-recommendation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-recommendation",
+        "text-recommendation"
+      ]
+    },
+    "h-recommendation": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommended",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-recommendation": {
+      "type": "Text",
+      "props": {
+        "text": "best: 4b — long enough to land the win-rate-vs-Sharpe distinction, grounded in CalibrationGap's actual numbers, sharpens to the LP thesis without losing operator voice"
+      },
+      "children": []
+    }
+  }
+}

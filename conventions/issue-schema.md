@@ -45,7 +45,7 @@ machine-readable surface; the body is human-only.)
 
 | Severity | Definition | Example |
 |---|---|---|
-| `critical` | Skill / system at 0% success, OR a load-bearing falsifier expired with no plan-of-action, OR data integrity at risk | ADR-093 contract broken 14 days (ISS-021); feat/fs-adoption stranded (ISS-023) |
+| `critical` | Skill / system at 0% success, OR a load-bearing falsifier expired with no plan-of-action, OR data integrity at risk | ADR-093 contract broken 14 days (ISS-029); feat/fs-adoption stranded (ISS-023) |
 | `high` | >50% failure rate, OR a meaningful drift with measurable cost, OR an operator-action item blocking a goal | Reddit-digest 14 consecutive failures (ISS-012); ADR-095 velocity falsifier fired (ISS-022) |
 | `medium` | Intermittent/degraded, OR an ambiguous reality check that needs operator verification | swarm-triage canary at 78% eval below 80% gate (ISS-026) |
 | `low` | Noise reduction, optimization opportunity, structural-but-not-urgent improvement | MEMORY.md staleness pattern (ISS-025, after the content fix) |
@@ -136,4 +136,4 @@ When prysm-squads-mvp adopts this convention:
 ## History
 
 - **2026-04-25 → 2026-05-08** — Schema evolved organically as ISS-001 through ISS-020 were filed by heartbeat, skill-evals, skill-health.
-- **2026-05-31** — `plan-drift` category added (filed by plan-adherence) for ISS-021 through ISS-028. This doc written to formalize the schema for portability.
+- **2026-05-31** — `plan-drift` category added (filed by plan-adherence) for ISS-022 through ISS-029 (originally drafted as ISS-021..028, renumbered to ISS-022..029 during PR merge after main's ISS-021 cost-report slot was already taken). This doc written to formalize the schema for portability.

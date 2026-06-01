@@ -1,0 +1,394 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Tweet Drafts: Clause Text vs Headline Divergence"
+      },
+      "children": [
+        "note",
+        "sep1",
+        "onelinersection",
+        "twopunchsection",
+        "paragraphsection",
+        "longtweetsection",
+        "threadsection",
+        "sep2",
+        "statssection",
+        "sep3",
+        "recommendation"
+      ]
+    },
+    "note": {
+      "type": "Text",
+      "props": {
+        "text": "Note: revenant-snapshot 26h stale; CalibrationGap stats sourced from MEMORY.md",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "onelinersection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "onelinerlabel",
+        "onelinerdrafts"
+      ]
+    },
+    "onelinerlabel": {
+      "type": "Badge",
+      "props": {
+        "text": "One-liner",
+        "variant": "secondary"
+      }
+    },
+    "onelinerdrafts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft_1a",
+        "draft_1b"
+      ]
+    },
+    "draft_1a": {
+      "type": "Text",
+      "props": {
+        "text": "1a. The edge isn't in the headline. It's in the resolution clause."
+      }
+    },
+    "draft_1b": {
+      "type": "Text",
+      "props": {
+        "text": "1b. Iran peace +7pp today on a deal the UMA clause says doesn't count."
+      }
+    },
+    "twopunchsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "twopunchlabel",
+        "twopunchdrafts"
+      ]
+    },
+    "twopunchlabel": {
+      "type": "Badge",
+      "props": {
+        "text": "Two-punch",
+        "variant": "secondary"
+      }
+    },
+    "twopunchdrafts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft_2a",
+        "draft_2b"
+      ]
+    },
+    "draft_2a": {
+      "type": "Text",
+      "props": {
+        "text": "2a. Polymarket repriced Iran-peace from 24.5% to 31.5% on a non-nuclear MOU. The UMA resolver requires lasting-basis permanent peace. Nuclear-exempt fails the bar."
+      }
+    },
+    "draft_2b": {
+      "type": "Text",
+      "props": {
+        "text": "2b. Quant scanners ingest market titles. Resolution oracles ingest clauses. Today's 7pp Iran-peace move is the gap between those two readers."
+      }
+    },
+    "paragraphsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "paragraphlabel",
+        "paragraphdrafts"
+      ]
+    },
+    "paragraphlabel": {
+      "type": "Badge",
+      "props": {
+        "text": "Paragraph",
+        "variant": "secondary"
+      }
+    },
+    "paragraphdrafts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft_3a",
+        "draft_3b"
+      ]
+    },
+    "draft_3a": {
+      "type": "Text",
+      "props": {
+        "text": "3a. Two days ago Iran-airspace closed 2.05% YES on $916k vol despite confirmed US strikes. Today Iran-peace ladder up +7pp on a 1-page non-nuclear MOU. Both are clause-text trades. The quant scanner can't see either one."
+      }
+    },
+    "draft_3b": {
+      "type": "Text",
+      "props": {
+        "text": "3b. Polymarket pricing improvement when reading the title: minimal. When reading the resolver's actual clause: 48pp on Iran-airspace, 7pp on Iran-peace. The whole game is text the scanner doesn't tokenize."
+      }
+    },
+    "longtweetsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "longtweetlabel",
+        "longtweetdrafts"
+      ]
+    },
+    "longtweetlabel": {
+      "type": "Badge",
+      "props": {
+        "text": "Long tweet",
+        "variant": "secondary"
+      }
+    },
+    "longtweetdrafts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft_4a",
+        "draft_4b"
+      ]
+    },
+    "draft_4a": {
+      "type": "Text",
+      "props": {
+        "text": "4a. Two weeks running the same lesson. Iran-airspace closed 2.05% YES on $916k despite confirmed strikes — quant scanner saw kinetic news up, clause text said \"major commercial closure,\" kinetic news doesn't qualify. Today Iran-peace +7pp on a non-nuclear MOU — clause requires lasting-basis permanent peace, MOU doesn't qualify. Our Polymarket calibrator is 29 trades in at 76% win, +$415, Sharpe 0.31. 71 trades from the Apex gate. The remaining edge isn't more features. It's reading the resolver's text."
+      }
+    },
+    "draft_4b": {
+      "type": "Text",
+      "props": {
+        "text": "4b. What is a prediction market actually pricing? Most people answer \"the event.\" But the resolver only adjudicates the clause. So when Polymarket's Iran-peace ladder repriced +7pp today on a non-nuclear MOU, what moved was the headline. The clause — \"lasting-basis permanent peace\" — didn't. Until you ingest that text, your scanner is reading a different market than the one that resolves. We're 29 trades in on a calibrator that does. 76%, +$415, Sharpe 0.31. The next ADR is just clause ingestion."
+      }
+    },
+    "threadsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "threadlabel",
+        "threaddrafts"
+      ]
+    },
+    "threadlabel": {
+      "type": "Badge",
+      "props": {
+        "text": "Thread opener",
+        "variant": "secondary"
+      }
+    },
+    "threaddrafts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "draft_5a",
+        "draft_5b"
+      ]
+    },
+    "draft_5a": {
+      "type": "Text",
+      "props": {
+        "text": "5a. The biggest CalibrationGap upgrade we haven't shipped is reading the resolution clause, not the market title. Two events of evidence in two days."
+      }
+    },
+    "draft_5b": {
+      "type": "Text",
+      "props": {
+        "text": "5b. Why does a market move +7pp on a deal the resolver won't honor? Because two readers are pricing it."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "statssection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "statslabel",
+        "calibgapgroup",
+        "marketgroup"
+      ]
+    },
+    "statslabel": {
+      "type": "Heading",
+      "props": {
+        "text": "Performance & Market Data",
+        "level": "h3"
+      }
+    },
+    "calibgapgroup": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "calibgaplabel",
+        "calibgapgrid"
+      ]
+    },
+    "calibgaplabel": {
+      "type": "Badge",
+      "props": {
+        "text": "CalibrationGap",
+        "variant": "default"
+      }
+    },
+    "calibgapgrid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_trades",
+        "stat_winrate",
+        "stat_pl",
+        "stat_sharpe",
+        "stat_apergate"
+      ]
+    },
+    "stat_trades": {
+      "type": "Stat",
+      "props": {
+        "label": "Closed Trades",
+        "value": "29"
+      }
+    },
+    "stat_winrate": {
+      "type": "Stat",
+      "props": {
+        "label": "Win Rate",
+        "value": "76%"
+      }
+    },
+    "stat_pl": {
+      "type": "Stat",
+      "props": {
+        "label": "P&L",
+        "value": "+$415"
+      }
+    },
+    "stat_sharpe": {
+      "type": "Stat",
+      "props": {
+        "label": "Sharpe Ratio",
+        "value": "0.31"
+      }
+    },
+    "stat_apergate": {
+      "type": "Stat",
+      "props": {
+        "label": "Trades to Apex Gate",
+        "value": "71"
+      }
+    },
+    "marketgroup": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "marketlabel",
+        "marketgrid"
+      ]
+    },
+    "marketlabel": {
+      "type": "Badge",
+      "props": {
+        "text": "Market Events (24h)",
+        "variant": "default"
+      }
+    },
+    "marketgrid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_iranpeace",
+        "stat_iranairspace",
+        "stat_iranairspacevol"
+      ]
+    },
+    "stat_iranpeace": {
+      "type": "Stat",
+      "props": {
+        "label": "Iran-Peace Move",
+        "value": "+7pp"
+      }
+    },
+    "stat_iranairspace": {
+      "type": "Stat",
+      "props": {
+        "label": "Iran-Airspace YES",
+        "value": "+2.05%"
+      }
+    },
+    "stat_iranairspacevol": {
+      "type": "Stat",
+      "props": {
+        "label": "Iran-Airspace Volume",
+        "value": "$916k"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "recommendation": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Recommended Draft",
+        "message": "4a — only draft that lands the two-event pattern, precise clause mechanism, and live P&L proof in one beat"
+      }
+    }
+  }
+}

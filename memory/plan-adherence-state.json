@@ -4,7 +4,7 @@
   "run_notes": "First manual triage run executed in-session by operator + Claude. Surfaced 15 findings initially against a 23-day-stale MEMORY.md, then re-verified against live metrics.json + git log + grep, reducing to 8 real findings (the rest were stale-snapshot artifacts already resolved in code). The reality-correction step is the canonical pattern this skill should follow on every run.",
   "findings": {
     "ADR-093-outputs-contract-not-shipped": {
-      "iss_id": "ISS-021",
+      "iss_id": "ISS-029",
       "severity": "P0",
       "first_seen": "2026-05-31",
       "last_seen": "2026-05-31",

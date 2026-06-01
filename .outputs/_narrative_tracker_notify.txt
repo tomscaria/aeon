@@ -1,0 +1,26 @@
+*Narrative Tracker — 2026-05-12*
+
+TRANSITIONS
+• PROMOTED: Powell→Warsh WATCH→FRONT-RUN — Senate confirmed Warsh as Fed governor today (51-45). Chair vote Wednesday. 100% YES / $49.5M PM. KXFED T3.50 +17pp this week. Hawkish regime change pre-priced.
+• PROMOTED: CLARITY Act WATCH→FRONT-RUN — full 309-page text released today; Tillis-Alsobrooks bipartisan deal confirmed; PM +10pp to 75%; markup Thursday 10:30 AM. SUI already front-ran +25% on 05-11.
+• DEMOTED: Russia-Ukraine Ceasefire RIDE→FADE — ceasefire formally expired May 11; Russia resumed drone strikes May 12; 99.95% YES still priced but kinetic tape is active again. Clause-text risk to YES holders.
+• PROMOTED: Hantavirus FADING→WATCH — MV Hondius cruise cluster (8 cases, 3 deaths off Cape Verde); experts upgraded transmission risk; $6.9M vol (was $2.12M on 05-08); Kalshi 17% vs PM 9% = 8pp cross-venue divergence.
+• DEAD: US-Iran May-15 peace — resolved near-floor ~3.35%; off active table.
+
+REFLEXIVITY ALERT
+• Russia-Ukraine 99.95%: ceasefire expired + drone strikes on May 12, but market hasn't repriced. Structural echo of Iran-airspace-by-May-8 (2.05% YES held under confirmed US strikes). Clause text window doesn't close until May 31. Two weeks of kinetic risk remain.
+• Powell→Warsh: KXFED repricing before the chair vote. Falsifier: Warsh keeps Powell's forward-guidance verbatim at June 17-18 FOMC.
+
+POSITIONS
+• FRONT-RUN: Powell→Warsh Fed Regime Change — KXFED T3.50 entry window open; hawkish slow-cut trajectory confirmed
+• FRONT-RUN: CLARITY Act May 14 markup — XRP/SUI/DeFi sector re-rate on passage; sell-the-news risk if banking lobby stalls
+• RIDE: Agentic Payments — 5 institutional products shipped in 7 days; Circle + MoonPay/Dawn + Claude on AWS
+• FADE: Russia-Ukraine 99.95% YES — kinetic tape active; resolution-clause failure risk before May 31
+• WATCH: Hantavirus — 8pp Kalshi/PM venue divergence; ADR-096+ resolution-text signal
+• WATCH: CPI + Fed Path — April CPI +3.8%/+2.8% core; 55.6% zero cuts 2026; no June cut 95.5%
+
+MAP
+Emerging: Canton Network ($300M raise / institutional settlement)
+Rising: Agentic Payments (institutional), CLARITY Act re-rating (sector)
+Peak: CPI Reacceleration narrative (printed; now in Fed-path repricing phase)
+Fading: Russia-Ukraine 99.95% YES (kinetic resumption risk), Hantavirus (contained but cross-venue divergence live), US-Iran peace (DEAD)

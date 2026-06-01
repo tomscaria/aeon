@@ -1,5 +1,5 @@
-*Paper Pick — 2026-05-08 (PhD-prep slot)*
+*Paper Pick — 2026-05-12*
 
-"AEL: Agent Evolving Learning for Open-Ended Environments" — Xu / Han / Guo / Mei / Zhu / Zhang / Metaxas (Apr 23 2026, cs.CL/AI/CE)
-Two-timescale self-improving agent — Thompson-sampling bandit picks the memory-retrieval policy each episode, LLM reflection diagnoses failure patterns and injects causal insights into the decision prompt — clears Sharpe 2.13±0.47 on 10 tickers × 208 episodes × 5 seeds, beating 5 published self-improving baselines with the lowest LLM variance. Direct shape-match for CalibrationGap's reflection-log loop and the Stanford Darwinian / FinCon-verbal-reinforcement axis.
-[Read](https://arxiv.org/abs/2604.21725) | [PDF](https://arxiv.org/pdf/2604.21725)
+"Heterogeneous Scientific Foundation Model Collaboration" — Zihao Li et al. (UIUC, Jingrui He group) · ↑211
+Eywa proposes a planner-orchestrated agentic framework where a language model routes inference through domain-specific foundation models rather than collapsing every problem onto natural-language reasoning — direct blueprint for stitching CalibrationGap's regime classifier, narrative scanner and resolution-text ingester under one planner instead of separate Aeon skills.
+[Read](https://arxiv.org/abs/2604.27351) | [PDF](https://arxiv.org/pdf/2604.27351)

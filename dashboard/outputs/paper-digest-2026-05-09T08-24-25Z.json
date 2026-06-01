@@ -1,0 +1,81 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Paper Digest — 2026-05-09"
+      },
+      "children": [
+        "text-summary",
+        "separator-1",
+        "heading-paper-1",
+        "text-paper-1",
+        "separator-2",
+        "heading-paper-2",
+        "text-paper-2",
+        "separator-3",
+        "link-full"
+      ]
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "12th-consecutive thin HF daily browse. 2 agentic-method results — no new Polymarket/DePM paper.",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-paper-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+        "level": "h3"
+      }
+    },
+    "text-paper-1": {
+      "type": "Text",
+      "props": {
+        "text": "Li, Zhang, Choi, Zou, Han, Lin et al. (↑57)\n\nDCI lets agents grep raw corpora instead of top-k vectors; outperforms sparse+dense+reranking on BRIGHT+BEIR. Maps to ADR-096+ resolution-text-ingest gap: the Iran-airspace clause diverges 48pp from its title precisely because embedding search sees them as surface-similar."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-paper-2": {
+      "type": "Heading",
+      "props": {
+        "text": "StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction",
+        "level": "h3"
+      }
+    },
+    "text-paper-2": {
+      "type": "Text",
+      "props": {
+        "text": "Xue, Zhou, Torr, Ouyang et al. (↑15)\n\nHierarchical GRPO samples a strategy latent at init, conditions all actions on it; 93.1% ALFWorld / 84.2% WebShop / 63.5% SciWorld. Architectural fork vs AEL (2604.21725): AEL learns which retrieval policy per episode; StraTA compresses trajectory intent into a latent. 100-trade Apex gate disambiguates the two on a Polymarket target."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-full": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest",
+        "href": "articles/paper-digest-2026-05-09.md"
+      }
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Cost Report — 2026-05-12 (last 7 days)"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-text",
+        "sep1",
+        "top3-section",
+        "sep2",
+        "actions-section",
+        "sep3",
+        "model-section",
+        "sep4",
+        "projection-section",
+        "full-report"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Spent $293.85 across 50 runs (↓51.9% WoW); 0 anomalies flagged, projected monthly burn ~$1,259.36",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "top3-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top3-heading",
+        "top3-table"
+      ]
+    },
+    "top3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top 3 by cost",
+        "level": "h3"
+      }
+    },
+    "top3-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Cost",
+          "Runs"
+        ],
+        "rows": [
+          [
+            "repo-actions",
+            "$49.25",
+            "3"
+          ],
+          [
+            "heartbeat",
+            "$29.25",
+            "8"
+          ],
+          [
+            "reflect",
+            "$24.57",
+            "2"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "actions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "actions-heading",
+        "actions-stack"
+      ]
+    },
+    "actions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Actions this week",
+        "level": "h3"
+      }
+    },
+    "actions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action1",
+        "action2",
+        "action3"
+      ]
+    },
+    "action1": {
+      "type": "Text",
+      "props": {
+        "text": "repo-actions → downgrade to sonnet (~$39/wk savings)"
+      }
+    },
+    "action2": {
+      "type": "Text",
+      "props": {
+        "text": "reflect → downgrade to sonnet (~$20/wk savings)"
+      }
+    },
+    "action3": {
+      "type": "Text",
+      "props": {
+        "text": "code-health / hacker-news-digest / fetch-tweets → downgrade to sonnet (~$40/wk combined)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "model-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "model-heading",
+        "model-table",
+        "model-note"
+      ]
+    },
+    "model-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Model split",
+        "level": "h3"
+      }
+    },
+    "model-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Model",
+          "Cost",
+          "Percentage"
+        ],
+        "rows": [
+          [
+            "Opus",
+            "$261.85",
+            "89%"
+          ],
+          [
+            "Sonnet",
+            "$32.00",
+            "11%"
+          ]
+        ]
+      }
+    },
+    "model-note": {
+      "type": "Text",
+      "props": {
+        "text": "Mid-week shift 05-09 drove 5× cost drop. Sonnet-only baseline projects ~$240/mo.",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "projection-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "projection-heading",
+        "projection-stat"
+      ]
+    },
+    "projection-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "30-day projection",
+        "level": "h3"
+      }
+    },
+    "projection-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$1,259.36"
+      }
+    },
+    "full-report": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full report",
+        "href": "articles/cost-report-2026-05-12.md",
+        "source": "cost-report"
+      }
+    }
+  }
+}
