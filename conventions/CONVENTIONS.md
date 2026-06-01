@@ -86,7 +86,7 @@ If a `cost-report` flags weekly spend >$150, propose Sonnet downgrades for the h
 
 ## Sandbox patterns
 
-GH Actions blocks outbound network from bash. Two recovery patterns:
++The sandboxed GitHub Actions runners used by Aeon block outbound network from bash. Two recovery patterns:
 
 1. **Prefetch** — `scripts/prefetch-{name}.sh` runs before Claude with full env. Skills read cached data from `.<name>-cache/`.
 2. **Postprocess** — Skills write request JSON to `.pending-{name}/`. `scripts/postprocess-{name}.sh` runs after Claude with full env to fan out (used for `.pending-replicate/`, `.pending-notify/`).
