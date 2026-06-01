@@ -28,7 +28,7 @@ severity: critical | high | medium | low
 category: <see list below>
 detected_by: <skill name>                # Required. Which skill surfaced this.
 detected_at: <ISO-8601 UTC>              # Required.
-resolved_at: <ISO-8601 UTC | null>       # Required (null if open).
+resolved_at: <ISO-8601 UTC | null>       # Required (null until resolved, wontfix, or dismissed).
 affected_skills: [<skill name>, ...]     # Required. Empty list allowed.
 root_cause: |                            # Required for severity >= medium.
   Multi-line explanation of what's wrong, why, and what the falsifier window
