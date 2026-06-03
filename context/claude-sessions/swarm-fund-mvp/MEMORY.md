@@ -2,6 +2,7 @@
 
 ## Rules
 - [No compliance leak in public materials](feedback_no_compliance_in_public.md) — regulator names / ToS / geoblock / "entity restructure" workarounds are 201-deep-dive-only (LP-distributed). Scrub from landing, /investors web, 1-pager, 101 deck.
+- [Kalshi = signal-source only on public surfaces](feedback_kalshi_signal_only_public.md) — never frame Kalshi as an execution/arb/paper-trade venue in public copy (pitching Polymarket + Anthropic). Scrubbed 2026-06-03 across swarm-lab-site copy/articles/registry.
 - [No ASK content on public /investors](project_investor_access_split.md) — public is vision-only; multiples, raise sizes, VC target lists, scenarios live ONLY on gated /investors/101+201+onepager. Stage 1 live (commit `b686093`); Stage 2 PR #21 opened 2026-04-28 by routine `trig_01USVATWYoxg5JYry6UhJLcD` and CLOSED without merging — JSON allowlist + mailto shim remains operational.
 - [zsh read-only var names](feedback_zsh_readonly_vars.md) — never assign to `status`, `pipestatus`, `RANDOM`, `SECONDS`, etc. in Monitor/Bash loops. Use `code`/`http_code` instead.
 - [Interactive shell aliases on this Mac](feedback_interactive_shell_aliases.md) — `mv -i`, `cp -v`, `mkdir -v` leak into Bash calls; scripted overwrites can hang on the y/n prompt. Use `\mv -f` or pipe `yes`.
@@ -12,6 +13,9 @@
 - [Drive autonomous sessions from CODEX_HANDOFF.md](feedback_codex_handoff_queue.md) — founder-confirmed 2026-05-22: when "just build" with no target, work the handoff's P0→P2 queue; verify freshness vs git.
 - [Repo is the nested swarm-fund-mvp/swarm-fund-mvp/ dir](reference_repo_nested_path.md) — sessions launch in a wrapper folder; `cd` into the nested subdir (has `.git`, `CLAUDE.md`, `python/`) before any git/pytest/project command.
 - [Venv may be missing `[dev]` extras (pytest-asyncio)](feedback_venv_dev_extras.md) — uv-managed .venv lacks `pip`; async tests silently fail with "unknown asyncio_mode" if pytest-asyncio is absent. Install via `uv pip install --python .venv/bin/python pytest-asyncio`.
+
+## Session 2026-06-03 — Dashboard research-lab reframe + live drill-down + ADR-117
+- [Dashboard research-lab reframe](session_2026-06-03_dashboard_research_lab_reframe.md) — Command Center PAPER view → data-production funnel (SHOTS ON GOAL = total trades, strategies harvested, agents-by-lifecycle, 24h flow), NOT paper P&L. New `/api/lab/funnel` + `/api/live/breakdown`; new `ResearchLabFunnel.tsx`, `(shell)/portfolio/page.tsx` (wallet→venue→strategy→trade pivot + HL explorer links), Sidebar "Portfolio" nav, FundHUD PAPER header reframed. **ADR-117**: `_drawdown_should_halt()` gates hard_stop/halt on `live_mode` — paper never pauses, live-money behavior byte-unchanged; Phase 2 deferred. **All UNCOMMITTED**; loop NOT restarted (ADR-117 inert until restart); API restarted (endpoints live). Demoable localhost:3000. tsc clean, 5/5 tests green.
 
 ## Session 2026-05-22 — autonomous overnight: CODEX_HANDOFF P1 queue
 - Shipped handoff P1 #3+#4 — `/api/portfolio` now returns `live_realized_pnl` (HL userFills, $68.08) + `live_asset_exposures`; Command Center shows LIVE realized P&L, FundHUD asset rail follows the LIVE/PAPER toggle. Commits `1a9a37bc`/`88726cef`/`ea24832d`, browser-verified. Restarted `ai.rswarm.api` to deploy. Full backend regression 2357 pass / 2 pre-existing unrelated reds (`test_regime` crisis-scalar 0.04≠0.025, `test_aeon_adapter` recovery).
