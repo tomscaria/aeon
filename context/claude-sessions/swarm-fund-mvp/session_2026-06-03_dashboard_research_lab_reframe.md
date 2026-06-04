@@ -26,6 +26,13 @@ Founder direction: "we are a live research lab — highlight shots-on-goal / str
 - Demoable: `cd dashboard && npm run dev` → localhost:3000 (preview-managed this session). `dashboard/.claude/launch.json` created for preview tool.
 - Lifecycle naming: internal shadow/canary/live/demoted ↔ public birth/canary/apex/revenant (ADR-045).
 
+## Update — committed to main + ADR-117 Phase 2 shipped (same day, post-/compact)
+- **Branch hazard:** Phase 1 was committed as `f6e2e89b` on `feat/pm-us-adapter`, but a CONCURRENT session checked out `main` + pulled, so the working tree reverted (Phase 1 absent). Recovered: cherry-picked `f6e2e89b` onto `main` → **`9c6794e6`** (clean, no conflicts). Backup ref `backup/dashboard-reframe-phase1` also points at f6e2e89b. **Lesson: shared working copy + concurrent agents = `git checkout` in one session silently reverts files in another. Verify branch/HEAD before assuming committed work is present.**
+- **ADR-117 Phase 2 COMPLETE on main.** A parallel session committed `7257b833` (the `live_execution_blocked` kwarg + gate on `_loop_iteration` line ~742 + `tests/test_drawdown_phase2_live_block.py`). I wired it through the loop in **`8481253b`**: per-iteration `live_execution_blocked=False` init; live hard_stop/halt blocks now flatten+alert+`_resolve_settled_trades(agent)`+set flag and FALL THROUGH (no more `continue`); flag passed to both `_loop_iteration` call sites; runner-swarm scans skipped during halt ONLY if `--enable-runner-canary-live`; alert copy → "Live execution halted — paper research continues." Safety invariant (zero real orders during live halt) pinned by 3 tests. 24 drawdown/risk tests + 84-test broad regression green.
+- **STILL inert until loop restart** — running trading loop predates both phases. Restart (`launchctl kickstart -k gui/$UID/ai.rswarm.trading-loop`) moves real money → operator-confirm before restarting.
+- **Both commits LOCAL on main, NOT pushed** (founder said commit, not push). main is 0/0 vs origin pre-work; now +2 local (9c6794e6, 8481253b) plus concurrent-session commits.
+
 ## Not done / next
-- Commit (held — founder didn't ask). Vercel deploy if they want it live on rswarm.ai.
-- ADR-117 Phase 2 (supervised). PM external links (need Gamma slug lookup). Time-series funnel (volume/day) needs historical snapshots.
+- Push main (held — founder said commit, not push). Vercel deploy if they want it live on rswarm.ai.
+- Restart trading loop to ACTIVATE ADR-117 (operator-confirm; real money).
+- PM external links (need Gamma slug lookup). Time-series funnel (volume/day) needs historical snapshots.
