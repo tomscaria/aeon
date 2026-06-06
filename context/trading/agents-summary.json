@@ -60,13 +60,6 @@
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5349666912723878,
-      "pnl": null
-    },
-    {
-      "id": null,
-      "family": null,
-      "lifecycle": "canary",
       "fitness": 0.5341193661140511,
       "pnl": null
     },
@@ -80,15 +73,8 @@
     {
       "id": null,
       "family": null,
-      "lifecycle": "shadow",
-      "fitness": 0.4368513259005452,
-      "pnl": null
-    },
-    {
-      "id": null,
-      "family": null,
-      "lifecycle": "shadow",
-      "fitness": 0.4313126592583903,
+      "lifecycle": "canary",
+      "fitness": 0.48734069653536927,
       "pnl": null
     },
     {
@@ -108,36 +94,50 @@
     {
       "id": null,
       "family": null,
+      "lifecycle": "canary",
+      "fitness": 0.29901274292706137,
+      "pnl": null
+    },
+    {
+      "id": null,
+      "family": null,
+      "lifecycle": "canary",
+      "fitness": 0.29901274292706137,
+      "pnl": null
+    },
+    {
+      "id": null,
+      "family": null,
+      "lifecycle": "canary",
+      "fitness": 0.29901274292706137,
+      "pnl": null
+    },
+    {
+      "id": null,
+      "family": null,
       "lifecycle": "shadow",
-      "fitness": 0.36407141354535744,
+      "fitness": 0.26644637634248547,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "shadow",
-      "fitness": 0.36407141354535744,
+      "fitness": 0.2594870749205628,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
-      "lifecycle": "canary",
-      "fitness": 0.29901274292706137,
+      "lifecycle": "shadow",
+      "fitness": 0.2542871223837053,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
-      "lifecycle": "canary",
-      "fitness": 0.29901274292706137,
-      "pnl": null
-    },
-    {
-      "id": null,
-      "family": null,
-      "lifecycle": "canary",
-      "fitness": 0.29901274292706137,
+      "lifecycle": "shadow",
+      "fitness": 0.248674567457395,
       "pnl": null
     }
   ],
@@ -146,5 +146,5 @@
     "shadow": 160
   },
   "total_agents": 183,
-  "synced_at": "2026-06-06T04:22:48Z"
+  "synced_at": "2026-06-06T08:22:52Z"
 }
