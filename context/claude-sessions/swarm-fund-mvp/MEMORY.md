@@ -14,6 +14,9 @@
 - [Repo is the nested swarm-fund-mvp/swarm-fund-mvp/ dir](reference_repo_nested_path.md) — sessions launch in a wrapper folder; `cd` into the nested subdir (has `.git`, `CLAUDE.md`, `python/`) before any git/pytest/project command.
 - [Venv may be missing `[dev]` extras (pytest-asyncio)](feedback_venv_dev_extras.md) — uv-managed .venv lacks `pip`; async tests silently fail with "unknown asyncio_mode" if pytest-asyncio is absent. Install via `uv pip install --python .venv/bin/python pytest-asyncio`.
 
+## Session 2026-06-10 — Microstructure Signal Station (assembly-line brick 1)
+- [Microstructure station shipped](session_2026-06-10_microstructure_station.md) — ADR-134..137; python/microstructure/ Stage-Protocol line (bars→features→signal→PurgedKFold/DSR/MDA); DuneSmartMoneyTap = first events.canonical.derived consumer; microstructure-signal PAPER strategy; frontend TS contract + 6 learn pages; ADR head was 129 w/ 130-133 reserved. 65 new tests.
+
 ## Session 2026-06-05 — External review disposition + parallel-agents dispatch + Week-0 ship-now lane
 
 - [Signal-Quality Improvement Plan](../../swarm-fund-mvp/docs/superpowers/specs/2026-06-05-signal-quality-improvement-plan.md) — the missing primary track all three reviewers (Grok / Aristotle / Kimi) named. Maps every architecture worktree to the 0.31→0.85 Sharpe gap; carries the binding **kill criterion** (if W5+W7 don't lift live Sharpe +0.10 within 30d of both in prod, stop enabler work and go full signal). Created in response to convergent review diagnosis: corpus over-indexed on plumbing for a 0.31-Sharpe system.
