@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T08:34:19.281734Z",
+  "generated_at": "2026-06-10T12:34:23.991037Z",
   "agents": [
     {
       "agent_id": "calibration-gap-03-crypto-csonnet46-k30-riskonly-i723",
@@ -2049,7 +2049,7 @@
       "agent_id": "hl-vwap-reversion-v01",
       "lifecycle": "shadow",
       "closed_trades": 142,
-      "open_positions": 4,
+      "open_positions": 5,
       "win_rate": 0.4085,
       "total_pnl_usd": -34.14,
       "sharpe": -0.119,
@@ -2063,7 +2063,7 @@
       "agent_id": "hl-vwap-reversion-v02",
       "lifecycle": "shadow",
       "closed_trades": 142,
-      "open_positions": 4,
+      "open_positions": 5,
       "win_rate": 0.4085,
       "total_pnl_usd": -34.14,
       "sharpe": -0.119,
@@ -2245,7 +2245,7 @@
       "agent_id": "pm-prob-reversion-v01",
       "lifecycle": "shadow",
       "closed_trades": 614,
-      "open_positions": 285,
+      "open_positions": 286,
       "win_rate": 0.3029,
       "total_pnl_usd": -6554.79,
       "sharpe": -0.093,
@@ -2343,7 +2343,7 @@
       "agent_id": "pm-resolution-snap-v02",
       "lifecycle": "shadow",
       "closed_trades": 392,
-      "open_positions": 5,
+      "open_positions": 6,
       "win_rate": 0.0791,
       "total_pnl_usd": -10968.55,
       "sharpe": -0.307,
@@ -2371,7 +2371,7 @@
       "agent_id": "pm-resolution-snap-v04",
       "lifecycle": "shadow",
       "closed_trades": 344,
-      "open_positions": 5,
+      "open_positions": 6,
       "win_rate": 0.0494,
       "total_pnl_usd": -11365.8,
       "sharpe": -0.368,
@@ -2385,7 +2385,7 @@
       "agent_id": "pm-resolution-snap-v05",
       "lifecycle": "shadow",
       "closed_trades": 189,
-      "open_positions": 4,
+      "open_positions": 5,
       "win_rate": 0.0,
       "total_pnl_usd": -9450.0,
       "sharpe": 0.0,
@@ -2638,5 +2638,5 @@
     "regime_states": 5,
     "papers_ingested": 3749
   },
-  "synced_at": "2026-06-10T08:34:16Z"
+  "synced_at": "2026-06-10T12:34:20Z"
 }
