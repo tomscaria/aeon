@@ -427,3 +427,4 @@ Load ON DEMAND:
 - All new Python files: `from __future__ import annotations`
 - After decision changes: run `reconcile-docs` skill
 - [Auto-commit hook race](feedback_auto_commit_race.md) — after multi-file Edit batches in repos with auto-commit, run `git log -1 --stat` before the next major edit; the hook may capture your work under a misleading label (seen 2026-04-22, polymarket_adapter.py under "docs:" commit)
+- [ROLR competition — public tRPC API, $0 scanner cron live](project_rolr_competition.md) — markets.list mirrors PM (gamma ids); ai.rswarm.rolr-arb 300s; phase-2 positions.buy needs session cookie
