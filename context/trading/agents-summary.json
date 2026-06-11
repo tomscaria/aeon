@@ -60,7 +60,7 @@
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5468309910430322,
+      "fitness": 0.5417989802252684,
       "pnl": null
     },
     {
@@ -146,5 +146,5 @@
     "shadow": 160
   },
   "total_agents": 183,
-  "synced_at": "2026-06-11T16:35:23Z"
+  "synced_at": "2026-06-11T20:35:28Z"
 }
