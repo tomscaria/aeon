@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T04:35:15.997328Z",
+  "generated_at": "2026-06-11T08:35:18.998330Z",
   "agents": [
     {
       "agent_id": "calibration-gap-03-crypto-csonnet46-k30-riskonly-i723",
@@ -2441,7 +2441,7 @@
       "agent_id": "pm-vol-disparity-v01",
       "lifecycle": "shadow",
       "closed_trades": 84,
-      "open_positions": 1,
+      "open_positions": 2,
       "win_rate": 0.4048,
       "total_pnl_usd": -39.14,
       "sharpe": -0.348,
@@ -2455,7 +2455,7 @@
       "agent_id": "pm-vol-disparity-v02",
       "lifecycle": "shadow",
       "closed_trades": 83,
-      "open_positions": 1,
+      "open_positions": 2,
       "win_rate": 0.3976,
       "total_pnl_usd": -40.68,
       "sharpe": -0.371,
@@ -2616,8 +2616,8 @@
     "closed_trades": 4993,
     "win_rate": 0.3026,
     "total_pnl_usd": 1792.61,
-    "real_pnl_usd": null,
-    "real_fills_lifetime": null,
+    "real_pnl_usd": 6.0174,
+    "real_fills_lifetime": 333,
     "canary_pnl_usd": 1792.61,
     "canary_closed_trades": 625,
     "canary_agents": 23,
@@ -2638,5 +2638,5 @@
     "regime_states": 5,
     "papers_ingested": 3749
   },
-  "synced_at": "2026-06-11T04:35:14Z"
+  "synced_at": "2026-06-11T08:35:16Z"
 }
