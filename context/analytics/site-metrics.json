@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T00:35:14.414074Z",
+  "generated_at": "2026-06-11T04:35:15.997328Z",
   "agents": [
     {
       "agent_id": "calibration-gap-03-crypto-csonnet46-k30-riskonly-i723",
@@ -131,7 +131,7 @@
       "agent_id": "calibration-gap-03-macro-gemflash-k15-allreg-i531",
       "lifecycle": "shadow",
       "closed_trades": 9,
-      "open_positions": 2,
+      "open_positions": 3,
       "win_rate": 0.6667,
       "total_pnl_usd": -40.49,
       "sharpe": -0.167,
@@ -187,7 +187,7 @@
       "agent_id": "calibration-gap-03-macro-llama70-k35-trendonly-i012",
       "lifecycle": "shadow",
       "closed_trades": 9,
-      "open_positions": 2,
+      "open_positions": 3,
       "win_rate": 0.6667,
       "total_pnl_usd": -40.49,
       "sharpe": -0.167,
@@ -747,7 +747,7 @@
       "agent_id": "calibration-gap-04-crypto-mixtral-k35-allreg-i611",
       "lifecycle": "shadow",
       "closed_trades": 5,
-      "open_positions": 1,
+      "open_positions": 2,
       "win_rate": 0.4,
       "total_pnl_usd": -70.74,
       "sharpe": -0.43,
@@ -1321,7 +1321,7 @@
       "agent_id": "calibration-gap-06-crypto-copus45-k20-offheavy-i251",
       "lifecycle": "shadow",
       "closed_trades": 4,
-      "open_positions": 0,
+      "open_positions": 1,
       "win_rate": 0.25,
       "total_pnl_usd": -78.61,
       "sharpe": 0.0,
@@ -2245,7 +2245,7 @@
       "agent_id": "pm-prob-reversion-v01",
       "lifecycle": "shadow",
       "closed_trades": 622,
-      "open_positions": 282,
+      "open_positions": 283,
       "win_rate": 0.3087,
       "total_pnl_usd": -6518.98,
       "sharpe": -0.091,
@@ -2441,7 +2441,7 @@
       "agent_id": "pm-vol-disparity-v01",
       "lifecycle": "shadow",
       "closed_trades": 84,
-      "open_positions": 0,
+      "open_positions": 1,
       "win_rate": 0.4048,
       "total_pnl_usd": -39.14,
       "sharpe": -0.348,
@@ -2455,7 +2455,7 @@
       "agent_id": "pm-vol-disparity-v02",
       "lifecycle": "shadow",
       "closed_trades": 83,
-      "open_positions": 0,
+      "open_positions": 1,
       "win_rate": 0.3976,
       "total_pnl_usd": -40.68,
       "sharpe": -0.371,
@@ -2638,5 +2638,5 @@
     "regime_states": 5,
     "papers_ingested": 3749
   },
-  "synced_at": "2026-06-11T00:35:12Z"
+  "synced_at": "2026-06-11T04:35:14Z"
 }
