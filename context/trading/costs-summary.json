@@ -1,53 +1,53 @@
 {
   "total_cost_usd": 0.0,
-  "total_calls": 32212,
+  "total_calls": 32693,
   "total_tokens": 0,
   "by_vendor": {
     "hyperliquid": {
-      "calls": 2287,
+      "calls": 2317,
       "cost_usd": 0.0,
       "tokens": 0,
       "operations": {
         "get_balance": {
-          "calls": 1402,
-          "cost_usd": 0.0
-        },
-        "get_open_positions": {
-          "calls": 550,
+          "calls": 1467,
           "cost_usd": 0.0
         },
         "get_user_fills_pnl": {
-          "calls": 335,
+          "calls": 325,
+          "cost_usd": 0.0
+        },
+        "get_open_positions": {
+          "calls": 525,
           "cost_usd": 0.0
         }
       }
     },
     "polymarket": {
-      "calls": 27704,
+      "calls": 28093,
       "cost_usd": 0.0,
       "tokens": 0,
       "operations": {
         "scan_markets": {
-          "calls": 2138,
+          "calls": 2048,
           "cost_usd": 0.0
         },
         "clob_prices_batch": {
-          "calls": 1484,
+          "calls": 1496,
           "cost_usd": 0.0
         },
         "gamma_quotes_batch": {
-          "calls": 24082,
+          "calls": 24549,
           "cost_usd": 0.0
         }
       }
     },
     "rolr": {
-      "calls": 2221,
+      "calls": 2283,
       "cost_usd": 0.0,
       "tokens": 0,
       "operations": {
         "markets.list": {
-          "calls": 2221,
+          "calls": 2283,
           "cost_usd": 0.0
         }
       }
@@ -55,124 +55,64 @@
   },
   "by_agent": {
     "__system__": {
-      "calls": 31835,
+      "calls": 32414,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "hyperliquid": {
-          "calls": 2287,
+          "calls": 2317,
           "cost_usd": 0.0,
           "tokens": 0
         },
         "polymarket": {
-          "calls": 27327,
+          "calls": 27814,
           "cost_usd": 0.0,
           "tokens": 0
         },
         "rolr": {
-          "calls": 2221,
-          "cost_usd": 0.0,
-          "tokens": 0
-        }
-      }
-    },
-    "calibration-gap-v1": {
-      "calls": 2,
-      "cost_usd": 0.0,
-      "tokens": 0,
-      "vendors": {
-        "polymarket": {
-          "calls": 2,
-          "cost_usd": 0.0,
-          "tokens": 0
-        }
-      }
-    },
-    "calibration-gap-20-crypto-copus45-k45-rangeonly-i002": {
-      "calls": 2,
-      "cost_usd": 0.0,
-      "tokens": 0,
-      "vendors": {
-        "polymarket": {
-          "calls": 2,
-          "cost_usd": 0.0,
-          "tokens": 0
-        }
-      }
-    },
-    "calibration-gap-03-macro-llama70-k35-trendonly-i012": {
-      "calls": 2,
-      "cost_usd": 0.0,
-      "tokens": 0,
-      "vendors": {
-        "polymarket": {
-          "calls": 2,
-          "cost_usd": 0.0,
-          "tokens": 0
-        }
-      }
-    },
-    "calibration-gap-09-macro-qwen72-k20-nocrisis-i016": {
-      "calls": 2,
-      "cost_usd": 0.0,
-      "tokens": 0,
-      "vendors": {
-        "polymarket": {
-          "calls": 2,
-          "cost_usd": 0.0,
-          "tokens": 0
-        }
-      }
-    },
-    "calibration-gap-07-politics-csonnet46-k35-rangeonly-i027": {
-      "calls": 2,
-      "cost_usd": 0.0,
-      "tokens": 0,
-      "vendors": {
-        "polymarket": {
-          "calls": 2,
-          "cost_usd": 0.0,
-          "tokens": 0
-        }
-      }
-    },
-    "calibration-gap-05-crypto-deepseek-k40-offheavy-i035": {
-      "calls": 2,
-      "cost_usd": 0.0,
-      "tokens": 0,
-      "vendors": {
-        "polymarket": {
-          "calls": 2,
+          "calls": 2283,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-12-politics-llama70-k10-rangeonly-i038": {
-      "calls": 3,
+      "calls": 2,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 3,
+          "calls": 2,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-19-macro-gemflash-k40-allreg-i045": {
-      "calls": 3,
+      "calls": 2,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 3,
+          "calls": 2,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-15-macro-gpt5-k15-trendonly-i049": {
+      "calls": 2,
+      "cost_usd": 0.0,
+      "tokens": 0,
+      "vendors": {
+        "polymarket": {
+          "calls": 2,
+          "cost_usd": 0.0,
+          "tokens": 0
+        }
+      }
+    },
+    "calibration-gap-07-crypto-llama8-k25-rangeonly-i063": {
       "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
@@ -184,1069 +124,1129 @@
         }
       }
     },
-    "calibration-gap-07-crypto-llama8-k25-rangeonly-i063": {
-      "calls": 4,
-      "cost_usd": 0.0,
-      "tokens": 0,
-      "vendors": {
-        "polymarket": {
-          "calls": 4,
-          "cost_usd": 0.0,
-          "tokens": 0
-        }
-      }
-    },
     "calibration-gap-14-politics-qwen72-k30-nocrisis-i065": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-06-politics-qwen72-k15-allreg-i068": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-08-macro-csonnet46-k50-rangeonly-i079": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-20-crypto-mixtral-k25-allreg-i093": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-18-politics-gpt5-k20-nocrisis-i101": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-16-macro-deepseek-k35-offheavy-i110": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-04-crypto-copus45-k10-nocrisis-i124": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-07-politics-gemflash-k15-trendonly-i128": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-05-macro-llama70-k45-riskonly-i139": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-13-crypto-gpt5-k30-trendonly-i153": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-14-politics-llama70-k25-allreg-i161": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-07-politics-mixtral-k50-trendonly-i164": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-17-macro-gpt5mini-k30-rangeonly-i170": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-13-macro-csonnet46-k25-offheavy-i182": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-09-crypto-qwen72-k15-allreg-i184": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-04-politics-deepseek-k25-riskonly-i195": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-12-crypto-llama8-k45-offheavy-i198": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-06-macro-gemflash-k20-trendonly-i212": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-18-crypto-deepseek-k15-rangeonly-i218": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-08-politics-llama8-k30-offheavy-i223": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-10-crypto-gpt5mini-k40-riskonly-i231": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-14-macro-qwen72-k45-nocrisis-i233": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-16-macro-llama70-k15-allreg-i245": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-06-crypto-copus45-k20-offheavy-i251": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-11-politics-copus45-k30-offheavy-i264": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-19-politics-gemflash-k15-rangeonly-i269": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-16-crypto-csonnet46-k45-riskonly-i273": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-20-macro-copus45-k15-nocrisis-i290": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-03-politics-llama8-k20-riskonly-i300": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-07-macro-gpt5mini-k10-riskonly-i320": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-05-politics-llama8-k45-allreg-i331": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-19-crypto-llama70-k35-allreg-i338": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-05-macro-csonnet46-k45-offheavy-i348": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-15-macro-llama8-k25-offheavy-i353": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-17-politics-gpt5-k40-nocrisis-i362": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-09-crypto-gpt5-k15-allreg-i367": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-03-crypto-gemflash-k50-trendonly-i371": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-13-politics-copus45-k25-allreg-i374": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-06-macro-mixtral-k10-offheavy-i388": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-16-crypto-gemflash-k25-allreg-i394": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-08-politics-copus45-k45-trendonly-i399": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-14-crypto-gpt5-k30-trendonly-i406": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-18-macro-copus45-k30-rangeonly-i421": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-16-politics-mixtral-k40-nocrisis-i430": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-10-crypto-qwen72-k50-nocrisis-i439": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-12-macro-gpt5mini-k35-riskonly-i441": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-09-macro-gpt5-k20-allreg-i455": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-13-politics-deepseek-k20-offheavy-i457": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-03-politics-llama8-k35-riskonly-i460": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-07-macro-copus45-k35-nocrisis-i475": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-11-crypto-csonnet46-k25-riskonly-i488": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-19-politics-gpt5mini-k50-offheavy-i493": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-05-crypto-gemflash-k40-offheavy-i500": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-14-crypto-qwen72-k40-riskonly-i513": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-06-politics-qwen72-k10-offheavy-i516": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-09-macro-csonnet46-k45-trendonly-i527": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-03-macro-gemflash-k15-allreg-i531": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-10-politics-llama70-k50-rangeonly-i536": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-20-crypto-mixtral-k20-offheavy-i541": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-08-crypto-gpt5-k45-offheavy-i544": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-16-macro-deepseek-k40-allreg-i558": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-19-macro-llama8-k25-nocrisis-i562": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-12-politics-gemflash-k35-offheavy-i569": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-20-crypto-csonnet46-k50-trendonly-i578": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-09-macro-deepseek-k25-riskonly-i592": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-15-crypto-gpt5mini-k10-nocrisis-i606": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-04-crypto-mixtral-k35-allreg-i611": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-19-macro-gemflash-k50-offheavy-i621": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-17-politics-deepseek-k45-nocrisis-i634": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-07-politics-llama8-k30-trendonly-i639": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-12-crypto-llama8-k50-allreg-i646": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-06-macro-gemflash-k30-rangeonly-i660": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-18-politics-mixtral-k10-trendonly-i666": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-08-politics-llama70-k40-allreg-i671": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-16-macro-llama70-k10-offheavy-i693": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-06-politics-csonnet46-k25-allreg-i699": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-18-crypto-copus45-k40-riskonly-i709": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-05-macro-llama8-k45-nocrisis-i715": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-11-macro-deepseek-k15-trendonly-i727": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-12-crypto-gpt5-k25-rangeonly-i729": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-05-politics-csonnet46-k50-riskonly-i732": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-06-crypto-mixtral-k45-rangeonly-i740": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-13-macro-csonnet46-k20-allreg-i758": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-10-crypto-qwen72-k20-offheavy-i760": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-20-politics-qwen72-k35-rangeonly-i765": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-15-crypto-qwen72-k25-riskonly-i782": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-11-politics-mixtral-k15-riskonly-i791": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
           "cost_usd": 0.0,
           "tokens": 0
         }
       }
     },
     "calibration-gap-04-macro-copus45-k40-allreg-i796": {
-      "calls": 4,
+      "calls": 3,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
         "polymarket": {
-          "calls": 4,
+          "calls": 3,
+          "cost_usd": 0.0,
+          "tokens": 0
+        }
+      }
+    },
+    "calibration-gap-v1": {
+      "calls": 1,
+      "cost_usd": 0.0,
+      "tokens": 0,
+      "vendors": {
+        "polymarket": {
+          "calls": 1,
+          "cost_usd": 0.0,
+          "tokens": 0
+        }
+      }
+    },
+    "calibration-gap-20-crypto-copus45-k45-rangeonly-i002": {
+      "calls": 1,
+      "cost_usd": 0.0,
+      "tokens": 0,
+      "vendors": {
+        "polymarket": {
+          "calls": 1,
+          "cost_usd": 0.0,
+          "tokens": 0
+        }
+      }
+    },
+    "calibration-gap-03-macro-llama70-k35-trendonly-i012": {
+      "calls": 1,
+      "cost_usd": 0.0,
+      "tokens": 0,
+      "vendors": {
+        "polymarket": {
+          "calls": 1,
+          "cost_usd": 0.0,
+          "tokens": 0
+        }
+      }
+    },
+    "calibration-gap-09-macro-qwen72-k20-nocrisis-i016": {
+      "calls": 1,
+      "cost_usd": 0.0,
+      "tokens": 0,
+      "vendors": {
+        "polymarket": {
+          "calls": 1,
+          "cost_usd": 0.0,
+          "tokens": 0
+        }
+      }
+    },
+    "calibration-gap-07-politics-csonnet46-k35-rangeonly-i027": {
+      "calls": 1,
+      "cost_usd": 0.0,
+      "tokens": 0,
+      "vendors": {
+        "polymarket": {
+          "calls": 1,
+          "cost_usd": 0.0,
+          "tokens": 0
+        }
+      }
+    },
+    "calibration-gap-05-crypto-deepseek-k40-offheavy-i035": {
+      "calls": 1,
+      "cost_usd": 0.0,
+      "tokens": 0,
+      "vendors": {
+        "polymarket": {
+          "calls": 1,
           "cost_usd": 0.0,
           "tokens": 0
         }
@@ -1255,29 +1255,9 @@
   },
   "hourly": [
     {
-      "hour": "2026-06-05T08:00:00",
-      "cost_usd": 0.0,
-      "calls": 114
-    },
-    {
-      "hour": "2026-06-05T09:00:00",
-      "cost_usd": 0.0,
-      "calls": 50
-    },
-    {
-      "hour": "2026-06-05T10:00:00",
-      "cost_usd": 0.0,
-      "calls": 33
-    },
-    {
-      "hour": "2026-06-05T11:00:00",
-      "cost_usd": 0.0,
-      "calls": 29
-    },
-    {
       "hour": "2026-06-05T12:00:00",
       "cost_usd": 0.0,
-      "calls": 24
+      "calls": 13
     },
     {
       "hour": "2026-06-05T13:00:00",
@@ -2097,9 +2077,29 @@
     {
       "hour": "2026-06-12T08:00:00",
       "cost_usd": 0.0,
-      "calls": 10
+      "calls": 16
+    },
+    {
+      "hour": "2026-06-12T09:00:00",
+      "cost_usd": 0.0,
+      "calls": 459
+    },
+    {
+      "hour": "2026-06-12T10:00:00",
+      "cost_usd": 0.0,
+      "calls": 226
+    },
+    {
+      "hour": "2026-06-12T11:00:00",
+      "cost_usd": 0.0,
+      "calls": 15
+    },
+    {
+      "hour": "2026-06-12T12:00:00",
+      "cost_usd": 0.0,
+      "calls": 12
     }
   ],
-  "event_count": 4538,
-  "synced_at": "2026-06-12T08:35:43Z"
+  "event_count": 4500,
+  "synced_at": "2026-06-12T12:35:48Z"
 }

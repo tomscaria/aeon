@@ -4,63 +4,56 @@
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.6202772780339075,
+      "fitness": 0.6068626804268475,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.6019046343163912,
+      "fitness": 0.5915298391065839,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.595664294573893,
+      "fitness": 0.5831199517791277,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.595664294573893,
+      "fitness": 0.5831199517791277,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5477555306139594,
+      "fitness": 0.5427096095364022,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5477555306139594,
+      "fitness": 0.5424633075018139,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5477555306139594,
+      "fitness": 0.5424633075018139,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5477555306139594,
-      "pnl": null
-    },
-    {
-      "id": null,
-      "family": null,
-      "lifecycle": "canary",
-      "fitness": 0.5417989802252684,
+      "fitness": 0.5424633075018139,
       "pnl": null
     },
     {
@@ -68,6 +61,13 @@
       "family": null,
       "lifecycle": "canary",
       "fitness": 0.5190160244283223,
+      "pnl": null
+    },
+    {
+      "id": null,
+      "family": null,
+      "lifecycle": "canary",
+      "fitness": 0.5160570455606777,
       "pnl": null
     },
     {
@@ -146,5 +146,5 @@
     "shadow": 160
   },
   "total_agents": 183,
-  "synced_at": "2026-06-12T08:35:43Z"
+  "synced_at": "2026-06-12T12:35:48Z"
 }

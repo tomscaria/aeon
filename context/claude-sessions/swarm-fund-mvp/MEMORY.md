@@ -14,6 +14,9 @@
 - [Repo is the nested swarm-fund-mvp/swarm-fund-mvp/ dir](reference_repo_nested_path.md) — sessions launch in a wrapper folder; `cd` into the nested subdir (has `.git`, `CLAUDE.md`, `python/`) before any git/pytest/project command.
 - [Venv may be missing `[dev]` extras (pytest-asyncio)](feedback_venv_dev_extras.md) — uv-managed .venv lacks `pip`; async tests silently fail with "unknown asyncio_mode" if pytest-asyncio is absent. Install via `uv pip install --python .venv/bin/python pytest-asyncio`.
 
+## Session 2026-06-12 — Master Allocation / Dynamic Kelly (ADR-146, overnight)
+- [Master allocator + RCK Kelly](session_2026-06-11_exit_engine_redesign.md) — spec 2026-06-12-master-allocation-kelly-design.md (ce9fca8a+cf44f050): real Busseti-Ryu-Boyd RCK solver (lambda from L3 budget, MC-verified), Beta-LCB shrinkage, 5-policy AllocationPolicy grid ALL SHADOW (live sizing untouched), posterior-at-entry recording LIVE (kills look-ahead — in-sample sweep showed 4.3x artifact), sqrt-track budget widening. APEX UNLOCK RULE in ADR-146 §5. Founder decision pending: first canary sizing policy after ~1-2wks unbiased labels. Wake-up report: outputs/2026-06-12_master_allocation_overnight.md.
+
 ## Session 2026-06-11 — Exit Engine redesign (spec committed, corpus upgraded)
 - [Exit-engine 4-layer redesign](session_2026-06-11_exit_engine_redesign.md) — spec + FULL BUILD shipped (ADR-143, commits 85a67561..ac253dde): python/risk/ 4-layer engine, shadow-only at runtime (no apex policy; canary→apex IC-manual), 2502-test green; ADR-144 follow-up: cascade widened 2x, tb-k2-c15-v12 founder-forced canary GOVERNS paper exits, loop RESTARTED 06-12 (NAV $562). Corpus: FTS5 live, 23 papers + manual-PDF harvester (data/manual_pdfs/) live.
 
