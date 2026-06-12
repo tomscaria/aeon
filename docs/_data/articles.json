@@ -1,8 +1,85 @@
 [
   {
+    "filename": "workflow-security-audit-2026-04-11.md",
+    "title": "Workflow Security Audit — 2026-04-11",
+    "date": "2026-04-11",
+    "summary": "**Repo:** [aaronjmars/aeon](https://github.com/aaronjmars/aeon)"
+  }
+,
+  {
+    "filename": "vuln-scan-2026-04-25.md",
+    "title": "Vuln Scanner — 2026-04-25 (ERROR)",
+    "date": "2026-04-25",
+    "summary": "**Status:** `VULN_SCANNER_ERROR` — all-scanners-fail. No repository was scanned. No findings published. No PVR opened. No PR opened."
+  }
+,
+  {
+    "filename": "skill-evals-2026-04-26.md",
+    "title": "Skill Evals — 2026-04-26",
+    "date": "2026-04-26",
+    "summary": "**Verdict:** SKILL_EVALS_REGRESSED"
+  }
+,
+  {
+    "filename": "research-brief-prediction-market-calibration-2026-04-25.md",
+    "title": "research-brief-prediction-market-calibration-2026-04-25",
+    "date": "2026-04-25",
+    "summary": "Polymarket and Kalshi political markets are systematically miscalibrated at long horizons: prices are compressed toward 50%, persistently understating the true probability of favorites. A 2026 decompo"
+  }
+,
+  {
+    "filename": "repo-article-2026-04-25.md",
+    "title": "Aeon Stopped Shipping Single-Instance Features Four Days Ago",
+    "date": "2026-04-25",
+    "summary": "aaronjmars/aeon spent April 20 self-evolving 70+ existing skills in one squashed batch. Since April 22, every feature PR — without exception — has shipped a primitive that watches, scores, or onboards"
+  }
+,
+  {
+    "filename": "repo-actions-2026-04-25.md",
+    "title": "Repo Actions — aaronjmars/aeon — 2026-04-25",
+    "date": "2026-04-25",
+    "summary": "**Top pick for tomorrow:** #1 — Add `.github/dependabot.yml` covering GitHub Actions, dashboard npm, and mcp-server npm (Security, Small)"
+  }
+,
+  {
+    "filename": "explainer-2026-04-25.md",
+    "title": "Settlement-Basis Risk: Why the Same BTC Binary Resolves Differently on Polymarket and Kalshi",
+    "date": "2026-04-25",
+    "summary": "![hero](../images/explainer-2026-04-25.jpg)"
+  }
+,
+  {
+    "filename": "deep-research-2026-04-25.md",
+    "title": "Deep Research: Kalshi↔Polymarket BTC Binary Arbitrage — Spreads, Strike Alignment, Time Alignment, Latency, Edge Decay",
+    "date": "2026-04-25",
+    "summary": "*2026-04-25 — Deep pass — 32 sources (T1: 9, T2: 17, T3: 6) — 4 papers*"
+  }
+,
+  {
+    "filename": "code-health-2026-04-25.md",
+    "title": "Code Health Report — 2026-04-25",
+    "date": "2026-04-25",
+    "summary": "Window: weekly. First run for this repo. Watched repos audited: 1."
+  }
+,
+  {
+    "filename": "changelog-2026-04-25.md",
+    "title": "Changelog — Week of 2026-04-25",
+    "date": "2026-04-25",
+    "summary": "*Window: 2026-04-18 → 2026-04-25 · Sources: aaronjmars/aeon=ok*"
+  }
+,
+  {
     "filename": "changelog-2026-03-19.md",
     "title": "Changelog — Week of 2026-03-19",
     "date": "2026-03-19",
     "summary": "- Add local dashboard for managing skills, secrets, and runs — Next.js app with visual schedule picker, secret management, skill toggling, and workflow triggers (9b12614)"
+  }
+,
+  {
+    "filename": "2026-04-25.md",
+    "title": "Autonomous Agents Got an Open Stack in April 2026",
+    "date": "2026-04-25",
+    "summary": "Two missing pieces. One month."
   }
 ]
