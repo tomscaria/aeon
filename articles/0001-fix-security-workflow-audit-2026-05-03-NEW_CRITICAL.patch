@@ -1,0 +1,78 @@
+From: aeonframework <aeonframework@proton.me>
+Subject: [PATCH] fix(security): workflow audit 2026-05-03 — NEW_CRITICAL auto-fixes
+
+Three auto-fixes for NEW Critical/High findings from the 2026-05-03
+workflow security audit. Apply with:
+
+  git checkout fix/workflow-security-audit-2026-05-03
+  git am articles/0001-fix-security-workflow-audit-2026-05-03-NEW_CRITICAL.patch
+  git push  # requires a token with the `workflow` scope
+
+The patch covers:
+
+1. messages.yml Extract message step (CRITICAL) — toJson-into-shell
+   injection in repository_dispatch path. Fixed via
+   _CLIENT_PAYLOAD_MESSAGE env-var intermediary + printf.
+
+2. chain-runner.yml Run chain step (HIGH) — ${{ inputs.chain }}
+   interpolated directly into shell. Fixed via _INPUT_CHAIN.
+
+3. chain-runner.yml Update cron state step (HIGH) — same pattern.
+   Fixed via _INPUT_CHAIN.
+
+See articles/workflow-security-audit-2026-05-03.md for full attack
+chains and rationale.
+
+---
+ .github/workflows/chain-runner.yml | 6 ++++--
+ .github/workflows/messages.yml     | 6 ++++--
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+
+diff --git a/.github/workflows/chain-runner.yml b/.github/workflows/chain-runner.yml
+index 2071799..01d5226 100644
+--- a/.github/workflows/chain-runner.yml
++++ b/.github/workflows/chain-runner.yml
+@@ -36,9 +36,10 @@ jobs:
+       - name: Run chain
+         env:
+           GH_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
++          _INPUT_CHAIN: ${{ inputs.chain }}
+         run: |
+           set -euo pipefail
+-          CHAIN="${{ inputs.chain }}"
++          CHAIN="$_INPUT_CHAIN"
+           NOW_ISO=$(date -u +%FT%TZ)
+           echo "Running chain: $CHAIN"
+
+@@ -283,8 +284,9 @@ jobs:
+         if: always()
+         env:
+           GH_TOKEN: ${{ secrets.GH_GLOBAL || secrets.GITHUB_TOKEN }}
++          _INPUT_CHAIN: ${{ inputs.chain }}
+         run: |
+-          CHAIN="${{ inputs.chain }}"
++          CHAIN="$_INPUT_CHAIN"
+           NOW_ISO=$(date -u +%FT%TZ)
+           STATUS="${CHAIN_STATUS:-failed}"
+           STATE_FILE="memory/cron-state.json"
+diff --git a/.github/workflows/messages.yml b/.github/workflows/messages.yml
+index 55a5793..5b5627a 100644
+--- a/.github/workflows/messages.yml
++++ b/.github/workflows/messages.yml
+@@ -572,10 +572,12 @@ jobs:
+         env:
+           _INPUT_MESSAGE: ${{ inputs.message }}
+           _INPUT_SOURCE: ${{ inputs.source }}
++          _CLIENT_PAYLOAD_MESSAGE: ${{ toJson(github.event.client_payload.message) }}
++          _DISPATCH_ACTION: ${{ github.event.action }}
+         run: |
+           if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+-            MESSAGE=$(echo '${{ toJson(github.event.client_payload.message) }}' | jq -r '.')
+-            TYPE="${{ github.event.action }}"
++            MESSAGE=$(printf '%s' "$_CLIENT_PAYLOAD_MESSAGE" | jq -r '.')
++            TYPE="$_DISPATCH_ACTION"
+             SOURCE="webhook"
+             case "$TYPE" in
+               telegram-message) SOURCE="telegram" ;;
+--
+2.43.0
