@@ -15,7 +15,7 @@
 - [Venv may be missing `[dev]` extras (pytest-asyncio)](feedback_venv_dev_extras.md) — uv-managed .venv lacks `pip`; async tests silently fail with "unknown asyncio_mode" if pytest-asyncio is absent. Install via `uv pip install --python .venv/bin/python pytest-asyncio`.
 
 ## Session 2026-06-11 — Exit Engine redesign (spec committed, corpus upgraded)
-- [Exit-engine 4-layer redesign](session_2026-06-11_exit_engine_redesign.md) — spec + FULL BUILD shipped (ADR-143, commits 85a67561..ac253dde): python/risk/ 4-layer engine, shadow-only at runtime (no apex policy; canary→apex IC-manual), 2502-test regression green, loop restart pending. Corpus: FTS5 live, 23 papers + manual-PDF harvester (data/manual_pdfs/) live.
+- [Exit-engine 4-layer redesign](session_2026-06-11_exit_engine_redesign.md) — spec + FULL BUILD shipped (ADR-143, commits 85a67561..ac253dde): python/risk/ 4-layer engine, shadow-only at runtime (no apex policy; canary→apex IC-manual), 2502-test green; ADR-144 follow-up: cascade widened 2x, tb-k2-c15-v12 founder-forced canary GOVERNS paper exits, loop RESTARTED 06-12 (NAV $562). Corpus: FTS5 live, 23 papers + manual-PDF harvester (data/manual_pdfs/) live.
 
 ## Session 2026-06-11 — Execution Station + colima root-cause
 - [Execution Station shipped](session_2026-06-11_execution_station.md) — ADR-139..142, 121 tests, paper-only (venue-blocked). Acceptance caught stale-mark cap bug (−$498 → fixed b7d793d5, +$1.93). STACK RUNS ON COLIMA (autostart now installed); DD VM wedged, holds 58k-trade history — founder GUI launch rescues. Dune tap LIVE (972 mkts). Kalshi WS 401s.
