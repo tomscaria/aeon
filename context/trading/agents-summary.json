@@ -4,56 +4,63 @@
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.6068626804268475,
+      "fitness": 0.6123669438127133,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5915298391065839,
+      "fitness": 0.5996171621157601,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5831199517791277,
+      "fitness": 0.5898471294360563,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5831199517791277,
+      "fitness": 0.5898471294360563,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5427096095364022,
+      "fitness": 0.5499929421389069,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5424633075018139,
+      "fitness": 0.5497482051628299,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5424633075018139,
+      "fitness": 0.5497482051628299,
       "pnl": null
     },
     {
       "id": null,
       "family": null,
       "lifecycle": "canary",
-      "fitness": 0.5424633075018139,
+      "fitness": 0.5497482051628299,
+      "pnl": null
+    },
+    {
+      "id": null,
+      "family": null,
+      "lifecycle": "canary",
+      "fitness": 0.5329005762391473,
       "pnl": null
     },
     {
@@ -61,13 +68,6 @@
       "family": null,
       "lifecycle": "canary",
       "fitness": 0.5190160244283223,
-      "pnl": null
-    },
-    {
-      "id": null,
-      "family": null,
-      "lifecycle": "canary",
-      "fitness": 0.5160570455606777,
       "pnl": null
     },
     {
@@ -146,5 +146,5 @@
     "shadow": 160
   },
   "total_agents": 183,
-  "synced_at": "2026-06-12T20:35:57Z"
+  "synced_at": "2026-06-13T00:36:02Z"
 }
