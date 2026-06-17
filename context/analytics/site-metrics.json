@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T20:21:13.614347Z",
+  "generated_at": "2026-06-17T00:21:16.999605Z",
   "agents": [
     {
       "agent_id": "calibration-gap-03-crypto-csonnet46-k30-riskonly-i723",
@@ -2245,7 +2245,7 @@
       "agent_id": "pm-prob-reversion-v01",
       "lifecycle": "shadow",
       "closed_trades": 683,
-      "open_positions": 338,
+      "open_positions": 339,
       "win_rate": 0.3221,
       "total_pnl_usd": -5527.49,
       "sharpe": -0.069,
@@ -2259,7 +2259,7 @@
       "agent_id": "pm-prob-reversion-v02",
       "lifecycle": "shadow",
       "closed_trades": 528,
-      "open_positions": 225,
+      "open_positions": 226,
       "win_rate": 0.2386,
       "total_pnl_usd": -7434.65,
       "sharpe": -0.117,
@@ -2616,8 +2616,8 @@
     "closed_trades": 5602,
     "win_rate": 0.3049,
     "total_pnl_usd": 1784.66,
-    "real_pnl_usd": 14.1797,
-    "real_fills_lifetime": 338,
+    "real_pnl_usd": null,
+    "real_fills_lifetime": null,
     "canary_pnl_usd": 1784.66,
     "canary_closed_trades": 742,
     "canary_agents": 23,
@@ -2638,5 +2638,5 @@
     "regime_states": 5,
     "papers_ingested": 3780
   },
-  "synced_at": "2026-06-16T20:21:10Z"
+  "synced_at": "2026-06-17T00:21:15Z"
 }
