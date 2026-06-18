@@ -1,53 +1,53 @@
 {
   "total_cost_usd": 0.0,
-  "total_calls": 47590,
+  "total_calls": 44961,
   "total_tokens": 0,
   "by_vendor": {
-    "rolr": {
-      "calls": 3530,
+    "hyperliquid": {
+      "calls": 1622,
       "cost_usd": 0.0,
       "tokens": 0,
       "operations": {
-        "markets.list": {
-          "calls": 3530,
+        "get_balance": {
+          "calls": 1487,
+          "cost_usd": 0.0
+        },
+        "get_open_positions": {
+          "calls": 86,
+          "cost_usd": 0.0
+        },
+        "get_user_fills_pnl": {
+          "calls": 49,
           "cost_usd": 0.0
         }
       }
     },
     "polymarket": {
-      "calls": 42443,
+      "calls": 40061,
       "cost_usd": 0.0,
       "tokens": 0,
       "operations": {
-        "clob_prices_batch": {
-          "calls": 2279,
-          "cost_usd": 0.0
-        },
         "scan_markets": {
-          "calls": 1461,
+          "calls": 1441,
           "cost_usd": 0.0
         },
         "gamma_quotes_batch": {
-          "calls": 38703,
+          "calls": 36492,
+          "cost_usd": 0.0
+        },
+        "clob_prices_batch": {
+          "calls": 2128,
           "cost_usd": 0.0
         }
       }
     },
-    "hyperliquid": {
-      "calls": 1617,
+    "rolr": {
+      "calls": 3278,
       "cost_usd": 0.0,
       "tokens": 0,
       "operations": {
-        "get_balance": {
-          "calls": 1481,
-          "cost_usd": 0.0
-        },
-        "get_user_fills_pnl": {
-          "calls": 50,
-          "cost_usd": 0.0
-        },
-        "get_open_positions": {
-          "calls": 86,
+        "markets.list": {
+          "calls": 3278,
           "cost_usd": 0.0
         }
       }
@@ -55,22 +55,22 @@
   },
   "by_agent": {
     "__system__": {
-      "calls": 47590,
+      "calls": 44961,
       "cost_usd": 0.0,
       "tokens": 0,
       "vendors": {
-        "rolr": {
-          "calls": 3530,
+        "hyperliquid": {
+          "calls": 1622,
           "cost_usd": 0.0,
           "tokens": 0
         },
         "polymarket": {
-          "calls": 42443,
+          "calls": 40061,
           "cost_usd": 0.0,
           "tokens": 0
         },
-        "hyperliquid": {
-          "calls": 1617,
+        "rolr": {
+          "calls": 3278,
           "cost_usd": 0.0,
           "tokens": 0
         }
@@ -79,29 +79,9 @@
   },
   "hourly": [
     {
-      "hour": "2026-06-10T20:00:00",
-      "cost_usd": 0.0,
-      "calls": 1097
-    },
-    {
-      "hour": "2026-06-10T21:00:00",
-      "cost_usd": 0.0,
-      "calls": 1419
-    },
-    {
-      "hour": "2026-06-10T22:00:00",
-      "cost_usd": 0.0,
-      "calls": 137
-    },
-    {
-      "hour": "2026-06-10T23:00:00",
-      "cost_usd": 0.0,
-      "calls": 4
-    },
-    {
       "hour": "2026-06-11T00:00:00",
       "cost_usd": 0.0,
-      "calls": 522
+      "calls": 521
     },
     {
       "hour": "2026-06-11T01:00:00",
@@ -921,9 +901,29 @@
     {
       "hour": "2026-06-17T20:00:00",
       "cost_usd": 0.0,
-      "calls": 3
+      "calls": 8
+    },
+    {
+      "hour": "2026-06-17T21:00:00",
+      "cost_usd": 0.0,
+      "calls": 8
+    },
+    {
+      "hour": "2026-06-17T22:00:00",
+      "cost_usd": 0.0,
+      "calls": 7
+    },
+    {
+      "hour": "2026-06-17T23:00:00",
+      "cost_usd": 0.0,
+      "calls": 7
+    },
+    {
+      "hour": "2026-06-18T00:00:00",
+      "cost_usd": 0.0,
+      "calls": 2
     }
   ],
-  "event_count": 3743,
-  "synced_at": "2026-06-17T20:21:53Z"
+  "event_count": 3645,
+  "synced_at": "2026-06-18T00:21:57Z"
 }
